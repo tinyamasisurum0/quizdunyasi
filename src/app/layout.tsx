@@ -24,9 +24,7 @@ export default function RootLayout({
           </main>
           <footer className="container mx-auto px-4 py-4 text-center text-white/70">
             <div className="flex justify-center space-x-4">
-              <Link href="/admin" className="hover:text-white transition-colors duration-300">
-                Admin
-              </Link>
+              {/* Admin link removed */}
             </div>
           </footer>
         </div>
