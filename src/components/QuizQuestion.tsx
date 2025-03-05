@@ -18,7 +18,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
 }) => {
   // Function to determine the class for each option
   const getOptionClass = (index: number) => {
-    const baseClass = "p-4 mb-3 rounded-lg text-left w-full transition-all duration-300";
+    const baseClass = "p-4 rounded-lg text-left w-full transition-all duration-300";
     
     if (!isAnswered) {
       return selectedOption === index

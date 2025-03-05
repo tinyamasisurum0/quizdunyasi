@@ -39,7 +39,7 @@ export default function DbStatsPage() {
   };
   
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-4xl mx-auto p-6 text-gray-800">
       <div className="bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold">Database Statistics</h1>
