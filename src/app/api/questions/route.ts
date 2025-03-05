@@ -24,11 +24,30 @@ export async function GET(request: NextRequest) {
     let source = 'unknown';
     
     if (useDb) {
-      // Use database as the source
-      console.log('Attempting to fetch questions from database...');
-      questions = await getDbQuizQuestions(categoryId, count);
-      console.log(`Retrieved ${questions.length} questions from database`);
-      source = 'database';
+      // Use database as the source - try direct database connection first
+      console.log('Attempting to fetch questions directly from database...');
+      try {
+        const dbResponse = await fetch(`${request.nextUrl.origin}/api/db-questions?category=${categoryId}&count=${count}`);
+        
+        if (dbResponse.ok) {
+          const dbData = await dbResponse.json();
+          questions = dbData.questions;
+          source = dbData.source;
+          console.log(`Retrieved ${questions.length} questions directly from database`);
+        } else {
+          console.log('Direct database fetch failed, falling back to @vercel/postgres');
+          // Fall back to @vercel/postgres
+          questions = await getDbQuizQuestions(categoryId, count);
+          source = 'database-vercel';
+          console.log(`Retrieved ${questions.length} questions from database via @vercel/postgres`);
+        }
+      } catch (dbError) {
+        console.error('Error fetching from direct database:', dbError);
+        // Fall back to @vercel/postgres
+        questions = await getDbQuizQuestions(categoryId, count);
+        source = 'database-vercel';
+        console.log(`Retrieved ${questions.length} questions from database via @vercel/postgres`);
+      }
     }
     
     // Fall back to JSON files if no questions found in the database or useDb is false
@@ -40,8 +59,8 @@ export async function GET(request: NextRequest) {
       }
       
       questions = await getQuizQuestions(categoryId, count);
-      console.log(`Retrieved ${questions.length} questions from JSON files`);
       source = 'json';
+      console.log(`Retrieved ${questions.length} questions from JSON files`);
     }
     
     if (questions.length === 0) {

@@ -2,12 +2,44 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { allCategories } from '@/lib/questions';
+
+// Define a type for category
+interface Category {
+  id: string;
+  name: string;
+  description: string;
+  path: string;
+}
 
 export default function TestDbPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('');
   const [testResults, setTestResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [categoriesLoading, setCategoriesLoading] = useState<boolean>(true);
+  
+  // Fetch categories when the component mounts
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        setCategoriesLoading(true);
+        const response = await fetch('/api/categories');
+        const data = await response.json();
+        
+        if (response.ok && data.categories) {
+          setCategories(data.categories);
+        } else {
+          console.error('Failed to fetch categories:', data.error);
+        }
+      } catch (error) {
+        console.error('Error fetching categories:', error);
+      } finally {
+        setCategoriesLoading(false);
+      }
+    };
+    
+    fetchCategories();
+  }, []);
   
   const handleTestDb = async () => {
     if (!selectedCategory) {
@@ -23,6 +55,10 @@ export default function TestDbPage() {
       const dbResponse = await fetch(`/api/questions?category=${selectedCategory}&useDb=true`);
       const dbData = await dbResponse.json();
       
+      // Test with direct database endpoint
+      const directDbResponse = await fetch(`/api/db-questions?category=${selectedCategory}`);
+      const directDbData = await directDbResponse.json();
+      
       // Test with useDb=false
       const jsonResponse = await fetch(`/api/questions?category=${selectedCategory}`);
       const jsonData = await jsonResponse.json();
@@ -33,6 +69,12 @@ export default function TestDbPage() {
           source: dbData.source,
           count: dbData.count,
           sample: dbData.questions?.slice(0, 2) || []
+        },
+        directDatabase: {
+          success: directDbResponse.ok,
+          source: directDbData.source,
+          count: directDbData.count,
+          sample: directDbData.questions?.slice(0, 2) || []
         },
         json: {
           success: jsonResponse.ok,
@@ -68,23 +110,27 @@ export default function TestDbPage() {
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Select Category
           </label>
-          <select
-            value={selectedCategory}
-            onChange={(e) => setSelectedCategory(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-          >
-            <option value="">-- Select a category --</option>
-            {allCategories.map((category) => (
-              <option key={category.id} value={category.id}>
-                {category.name}
-              </option>
-            ))}
-          </select>
+          {categoriesLoading ? (
+            <div className="animate-pulse h-10 bg-gray-200 rounded w-full"></div>
+          ) : (
+            <select
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+              className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
+            >
+              <option value="">-- Select a category --</option>
+              {categories.map((category) => (
+                <option key={category.id} value={category.id}>
+                  {category.name}
+                </option>
+              ))}
+            </select>
+          )}
         </div>
         
         <button
           onClick={handleTestDb}
-          disabled={isLoading || !selectedCategory}
+          disabled={isLoading || !selectedCategory || categoriesLoading}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
         >
           {isLoading ? 'Testing...' : 'Test Database Retrieval'}
@@ -119,6 +165,24 @@ export default function TestDbPage() {
                 </div>
                 
                 <div className="p-4 bg-gray-50 rounded">
+                  <h3 className="font-medium mb-2">Direct Database Test</h3>
+                  <p><strong>Success:</strong> {testResults.directDatabase.success ? 'Yes' : 'No'}</p>
+                  <p><strong>Source:</strong> {testResults.directDatabase.source}</p>
+                  <p><strong>Questions Count:</strong> {testResults.directDatabase.count}</p>
+                  
+                  {testResults.directDatabase.sample.length > 0 && (
+                    <div className="mt-2">
+                      <p><strong>Sample Questions:</strong></p>
+                      <div className="max-h-60 overflow-y-auto mt-2">
+                        <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                          {JSON.stringify(testResults.directDatabase.sample, null, 2)}
+                        </pre>
+                      </div>
+                    </div>
+                  )}
+                </div>
+                
+                <div className="p-4 bg-gray-50 rounded">
                   <h3 className="font-medium mb-2">JSON Test (useDb=false)</h3>
                   <p><strong>Success:</strong> {testResults.json.success ? 'Yes' : 'No'}</p>
                   <p><strong>Source:</strong> {testResults.json.source}</p>
@@ -140,10 +204,26 @@ export default function TestDbPage() {
                   <h3 className="font-medium mb-2">Comparison</h3>
                   <p>
                     <strong>Are questions coming from the database? </strong>
-                    {testResults.database.source === 'database' ? (
+                    {testResults.database.source.includes('database') ? (
                       <span className="text-green-600">Yes! Questions are being retrieved from the database.</span>
                     ) : (
                       <span className="text-red-600">No. Questions are still coming from JSON files.</span>
+                    )}
+                  </p>
+                  <p className="mt-2">
+                    <strong>Direct database connection: </strong>
+                    {testResults.directDatabase.success ? (
+                      <span className="text-green-600">Working! Retrieved {testResults.directDatabase.count} questions.</span>
+                    ) : (
+                      <span className="text-red-600">Not working. Check server logs for details.</span>
+                    )}
+                  </p>
+                  <p className="mt-2">
+                    <strong>Recommendation: </strong>
+                    {testResults.directDatabase.success ? (
+                      <span className="text-green-600">Use the direct database connection by adding useDb=true to your quiz URLs.</span>
+                    ) : (
+                      <span className="text-amber-600">Fix the database connection issues before using database questions.</span>
                     )}
                   </p>
                 </div>
