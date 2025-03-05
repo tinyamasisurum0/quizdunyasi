@@ -17,8 +17,13 @@ export async function GET() {
       }, { status: 500 });
     }
     
-    // Create a new pool with the connection string
-    const pool = new Pool({ connectionString });
+    // Create a new pool with the connection string and SSL configuration
+    const pool = new Pool({ 
+      connectionString,
+      ssl: {
+        rejectUnauthorized: false // This allows self-signed certificates
+      }
+    });
     
     // Get a client from the pool
     client = await pool.connect();

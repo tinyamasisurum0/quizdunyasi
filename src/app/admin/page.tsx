@@ -117,14 +117,13 @@ export default function AdminPage() {
     try {
       const response = await fetch('/api/supabase-test');
       const data = await response.json();
-      
-      if (response.ok) {
-        setSupabaseTestResults(data);
-      } else {
-        setSupabaseTestResults({ error: data.error || 'Unknown error', details: data.details });
-      }
+      setSupabaseTestResults(data);
     } catch (error) {
-      setSupabaseTestResults({ error: (error as Error).message });
+      setSupabaseTestResults({
+        success: false,
+        error: 'Failed to test Supabase connection',
+        details: (error as Error).message
+      });
     } finally {
       setIsLoading(false);
     }
@@ -208,6 +207,9 @@ export default function AdminPage() {
             >
               Direct Supabase Test
             </button>
+            <p className="text-sm text-gray-600 mt-1">
+              Tests connection using the pg library with SSL certificate validation disabled.
+            </p>
           </div>
           
           {initDbStatus && (
@@ -408,6 +410,13 @@ export default function AdminPage() {
               Use direct SQL execution (pg library)
             </label>
           </div>
+          
+          {useDirect && (
+            <p className="mb-4 text-sm text-gray-600 bg-blue-50 p-2 rounded">
+              Direct execution uses the pg library with SSL certificate validation disabled to connect to Supabase.
+              This allows for more complex queries and better error reporting.
+            </p>
+          )}
           
           <button
             type="submit"
