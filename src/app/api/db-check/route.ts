@@ -1,5 +1,9 @@
 import { NextResponse } from 'next/server';
 import { createPool } from '@vercel/postgres';
+import { Pool } from 'pg';
+
+// Mark this route as dynamic to prevent static generation
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {

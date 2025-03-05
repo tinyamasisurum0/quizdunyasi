@@ -3,6 +3,9 @@ import { getQuizQuestions } from '@/lib/questions';
 import { getDbQuizQuestions } from '@/lib/db';
 import { Question } from '@/types';
 
+// Mark this route as dynamic to prevent static generation
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;

@@ -26,9 +26,12 @@ function getDatabaseUrl(): string {
 const pool = new Pool({
   connectionString: getDatabaseUrl(),
   ssl: process.env.NODE_ENV === 'production' ? {
-    rejectUnauthorized: false
+    rejectUnauthorized: false // Allow self-signed certificates in production
   } : false
 });
+
+// Mark this route as dynamic to prevent static generation
+export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   try {

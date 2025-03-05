@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 
@@ -12,7 +12,7 @@ interface Category {
   path: string;
 }
 
-export default function TestDbPage() {
+function TestDbContent() {
   const searchParams = useSearchParams();
   const categoryFromUrl = searchParams.get('category');
   
@@ -272,5 +272,13 @@ export default function TestDbPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function TestDbPage() {
+  return (
+    <Suspense fallback={<div className="container mx-auto px-4 py-8">Loading...</div>}>
+      <TestDbContent />
+    </Suspense>
   );
 } 

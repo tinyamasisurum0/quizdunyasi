@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Pool, PoolClient } from 'pg';
 import { Question } from '@/types';
 
+// Mark this route as dynamic to prevent static generation
+export const dynamic = 'force-dynamic';
+
 // Helper function to get database URL from various environment variables
 function getDatabaseUrl(): string {
   // Check for different possible environment variable names

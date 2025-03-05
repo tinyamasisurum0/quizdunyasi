@@ -119,7 +119,7 @@ If you encounter database connection issues on Vercel, try the following:
 
 1. **Check environment variables**: Make sure `DATABASE_URL` or `POSTGRES_URL` is correctly set in your Vercel project settings.
 
-2. **SSL Configuration**: Most PostgreSQL providers require SSL connections. The application is configured to handle SSL connections automatically.
+2. **SSL Configuration**: Most PostgreSQL providers require SSL connections. The application is configured to handle SSL connections automatically, including self-signed certificates.
 
 3. **IP Restrictions**: If your database has IP restrictions, you need to allow Vercel's IP ranges.
    - For Supabase: Go to your project settings, navigate to "Database" > "Connection Pooling", and add Vercel's IP ranges.
@@ -130,6 +130,10 @@ If you encounter database connection issues on Vercel, try the following:
    ```
 
 5. **Database Initialization**: After deployment, visit the admin page (`/admin`) and click "Initialize Database" to create the necessary tables.
+
+6. **Dynamic API Routes**: If you're seeing errors about dynamic server usage, make sure all your API routes have `export const dynamic = 'force-dynamic'` at the top of the file.
+
+7. **Client Components with useSearchParams**: If you're using `useSearchParams` in client components, make sure they're wrapped in a Suspense boundary.
 
 ## Admin Interface
 
