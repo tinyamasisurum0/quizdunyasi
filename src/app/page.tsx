@@ -1,18 +1,7 @@
 import Link from 'next/link';
-import { getTopScores } from '@/lib/db';
-import Leaderboard from '@/components/Leaderboard';
-import { Score } from '@/types';
+import DynamicLeaderboard from '@/components/DynamicLeaderboard';
 
-export default async function Home() {
-  // Get top scores for the leaderboard
-  let scores: Score[] = [];
-  try {
-    scores = await getTopScores(10);
-  } catch (error) {
-    console.error('Error fetching top scores:', error);
-    // Continue with empty scores
-  }
-
+export default function Home() {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="bg-white/10 backdrop-blur-md rounded-lg p-8 shadow-lg text-center mb-8">
@@ -36,7 +25,7 @@ export default async function Home() {
       </div>
       
       {/* Leaderboard */}
-      <Leaderboard scores={scores} />
+      <DynamicLeaderboard />
     </div>
   );
 }

@@ -153,11 +153,19 @@ export async function GET(request: NextRequest) {
           
           console.log('Test score inserted successfully:', result.rows[0]);
           
+          // Format the date for JSON serialization
+          const formattedScore = {
+            ...result.rows[0],
+            createdAt: result.rows[0].createdAt instanceof Date 
+              ? result.rows[0].createdAt.toISOString() 
+              : result.rows[0].createdAt
+          };
+          
           // Set the overall success flag
           results.success = true;
           results.details = {
             scoreInserted: true,
-            score: result.rows[0],
+            score: formattedScore,
             connectionConfig: sslTest.name
           };
         } catch (scoreError) {

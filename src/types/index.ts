@@ -27,7 +27,7 @@ export interface Score {
   username: string;
   score: number;
   category: string;
-  createdAt: Date;
+  createdAt: Date | string;
 }
 
 export interface QuizState {

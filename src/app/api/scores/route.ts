@@ -16,12 +16,23 @@ export async function GET(request: NextRequest) {
       scores = await getTopScores(limit);
     }
 
-    return NextResponse.json({ scores });
+    // Format dates properly for JSON serialization
+    const formattedScores = scores.map(score => ({
+      ...score,
+      createdAt: score.createdAt instanceof Date 
+        ? score.createdAt.toISOString() 
+        : score.createdAt
+    }));
+
+    return NextResponse.json(
+      { scores: formattedScores },
+      { headers: { 'Cache-Control': 'no-store, max-age=0' } }
+    );
   } catch (error) {
     console.error('Error fetching scores:', error);
     return NextResponse.json(
       { error: 'Failed to fetch scores', scores: [] },
-      { status: 500 }
+      { status: 500, headers: { 'Cache-Control': 'no-store, max-age=0' } }
     );
   }
 }

@@ -7,6 +7,21 @@ interface LeaderboardProps {
   isLoading?: boolean;
 }
 
+// Helper function to format dates
+function formatDate(dateStr: string | Date): string {
+  try {
+    const date = typeof dateStr === 'string' ? new Date(dateStr) : dateStr;
+    return new Intl.DateTimeFormat('tr-TR', {
+      day: '2-digit',
+      month: '2-digit',
+      year: 'numeric',
+    }).format(date);
+  } catch (error) {
+    console.error('Error formatting date:', error);
+    return 'Geçersiz tarih';
+  }
+}
+
 const Leaderboard: React.FC<LeaderboardProps> = ({ 
   scores, 
   title = 'En Yüksek Puanlar', 
@@ -28,7 +43,7 @@ const Leaderboard: React.FC<LeaderboardProps> = ({
     );
   }
 
-  if (scores.length === 0) {
+  if (!scores || scores.length === 0) {
     return (
       <div className="w-full bg-white/10 backdrop-blur-md rounded-lg p-6 shadow-lg">
         <h2 className="text-xl font-bold mb-4">{title}</h2>
@@ -48,18 +63,22 @@ const Leaderboard: React.FC<LeaderboardProps> = ({
               <th className="py-2 text-left">Kullanıcı</th>
               <th className="py-2 text-right">Puan</th>
               <th className="py-2 text-right">Kategori</th>
+              <th className="py-2 text-right">Tarih</th>
             </tr>
           </thead>
           <tbody>
             {scores.map((score, index) => (
               <tr 
-                key={score.id} 
+                key={score.id || index} 
                 className={`border-b border-white/10 ${index < 3 ? 'font-bold' : ''}`}
               >
                 <td className="py-3">{index + 1}</td>
                 <td className="py-3">{score.username}</td>
                 <td className="py-3 text-right">{score.score}</td>
                 <td className="py-3 text-right">{score.category}</td>
+                <td className="py-3 text-right text-sm">
+                  {score.createdAt ? formatDate(score.createdAt) : ''}
+                </td>
               </tr>
             ))}
           </tbody>
