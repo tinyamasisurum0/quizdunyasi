@@ -79,60 +79,80 @@ export async function initializeDatabase() {
   try {
     console.log('Starting database initialization...');
     
-    // Check connection
-    const connectionTest = await db.sql`SELECT current_database()`;
-    console.log('Connected to database:', connectionTest.rows[0]);
+    // Try with direct connection using pg
+    const { Pool } = require('pg');
+    const connectionString = getDatabaseUrl();
     
-    // Create scores table if it doesn't exist - using a simpler approach
-    console.log('Creating scores table...');
-    await db.sql`
-      CREATE TABLE IF NOT EXISTS scores (
-        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        username VARCHAR(255) NOT NULL,
-        score INTEGER NOT NULL,
-        category VARCHAR(255) NOT NULL,
-        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
-      )
-    `;
+    if (!connectionString) {
+      throw new Error('No database connection URL found in environment variables');
+    }
     
-    // Create questions table if it doesn't exist - using a simpler approach
-    console.log('Creating questions table...');
-    await db.sql`
-      CREATE TABLE IF NOT EXISTS questions (
-        id VARCHAR(255) PRIMARY KEY,
-        question TEXT NOT NULL,
-        options JSONB NOT NULL,
-        correct INTEGER NOT NULL,
-        points INTEGER NOT NULL,
-        difficulty VARCHAR(50) NOT NULL,
-        category_id VARCHAR(255) NOT NULL
-      )
-    `;
-    
-    // Verify tables were created
-    const scoresExists = await db.sql`
-      SELECT EXISTS (
-        SELECT 1 FROM information_schema.tables 
-        WHERE table_schema = 'public' 
-        AND table_name = 'scores'
-      )
-    `;
-    
-    const questionsExists = await db.sql`
-      SELECT EXISTS (
-        SELECT 1 FROM information_schema.tables 
-        WHERE table_schema = 'public' 
-        AND table_name = 'questions'
-      )
-    `;
-    
-    console.log('Tables created:', {
-      scores: scoresExists.rows[0].exists,
-      questions: questionsExists.rows[0].exists
+    const pool = new Pool({ 
+      connectionString: getConnectionWithSslMode(connectionString, 'disable'),
+      ssl: undefined
     });
     
-    console.log('Database initialized successfully');
-    return true;
+    const client = await pool.connect();
+    console.log('Connected to database with pg client');
+    
+    try {
+      // Check connection
+      const connectionTest = await client.query('SELECT current_database()');
+      console.log('Connected to database:', connectionTest.rows[0]);
+      
+      // Create scores table if it doesn't exist
+      console.log('Creating scores table...');
+      await client.query(`
+        CREATE TABLE IF NOT EXISTS scores (
+          id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+          username VARCHAR(255) NOT NULL,
+          score INTEGER NOT NULL,
+          category VARCHAR(255) NOT NULL,
+          created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+        )
+      `);
+      
+      // Create questions table if it doesn't exist
+      console.log('Creating questions table...');
+      await client.query(`
+        CREATE TABLE IF NOT EXISTS questions (
+          id VARCHAR(255) PRIMARY KEY,
+          question TEXT NOT NULL,
+          options JSONB NOT NULL,
+          correct INTEGER NOT NULL,
+          points INTEGER NOT NULL,
+          difficulty VARCHAR(50) NOT NULL,
+          category_id VARCHAR(255) NOT NULL
+        )
+      `);
+      
+      // Verify tables were created
+      const scoresExists = await client.query(`
+        SELECT EXISTS (
+          SELECT 1 FROM information_schema.tables 
+          WHERE table_schema = 'public' 
+          AND table_name = 'scores'
+        )
+      `);
+      
+      const questionsExists = await client.query(`
+        SELECT EXISTS (
+          SELECT 1 FROM information_schema.tables 
+          WHERE table_schema = 'public' 
+          AND table_name = 'questions'
+        )
+      `);
+      
+      console.log('Tables created:', {
+        scores: scoresExists.rows[0].exists,
+        questions: questionsExists.rows[0].exists
+      });
+      
+      console.log('Database initialized successfully');
+      return true;
+    } finally {
+      client.release();
+    }
   } catch (error) {
     console.error('Error initializing database:', error);
     return false;
@@ -142,17 +162,38 @@ export async function initializeDatabase() {
 // Function to get top scores
 export async function getTopScores(limit: number = 10): Promise<Score[]> {
   try {
-    const result = await db.sql<Score>`
-      SELECT id, username, score, category, created_at as "createdAt"
-      FROM scores
-      ORDER BY score DESC
-      LIMIT ${limit}
-    `;
+    // Try with direct connection using pg
+    console.log('Getting top scores using direct pg connection...');
+    const { Pool } = require('pg');
+    const connectionString = getDatabaseUrl();
     
-    return result.rows;
+    if (!connectionString) {
+      throw new Error('No database connection URL found in environment variables');
+    }
+    
+    const pool = new Pool({ 
+      connectionString: getConnectionWithSslMode(connectionString, 'disable'),
+      ssl: undefined
+    });
+    
+    const client = await pool.connect();
+    console.log('Connected to database with pg client');
+    
+    try {
+      const result = await client.query(`
+        SELECT id, username, score, category, created_at as "createdAt"
+        FROM scores
+        ORDER BY score DESC
+        LIMIT $1
+      `, [limit]);
+      
+      console.log('Successfully retrieved scores:', result.rows.length);
+      return result.rows;
+    } finally {
+      client.release();
+    }
   } catch (error) {
     console.error('Error getting top scores:', error);
-    // Return empty array if database is not available
     return [];
   }
 }
@@ -160,18 +201,39 @@ export async function getTopScores(limit: number = 10): Promise<Score[]> {
 // Function to get top scores by category
 export async function getTopScoresByCategory(category: string, limit: number = 10): Promise<Score[]> {
   try {
-    const result = await db.sql<Score>`
-      SELECT id, username, score, category, created_at as "createdAt"
-      FROM scores
-      WHERE category = ${category}
-      ORDER BY score DESC
-      LIMIT ${limit}
-    `;
+    // Try with direct connection using pg
+    console.log('Getting top scores by category using direct pg connection...');
+    const { Pool } = require('pg');
+    const connectionString = getDatabaseUrl();
     
-    return result.rows;
+    if (!connectionString) {
+      throw new Error('No database connection URL found in environment variables');
+    }
+    
+    const pool = new Pool({ 
+      connectionString: getConnectionWithSslMode(connectionString, 'disable'),
+      ssl: undefined
+    });
+    
+    const client = await pool.connect();
+    console.log('Connected to database with pg client');
+    
+    try {
+      const result = await client.query(`
+        SELECT id, username, score, category, created_at as "createdAt"
+        FROM scores
+        WHERE category = $1
+        ORDER BY score DESC
+        LIMIT $2
+      `, [category, limit]);
+      
+      console.log('Successfully retrieved scores for category:', result.rows.length);
+      return result.rows;
+    } finally {
+      client.release();
+    }
   } catch (error) {
     console.error('Error getting top scores by category:', error);
-    // Return empty array if database is not available
     return [];
   }
 }
