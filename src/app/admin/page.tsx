@@ -285,7 +285,7 @@ export default function AdminPage() {
           
           {supabaseTestResults && (
             <div className="mt-4 p-3 rounded bg-gray-100">
-              <h3 className="font-semibold mb-2">Direct Supabase Test Results:</h3>
+              <h3 className="font-semibold mb-2">Supabase Test Results:</h3>
               
               {supabaseTestResults.error ? (
                 <div className="text-red-700">
@@ -298,8 +298,14 @@ export default function AdminPage() {
                     <strong>Status:</strong> {supabaseTestResults.message}
                   </div>
                   
+                  {supabaseTestResults.connectionConfig && (
+                    <div>
+                      <strong>Connection Configuration:</strong> {supabaseTestResults.connectionConfig}
+                    </div>
+                  )}
+                  
                   <div>
-                    <h4 className="font-medium">Connection Test:</h4>
+                    <h4 className="font-medium">Test Result:</h4>
                     <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
                       {JSON.stringify(supabaseTestResults.result, null, 2)}
                     </pre>
@@ -429,29 +435,35 @@ export default function AdminPage() {
         
         {sqlResults && (
           <div className="mt-4 p-3 rounded bg-gray-100">
-            <h3 className="font-semibold mb-2">Query Results:</h3>
+            <h3 className="font-semibold mb-2">SQL Execution Results:</h3>
             
             {sqlResults.error ? (
               <div className="text-red-700">
                 <p><strong>Error:</strong> {sqlResults.error}</p>
                 {sqlResults.details && <p><strong>Details:</strong> {sqlResults.details}</p>}
-                {sqlResults.note && <p className="mt-2 text-amber-600"><strong>Note:</strong> {sqlResults.note}</p>}
               </div>
             ) : (
-              <div>
-                <p className="mb-2">
-                  <strong>Rows affected:</strong> {sqlResults.rowCount}
-                </p>
+              <div className="space-y-4">
+                <div className="text-green-600">
+                  <strong>Success!</strong> Query executed successfully.
+                </div>
                 
-                {sqlResults.rows && sqlResults.rows.length > 0 ? (
-                  <div className="max-h-96 overflow-y-auto">
-                    <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                      {JSON.stringify(sqlResults.rows, null, 2)}
-                    </pre>
+                {sqlResults.connectionConfig && (
+                  <div>
+                    <strong>Connection Configuration:</strong> {sqlResults.connectionConfig}
                   </div>
-                ) : (
-                  <p>No rows returned</p>
                 )}
+                
+                <div>
+                  <h4 className="font-medium">Row Count: {sqlResults.rowCount}</h4>
+                  {sqlResults.rows && sqlResults.rows.length > 0 && (
+                    <div className="overflow-x-auto">
+                      <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                        {JSON.stringify(sqlResults.rows, null, 2)}
+                      </pre>
+                    </div>
+                  )}
+                </div>
               </div>
             )}
           </div>

@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { Pool } from 'pg';
+import { Pool, PoolClient } from 'pg';
 
 export async function POST(request: NextRequest) {
-  let client = null;
+  let client: PoolClient | null = null;
   
   try {
     // Parse the request body
@@ -28,28 +28,55 @@ export async function POST(request: NextRequest) {
       }, { status: 500 });
     }
     
-    // Create a new pool with the connection string and SSL configuration
-    const pool = new Pool({ 
-      connectionString,
-      ssl: {
-        rejectUnauthorized: false // This allows self-signed certificates
+    // Try with different SSL configurations
+    // First attempt: SSL with rejectUnauthorized: false
+    try {
+      const pool = new Pool({ 
+        connectionString,
+        ssl: {
+          rejectUnauthorized: false
+        }
+      });
+      
+      client = await pool.connect();
+      const result = await client.query(sql);
+      client.release();
+      
+      return NextResponse.json({
+        success: true,
+        rowCount: result.rowCount,
+        rows: result.rows,
+        connectionConfig: 'SSL with rejectUnauthorized: false'
+      });
+    } catch (sslError: any) {
+      console.error('SSL connection failed:', sslError);
+      
+      // Second attempt: Try without SSL
+      try {
+        // Parse the connection string to remove sslmode if present
+        let modifiedConnectionString = connectionString;
+        if (connectionString.includes('sslmode=')) {
+          modifiedConnectionString = connectionString.replace(/sslmode=[^&]+/, 'sslmode=disable');
+        } else {
+          modifiedConnectionString += connectionString.includes('?') ? '&sslmode=disable' : '?sslmode=disable';
+        }
+        
+        const pool = new Pool({ connectionString: modifiedConnectionString });
+        client = await pool.connect();
+        const result = await client.query(sql);
+        client.release();
+        
+        return NextResponse.json({
+          success: true,
+          rowCount: result.rowCount,
+          rows: result.rows,
+          connectionConfig: 'SSL disabled'
+        });
+      } catch (noSslError: any) {
+        console.error('No SSL connection failed:', noSslError);
+        throw new Error(`SSL connection failed: ${sslError.message}\nNo SSL connection failed: ${noSslError.message}`);
       }
-    });
-    
-    // Get a client from the pool
-    client = await pool.connect();
-    
-    // Execute the query
-    const result = await client.query(sql);
-    
-    // Release the client back to the pool
-    client.release();
-    
-    return NextResponse.json({
-      success: true,
-      rowCount: result.rowCount,
-      rows: result.rows
-    });
+    }
   } catch (error) {
     console.error('Error executing SQL query:', error);
     

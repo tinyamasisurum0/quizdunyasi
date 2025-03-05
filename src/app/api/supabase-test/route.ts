@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server';
-import { Pool } from 'pg';
+import { Pool, PoolClient } from 'pg';
 
 export async function GET() {
-  let client = null;
+  let client: PoolClient | null = null;
   
   try {
     console.log('Testing direct Supabase connection...');
@@ -16,29 +16,58 @@ export async function GET() {
         error: 'POSTGRES_URL environment variable is not set'
       }, { status: 500 });
     }
+
+    console.log('Attempting connection with SSL disabled...');
     
-    // Create a new pool with the connection string and SSL configuration
-    const pool = new Pool({ 
-      connectionString,
-      ssl: {
-        rejectUnauthorized: false // This allows self-signed certificates
+    // Try with different SSL configurations
+    // First attempt: SSL with rejectUnauthorized: false
+    try {
+      const pool = new Pool({ 
+        connectionString,
+        ssl: {
+          rejectUnauthorized: false
+        }
+      });
+      
+      client = await pool.connect();
+      const result = await client.query('SELECT 1 as test');
+      client.release();
+      
+      return NextResponse.json({
+        success: true,
+        message: 'Direct Supabase connection successful with SSL (rejectUnauthorized: false)',
+        result: result.rows[0],
+        connectionConfig: 'SSL with rejectUnauthorized: false'
+      });
+    } catch (sslError: any) {
+      console.error('SSL connection failed:', sslError);
+      
+      // Second attempt: Try without SSL
+      try {
+        // Parse the connection string to remove sslmode if present
+        let modifiedConnectionString = connectionString;
+        if (connectionString.includes('sslmode=')) {
+          modifiedConnectionString = connectionString.replace(/sslmode=[^&]+/, 'sslmode=disable');
+        } else {
+          modifiedConnectionString += connectionString.includes('?') ? '&sslmode=disable' : '?sslmode=disable';
+        }
+        
+        const pool = new Pool({ connectionString: modifiedConnectionString });
+        client = await pool.connect();
+        const result = await client.query('SELECT 1 as test');
+        client.release();
+        
+        return NextResponse.json({
+          success: true,
+          message: 'Direct Supabase connection successful with SSL disabled',
+          result: result.rows[0],
+          connectionConfig: 'SSL disabled'
+        });
+      } catch (noSslError: any) {
+        console.error('No SSL connection failed:', noSslError);
+        throw new Error(`SSL connection failed: ${sslError.message}\nNo SSL connection failed: ${noSslError.message}`);
       }
-    });
-    
-    // Get a client from the pool
-    client = await pool.connect();
-    
-    // Test the connection with a simple query
-    const result = await client.query('SELECT 1 as test');
-    
-    // Release the client back to the pool
-    client.release();
-    
-    return NextResponse.json({
-      success: true,
-      message: 'Direct Supabase connection successful',
-      result: result.rows[0]
-    });
+    }
   } catch (error) {
     console.error('Error connecting to Supabase:', error);
     
