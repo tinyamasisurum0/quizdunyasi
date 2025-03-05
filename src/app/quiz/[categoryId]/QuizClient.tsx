@@ -244,16 +244,27 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
   
   // Current question
   const currentQuestion = quizState.currentQuestions[quizState.currentQuestionIndex];
+  const isLastQuestion = quizState.currentQuestionIndex === quizState.currentQuestions.length - 1;
+  const isCorrect = quizState.selectedOption !== null && quizState.selectedOption === currentQuestion.correct;
   
   return (
     <div className="w-full">
-      <div className="flex justify-between items-center mb-4">
-        <span className="text-lg">
-          Soru {quizState.currentQuestionIndex + 1} / {quizState.currentQuestions.length}
-        </span>
-        <span className="text-lg">
-          Puan: {quizState.score}
-        </span>
+      <div className="flex justify-between items-center mb-6 bg-gradient-to-r from-blue-900/30 to-purple-900/30 p-3 rounded-lg shadow-md border border-white/10">
+        <div className="flex items-center">
+          <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold rounded-full w-8 h-8 flex items-center justify-center mr-2 shadow-md">
+            {quizState.currentQuestionIndex + 1}
+          </div>
+          <span className="text-lg text-blue-200">
+            / {quizState.currentQuestions.length}
+          </span>
+        </div>
+        
+        <div className="flex items-center bg-gradient-to-r from-purple-900/50 to-pink-900/50 px-4 py-2 rounded-full shadow-inner border border-white/10">
+          <span className="text-sm font-medium text-purple-200 mr-2">PUAN</span>
+          <span className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-500">
+            {quizState.score}
+          </span>
+        </div>
       </div>
       
       <QuizQuestion
@@ -262,20 +273,9 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
         isAnswered={quizState.isAnswered}
         timeRemaining={quizState.timeRemaining}
         onSelectOption={handleSelectOption}
+        onNextQuestion={quizState.isAnswered ? handleNextQuestion : undefined}
+        isLastQuestion={isLastQuestion}
       />
-      
-      {quizState.isAnswered && (
-        <div className="flex justify-end mt-6">
-          <button
-            onClick={handleNextQuestion}
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-300"
-          >
-            {quizState.currentQuestionIndex === quizState.currentQuestions.length - 1
-              ? 'Quizi Tamamla'
-              : 'Sonraki Soru'}
-          </button>
-        </div>
-      )}
     </div>
   );
 }
