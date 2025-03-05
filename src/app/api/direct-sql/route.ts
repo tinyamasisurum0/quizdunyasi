@@ -41,6 +41,7 @@ export async function POST(request: NextRequest) {
       client = await pool.connect();
       const result = await client.query(sql);
       client.release();
+      client = null; // Set to null after release to avoid double-release
       
       return NextResponse.json({
         success: true,
@@ -50,6 +51,12 @@ export async function POST(request: NextRequest) {
       });
     } catch (sslError: any) {
       console.error('SSL connection failed:', sslError);
+      
+      // Make sure to release the client if it was acquired
+      if (client) {
+        (client as PoolClient).release();
+        client = null; // Set to null after release
+      }
       
       // Second attempt: Try without SSL
       try {
@@ -65,6 +72,7 @@ export async function POST(request: NextRequest) {
         client = await pool.connect();
         const result = await client.query(sql);
         client.release();
+        client = null; // Set to null after release
         
         return NextResponse.json({
           success: true,
@@ -74,22 +82,33 @@ export async function POST(request: NextRequest) {
         });
       } catch (noSslError: any) {
         console.error('No SSL connection failed:', noSslError);
+        
+        // Make sure to release the client if it was acquired
+        if (client) {
+          (client as PoolClient).release();
+          client = null; // Set to null after release
+        }
+        
         throw new Error(`SSL connection failed: ${sslError.message}\nNo SSL connection failed: ${noSslError.message}`);
       }
     }
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error executing SQL query:', error);
     
     // Make sure to release the client if it was acquired
     if (client) {
-      client.release();
+      try {
+        (client as PoolClient).release();
+      } catch (releaseError) {
+        console.error('Error releasing client:', releaseError);
+      }
     }
     
     return NextResponse.json(
       { 
         error: 'Failed to execute SQL query', 
-        details: (error as Error).message,
-        stack: (error as Error).stack
+        details: error.message,
+        stack: error.stack
       },
       { status: 500 }
     );

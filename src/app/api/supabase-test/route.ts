@@ -32,6 +32,7 @@ export async function GET() {
       client = await pool.connect();
       const result = await client.query('SELECT 1 as test');
       client.release();
+      client = null; // Set to null after release to avoid double-release
       
       return NextResponse.json({
         success: true,
@@ -41,6 +42,12 @@ export async function GET() {
       });
     } catch (sslError: any) {
       console.error('SSL connection failed:', sslError);
+      
+      // Make sure to release the client if it was acquired
+      if (client) {
+        (client as PoolClient).release();
+        client = null; // Set to null after release
+      }
       
       // Second attempt: Try without SSL
       try {
@@ -56,6 +63,7 @@ export async function GET() {
         client = await pool.connect();
         const result = await client.query('SELECT 1 as test');
         client.release();
+        client = null; // Set to null after release
         
         return NextResponse.json({
           success: true,
@@ -65,22 +73,33 @@ export async function GET() {
         });
       } catch (noSslError: any) {
         console.error('No SSL connection failed:', noSslError);
+        
+        // Make sure to release the client if it was acquired
+        if (client) {
+          (client as PoolClient).release();
+          client = null; // Set to null after release
+        }
+        
         throw new Error(`SSL connection failed: ${sslError.message}\nNo SSL connection failed: ${noSslError.message}`);
       }
     }
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error connecting to Supabase:', error);
     
     // Make sure to release the client if it was acquired
     if (client) {
-      client.release();
+      try {
+        (client as PoolClient).release();
+      } catch (releaseError) {
+        console.error('Error releasing client:', releaseError);
+      }
     }
     
     return NextResponse.json({
       success: false,
       error: 'Failed to connect to Supabase',
-      details: (error as Error).message,
-      stack: (error as Error).stack
+      details: error.message,
+      stack: error.stack
     }, { status: 500 });
   }
 } 
