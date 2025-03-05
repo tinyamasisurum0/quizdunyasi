@@ -8,10 +8,14 @@ interface QuizPageProps {
   params: {
     categoryId: string;
   };
+  searchParams: {
+    useDb?: string;
+  };
 }
 
-export default function QuizPage({ params }: QuizPageProps) {
+export default function QuizPage({ params, searchParams }: QuizPageProps) {
   const { categoryId } = params;
+  const useDb = searchParams.useDb === 'true';
   const category = getCategoryById(categoryId);
 
   if (!category) {
@@ -32,7 +36,11 @@ export default function QuizPage({ params }: QuizPageProps) {
         </div>
         
         <Suspense fallback={<QuizLoading />}>
-          <QuizClient categoryId={categoryId} categoryName={category.name} />
+          <QuizClient 
+            categoryId={categoryId} 
+            categoryName={category.name} 
+            useDb={useDb}
+          />
         </Suspense>
       </div>
     </div>

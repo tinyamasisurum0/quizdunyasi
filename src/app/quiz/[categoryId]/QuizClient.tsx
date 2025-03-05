@@ -9,12 +9,13 @@ import ScoreForm from '@/components/ScoreForm';
 interface QuizClientProps {
   categoryId: string;
   categoryName: string;
+  useDb?: boolean;
 }
 
 const QUESTION_TIME = 10; // seconds
 const TOTAL_QUESTIONS = 15;
 
-export default function QuizClient({ categoryId, categoryName }: QuizClientProps) {
+export default function QuizClient({ categoryId, categoryName, useDb = false }: QuizClientProps) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -36,7 +37,7 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
         setIsLoading(true);
         setError(null);
         
-        const response = await fetch(`/api/questions?category=${categoryId}&count=${TOTAL_QUESTIONS}`);
+        const response = await fetch(`/api/questions?category=${categoryId}&count=${TOTAL_QUESTIONS}&useDb=${useDb}`);
         
         if (!response.ok) {
           throw new Error('Failed to fetch questions');
@@ -57,7 +58,7 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
     };
     
     fetchQuestions();
-  }, [categoryId]);
+  }, [categoryId, useDb]);
   
   // Timer effect
   useEffect(() => {
