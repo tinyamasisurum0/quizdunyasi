@@ -14,6 +14,7 @@ export async function GET(request: NextRequest) {
     const useDb = searchParams.get('useDb') === 'true';
 
     if (!categoryId) {
+      console.error('API error: Category ID is required');
       return NextResponse.json(
         { error: 'Category ID is required' },
         { status: 400 }
@@ -24,66 +25,54 @@ export async function GET(request: NextRequest) {
 
     // Try to get questions from the database first
     let questions: Question[] = [];
-    let source = 'unknown';
-    
+    let source = 'json';
+
     if (useDb) {
-      // Use database as the source - try direct database connection first
-      console.log('Attempting to fetch questions directly from database...');
       try {
-        const dbResponse = await fetch(`${request.nextUrl.origin}/api/db-questions?category=${categoryId}&count=${count}`);
+        console.log('Attempting to fetch questions from database');
+        const dbQuestions = await getDbQuizQuestions(categoryId, count);
         
-        if (dbResponse.ok) {
-          const dbData = await dbResponse.json();
-          questions = dbData.questions;
-          source = dbData.source;
-          console.log(`Retrieved ${questions.length} questions directly from database`);
+        if (dbQuestions && dbQuestions.length > 0) {
+          questions = dbQuestions;
+          source = 'database';
+          console.log(`Successfully fetched ${questions.length} questions from database`);
         } else {
-          console.log('Direct database fetch failed, falling back to @vercel/postgres');
-          // Fall back to @vercel/postgres
-          questions = await getDbQuizQuestions(categoryId, count);
-          source = 'database-vercel';
-          console.log(`Retrieved ${questions.length} questions from database via @vercel/postgres`);
+          console.log('No questions found in database, falling back to JSON');
         }
       } catch (dbError) {
-        console.error('Error fetching from direct database:', dbError);
-        // Fall back to @vercel/postgres
-        questions = await getDbQuizQuestions(categoryId, count);
-        source = 'database-vercel';
-        console.log(`Retrieved ${questions.length} questions from database via @vercel/postgres`);
+        console.error('Error fetching questions from database:', dbError);
+        // Continue to fallback to JSON
       }
     }
-    
-    // Fall back to JSON files if no questions found in the database or useDb is false
+
+    // If no questions from DB or useDb is false, get from JSON
     if (questions.length === 0) {
-      if (useDb) {
-        console.log('No questions found in database, falling back to JSON files');
-      } else {
-        console.log('Using JSON files as the source (useDb=false)');
-      }
-      
+      console.log('Fetching questions from JSON files');
       questions = await getQuizQuestions(categoryId, count);
       source = 'json';
-      console.log(`Retrieved ${questions.length} questions from JSON files`);
+      console.log(`Fetched ${questions.length} questions from JSON files`);
     }
-    
+
     if (questions.length === 0) {
-      console.log('No questions found for this category in either source');
+      console.error(`No questions found for category: ${categoryId}`);
       return NextResponse.json(
-        { error: 'No questions found for this category' },
+        { error: `No questions found for category: ${categoryId}` },
         { status: 404 }
       );
     }
 
-    console.log(`Returning ${questions.length} questions from ${source}`);
-    return NextResponse.json({ 
+    return NextResponse.json({
+      count: questions.length,
       questions,
-      source,
-      count: questions.length
+      source
     });
   } catch (error) {
-    console.error('Error fetching questions:', error);
+    console.error('Error in questions API route:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch questions' },
+      { 
+        error: 'Failed to fetch questions',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
       { status: 500 }
     );
   }

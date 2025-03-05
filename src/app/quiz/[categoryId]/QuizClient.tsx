@@ -37,20 +37,32 @@ export default function QuizClient({ categoryId, categoryName, useDb = false }: 
         setIsLoading(true);
         setError(null);
         
-        const response = await fetch(`/api/questions?category=${categoryId}&count=${TOTAL_QUESTIONS}&useDb=${useDb}`);
+        console.log(`Fetching questions for category: ${categoryId}, useDb: ${useDb}`);
+        const url = `/api/questions?category=${categoryId}&count=${TOTAL_QUESTIONS}&useDb=${useDb}`;
+        console.log(`Request URL: ${url}`);
+        
+        const response = await fetch(url);
         
         if (!response.ok) {
-          throw new Error('Failed to fetch questions');
+          const errorText = await response.text();
+          console.error(`API error (${response.status}): ${errorText}`);
+          throw new Error(`Failed to fetch questions: ${response.status} ${response.statusText}`);
         }
         
         const data = await response.json();
+        console.log(`Received ${data.questions?.length || 0} questions from ${data.source || 'unknown source'}`);
+        
+        if (!data.questions || data.questions.length === 0) {
+          throw new Error('No questions returned from the API');
+        }
         
         setQuizState(prev => ({
           ...prev,
           currentQuestions: data.questions,
         }));
       } catch (error) {
-        setError('Sorular yüklenirken bir hata oluştu. Lütfen tekrar deneyin.');
+        const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+        setError(`Sorular yüklenirken bir hata oluştu: ${errorMessage}`);
         console.error('Error fetching questions:', error);
       } finally {
         setIsLoading(false);

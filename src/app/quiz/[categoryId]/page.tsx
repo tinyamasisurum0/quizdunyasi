@@ -4,6 +4,9 @@ import Link from 'next/link';
 import { getCategoryById } from '@/lib/questions';
 import QuizClient from './QuizClient';
 
+// Mark this page as dynamic to prevent static generation issues
+export const dynamic = 'force-dynamic';
+
 interface QuizPageProps {
   params: {
     categoryId: string;
