@@ -38,7 +38,7 @@ export async function GET(request: NextRequest) {
     if (!categoryId && !countOnly) {
       return NextResponse.json(
         { error: 'Category ID is required' },
-        { status: 400 }
+        { status: 400, headers: { 'Cache-Control': 'no-store, max-age=0' } }
       );
     }
     
@@ -75,8 +75,9 @@ export async function GET(request: NextRequest) {
           success: true,
           totalQuestions,
           categoryCounts: categoryResult.rows,
-          source: 'database'
-        });
+          source: 'database',
+          timestamp: new Date().toISOString() // Add timestamp to help debug caching issues
+        }, { headers: { 'Cache-Control': 'no-store, max-age=0' } });
       }
       
       if (categoryId) {
@@ -108,8 +109,9 @@ export async function GET(request: NextRequest) {
           count: questions.length,
           totalInCategory,
           questions,
-          source: 'database'
-        });
+          source: 'database',
+          timestamp: new Date().toISOString() // Add timestamp to help debug caching issues
+        }, { headers: { 'Cache-Control': 'no-store, max-age=0' } });
       }
       
       // If we get here, something went wrong with the parameters
@@ -158,8 +160,9 @@ export async function GET(request: NextRequest) {
             success: true,
             totalQuestions,
             categoryCounts: categoryResult.rows,
-            source: 'database (SSL disabled)'
-          });
+            source: 'database (SSL disabled)',
+            timestamp: new Date().toISOString() // Add timestamp to help debug caching issues
+          }, { headers: { 'Cache-Control': 'no-store, max-age=0' } });
         }
         
         if (categoryId) {
@@ -191,8 +194,9 @@ export async function GET(request: NextRequest) {
             count: questions.length,
             totalInCategory,
             questions,
-            source: 'database (SSL disabled)'
-          });
+            source: 'database (SSL disabled)',
+            timestamp: new Date().toISOString() // Add timestamp to help debug caching issues
+          }, { headers: { 'Cache-Control': 'no-store, max-age=0' } });
         }
         
         // If we get here, something went wrong with the parameters

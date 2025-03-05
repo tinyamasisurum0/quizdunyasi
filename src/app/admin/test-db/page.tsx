@@ -62,37 +62,18 @@ function TestDbContent() {
     setTestResults(null);
     
     try {
-      // Test with useDb=true
-      const dbResponse = await fetch(`/api/questions?category=${selectedCategory}&useDb=true`);
-      const dbData = await dbResponse.json();
-      
       // Test with direct database endpoint
       const directDbResponse = await fetch(`/api/db-questions?category=${selectedCategory}`);
       const directDbData = await directDbResponse.json();
       
-      // Test with useDb=false
-      const jsonResponse = await fetch(`/api/questions?category=${selectedCategory}`);
-      const jsonData = await jsonResponse.json();
-      
       setTestResults({
-        database: {
-          success: dbResponse.ok,
-          source: dbData.source,
-          count: dbData.count,
-          sample: dbData.questions?.slice(0, 2) || []
-        },
         directDatabase: {
           success: directDbResponse.ok,
           source: directDbData.source,
           count: directDbData.count,
           totalInCategory: directDbData.totalInCategory,
+          timestamp: directDbData.timestamp,
           sample: directDbData.questions?.slice(0, 2) || []
-        },
-        json: {
-          success: jsonResponse.ok,
-          source: jsonData.source,
-          count: jsonData.count,
-          sample: jsonData.questions?.slice(0, 2) || []
         }
       });
     } catch (error) {
@@ -124,7 +105,7 @@ function TestDbContent() {
       <div className="max-w-4xl mx-auto p-6">
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <p className="mb-4 text-gray-600">
-            This page helps you verify that questions are being retrieved from the database rather than JSON files.
+            This page helps you verify database questions. The application now <strong>only</strong> uses questions from the database.
           </p>
           
           <div className="mb-6">
@@ -149,13 +130,24 @@ function TestDbContent() {
             )}
           </div>
           
-          <button
-            onClick={handleTestDb}
-            disabled={isLoading || !selectedCategory || categoriesLoading}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
-          >
-            {isLoading ? 'Testing...' : 'Test Database Retrieval'}
-          </button>
+          <div className="flex space-x-4">
+            <button
+              onClick={handleTestDb}
+              disabled={isLoading || !selectedCategory || categoriesLoading}
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
+            >
+              {isLoading ? 'Testing...' : 'Test Database Questions'}
+            </button>
+            
+            {selectedCategory && (
+              <Link 
+                href={`/quiz/${selectedCategory}`}
+                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Start Quiz with This Category
+              </Link>
+            )}
+          </div>
           
           {testResults && (
             <div className="mt-6 space-y-6">
@@ -167,30 +159,13 @@ function TestDbContent() {
                 </div>
               ) : (
                 <>
-                  <div className="p-4 bg-blue-50 rounded">
-                    <h3 className="font-medium mb-2">Database Test (useDb=true)</h3>
-                    <p><strong>Success:</strong> {testResults.database.success ? 'Yes' : 'No'}</p>
-                    <p><strong>Source:</strong> {testResults.database.source}</p>
-                    <p><strong>Questions Count:</strong> {testResults.database.count}</p>
-                    
-                    {testResults.database.sample.length > 0 && (
-                      <div className="mt-2">
-                        <p><strong>Sample Questions:</strong></p>
-                        <div className="max-h-60 overflow-y-auto mt-2">
-                          <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                            {JSON.stringify(testResults.database.sample, null, 2)}
-                          </pre>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                  
                   <div className="p-4 bg-green-50 rounded">
-                    <h3 className="font-medium mb-2">Direct Database Test</h3>
+                    <h3 className="font-medium mb-2">Database Questions</h3>
                     <p><strong>Success:</strong> {testResults.directDatabase.success ? 'Yes' : 'No'}</p>
                     <p><strong>Source:</strong> {testResults.directDatabase.source}</p>
                     <p><strong>Questions Count:</strong> {testResults.directDatabase.count}</p>
                     <p><strong>Total in Category:</strong> {testResults.directDatabase.totalInCategory}</p>
+                    <p><strong>Timestamp:</strong> {testResults.directDatabase.timestamp}</p>
                     
                     {testResults.directDatabase.sample.length > 0 && (
                       <div className="mt-2">
@@ -202,68 +177,6 @@ function TestDbContent() {
                         </div>
                       </div>
                     )}
-                  </div>
-                  
-                  <div className="p-4 bg-yellow-50 rounded">
-                    <h3 className="font-medium mb-2">JSON Test (useDb=false)</h3>
-                    <p><strong>Success:</strong> {testResults.json.success ? 'Yes' : 'No'}</p>
-                    <p><strong>Source:</strong> {testResults.json.source}</p>
-                    <p><strong>Questions Count:</strong> {testResults.json.count}</p>
-                    
-                    {testResults.json.sample.length > 0 && (
-                      <div className="mt-2">
-                        <p><strong>Sample Questions:</strong></p>
-                        <div className="max-h-60 overflow-y-auto mt-2">
-                          <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                            {JSON.stringify(testResults.json.sample, null, 2)}
-                          </pre>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                  
-                  <div className="p-4 bg-purple-50 rounded">
-                    <h3 className="font-medium mb-2">Comparison</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="bg-white p-3 rounded shadow">
-                        <p className="font-medium">Database Questions</p>
-                        <p className="text-2xl font-bold">{testResults.database.count}</p>
-                      </div>
-                      <div className="bg-white p-3 rounded shadow">
-                        <p className="font-medium">Direct Database Questions</p>
-                        <p className="text-2xl font-bold">{testResults.directDatabase.count}</p>
-                      </div>
-                      <div className="bg-white p-3 rounded shadow">
-                        <p className="font-medium">JSON Questions</p>
-                        <p className="text-2xl font-bold">{testResults.json.count}</p>
-                      </div>
-                    </div>
-                    
-                    <div className="mt-4">
-                      <h4 className="font-medium mb-2">Recommendations:</h4>
-                      <ul className="list-disc list-inside space-y-1 text-sm">
-                        {testResults.database.count === 0 && testResults.directDatabase.count > 0 && (
-                          <li className="text-red-600">
-                            Database retrieval is not working correctly. Check your database connection settings.
-                          </li>
-                        )}
-                        {testResults.database.count !== testResults.directDatabase.count && (
-                          <li className="text-yellow-600">
-                            Database and direct database counts don't match. This may indicate a connection issue.
-                          </li>
-                        )}
-                        {testResults.database.count > 0 && testResults.database.source === 'database' && (
-                          <li className="text-green-600">
-                            Database retrieval is working correctly!
-                          </li>
-                        )}
-                        {testResults.database.source !== 'database' && (
-                          <li className="text-yellow-600">
-                            Questions are being retrieved from {testResults.database.source} instead of the database.
-                          </li>
-                        )}
-                      </ul>
-                    </div>
                   </div>
                 </>
               )}

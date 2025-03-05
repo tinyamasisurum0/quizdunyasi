@@ -9,13 +9,13 @@ import ScoreForm from '@/components/ScoreForm';
 interface QuizClientProps {
   categoryId: string;
   categoryName: string;
-  useDb?: boolean;
+  useDb?: boolean; // This prop will be ignored as we'll always use DB
 }
 
 const QUESTION_TIME = 10; // seconds
 const TOTAL_QUESTIONS = 15;
 
-export default function QuizClient({ categoryId, categoryName, useDb = false }: QuizClientProps) {
+export default function QuizClient({ categoryId, categoryName }: QuizClientProps) {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -37,8 +37,9 @@ export default function QuizClient({ categoryId, categoryName, useDb = false }: 
         setIsLoading(true);
         setError(null);
         
-        console.log(`Fetching questions for category: ${categoryId}, useDb: ${useDb}`);
-        const url = `/api/questions?category=${categoryId}&count=${TOTAL_QUESTIONS}&useDb=${useDb}`;
+        console.log(`Fetching questions for category: ${categoryId} from database only`);
+        // Direct database endpoint to ensure we only get database questions
+        const url = `/api/db-questions?category=${categoryId}&count=${TOTAL_QUESTIONS}`;
         console.log(`Request URL: ${url}`);
         
         const response = await fetch(url);
@@ -53,7 +54,7 @@ export default function QuizClient({ categoryId, categoryName, useDb = false }: 
         console.log(`Received ${data.questions?.length || 0} questions from ${data.source || 'unknown source'}`);
         
         if (!data.questions || data.questions.length === 0) {
-          throw new Error('No questions returned from the API');
+          throw new Error('No questions found in the database for this category');
         }
         
         setQuizState(prev => ({
@@ -70,7 +71,7 @@ export default function QuizClient({ categoryId, categoryName, useDb = false }: 
     };
     
     fetchQuestions();
-  }, [categoryId, useDb]);
+  }, [categoryId]);
   
   // Timer effect
   useEffect(() => {
