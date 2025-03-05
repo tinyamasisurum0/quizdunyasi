@@ -1,0 +1,806 @@
+{
+    "category": "Tuhaf İnsan Rekorları",
+    "description": "Guinness rekorları ve insanlığın en ilginç başarılarıyla tanışın",
+    "questions": [
+        {
+            "id": "weird_rec_easy_1",
+            "question": "Dünyanın en uzun tırnaklarına sahip kişi kimdir?",
+            "options": ["Lee Redmond", "Shridhar Chillal", "Melvin Boothe", "Christine Walton"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_2",
+            "question": "Hangi rekor 'en çok balon patlatma' ile ilgilidir?",
+            "options": ["Ağızla", "Popoyla", "Ellerle", "Ayaklarla"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_3",
+            "question": "Dünyanın en uzun adamı kimdir?",
+            "options": ["Robert Wadlow", "Sultan Kösen", "Leonid Stadnyk", "John Rogan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_4",
+            "question": "Hangi rekor 'en hızlı pizza yapma' ile ilgilidir?",
+            "options": ["1 dakika", "40 saniye", "2 dakika", "10 saniye"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_5",
+            "question": "Dünyanın en kısa kadını kimdir?",
+            "options": ["Jyoti Amge", "Pauline Musters", "Lucía Zárate", "Madge Bester"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_6",
+            "question": "Hangi rekor 'en çok kaşık kafada tutma' ile ilgilidir?",
+            "options": ["10", "52", "27", "88"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_7",
+            "question": "Dünyanın en yaşlı insanı kaç yıl yaşamıştır?",
+            "options": ["115", "122", "130", "140"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_8",
+            "question": "Hangi rekor 'en hızlı saç örme' ile ilgilidir?",
+            "options": ["1 dakika", "30 saniye", "2 dakika", "45 saniye"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_9",
+            "question": "Dünyanın en uzun sakalı kime aittir?",
+            "options": ["Hans Langseth", "Sarwan Singh", "Vernon Graber", "Robert McCulloh"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_10",
+            "question": "Hangi rekor 'en çok pipet ağızda tutma' ile ilgilidir?",
+            "options": ["100", "200", "400", "500"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_11",
+            "question": "Dünyanın en hızlı koşucusu kimdir?",
+            "options": ["Usain Bolt", "Carl Lewis", "Jesse Owens", "Mo Farah"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_12",
+            "question": "Hangi rekor 'en çok hamburger yeme' ile ilgilidir?",
+            "options": ["10 dakikada 10", "3 dakikada 12", "1 dakikada 5", "5 dakikada 15"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_13",
+            "question": "Dünyanın en küçük adamı kimdir?",
+            "options": ["Chandra Bahadur Dangi", "He Pingping", "Gul Mohammed", "Edward Niño Hernández"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_14",
+            "question": "Hangi rekor 'en hızlı domino dizme' ile ilgilidir?",
+            "options": ["1000 domino 5 dakikada", "500 domino 2 dakikada", "2000 domino 8 dakikada", "100 domino 1 dakikada"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_15",
+            "question": "Dünyanın en uzun saçlarına sahip kişi kimdir?",
+            "options": ["Xie Qiuping", "Tran Van Hay", "Ash eccentricity", "Ni Linmei"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_16",
+            "question": "Hangi rekor 'en çok yumurta kafada kırma' ile ilgilidir?",
+            "options": ["50", "100", "150", "200"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_17",
+            "question": "Dünyanın en hızlı bisikletçisi kimdir?",
+            "options": ["Chris Hoy", "Denise Mueller-Korenek", "Lance Armstrong", "Eddy Merckx"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_18",
+            "question": "Hangi rekor 'en çok balon ağızla şişirme' ile ilgilidir?",
+            "options": ["50 balon 1 saatte", "100 balon 1 saatte", "30 balon 10 dakikada", "20 balon 5 dakikada"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_19",
+            "question": "Dünyanın en uzun bıyığı kime aittir?",
+            "options": ["Ram Singh Chauhan", "Karnail Singh", "Badamsinh Juwansinh Gurjar", "Vernon Graber"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_20",
+            "question": "Hangi rekor 'en çok çorap giyme' ile ilgilidir?",
+            "options": ["50 çorap 1 dakikada", "100 çorap 5 dakikada", "20 çorap 30 saniyede", "70 çorap 2 dakikada"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_21",
+            "question": "Dünyanın en uzun maratonu kaç saattir?",
+            "options": ["24 saat", "48 saat", "72 saat", "96 saat"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_22",
+            "question": "Hangi rekor 'en hızlı yumurta yeme' ile ilgilidir?",
+            "options": ["5 yumurta 1 dakikada", "10 yumurta 2 dakikada", "3 yumurta 30 saniyede", "8 yumurta 90 saniyede"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_23",
+            "question": "Dünyanın en hızlı yüzücüsü kimdir?",
+            "options": ["Michael Phelps", "Ian Thorpe", "Mark Spitz", "Caeleb Dressel"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_24",
+            "question": "Hangi rekor 'en çok şekerleme ağızda tutma' ile ilgilidir?",
+            "options": ["20", "40", "60", "80"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_easy_25",
+            "question": "Dünyanın en uzun burunlu adamı kimdir?",
+            "options": ["Mehmet Özyürek", "Thomas Wedders", "Pinokyo", "Cyrano de Bergerac"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "weird_rec_medium_1",
+            "question": "Hangi rekor 'en uzun süre su altında nefes tutma' ile ilgilidir?",
+            "options": ["10 dakika", "15 dakika", "22 dakika", "30 dakika"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_2",
+            "question": "Dünyanın en çok dövmeli adamı kimdir?",
+            "options": ["Lucky Diamond Rich", "Tom Leppard", "Rick Genest", "Matt Gone"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_3",
+            "question": "Hangi rekor 'en hızlı Rubik küp çözme' ile ilgilidir?",
+            "options": ["5 saniye", "10 saniye", "15 saniye", "20 saniye"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_4",
+            "question": "Dünyanın en çok piercingli kadını kimdir?",
+            "options": ["Elaine Davidson", "Staysha Randall", "Maria José Cristerna", "Valeria Lukyanova"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_5",
+            "question": "Hangi rekor 'en uzun süre tek ayak üstünde durma' ile ilgilidir?",
+            "options": ["24 saat", "48 saat", "76 saat", "100 saat"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_6",
+            "question": "Dünyanın en hızlı geri geri koşucusu kimdir?",
+            "options": ["Ferdi Ato Abugaw", "Usain Bolt", "Carl Lewis", "Jesse Owens"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_7",
+            "question": "Hangi rekor 'en çok sosisli sandviç yeme' ile ilgilidir?",
+            "options": ["10 dakikada 74", "5 dakikada 50", "3 dakikada 30", "1 dakikada 20"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_8",
+            "question": "Dünyanın en çok dil konuşan kişisi kimdir?",
+            "options": ["Ziad Fazah", "John Bowring", "Giuseppe Mezzofanti", "Emil Krebs"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_9",
+            "question": "Hangi rekor 'en uzun süre buzda yatma' ile ilgilidir?",
+            "options": ["1 saat", "2 saat", "3 saat", "4 saat"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_10",
+            "question": "Dünyanın en hızlı daktilo yazanı kimdir?",
+            "options": ["Stella Pajunas", "Barbara Blackburn", "Rose Fritz", "Margaret Owen"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_11",
+            "question": "Hangi rekor 'en çok top sektirme' ile ilgilidir?",
+            "options": ["1000", "5000", "10,000", "24 saat boyunca"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_12",
+            "question": "Dünyanın en uzun süre uyanık kalan kişisi kaç saat uyumamıştır?",
+            "options": ["264 saat", "300 saat", "400 saat", "500 saat"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_13",
+            "question": "Hangi rekor 'en hızlı elma soyma' ile ilgilidir?",
+            "options": ["1 dakikada 5", "30 saniyede 3", "2 dakikada 10", "15 saniyede 2"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_14",
+            "question": "Dünyanın en çok yumruk atan kişisi kimdir?",
+            "options": ["Paddy Doyle", "Mike Tyson", "Rocky Marciano", "Muhammad Ali"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_15",
+            "question": "Hangi rekor 'en uzun süre ip atlama' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_16",
+            "question": "Dünyanın en hızlı geri geri yazanı kimdir?",
+            "options": ["Michele Santelia", "Barbara Blackburn", "Stella Pajunas", "Rose Fritz"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_17",
+            "question": "Hangi rekor 'en çok dondurma yeme' ile ilgilidir?",
+            "options": ["10 dakikada 5 litre", "5 dakikada 3 litre", "1 dakikada 1 litre", "3 dakikada 2 litre"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_18",
+            "question": "Dünyanın en uzun süre hıçkıran kişisi kimdir?",
+            "options": ["Charles Osborne", "Jack O’Leary", "Ralph Capone", "Henry Hill"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_19",
+            "question": "Hangi rekor 'en hızlı bardak dizme' ile ilgilidir?",
+            "options": ["100 bardak 1 dakikada", "50 bardak 30 saniyede", "200 bardak 2 dakikada", "25 bardak 15 saniyede"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_20",
+            "question": "Dünyanın en çok şınav çeken kişisi kimdir?",
+            "options": ["Minor Tatum", "Paddy Doyle", "Charles Servizio", "Roy Berger"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_21",
+            "question": "Hangi rekor 'en uzun süre yoyo oynama' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_22",
+            "question": "Dünyanın en hızlı konuşanı kimdir?",
+            "options": ["Steve Woodmore", "John Moschitta Jr.", "Sean Shannon", "Fran Capo"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_23",
+            "question": "Hangi rekor 'en çok hot dog yeme' ile ilgilidir?",
+            "options": ["10 dakikada 83", "5 dakikada 50", "3 dakikada 30", "1 dakikada 20"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_24",
+            "question": "Dünyanın en uzun süre ayakta alkış yapan kişisi kimdir?",
+            "options": ["Wayne Fromm", "Ashrita Furman", "Suresh Joachim", "David Blaine"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_medium_25",
+            "question": "Hangi rekor 'en hızlı kart destesi karıştırma' ile ilgilidir?",
+            "options": ["10 saniye", "20 saniye", "30 saniye", "40 saniye"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "weird_rec_hard_1",
+            "question": "Hangi rekor 'en uzun süre canlı yılanla yatma' ile ilgilidir?",
+            "options": ["48 saat", "72 saat", "107 saat", "150 saat"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_2",
+            "question": "Dünyanın en çok araba çeken kişisi kimdir?",
+            "options": ["Kevin Fast", "Zydrunas Savickas", "Eddie Hall", "Brian Shaw"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_3",
+            "question": "Hangi rekor 'en hızlı 100 metre engelli geri koşma' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_4",
+            "question": "Dünyanın en çok bira bardağı kafada taşıyanı kimdir?",
+            "options": ["John Evans", "Ashrita Furman", "Paddy Doyle", "Suresh Joachim"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_5",
+            "question": "Hangi rekor 'en uzun süre tekerlekli sandalyede dönme' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_6",
+            "question": "Dünyanın en çok kılıç yutan kişisi kimdir?",
+            "options": ["Dan Meyer", "Johnny Strange", "The Great Throwdini", "Red Stuart"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_7",
+            "question": "Hangi rekor 'en hızlı 100 metre ayakta geri yürüme' ile ilgilidir?",
+            "options": ["15 saniye", "20 saniye", "25 saniye", "30 saniye"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_8",
+            "question": "Dünyanın en çok örümcekle banyo yapanı kimdir?",
+            "options": ["Tom Buchanan", "Nick Le Souef", "Mark Voegel", "Steve Kutcher"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_9",
+            "question": "Hangi rekor 'en uzun süre köpekbalığı ile yüzme' ile ilgilidir?",
+            "options": ["2 saat", "4 saat", "6 saat", "8 saat"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_10",
+            "question": "Dünyanın en çok beton blok kıranı kimdir?",
+            "options": ["Ali Bahçetepe", "Daniele Bottazzi", "Edilberto Cardona", "Kevin Fast"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_11",
+            "question": "Hangi rekor 'en hızlı 100 metre eller üstünde yürüme' ile ilgilidir?",
+            "options": ["15 saniye", "20 saniye", "25 saniye", "30 saniye"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_12",
+            "question": "Dünyanın en çok akrep ağzında tutanı kimdir?",
+            "options": ["Dean Sheldon", "Travis Pastrana", "Nur Malena Hassan", "Carl Lentz"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_13",
+            "question": "Hangi rekor 'en uzun süre ateş üzerinde yatma' ile ilgilidir?",
+            "options": ["1 saat", "2 saat", "3 saat", "4 saat"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_14",
+            "question": "Dünyanın en çok bira fıçısı kaldıranı kimdir?",
+            "options": ["Oliver Strümpfel", "Zydrunas Savickas", "Eddie Hall", "Brian Shaw"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_15",
+            "question": "Hangi rekor 'en hızlı 100 metre zıplama' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_16",
+            "question": "Dünyanın en çok iğne batırılan kişisi kimdir?",
+            "options": ["Brent Moffatt", "Johnny Strange", "Dan Meyer", "The Great Throwdini"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_17",
+            "question": "Hangi rekor 'en uzun süre arı ile kaplanma' ile ilgilidir?",
+            "options": ["1 saat", "2 saat", "3 saat", "4 saat"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_18",
+            "question": "Dünyanın en çok naberler çeken kişisi kimdir?",
+            "options": ["Charles Servizio", "Paddy Doyle", "Minor Tatum", "Roy Berger"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_19",
+            "question": "Hangi rekor 'en hızlı 100 metre bisikletle geri gitme' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_20",
+            "question": "Dünyanın en çok canlı yılan tutanı kimdir?",
+            "options": ["Jackie Bibby", "Dean Ripa", "Tom Buchanan", "Nick Le Souef"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_21",
+            "question": "Hangi rekor 'en uzun süre uçurum kenarında durma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_22",
+            "question": "Dünyanın en çok bardak su içeni kimdir?",
+            "options": ["Howard Bergerson", "Ashrita Furman", "Paddy Doyle", "Suresh Joachim"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_23",
+            "question": "Hangi rekor 'en hızlı 100 metre topuklu ayakkabıyla koşma' ile ilgilidir?",
+            "options": ["15 saniye", "20 saniye", "25 saniye", "30 saniye"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_24",
+            "question": "Dünyanın en çok domino düşüreni kimdir?",
+            "options": ["Sinners Domino", "Ashrita Furman", "Paddy Doyle", "Suresh Joachim"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_hard_25",
+            "question": "Hangi rekor 'en uzun süre tek tekerlekli bisiklet sürme' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "weird_rec_expert_1",
+            "question": "Hangi rekor 'en uzun süre canlı akreplerle kaplanma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_2",
+            "question": "Dünyanın en çok çivi üzerinde yatanı kimdir?",
+            "options": ["Gino Martino", "Ashrita Furman", "Paddy Doyle", "Suresh Joachim"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_3",
+            "question": "Hangi rekor 'en hızlı 100 metre bebek arabası itme' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_4",
+            "question": "Dünyanın en çok testere ağızda tutanı kimdir?",
+            "options": ["Brad Byers", "Johnny Strange", "Dan Meyer", "The Great Throwdini"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_5",
+            "question": "Hangi rekor 'en uzun süre yanan kömür üzerinde yürüme' ile ilgilidir?",
+            "options": ["1 saat", "2 saat", "3 saat", "4 saat"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_6",
+            "question": "Dünyanın en çok tenis topu ağızda tutanı kimdir?",
+            "options": ["Ashrita Furman", "Paddy Doyle", "Suresh Joachim", "David Slick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_7",
+            "question": "Hangi rekor 'en hızlı 100 metre köpek kostümüyle koşma' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_8",
+            "question": "Dünyanın en çok balıkla banyo yapanı kimdir?",
+            "options": ["Jackie Bibby", "Dean Ripa", "Tom Buchanan", "Nick Le Souef"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_9",
+            "question": "Hangi rekor 'en uzun süre timsahla yüzme' ile ilgilidir?",
+            "options": ["1 saat", "2 saat", "3 saat", "4 saat"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_10",
+            "question": "Dünyanın en çok tuğla kıranı kimdir?",
+            "options": ["Ali Bahçetepe", "Daniele Bottazzi", "Edilberto Cardona", "Kevin Fast"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_11",
+            "question": "Hangi rekor 'en hızlı 100 metre kanguru kostümüyle zıplama' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_12",
+            "question": "Dünyanın en çok tarantula ile yatanı kimdir?",
+            "options": ["Maria José Cristerna", "Nick Le Souef", "Tom Buchanan", "Dean Ripa"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_13",
+            "question": "Hangi rekor 'en uzun süre köpekbalığı kafesinde durma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_14",
+            "question": "Dünyanın en çok bowling topu kaldıranı kimdir?",
+            "options": ["Chris Nicholson", "Zydrunas Savickas", "Eddie Hall", "Brian Shaw"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_15",
+            "question": "Hangi rekor 'en hızlı 100 metre palyaço kostümüyle koşma' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_16",
+            "question": "Dünyanın en çok iğne yutan kişisi kimdir?",
+            "options": ["Johnny Strange", "Brad Byers", "Dan Meyer", "The Great Throwdini"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_17",
+            "question": "Hangi rekor 'en uzun süre yılan kafesinde yatma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_18",
+            "question": "Dünyanın en çok traktör çeken kişisi kimdir?",
+            "options": ["Kevin Fast", "Zydrunas Savickas", "Eddie Hall", "Brian Shaw"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_19",
+            "question": "Hangi rekor 'en hızlı 100 metre çuval içinde zıplama' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_20",
+            "question": "Dünyanın en çok canlı böcek yiyeni kimdir?",
+            "options": ["Ken Edwards", "Travis Pastrana", "Dean Ripa", "Nick Le Souef"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_21",
+            "question": "Hangi rekor 'en uzun süre ayı kafesinde kalma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_22",
+            "question": "Dünyanın en çok karpuz kıranı kimdir?",
+            "options": ["Ashrita Furman", "Paddy Doyle", "Suresh Joachim", "David Slick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_23",
+            "question": "Hangi rekor 'en hızlı 100 metre maymun kostümüyle koşma' ile ilgilidir?",
+            "options": ["20 saniye", "25 saniye", "30 saniye", "35 saniye"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_24",
+            "question": "Dünyanın en çok balonla uçanı kimdir?",
+            "options": ["Jonathan Trappe", "Ashrita Furman", "Paddy Doyle", "Suresh Joachim"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "weird_rec_expert_25",
+            "question": "Hangi rekor 'en uzun süre aslan kafesinde kalma' ile ilgilidir?",
+            "options": ["12 saat", "24 saat", "36 saat", "48 saat"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

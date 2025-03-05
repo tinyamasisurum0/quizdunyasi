@@ -1,0 +1,806 @@
+{
+    "category": "Paranoid Şehir Efsaneleri",
+    "description": "Korku ve gizem dolu şehir efsanelerini test et",
+    "questions": [
+        {
+            "id": "urban_legends_easy_1",
+            "question": "Hangi şehir efsanesinde aynada 'Kanlı Mary' görünür?",
+            "options": ["Bloody Mary", "Slender Man", "Mothman", "Bigfoot"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_2",
+            "question": "Hangi efsane yaratık ormanda kaybolanları avlar?",
+            "options": ["Bigfoot", "Chupacabra", "Loch Ness Canavarı", "Jersey Şeytanı"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_3",
+            "question": "Hangi efsanevi yer gemileri yutar?",
+            "options": ["Bermuda Şeytan Üçgeni", "Atlantis", "Kayıp Şehir Z", "El Dorado"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_4",
+            "question": "Hangi efsane yaratık keçileri avlar?",
+            "options": ["Chupacabra", "Mothman", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_5",
+            "question": "Hangi efsanevi canavar İskoçya’da bir gölde yaşar?",
+            "options": ["Loch Ness Canavarı", "Kraken", "Jersey Şeytanı", "Bigfoot"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_6",
+            "question": "Hangi efsane yaratık uzun ince bir figür olarak bilinir?",
+            "options": ["Slender Man", "Mothman", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_7",
+            "question": "Hangi efsanevi varlık köprüde görülen bir keçi-adamdır?",
+            "options": ["Jersey Şeytanı", "Mothman", "Goatman", "Bigfoot"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_8",
+            "question": "Hangi efsane yaratık gece yolcularını korkutur?",
+            "options": ["Mothman", "Chupacabra", "Wendigo", "Bloody Mary"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_9",
+            "question": "Hangi efsanevi yer altın şehir olarak bilinir?",
+            "options": ["El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_10",
+            "question": "Hangi efsane yaratık aç bir yamyam olarak tanımlanır?",
+            "options": ["Wendigo", "Slender Man", "Bigfoot", "Chupacabra"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_11",
+            "question": "Hangi efsanevi varlık denizin derinliklerinde yaşar?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_12",
+            "question": "Hangi efsane yaratık bataklıklarda görülür?",
+            "options": ["Swamp Thing", "Bigfoot", "Chupacabra", "Loch Ness"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_13",
+            "question": "Hangi efsanevi varlık terk edilmiş evlerde dolaşır?",
+            "options": ["Hayalet", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_14",
+            "question": "Hangi efsane yaratık kanatlı bir şeytandır?",
+            "options": ["Jersey Şeytanı", "Bigfoot", "Chupacabra", "Bloody Mary"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_15",
+            "question": "Hangi efsanevi yer kaybolan bir uygarlıktır?",
+            "options": ["Atlantis", "El Dorado", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_16",
+            "question": "Hangi efsane yaratık köpeklerle ilişkilendirilir?",
+            "options": ["Black Shuck", "Mothman", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_17",
+            "question": "Hangi efsanevi varlık aynada çağrılır?",
+            "options": ["Bloody Mary", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_18",
+            "question": "Hangi efsane yaratık kırmızı gözleriyle tanınır?",
+            "options": ["Mothman", "Jersey Şeytanı", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_19",
+            "question": "Hangi efsanevi yer Amazon’da kaybolmuştur?",
+            "options": ["Kayıp Şehir Z", "El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_20",
+            "question": "Hangi efsane yaratık insanları yiyen bir ruhtur?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_21",
+            "question": "Hangi efsanevi varlık gemilere saldırır?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_22",
+            "question": "Hangi efsane yaratık gölgelerde saklanır?",
+            "options": ["Slender Man", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_23",
+            "question": "Hangi efsanevi yer okyanusta kaybolmuştur?",
+            "options": ["Atlantis", "El Dorado", "Kayıp Şehir Z", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_24",
+            "question": "Hangi efsane yaratık keçi kafalıdır?",
+            "options": ["Goatman", "Mothman", "Slender Man", "Jersey Şeytanı"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_easy_25",
+            "question": "Hangi efsanevi varlık uçakları korkutur?",
+            "options": ["Mothman", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "urban_legends_medium_1",
+            "question": "Hangi efsanede üç kez 'Bloody Mary' denir?",
+            "options": ["Bloody Mary", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_2",
+            "question": "Hangi efsane yaratık Kuzey Amerika ormanlarında dolaşır?",
+            "options": ["Bigfoot", "Chupacabra", "Loch Ness Canavarı", "Kraken"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_3",
+            "question": "Hangi efsanevi bölge Atlantik Okyanusu’ndadır?",
+            "options": ["Bermuda Şeytan Üçgeni", "Atlantis", "Kayıp Şehir Z", "El Dorado"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_4",
+            "question": "Hangi efsane yaratık Latin Amerika’da keçi kanı içer?",
+            "options": ["Chupacabra", "Mothman", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_5",
+            "question": "Hangi efsane yaratık Loch Ness Gölü’nde aranır?",
+            "options": ["Loch Ness Canavarı", "Kraken", "Jersey Şeytanı", "Bigfoot"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_6",
+            "question": "Hangi efsane yaratık internetten doğmuştur?",
+            "options": ["Slender Man", "Mothman", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_7",
+            "question": "Hangi efsanevi varlık Maryland’de bir köprüde görülür?",
+            "options": ["Goatman", "Jersey Şeytanı", "Mothman", "Bigfoot"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_8",
+            "question": "Hangi efsane yaratık Batı Virginia’da köprü çöküşünü öngördü?",
+            "options": ["Mothman", "Chupacabra", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_9",
+            "question": "Hangi efsanevi yer Güney Amerika’da altınla doludur?",
+            "options": ["El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_10",
+            "question": "Hangi efsane yaratık Kanada’da yamyamlıkla bağdaştırılır?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Slender Man"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_11",
+            "question": "Hangi efsanevi varlık dev bir ahtapot olarak bilinir?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_12",
+            "question": "Hangi efsane yaratık bataklıkta yeşil bir varlıktır?",
+            "options": ["Swamp Thing", "Bigfoot", "Chupacabra", "Loch Ness"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_13",
+            "question": "Hangi efsanevi varlık perili evlerle ilişkilidir?",
+            "options": ["Hayalet", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_14",
+            "question": "Hangi efsane yaratık New Jersey’de doğmuştur?",
+            "options": ["Jersey Şeytanı", "Bigfoot", "Chupacabra", "Mothman"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_15",
+            "question": "Hangi efsanevi yer eski bir uygarlığın evidir?",
+            "options": ["Atlantis", "El Dorado", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_16",
+            "question": "Hangi efsane yaratık siyah bir köpek olarak görülür?",
+            "options": ["Black Shuck", "Mothman", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_17",
+            "question": "Hangi efsanevi varlık aynada üç kez çağrılır?",
+            "options": ["Bloody Mary", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_18",
+            "question": "Hangi efsane yaratık Point Pleasant’ta ünlüdür?",
+            "options": ["Mothman", "Jersey Şeytanı", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_19",
+            "question": "Hangi efsanevi yer Amazon ormanlarındadır?",
+            "options": ["Kayıp Şehir Z", "El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_20",
+            "question": "Hangi efsane yaratık Algonquin mitolojisindendir?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_21",
+            "question": "Hangi efsanevi varlık İskandinav efsanelerinde gemilere saldırır?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_22",
+            "question": "Hangi efsane yaratık çocukları kaçırır?",
+            "options": ["Slender Man", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_23",
+            "question": "Hangi efsanevi yer Pasifik Okyanusu’nda batmıştır?",
+            "options": ["Atlantis", "El Dorado", "Kayıp Şehir Z", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_24",
+            "question": "Hangi efsane yaratık keçi-insan karışımıdır?",
+            "options": ["Goatman", "Mothman", "Slender Man", "Jersey Şeytanı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_medium_25",
+            "question": "Hangi efsane yaratık felaketleri haber verir?",
+            "options": ["Mothman", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "urban_legends_hard_1",
+            "question": "Hangi efsanede aynada karanlık bir figür belirir?",
+            "options": ["Bloody Mary", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_2",
+            "question": "Hangi efsane yaratık Sasquatch olarak da bilinir?",
+            "options": ["Bigfoot", "Chupacabra", "Loch Ness Canavarı", "Kraken"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_3",
+            "question": "Hangi efsanevi bölge uçakları ve gemileri yutar?",
+            "options": ["Bermuda Şeytan Üçgeni", "Atlantis", "Kayıp Şehir Z", "El Dorado"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_4",
+            "question": "Hangi efsane yaratık Porto Riko’da ortaya çıkmıştır?",
+            "options": ["Chupacabra", "Mothman", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_5",
+            "question": "Hangi efsane yaratık Nessie olarak adlandırılır?",
+            "options": ["Loch Ness Canavarı", "Kraken", "Jersey Şeytanı", "Bigfoot"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_6",
+            "question": "Hangi efsane yaratık Creepypasta’dan doğmuştur?",
+            "options": ["Slender Man", "Mothman", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_7",
+            "question": "Hangi efsanevi varlık Maryland’de bir köprüde keçi formundadır?",
+            "options": ["Goatman", "Jersey Şeytanı", "Mothman", "Bigfoot"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_8",
+            "question": "Hangi efsane yaratık 1966’da Batı Virginia’da görüldü?",
+            "options": ["Mothman", "Chupacabra", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_9",
+            "question": "Hangi efsanevi yer Kolomb tarafından aranmıştır?",
+            "options": ["El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_10",
+            "question": "Hangi efsane yaratık yerli kabilelerin korkulu rüyasıdır?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Slender Man"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_11",
+            "question": "Hangi efsanevi varlık Vikingler tarafından korkuluyordu?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_12",
+            "question": "Hangi efsane yaratık Florida’da bataklıklarda yaşar?",
+            "options": ["Swamp Thing", "Bigfoot", "Chupacabra", "Loch Ness"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_13",
+            "question": "Hangi efsanevi varlık poltergeist olarak bilinir?",
+            "options": ["Hayalet", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_14",
+            "question": "Hangi efsane yaratık Pine Barrens’da görülmüştür?",
+            "options": ["Jersey Şeytanı", "Bigfoot", "Chupacabra", "Mothman"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_15",
+            "question": "Hangi efsanevi yer Platon tarafından tanımlanmıştır?",
+            "options": ["Atlantis", "El Dorado", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_16",
+            "question": "Hangi efsane yaratık İngiltere’de siyah köpek olarak bilinir?",
+            "options": ["Black Shuck", "Mothman", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_17",
+            "question": "Hangi efsanevi varlık aynada korkunç bir yüzle görünür?",
+            "options": ["Bloody Mary", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_18",
+            "question": "Hangi efsane yaratık köprü çöküşüyle ilişkilendirilir?",
+            "options": ["Mothman", "Jersey Şeytanı", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_19",
+            "question": "Hangi efsanevi yer Percy Fawcett tarafından aranmıştır?",
+            "options": ["Kayıp Şehir Z", "El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_20",
+            "question": "Hangi efsane yaratık açlıkla lanetlenmiştir?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_21",
+            "question": "Hangi efsanevi varlık Kuzey Denizi’nde gemilere saldırır?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_22",
+            "question": "Hangi efsane yaratık yüzsüz bir figürdür?",
+            "options": ["Slender Man", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_23",
+            "question": "Hangi efsanevi yer Akdeniz’de kaybolmuştur?",
+            "options": ["Atlantis", "El Dorado", "Kayıp Şehir Z", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_24",
+            "question": "Hangi efsane yaratık köprülerde keçi-insan formundadır?",
+            "options": ["Goatman", "Mothman", "Slender Man", "Jersey Şeytanı"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_hard_25",
+            "question": "Hangi efsane yaratık kırmızı gözlü bir kelebek adamdır?",
+            "options": ["Mothman", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "urban_legends_expert_1",
+            "question": "Hangi efsanede ayna ritüeli bir kraliçeyi çağırır?",
+            "options": ["Bloody Mary", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_2",
+            "question": "Hangi efsane yaratık Yeti ile ilişkilendirilir?",
+            "options": ["Bigfoot", "Chupacabra", "Loch Ness Canavarı", "Kraken"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_3",
+            "question": "Hangi efsanevi bölge şeytan üçgeni olarak bilinir?",
+            "options": ["Bermuda Şeytan Üçgeni", "Atlantis", "Kayıp Şehir Z", "El Dorado"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_4",
+            "question": "Hangi efsane yaratık 1995’te Porto Riko’da görülmüştür?",
+            "options": ["Chupacabra", "Mothman", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_5",
+            "question": "Hangi efsane yaratık 1933’te Loch Ness’te fotoğraflanmıştır?",
+            "options": ["Loch Ness Canavarı", "Kraken", "Jersey Şeytanı", "Bigfoot"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_6",
+            "question": "Hangi efsane yaratık 2009’da bir forumda yaratılmıştır?",
+            "options": ["Slender Man", "Mothman", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_7",
+            "question": "Hangi efsanevi varlık Maryland’de keçi-insan olarak 1957’de görülmüştür?",
+            "options": ["Goatman", "Jersey Şeytanı", "Mothman", "Bigfoot"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_8",
+            "question": "Hangi efsane yaratık Silver Bridge çöküşüyle bağdaştırılır?",
+            "options": ["Mothman", "Chupacabra", "Wendigo", "Slender Man"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_9",
+            "question": "Hangi efsanevi yer İspanyol kaşifler tarafından altın için aranmıştır?",
+            "options": ["El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_10",
+            "question": "Hangi efsane yaratık Algonquin kabileleri tarafından lanetli kabul edilir?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Slender Man"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_11",
+            "question": "Hangi efsanevi varlık 13. yüzyıl İskandinav hikayelerinde yer alır?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_12",
+            "question": "Hangi efsane yaratık Florida Everglades’de görülmüştür?",
+            "options": ["Swamp Thing", "Bigfoot", "Chupacabra", "Loch Ness"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_13",
+            "question": "Hangi efsanevi varlık Amityville korku hikayesiyle ilişkilidir?",
+            "options": ["Hayalet", "Slender Man", "Mothman", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_14",
+            "question": "Hangi efsane yaratık 18. yüzyılda New Jersey’de doğmuştur?",
+            "options": ["Jersey Şeytanı", "Bigfoot", "Chupacabra", "Mothman"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_15",
+            "question": "Hangi efsanevi yer tarihte bir ada-uygarlık olarak geçer?",
+            "options": ["Atlantis", "El Dorado", "Bermuda Şeytan Üçgeni", "Kayıp Şehir Z"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_16",
+            "question": "Hangi efsane yaratık İngiliz folklorunda ölüm habercisidir?",
+            "options": ["Black Shuck", "Mothman", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_17",
+            "question": "Hangi efsanevi varlık 16. yüzyıl İngiltere’sinde korku salmıştır?",
+            "options": ["Bloody Mary", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_18",
+            "question": "Hangi efsane yaratık 1967’de Ohio’da köprüde görüldü?",
+            "options": ["Mothman", "Jersey Şeytanı", "Slender Man", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_19",
+            "question": "Hangi efsanevi yer 20. yüzyılda Amazon’da aranmıştır?",
+            "options": ["Kayıp Şehir Z", "El Dorado", "Atlantis", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_20",
+            "question": "Hangi efsane yaratık açlıkla ruhsal bir dönüşüm yaşar?",
+            "options": ["Wendigo", "Bigfoot", "Chupacabra", "Kraken"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_21",
+            "question": "Hangi efsanevi varlık Norveç denizcilerini korkutmuştur?",
+            "options": ["Kraken", "Mothman", "Jersey Şeytanı", "Bloody Mary"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_22",
+            "question": "Hangi efsane yaratık 2010’larda video oyunuyla popülerleşti?",
+            "options": ["Slender Man", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_23",
+            "question": "Hangi efsanevi yer Yunan mitolojisinde batmıştır?",
+            "options": ["Atlantis", "El Dorado", "Kayıp Şehir Z", "Bermuda Şeytan Üçgeni"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_24",
+            "question": "Hangi efsane yaratık Maryland’de 1970’lerde araştırılmıştır?",
+            "options": ["Goatman", "Mothman", "Slender Man", "Jersey Şeytanı"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "urban_legends_expert_25",
+            "question": "Hangi efsane yaratık 1966-67’de 100’den fazla tanıkla rapor edildi?",
+            "options": ["Mothman", "Bigfoot", "Chupacabra", "Wendigo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

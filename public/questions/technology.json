@@ -1,0 +1,806 @@
+{
+    "category": "Teknoloji",
+    "description": "Buluşlar, icatlar ve teknoloji tarihine dair bilginizi test edin",
+    "questions": [
+        {
+            "id": "tech_easy_1",
+            "question": "Telefonu kim icat etmiştir?",
+            "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "Guglielmo Marconi"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_2",
+            "question": "Hangi cihaz internete bağlanmak için kullanılır?",
+            "options": ["Televizyon", "Bilgisayar", "Radyo", "Faks"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_3",
+            "question": "Ampulü kim icat etmiştir?",
+            "options": ["Thomas Edison", "Nikola Tesla", "Albert Einstein", "Benjamin Franklin"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_4",
+            "question": "Hangi buluş tekerleğin temelidir?",
+            "options": ["Araba", "Tekerlek", "Bisiklet", "Tren"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_5",
+            "question": "Bilgisayarın temel birimi nedir?",
+            "options": ["Bit", "Byte", "Gigabyte", "Megabyte"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_6",
+            "question": "Hangi cihaz fotoğraf çeker?",
+            "options": ["Telefon", "Kamera", "Televizyon", "Radyo"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_7",
+            "question": "Elektriği kim keşfetmiştir?",
+            "options": ["Isaac Newton", "Benjamin Franklin", "Albert Einstein", "Michael Faraday"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_8",
+            "question": "Hangi buluş yazıyı kolaylaştırmıştır?",
+            "options": ["Kalem", "Matbaa", "Kağıt", "Daktilo"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_9",
+            "question": "Radyoyu kim icat etmiştir?",
+            "options": ["Guglielmo Marconi", "Thomas Edison", "Nikola Tesla", "Alexander Graham Bell"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_10",
+            "question": "Hangi cihaz ses kaydı yapar?",
+            "options": ["Televizyon", "Mikrofon", "Hoparlör", "Kamera"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_11",
+            "question": "İnternet hangi yüzyılda yaygınlaştı?",
+            "options": ["19.", "20.", "21.", "18."],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_12",
+            "question": "Hangi buluş uçmayı mümkün kıldı?",
+            "options": ["Araba", "Uçak", "Tren", "Gemi"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_13",
+            "question": "Televizyonu kim icat etmiştir?",
+            "options": ["John Logie Baird", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_14",
+            "question": "Hangi cihaz zamanı ölçer?",
+            "options": ["Saat", "Termometre", "Barometre", "Higrometre"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_15",
+            "question": "Bilgisayar faresini kim icat etmiştir?",
+            "options": ["Steve Jobs", "Bill Gates", "Douglas Engelbart", "Tim Berners-Lee"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_16",
+            "question": "Hangi buluş denizde yön bulmayı kolaylaştırdı?",
+            "options": ["Teleskop", "Pusula", "Radar", "Sonar"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_17",
+            "question": "Hangi şirket iPhone’u üretmiştir?",
+            "options": ["Samsung", "Apple", "Nokia", "Sony"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_18",
+            "question": "Hangi buluş ateşi kontrol etmeyi sağladı?",
+            "options": ["Çakmak", "Kibrit", "Ateş", "Fener"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_19",
+            "question": "Hangi cihaz görüntülü konuşma yapar?",
+            "options": ["Telefon", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_20",
+            "question": "Hangi buluş elektrik üretimini kolaylaştırdı?",
+            "options": ["Dinamo", "Pil", "Ampul", "Kablo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_21",
+            "question": "Hangi şirket Windows’u geliştirmiştir?",
+            "options": ["Apple", "Microsoft", "Google", "IBM"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_22",
+            "question": "Hangi buluş kağıdı değiştirdi?",
+            "options": ["Kalem", "Matbaa", "Bilgisayar", "Daktilo"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_23",
+            "question": "Hangi cihaz sıcaklığı ölçer?",
+            "options": ["Termometre", "Barometre", "Higrometre", "Saat"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_24",
+            "question": "Hangi buluş mesajlaşmayı hızlandırdı?",
+            "options": ["Telefon", "Telgraf", "Radyo", "Televizyon"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_easy_25",
+            "question": "Hangi şirket Android’i geliştirmiştir?",
+            "options": ["Apple", "Microsoft", "Google", "Samsung"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "tech_medium_1",
+            "question": "Hangi buluş Wright Kardeşler tarafından geliştirildi?",
+            "options": ["Araba", "Uçak", "Tren", "Bisiklet"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_2",
+            "question": "Hangi cihaz CD’leri okur?",
+            "options": ["DVD Oynatıcı", "CD Çalar", "Kaset Çalar", "Plak Çalar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_3",
+            "question": "Hangi buluş James Watt tarafından geliştirildi?",
+            "options": ["Buhar Makinesi", "Elektrik Motoru", "Dinamo", "Telgraf"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_4",
+            "question": "Hangi teknoloji World Wide Web’i oluşturdu?",
+            "options": ["HTML", "Wi-Fi", "Bluetooth", "Ethernet"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_5",
+            "question": "Hangi buluş Karl Benz tarafından icat edildi?",
+            "options": ["Araba", "Uçak", "Tren", "Bisiklet"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_6",
+            "question": "Hangi cihaz GPS teknolojisi kullanır?",
+            "options": ["Telefon", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_7",
+            "question": "Hangi buluş Michael Faraday tarafından geliştirildi?",
+            "options": ["Elektrik Motoru", "Buhar Makinesi", "Telgraf", "Radyo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_8",
+            "question": "Hangi teknoloji lazerle çalışır?",
+            "options": ["CD Oynatıcı", "Radyo", "Televizyon", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_9",
+            "question": "Hangi buluş Henry Ford tarafından popülerleştirildi?",
+            "options": ["Uçak", "Araba", "Tren", "Bisiklet"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_10",
+            "question": "Hangi cihaz Bluetooth kullanır?",
+            "options": ["Kulaklık", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_11",
+            "question": "Hangi buluş Tim Berners-Lee tarafından geliştirildi?",
+            "options": ["İnternet", "World Wide Web", "E-posta", "Wi-Fi"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_12",
+            "question": "Hangi teknoloji dijital saatlerde kullanılır?",
+            "options": ["Analog", "Kuvars", "Mekanik", "Hidrolik"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_13",
+            "question": "Hangi buluş George Stephenson tarafından geliştirildi?",
+            "options": ["Buharlı Lokomotif", "Elektrik Motoru", "Telgraf", "Radyo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_14",
+            "question": "Hangi cihaz USB bağlantısı kullanır?",
+            "options": ["Bilgisayar", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_15",
+            "question": "Hangi buluş Alan Turing tarafından geliştirildi?",
+            "options": ["Bilgisayar", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_16",
+            "question": "Hangi teknoloji fiber optik kablolarla çalışır?",
+            "options": ["Wi-Fi", "İnternet", "Bluetooth", "Ethernet"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_17",
+            "question": "Hangi buluş Steve Jobs ile ilişkilidir?",
+            "options": ["iPhone", "Windows", "Android", "Linux"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_18",
+            "question": "Hangi cihaz yapay zeka kullanır?",
+            "options": ["Akıllı Telefon", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_19",
+            "question": "Hangi buluş Nikola Tesla ile ilişkilidir?",
+            "options": ["Alternatif Akım", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_20",
+            "question": "Hangi teknoloji 5G ile ilişkilidir?",
+            "options": ["Wi-Fi", "Hücresel Ağ", "Bluetooth", "Ethernet"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_21",
+            "question": "Hangi buluş Bill Gates ile ilişkilidir?",
+            "options": ["Windows", "iPhone", "Android", "Linux"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_22",
+            "question": "Hangi cihaz QR kodlarını tarar?",
+            "options": ["Telefon", "Televizyon", "Radyo", "Faks"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_23",
+            "question": "Hangi buluş Johannes Gutenberg ile ilişkilidir?",
+            "options": ["Matbaa", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_24",
+            "question": "Hangi teknoloji bulut depolama ile ilişkilidir?",
+            "options": ["İnternet", "Wi-Fi", "Bluetooth", "Ethernet"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_medium_25",
+            "question": "Hangi buluş Elon Musk ile ilişkilidir?",
+            "options": ["Tesla Elektrikli Araba", "iPhone", "Windows", "Android"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "tech_hard_1",
+            "question": "Hangi buluş 19. yüzyılda telgrafın temelini oluşturdu?",
+            "options": ["Elektromanyetizma", "Buhar Makinesi", "Alternatif Akım", "Radyo Dalgaları"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_2",
+            "question": "Hangi cihaz ilk mekanik bilgisayardı?",
+            "options": ["ENIAC", "Analytical Engine", "Colossus", "UNIVAC"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_3",
+            "question": "Hangi buluş Charles Babbage tarafından tasarlandı?",
+            "options": ["Analytical Engine", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_4",
+            "question": "Hangi teknoloji ilk internet protokolünü oluşturdu?",
+            "options": ["TCP/IP", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_5",
+            "question": "Hangi buluş Konrad Zuse tarafından geliştirildi?",
+            "options": ["Z3 Bilgisayar", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_6",
+            "question": "Hangi cihaz ilk elektronik bilgisayardı?",
+            "options": ["ENIAC", "Analytical Engine", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_7",
+            "question": "Hangi buluş Ada Lovelace ile ilişkilidir?",
+            "options": ["Programlama", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_8",
+            "question": "Hangi teknoloji ilk e-posta sistemini destekledi?",
+            "options": ["ARPANET", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_9",
+            "question": "Hangi buluş Dennis Ritchie tarafından geliştirildi?",
+            "options": ["C Programlama Dili", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_10",
+            "question": "Hangi cihaz ilk taşınabilir bilgisayardı?",
+            "options": ["Osborne 1", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_11",
+            "question": "Hangi buluş Linus Torvalds ile ilişkilidir?",
+            "options": ["Linux", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_12",
+            "question": "Hangi teknoloji ilk web tarayıcısını destekledi?",
+            "options": ["HTML", "TCP/IP", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_13",
+            "question": "Hangi buluş John Presper Eckert ve John Mauchly tarafından geliştirildi?",
+            "options": ["ENIAC", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_14",
+            "question": "Hangi cihaz ilk grafik kullanıcı arayüzünü tanıttı?",
+            "options": ["Xerox Alto", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_15",
+            "question": "Hangi buluş Grace Hopper ile ilişkilidir?",
+            "options": ["COBOL", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_16",
+            "question": "Hangi teknoloji ilk akıllı telefonu destekledi?",
+            "options": ["GSM", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_17",
+            "question": "Hangi buluş Larry Page ve Sergey Brin ile ilişkilidir?",
+            "options": ["Google", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_18",
+            "question": "Hangi cihaz ilk yapay zeka sistemini tanıttı?",
+            "options": ["Deep Blue", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_19",
+            "question": "Hangi buluş Vinton Cerf ve Bob Kahn ile ilişkilidir?",
+            "options": ["TCP/IP", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_20",
+            "question": "Hangi teknoloji ilk cep telefonunu destekledi?",
+            "options": ["AMPS", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_21",
+            "question": "Hangi buluş Philo Farnsworth ile ilişkilidir?",
+            "options": ["Televizyon", "Telefon", "Radyo", "Bilgisayar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_22",
+            "question": "Hangi cihaz ilk kişisel bilgisayardı?",
+            "options": ["Altair 8800", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_23",
+            "question": "Hangi buluş Edwin Land ile ilişkilidir?",
+            "options": ["Polaroid Kamera", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_24",
+            "question": "Hangi teknoloji ilk video oyununu destekledi?",
+            "options": ["Cathode Ray Tube", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_hard_25",
+            "question": "Hangi buluş Robert Noyce ve Jack Kilby ile ilişkilidir?",
+            "options": ["Entegre Devre", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "tech_expert_1",
+            "question": "Hangi buluş 18. yüzyılda tekstil endüstrisini dönüştürdü?",
+            "options": ["Spinning Jenny", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_2",
+            "question": "Hangi cihaz ilk programlanabilir bilgisayardı?",
+            "options": ["Z1", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_3",
+            "question": "Hangi buluş Herman Hollerith ile ilişkilidir?",
+            "options": ["Tabulating Machine", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_4",
+            "question": "Hangi teknoloji ilk kablosuz iletişimi sağladı?",
+            "options": ["Radyo Dalgaları", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_5",
+            "question": "Hangi buluş John Vincent Atanasoff ve Clifford Berry ile ilişkilidir?",
+            "options": ["ABC Bilgisayar", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_6",
+            "question": "Hangi cihaz ilk ticari bilgisayardı?",
+            "options": ["UNIVAC I", "ENIAC", "Colossus", "Z1"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_7",
+            "question": "Hangi buluş Hedy Lamarr ile ilişkilidir?",
+            "options": ["Frekans Atlamalı Yayılım", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_8",
+            "question": "Hangi teknoloji ilk internet ağını oluşturdu?",
+            "options": ["ARPANET", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_9",
+            "question": "Hangi buluş Ken Thompson ve Dennis Ritchie ile ilişkilidir?",
+            "options": ["UNIX", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_10",
+            "question": "Hangi cihaz ilk laptop olarak kabul edilir?",
+            "options": ["GRiD Compass", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_11",
+            "question": "Hangi buluş Richard Stallman ile ilişkilidir?",
+            "options": ["GNU Projesi", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_12",
+            "question": "Hangi teknoloji ilk web sayfasını destekledi?",
+            "options": ["HTTP", "TCP/IP", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_13",
+            "question": "Hangi buluş Claude Shannon ile ilişkilidir?",
+            "options": ["Bilgi Teorisi", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_14",
+            "question": "Hangi cihaz ilk fare tabanlı arayüzü tanıttı?",
+            "options": ["Apple Lisa", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_15",
+            "question": "Hangi buluş An Wang ile ilişkilidir?",
+            "options": ["Manyetik Çekirdek Bellek", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_16",
+            "question": "Hangi teknoloji ilk 4G ağını destekledi?",
+            "options": ["LTE", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_17",
+            "question": "Hangi buluş Mark Zuckerberg ile ilişkilidir?",
+            "options": ["Facebook", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_18",
+            "question": "Hangi cihaz ilk otonom aracı tanıttı?",
+            "options": ["Tesla Model S", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_19",
+            "question": "Hangi buluş Gordon Moore ile ilişkilidir?",
+            "options": ["Moore Yasası", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_20",
+            "question": "Hangi teknoloji ilk akıllı ev sistemini destekledi?",
+            "options": ["IoT", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_21",
+            "question": "Hangi buluş Jeff Bezos ile ilişkilidir?",
+            "options": ["Amazon", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_22",
+            "question": "Hangi cihaz ilk dokunmatik ekranı tanıttı?",
+            "options": ["IBM Simon", "ENIAC", "Colossus", "UNIVAC"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_23",
+            "question": "Hangi buluş Martin Cooper ile ilişkilidir?",
+            "options": ["Cep Telefonu", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_24",
+            "question": "Hangi teknoloji ilk blockchain’i destekledi?",
+            "options": ["Bitcoin", "HTML", "Wi-Fi", "Bluetooth"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "tech_expert_25",
+            "question": "Hangi buluş Satoshi Nakamoto ile ilişkilidir?",
+            "options": ["Bitcoin", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

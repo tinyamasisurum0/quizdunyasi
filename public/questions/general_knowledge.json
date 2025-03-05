@@ -1,0 +1,806 @@
+{
+  "category": "Genel Kültür",
+  "description": "Temel bilgilerden güncel olaylara, her alanda bilginizi test edin",
+  "questions": [
+      {
+          "id": "gk_easy_1",
+          "question": "Türkiye'nin başkenti hangi şehirdir?",
+          "options": ["İstanbul", "Ankara", "İzmir", "Bursa"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_2",
+          "question": "Bir yıl kaç gün sürer?",
+          "options": ["360", "365", "370", "375"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_3",
+          "question": "Hangi renk gökkuşağında bulunmaz?",
+          "options": ["Kırmızı", "Mavi", "Kahverengi", "Yeşil"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_4",
+          "question": "Hangi hayvan köpek balığıdır?",
+          "options": ["Kedi", "Köpek", "Balık", "Kuş"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_5",
+          "question": "Bir düzine kaç tanedir?",
+          "options": ["10", "12", "14", "16"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_6",
+          "question": "Hangi mevsimde hava soğur?",
+          "options": ["Yaz", "Sonbahar", "Kış", "İlkbahar"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_7",
+          "question": "Hangi gezegen mavidir?",
+          "options": ["Mars", "Jüpiter", "Dünya", "Venüs"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_8",
+          "question": "Bir kare kaç kenara sahiptir?",
+          "options": ["3", "4", "5", "6"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_9",
+          "question": "Hangi içecek sudan yapılır?",
+          "options": ["Çay", "Kola", "Süt", "Meyve Suyu"],
+          "correct": 0,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_10",
+          "question": "Hangi ülke Asya’dadır?",
+          "options": ["Brezilya", "Japonya", "Kanada", "İtalya"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_11",
+          "question": "Hangi ay 28 gün sürer?",
+          "options": ["Şubat", "Mart", "Nisan", "Mayıs"],
+          "correct": 0,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_12",
+          "question": "Hangi hayvan uçamaz?",
+          "options": ["Kartal", "Penguen", "Yarasa", "Kırlangıç"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_13",
+          "question": "Hangi organ nefes alır?",
+          "options": ["Kalp", "Akciğer", "Beyin", "Mide"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_14",
+          "question": "Hangi sayı 10’dan küçüktür?",
+          "options": ["12", "15", "8", "20"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_15",
+          "question": "Hangi meyve sarıdır?",
+          "options": ["Elma", "Muz", "Çilek", "Üzüm"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_16",
+          "question": "Hangi gün haftasonudur?",
+          "options": ["Çarşamba", "Cuma", "Cumartesi", "Salı"],
+          "correct": 2,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_17",
+          "question": "Hangi araç yolda gider?",
+          "options": ["Uçak", "Araba", "Gemi", "Helikopter"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_18",
+          "question": "Hangi renk trafik ışığında durulur?",
+          "options": ["Yeşil", "Kırmızı", "Sarı", "Mavi"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_19",
+          "question": "Hangi hayvan kedi ailesindendir?",
+          "options": ["Köpek", "Aslan", "Kuş", "Balık"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_20",
+          "question": "Hangi içecek kahveden yapılır?",
+          "options": ["Su", "Espresso", "Limonata", "Ayran"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_21",
+          "question": "Hangi ülke Avrupa’dadır?",
+          "options": ["Avustralya", "Almanya", "Japonya", "Hindistan"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_22",
+          "question": "Hangi alet yazı yazar?",
+          "options": ["Kaşık", "Kalem", "Çekiç", "Tornavida"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_23",
+          "question": "Hangi gezegen en büyüktür?",
+          "options": ["Mars", "Jüpiter", "Venüs", "Merkür"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_24",
+          "question": "Hangi sayı çift sayıdır?",
+          "options": ["1", "2", "3", "5"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_easy_25",
+          "question": "Hangi tatlı şekerden yapılır?",
+          "options": ["Tuzlu Kurabiye", "Baklava", "Peynir", "Zeytin"],
+          "correct": 1,
+          "points": 10,
+          "difficulty": "easy"
+      },
+      {
+          "id": "gk_medium_1",
+          "question": "Hangi elementin simgesi 'Fe'dir?",
+          "options": ["Flor", "Fosfor", "Demir", "Fermiyum"],
+          "correct": 2,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_2",
+          "question": "Hangi ülke Güney Amerika’da değildir?",
+          "options": ["Brezilya", "Arjantin", "Meksika", "Kolombiya"],
+          "correct": 2,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_3",
+          "question": "Hangi vitamin eksikliği gece körlüğüne yol açar?",
+          "options": ["A Vitamini", "B Vitamini", "C Vitamini", "D Vitamini"],
+          "correct": 0,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_4",
+          "question": "Hangi gezegenin halkaları vardır?",
+          "options": ["Mars", "Jüpiter", "Satürn", "Venüs"],
+          "correct": 2,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_5",
+          "question": "Hangi okyanus en küçüktür?",
+          "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+          "correct": 3,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_6",
+          "question": "Hangi organ kanı pompalar?",
+          "options": ["Akciğer", "Kalp", "Böbrek", "Karaciğer"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_7",
+          "question": "Hangi ülke en fazla nüfusa sahiptir?",
+          "options": ["Hindistan", "Çin", "ABD", "Rusya"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_8",
+          "question": "Hangi element suyun bileşenidir?",
+          "options": ["Karbon", "Hidrojen", "Azot", "Kükürt"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_9",
+          "question": "Hangi hayvan en uzun süre nefesini tutabilir?",
+          "options": ["Balina", "Deniz Kaplumbağası", "Fok", "Yunus"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_10",
+          "question": "Hangi şehir İtalya’nın başkentidir?",
+          "options": ["Milano", "Roma", "Venedik", "Floransa"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_11",
+          "question": "Hangi dağ dünyanın en yükseğidir?",
+          "options": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
+          "correct": 0,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_12",
+          "question": "Hangi kıta en küçüktür?",
+          "options": ["Asya", "Afrika", "Avustralya", "Avrupa"],
+          "correct": 2,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_13",
+          "question": "Hangi icat telefonu mümkün kıldı?",
+          "options": ["Elektrik", "Telgraf", "Radyo", "Televizyon"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_14",
+          "question": "Hangi kan grubu evrensel donördür?",
+          "options": ["A", "B", "AB", "0"],
+          "correct": 3,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_15",
+          "question": "Hangi ülke en uzun sahil şeridine sahiptir?",
+          "options": ["Avustralya", "Kanada", "Brezilya", "Rusya"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_16",
+          "question": "Hangi element havada en çok bulunur?",
+          "options": ["Oksijen", "Azot", "Karbon Dioksit", "Hidrojen"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_17",
+          "question": "Hangi nehir Amazon’dan sonra en uzundur?",
+          "options": ["Nil", "Yangtze", "Mississippi", "Kongo"],
+          "correct": 0,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_18",
+          "question": "Hangi hayvan en hızlı koşar?",
+          "options": ["Aslan", "Çita", "At", "Kanguru"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_19",
+          "question": "Hangi ülke en çok kahve üretir?",
+          "options": ["Kolombiya", "Brezilya", "Vietnam", "Etiyopya"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_20",
+          "question": "Hangi gezegenin uydusu Ay’dır?",
+          "options": ["Mars", "Dünya", "Jüpiter", "Satürn"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_21",
+          "question": "Hangi şehir Japonya’nın başkentidir?",
+          "options": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
+          "correct": 2,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_22",
+          "question": "Hangi mineral kemikleri güçlendirir?",
+          "options": ["Kalsiyum", "Magnezyum", "Potasyum", "Sodyum"],
+          "correct": 0,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_23",
+          "question": "Hangi ülke en çok Nobel Ödülü kazanmıştır?",
+          "options": ["Almanya", "ABD", "İngiltere", "Fransa"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_24",
+          "question": "Hangi deniz Karadeniz’e bağlıdır?",
+          "options": ["Ege", "Marmara", "Akdeniz", "Kızıldeniz"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_medium_25",
+          "question": "Hangi element altınla simgelenir?",
+          "options": ["Ag", "Au", "Al", "Ar"],
+          "correct": 1,
+          "points": 20,
+          "difficulty": "medium"
+      },
+      {
+          "id": "gk_hard_1",
+          "question": "Hangi hastalık 'Kara Ölüm' olarak bilinir?",
+          "options": ["Kolera", "Veba", "Tüberküloz", "Tifo"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_2",
+          "question": "Hangi elementin atom numarası 1’dir?",
+          "options": ["Helyum", "Hidrojen", "Lityum", "Oksijen"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_3",
+          "question": "Hangi ülke Antarktika’da toprak iddia eder?",
+          "options": ["Japonya", "Avustralya", "Çin", "Hindistan"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_4",
+          "question": "Hangi gezegenin günü yılından uzundur?",
+          "options": ["Merkür", "Venüs", "Mars", "Jüpiter"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_5",
+          "question": "Hangi çöldeki tuz oranı deniz suyundan yüksektir?",
+          "options": ["Sahra", "Gobi", "Atacama", "Lut"],
+          "correct": 2,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_6",
+          "question": "Hangi organın iki lobu vardır?",
+          "options": ["Beyin", "Akciğer", "Karaciğer", "Kalp"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_7",
+          "question": "Hangi ülkenin bayrağında akçaağaç yaprağı vardır?",
+          "options": ["Kanada", "Norveç", " Japonya", "İsveç"],
+          "correct": 0,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_8",
+          "question": "Hangi element radyoaktiftir?",
+          "options": ["Karbon", "Uranyum", "Oksijen", "Sodyum"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_9",
+          "question": "Hangi hayvanın üç kalbi vardır?",
+          "options": ["Ahtapot", "Yunus", "Köpek Balığı", "Balina"],
+          "correct": 0,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_10",
+          "question": "Hangi şehirde Eyfel Kulesi bulunur?",
+          "options": ["Londra", "Paris", "Berlin", "Roma"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_11",
+          "question": "Hangi volkan 79’da patladı?",
+          "options": ["Etna", "Vezüv", "Kilimanjaro", "Fuji"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_12",
+          "question": "Hangi ülke en çok ada sayısına sahiptir?",
+          "options": ["Endonezya", "Filipinler", "Japonya", "İsveç"],
+          "correct": 3,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_13",
+          "question": "Hangi buluş buhar gücünü kullanır?",
+          "options": ["Telefon", "Lokomotif", "Radyo", "Televizyon"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_14",
+          "question": "Hangi kan hücresi oksijen taşır?",
+          "options": ["Beyaz Kan Hücresi", "Kırmızı Kan Hücresi", "Plazma", "Trombosit"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_15",
+          "question": "Hangi ülke en çok çayı ithal eder?",
+          "options": ["Çin", "İngiltere", "Hindistan", " Japonya"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_16",
+          "question": "Hangi element doğada sıvıdır?",
+          "options": ["Altın", "Cıva", "Demir", "Bakır"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_17",
+          "question": "Hangi nehir Avrupa’nın en uzundur?",
+          "options": ["Tuna", "Volga", "Ren", "Dinyester"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_18",
+          "question": "Hangi hayvanın DNA’sı insana en yakındır?",
+          "options": ["Köpek", "Şempanze", "Fare", "Kedi"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_19",
+          "question": "Hangi ülke en çok zeytinyağı üretir?",
+          "options": ["Türkiye", "İspanya", "İtalya", "Yunanistan"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_20",
+          "question": "Hangi gezegenin atmosferi karbondioksitten oluşur?",
+          "options": ["Mars", "Venüs", "Jüpiter", "Satürn"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_21",
+          "question": "Hangi şehirde Özgürlük Heykeli bulunur?",
+          "options": ["Boston", "New York", "Miami", "Los Angeles"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_22",
+          "question": "Hangi mineral diş minesini oluşturur?",
+          "options": ["Kalsiyum", "Fosfor", "Florür", "Magnezyum"],
+          "correct": 2,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_23",
+          "question": "Hangi ülke ilk kağıdı icat etti?",
+          "options": ["Mısır", "Çin", "Hindistan", "Yunanistan"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_24",
+          "question": "Hangi deniz Akdeniz’e bağlıdır?",
+          "options": ["Kızıldeniz", "Ege", "Karadeniz", "Hint Okyanusu"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_hard_25",
+          "question": "Hangi elementin simgesi 'Hg'dir?",
+          "options": ["Helyum", "Cıva", "Hidrojen", "Altın"],
+          "correct": 1,
+          "points": 30,
+          "difficulty": "hard"
+      },
+      {
+          "id": "gk_expert_1",
+          "question": "Hangi bilim insanı yerçekimini keşfetti?",
+          "options": ["Einstein", "Newton", "Galileo", "Tesla"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_2",
+          "question": "Hangi elementin izotopu nükleer bombada kullanılır?",
+          "options": ["Uranyum", "Plütonyum", "Toryum", "Radyum"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_3",
+          "question": "Hangi ülke en küçük yüzölçümüne sahiptir?",
+          "options": ["Monako", "Vatikan", "Nauru", "San Marino"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_4",
+          "question": "Hangi gezegenin yörüngesi eliptiktir?",
+          "options": ["Merkür", "Venüs", "Dünya", "Hepsi"],
+          "correct": 3,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_5",
+          "question": "Hangi çöldeki tuz gölü tamamen kurudu?",
+          "options": ["Atacama", "Aral", "Salar de Uyuni", "Death Valley"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_6",
+          "question": "Hangi organın ağırlığı %2 vücut ağırlığıdır?",
+          "options": ["Beyin", "Kalp", "Karaciğer", "Akciğer"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_7",
+          "question": "Hangi ülkenin bayrağında ejderha vardır?",
+          "options": ["Bhutan", "Vietnam", "Çin", " Japonya"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_8",
+          "question": "Hangi element süpernovada oluşur?",
+          "options": ["Hidrojen", "Helyum", "Altın", "Karbon"],
+          "correct": 2,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_9",
+          "question": "Hangi hayvanın ömrü 200 yılı aşar?",
+          "options": ["Kaplan", "Kaplumbağa", "Fil", "Balina"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_10",
+          "question": "Hangi şehirde ilk Olimpiyatlar düzenlendi?",
+          "options": ["Atina", "Roma", "Paris", "Londra"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_11",
+          "question": "Hangi volkan en son büyük patlamayı yaptı?",
+          "options": ["Pinatubo", "Krakatoa", "Vezüv", "St. Helens"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_12",
+          "question": "Hangi ülke en çok volkanik adaya sahiptir?",
+          "options": [" Japonya", "Endonezya", "Filipinler", "İzlanda"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_13",
+          "question": "Hangi buluş matbaayı icat etti?",
+          "options": ["Gutenberg", "Edison", "Bell", "Morse"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_14",
+          "question": "Hangi kan hücresi bağışıklık sağlar?",
+          "options": ["Kırmızı", "Beyaz", "Plazma", "Trombosit"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_15",
+          "question": "Hangi ülke en çok şarap üretir?",
+          "options": ["İtalya", "Fransa", "İspanya", "Avustralya"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_16",
+          "question": "Hangi elementin erime noktası en yüksektir?",
+          "options": ["Tungsten", "Osmiyum", "Renyum", "Tantalum"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_17",
+          "question": "Hangi nehir Asya’nın en uzundur?",
+          "options": ["Ganj", "Yangtze", "Mekong", "İndus"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_18",
+          "question": "Hangi hayvanın görme alanı 360 derecedir?",
+          "options": ["Bukalemun", "Baykuş", "Kartal", "Yılan"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_19",
+          "question": "Hangi ülke en çok safran üretir?",
+          "options": ["İran", "Hindistan", "İspanya", "Türkiye"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_20",
+          "question": "Hangi gezegenin atmosferi en kalındır?",
+          "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_21",
+          "question": "Hangi şehirde ilk metro yapıldı?",
+          "options": ["Londra", "New York", "Paris", "Moskova"],
+          "correct": 0,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_22",
+          "question": "Hangi mineral yeryüzünde en çok bulunur?",
+          "options": ["Kuvars", "Feldspat", "Kalsit", "Mika"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_23",
+          "question": "Hangi ülke ilk yazıyı geliştirdi?",
+          "options": ["Mısır", "Sümer", "Çin", "Hindistan"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_24",
+          "question": "Hangi denizde en yüksek tuz oranı vardır?",
+          "options": ["Kızıldeniz", "Ölü Deniz", "Karadeniz", "Akdeniz"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      },
+      {
+          "id": "gk_expert_25",
+          "question": "Hangi elementin yarı ömrü en kısadır?",
+          "options": ["Uranyum-238", "Fransiyum-223", "Plütonyum-239", "Radyum-226"],
+          "correct": 1,
+          "points": 40,
+          "difficulty": "expert"
+      }
+  ]
+}

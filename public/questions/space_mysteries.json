@@ -1,0 +1,806 @@
+{
+    "category": "Karanlık Uzay Keşifleri",
+    "description": "Uzayın en gizemli köşelerine yolculuk",
+    "questions": [
+        {
+            "id": "space_mysteries_easy_1",
+            "question": "Hangi gezegen Dünya’mızın uydusudur?",
+            "options": ["Mars", "Ay", "Venüs", "Jüpiter"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_2",
+            "question": "Hangi yıldız sistemi bize en yakın olanıdır?",
+            "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "Betelgeuse"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_3",
+            "question": "Hangi uzay aracı Ay’a ilk insanlı inişi yaptı?",
+            "options": ["Apollo 11", "Sputnik", "Voyager", "Challenger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_4",
+            "question": "Hangi gök cismi gece gökyüzünü aydınlatır?",
+            "options": ["Güneş", "Ay", "Mars", "Satürn"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_5",
+            "question": "Hangi gezegen kırmızıdır?",
+            "options": ["Mars", "Venüs", "Jüpiter", "Merkür"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_6",
+            "question": "Hangi uzay ajansı NASA’dır?",
+            "options": ["Rus Uzay Ajansı", "Amerikan Uzay Ajansı", "Avrupa Uzay Ajansı", "Çin Uzay Ajansı"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_7",
+            "question": "Hangi gök olayı yıldız kayması olarak bilinir?",
+            "options": ["Meteor", "Kuyruklu Yıldız", "Süpernova", "Kara Delik"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_8",
+            "question": "Hangi gezegen halkalara sahiptir?",
+            "options": ["Mars", "Satürn", "Venüs", "Merkür"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_9",
+            "question": "Hangi uzay aracı Güneş Sistemi’ni terk etti?",
+            "options": ["Voyager 1", "Apollo 13", "Sputnik", "Hubble"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_10",
+            "question": "Hangi gök cismi bir yıldızın patlamasından oluşur?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Hepsi"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_11",
+            "question": "Hangi gezegen en küçüktür?",
+            "options": ["Merkür", "Mars", "Venüs", "Plüton"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_12",
+            "question": "Hangi yıldız bize en yakın olanıdır?",
+            "options": ["Güneş", "Sirius", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_13",
+            "question": "Hangi uzay teleskobu yörüngede çalışır?",
+            "options": ["Hubble", "Kepler", "Spitzer", "Hepsi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_14",
+            "question": "Hangi gök olayı Ay’ın Dünya’yı gölgelemesidir?",
+            "options": ["Güneş Tutulması", "Ay Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_15",
+            "question": "Hangi gezegen en sıcaktır?",
+            "options": ["Merkür", "Venüs", "Mars", "Jüpiter"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_16",
+            "question": "Hangi uzay aracı Mars’a ilk inişi yaptı?",
+            "options": ["Viking 1", "Curiosity", "Opportunity", "Spirit"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_17",
+            "question": "Hangi gök cismi küçük bir gezegendir?",
+            "options": ["Asteroid", "Kuyruklu Yıldız", "Meteor", "Plüton"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_18",
+            "question": "Hangi yıldız sistemi üçlü bir sistemdir?",
+            "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_19",
+            "question": "Hangi uzay aracı Jüpiter’e ilk ulaştı?",
+            "options": ["Pioneer 10", "Voyager 1", "Galileo", "Cassini"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_20",
+            "question": "Hangi gök olayı Dünya’nın gölgesinin Ay’a düşmesidir?",
+            "options": ["Ay Tutulması", "Güneş Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_21",
+            "question": "Hangi gezegen en büyük gaz devidir?",
+            "options": ["Jüpiter", "Satürn", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_22",
+            "question": "Hangi uzay aracı Satürn’ün halkalarını inceledi?",
+            "options": ["Cassini", "Voyager 2", "Pioneer 11", "Galileo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_23",
+            "question": "Hangi gök cismi uzayın karanlık boşluğudur?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_24",
+            "question": "Hangi yıldız kırmızı bir süperdevdir?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Güneş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_easy_25",
+            "question": "Hangi uzay aracı insanlı ilk uzay uçuşunu yaptı?",
+            "options": ["Vostok 1", "Apollo 11", "Sputnik", "Mercury"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "space_mysteries_medium_1",
+            "question": "Hangi gizemli sinyal 1977’de uzaydan geldi?",
+            "options": ["Wow! Sinyali", "Pulsar Sinyali", "Voyager Sinyali", "Arecibo Sinyali"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_2",
+            "question": "Hangi uzay aracı Plüton’u ilk kez fotoğrafladı?",
+            "options": ["New Horizons", "Voyager 1", "Cassini", "Hubble"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_3",
+            "question": "Hangi gök cismi ışığı bile yutar?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_4",
+            "question": "Hangi gezegenin atmosferi karbondioksitten oluşur?",
+            "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_5",
+            "question": "Hangi yıldız sistemi en parlak ikinci yıldızdır?",
+            "options": ["Sirius", "Alpha Centauri", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_6",
+            "question": "Hangi uzay aracı Titan’a iniş yaptı?",
+            "options": ["Huygens", "Cassini", "Voyager 2", "Galileo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_7",
+            "question": "Hangi gök olayı yıldızların düzenli sinyalleridir?",
+            "options": ["Pulsar", "Süpernova", "Kara Delik", "Kuasar"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_8",
+            "question": "Hangi gezegenin uydusu Ganymede’dir?",
+            "options": ["Jüpiter", "Satürn", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_9",
+            "question": "Hangi uzay aracı altın plak taşır?",
+            "options": ["Voyager 1", "Pioneer 10", "Apollo 11", "New Horizons"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_10",
+            "question": "Hangi gök cismi evrenin en parlak nesnesidir?",
+            "options": ["Kuasar", "Süpernova", "Kara Delik", "Nötron Yıldızı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_11",
+            "question": "Hangi gezegenin günü yılından uzundur?",
+            "options": ["Venüs", "Mars", "Merkür", "Jüpiter"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_12",
+            "question": "Hangi yıldız sistemi en büyük kırmızı süperdevi içerir?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Alpha Centauri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_13",
+            "question": "Hangi uzay teleskobu kızılötesi ışınları yakalar?",
+            "options": ["Spitzer", "Hubble", "Kepler", "Chandra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_14",
+            "question": "Hangi gök olayı Dünya’nın gökyüzünü karartır?",
+            "options": ["Güneş Tutulması", "Ay Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_15",
+            "question": "Hangi gezegenin uydusu Titan’dır?",
+            "options": ["Satürn", "Jüpiter", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_16",
+            "question": "Hangi uzay aracı Mars’taki su izlerini buldu?",
+            "options": ["Curiosity", "Viking 1", "Opportunity", "Spirit"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_17",
+            "question": "Hangi gök cismi cüce gezegen olarak sınıflandırılır?",
+            "options": ["Plüton", "Mars", "Merkür", "Venüs"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_18",
+            "question": "Hangi yıldız sistemi bize 4.37 ışık yılı uzaklıktadır?",
+            "options": ["Alpha Centauri", "Sirius", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_19",
+            "question": "Hangi uzay aracı Satürn’e ilk ulaştı?",
+            "options": ["Pioneer 11", "Voyager 1", "Cassini", "Galileo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_20",
+            "question": "Hangi gök olayı Ay’ın kırmızı görünmesine neden olur?",
+            "options": ["Ay Tutulması", "Güneş Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_21",
+            "question": "Hangi gezegenin uydusu Europa’dır?",
+            "options": ["Jüpiter", "Satürn", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_22",
+            "question": "Hangi uzay aracı Uranüs’ü ilk ziyaret etti?",
+            "options": ["Voyager 2", "Pioneer 10", "Cassini", "New Horizons"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_23",
+            "question": "Hangi gök cismi yıldızların çöküşünden oluşur?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_24",
+            "question": "Hangi yıldız Orion Takımyıldızı’nda bulunur?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Alpha Centauri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_medium_25",
+            "question": "Hangi uzay aracı Gagarin’i uzaya taşıdı?",
+            "options": ["Vostok 1", "Sputnik", "Apollo 11", "Soyuz"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "space_mysteries_hard_1",
+            "question": "Hangi gizemli sinyal 72 saniye sürdü?",
+            "options": ["Wow! Sinyali", "Pulsar Sinyali", "Arecibo Sinyali", "Fast Radio Burst"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_2",
+            "question": "Hangi uzay aracı Kuiper Kuşağı’na ulaştı?",
+            "options": ["New Horizons", "Voyager 1", "Pioneer 10", "Cassini"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_3",
+            "question": "Hangi gök cismi olay ufkuna sahiptir?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_4",
+            "question": "Hangi gezegenin yüzeyi sülfürik asitten yağmur yağar?",
+            "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_5",
+            "question": "Hangi yıldız sistemi 8.6 ışık yılı uzaklıktadır?",
+            "options": ["Sirius", "Alpha Centauri", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_6",
+            "question": "Hangi uzay aracı Satürn’ün uydusu Titan’a iniş yaptı?",
+            "options": ["Huygens", "Cassini", "Voyager 2", "Galileo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_7",
+            "question": "Hangi gök olayı saniyede bir sinyal yayar?",
+            "options": ["Pulsar", "Süpernova", "Kara Delik", "Kuasar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_8",
+            "question": "Hangi gezegenin uydusu Callisto’dur?",
+            "options": ["Jüpiter", "Satürn", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_9",
+            "question": "Hangi uzay aracı yıldızlararası uzaya mesaj taşır?",
+            "options": ["Voyager 1", "Pioneer 10", "New Horizons", "Cassini"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_10",
+            "question": "Hangi gök cismi galaksilerin merkezinde bulunur?",
+            "options": ["Kuasar", "Süpernova", "Kara Delik", "Nötron Yıldızı"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_11",
+            "question": "Hangi gezegenin ekseni ters yönde döner?",
+            "options": ["Venüs", "Mars", "Merkür", "Uranüs"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_12",
+            "question": "Hangi yıldız Orion’un omzunda yer alır?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Rigel"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_13",
+            "question": "Hangi uzay teleskobu X-ışınlarını gözlemler?",
+            "options": ["Chandra", "Hubble", "Kepler", "Spitzer"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_14",
+            "question": "Hangi gök olayı Ay’ın Dünya’yı tamamen örtmesidir?",
+            "options": ["Güneş Tutulması", "Ay Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_15",
+            "question": "Hangi gezegenin uydusu Enceladus’tur?",
+            "options": ["Satürn", "Jüpiter", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_16",
+            "question": "Hangi uzay aracı Mars’taki volkanları fotoğrafladı?",
+            "options": ["Mariner 9", "Viking 1", "Curiosity", "Opportunity"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_17",
+            "question": "Hangi gök cismi Kuiper Kuşağı’nda bulunur?",
+            "options": ["Plüton", "Mars", "Merkür", "Venüs"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_18",
+            "question": "Hangi yıldız sistemi bize 4.24 ışık yılı uzaklıktadır?",
+            "options": ["Proxima Centauri", "Sirius", "Alpha Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_19",
+            "question": "Hangi uzay aracı Neptün’ü ilk ziyaret etti?",
+            "options": ["Voyager 2", "Pioneer 11", "Cassini", "New Horizons"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_20",
+            "question": "Hangi gök olayı Dünya’nın atmosferinde yanar?",
+            "options": ["Meteor", "Kuyruklu Yıldız", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_21",
+            "question": "Hangi gezegenin uydusu Io’dur?",
+            "options": ["Jüpiter", "Satürn", "Uranüs", "Neptün"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_22",
+            "question": "Hangi uzay aracı Venüs’ün yüzeyini haritaladı?",
+            "options": ["Magellan", "Mariner 2", "Venera 9", "Pioneer Venus"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_23",
+            "question": "Hangi gök cismi süper kütleli bir yapıdadır?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_24",
+            "question": "Hangi yıldız süpernova olmaya adaydır?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Alpha Centauri"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_hard_25",
+            "question": "Hangi uzay aracı Ay’ın yörüngesine ilk giren araçtır?",
+            "options": ["Luna 10", "Apollo 8", "Sputnik", "Ranger 7"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "space_mysteries_expert_1",
+            "question": "Hangi gizemli sinyal 15 Ağustos 1977’de Ohio’da alındı?",
+            "options": ["Wow! Sinyali", "Pulsar Sinyali", "Arecibo Sinyali", "Fast Radio Burst"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_2",
+            "question": "Hangi uzay aracı 2015’te Plüton’un ilk yakın çekim fotoğraflarını aldı?",
+            "options": ["New Horizons", "Voyager 1", "Pioneer 10", "Cassini"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_3",
+            "question": "Hangi gök cismi kütleçekim dalgalarıyla tespit edildi?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_4",
+            "question": "Hangi gezegenin atmosferi %96 karbondioksittir?",
+            "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_5",
+            "question": "Hangi yıldız sistemi 6.55 ışık yılında bir çift yıldız içerir?",
+            "options": ["Sirius", "Alpha Centauri", "Proxima Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_6",
+            "question": "Hangi uzay aracı 2005’te Titan’a inen ilk araçtır?",
+            "options": ["Huygens", "Cassini", "Voyager 2", "Galileo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_7",
+            "question": "Hangi gök olayı 1967’de Jocelyn Bell tarafından keşfedildi?",
+            "options": ["Pulsar", "Süpernova", "Kara Delik", "Kuasar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_8",
+            "question": "Hangi gezegenin uydusu Jüpiter’in en büyük uydusudur?",
+            "options": ["Ganymede", "Europa", "Io", "Callisto"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_9",
+            "question": "Hangi uzay aracı 1977’de altın plakla uzaya gönderildi?",
+            "options": ["Voyager 1", "Pioneer 10", "New Horizons", "Cassini"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_10",
+            "question": "Hangi gök cismi 1960’larda radyo dalgalarıyla keşfedildi?",
+            "options": ["Kuasar", "Süpernova", "Kara Delik", "Nötron Yıldızı"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_11",
+            "question": "Hangi gezegenin dönüşü 243 Dünya gününde tamamlanır?",
+            "options": ["Venüs", "Mars", "Merkür", "Uranüs"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_12",
+            "question": "Hangi yıldız Orion’un ayaklarında yer alır?",
+            "options": ["Rigel", "Betelgeuse", "Sirius", "Proxima Centauri"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_13",
+            "question": "Hangi uzay teleskobu 1999’da X-ışını gözlemleriyle ünlüdür?",
+            "options": ["Chandra", "Hubble", "Kepler", "Spitzer"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_14",
+            "question": "Hangi gök olayı 1919’da Einstein’ın teorisini doğruladı?",
+            "options": ["Güneş Tutulması", "Ay Tutulması", "Meteor Yağmuru", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_15",
+            "question": "Hangi gezegenin uydusu Satürn’ün buzlu yüzeyine sahiptir?",
+            "options": ["Enceladus", "Titan", "Rhea", "Dione"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_16",
+            "question": "Hangi uzay aracı 1976’da Mars’a ilk başarılı inişi yaptı?",
+            "options": ["Viking 1", "Mariner 9", "Curiosity", "Opportunity"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_17",
+            "question": "Hangi gök cismi 2006’da gezegen statüsünü kaybetti?",
+            "options": ["Plüton", "Eris", "Ceres", "Haumea"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_18",
+            "question": "Hangi yıldız sistemi bize en yakın kırmızı cücedir?",
+            "options": ["Proxima Centauri", "Sirius", "Alpha Centauri", "Betelgeuse"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_19",
+            "question": "Hangi uzay aracı 1989’da Neptün’ün halkalarını keşfetti?",
+            "options": ["Voyager 2", "Pioneer 11", "Cassini", "New Horizons"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_20",
+            "question": "Hangi gök olayı 1833’te Leonid fırtınasıyla ünlüdür?",
+            "options": ["Meteor Yağmuru", "Güneş Tutulması", "Ay Tutulması", "Kuyruklu Yıldız"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_21",
+            "question": "Hangi gezegenin uydusu Jüpiter’in volkanik yüzeyine sahiptir?",
+            "options": ["Io", "Europa", "Ganymede", "Callisto"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_22",
+            "question": "Hangi uzay aracı 1990’da Venüs’ün radar haritasını çıkardı?",
+            "options": ["Magellan", "Mariner 2", "Venera 9", "Pioneer Venus"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_23",
+            "question": "Hangi gök cismi galaksi merkezlerinde süper kütleli olabilir?",
+            "options": ["Kara Delik", "Nötron Yıldızı", "Süpernova", "Kuasar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_24",
+            "question": "Hangi yıldız 2020’de parlaklık değişimiyle gizem yarattı?",
+            "options": ["Betelgeuse", "Sirius", "Proxima Centauri", "Rigel"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "space_mysteries_expert_25",
+            "question": "Hangi uzay aracı 1966’da Ay’ın yörüngesine giren ilk araçtır?",
+            "options": ["Luna 10", "Apollo 8", "Ranger 7", "Surveyor 1"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

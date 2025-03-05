@@ -1,0 +1,806 @@
+{
+    "category": "Sanat",
+    "description": "Resim, müzik, heykel ve sanat tarihine dair bilginizi sınayın",
+    "questions": [
+        {
+            "id": "art_easy_1",
+            "question": "Hangi ressam 'Mona Lisa' tablosunu yapmıştır?",
+            "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Vincent van Gogh"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_2",
+            "question": "Hangi enstrüman piyano olarak bilinir?",
+            "options": ["Keman", "Gitar", "Piyano", "Flüt"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_3",
+            "question": "Hangi sanatçı 'Yıldızlı Gece' tablosunu çizmiştir?",
+            "options": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Edvard Munch"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_4",
+            "question": "Hangi heykel 'Düşünen Adam' olarak tanınır?",
+            "options": ["David", "Düşünen Adam", "Venüs de Milo", "Disk Atıcı"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_5",
+            "question": "Hangi müzik türü klasik müzik olarak bilinir?",
+            "options": ["Rock", "Pop", "Klasik", "Jazz"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_6",
+            "question": "Hangi ressam 'Son Akşam Yemeği' tablosunu yapmıştır?",
+            "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Titian"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_7",
+            "question": "Hangi sanatçı 'Çığlık' tablosunu çizmiştir?",
+            "options": ["Edvard Munch", "Pablo Picasso", "Salvador Dalí", "Henri Matisse"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_8",
+            "question": "Hangi enstrüman üflemeli bir alettir?",
+            "options": ["Flüt", "Davul", "Gitar", "Piyano"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_9",
+            "question": "Hangi heykel Rönesans sanatçısı Michelangelo tarafından yapılmıştır?",
+            "options": ["David", "Düşünen Adam", "Disk Atıcı", "Venüs de Milo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_10",
+            "question": "Hangi sanatçı 'Guernica' tablosunu çizmiştir?",
+            "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Diego Rivera"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_11",
+            "question": "Hangi müzik türü caz olarak bilinir?",
+            "options": ["Rock", "Jazz", "Klasik", "Pop"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_12",
+            "question": "Hangi ressam 'Ayçiçekleri' tablosunu yapmıştır?",
+            "options": ["Claude Monet", "Vincent van Gogh", "Pierre-Auguste Renoir", "Mary Cassatt"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_13",
+            "question": "Hangi sanatçı Sistina Şapeli’nin tavanını boyamıştır?",
+            "options": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Donatello"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_14",
+            "question": "Hangi enstrüman telli bir alettir?",
+            "options": ["Flüt", "Davul", "Gitar", "Trompet"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_15",
+            "question": "Hangi sanatçı 'Belleğin Azmi' tablosunu çizmiştir?",
+            "options": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Max Ernst"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_16",
+            "question": "Hangi heykel Antik Yunan’dan kalmadır?",
+            "options": ["Venüs de Milo", "Düşünen Adam", "David", "Pieta"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_17",
+            "question": "Hangi müzik türü rock olarak bilinir?",
+            "options": ["Jazz", "Klasik", "Rock", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_18",
+            "question": "Hangi ressam 'Su Lilyumları' serisini yapmıştır?",
+            "options": ["Vincent van Gogh", "Claude Monet", "Pierre-Auguste Renoir", "Mary Cassatt"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_19",
+            "question": "Hangi sanatçı Rönesans döneminin 'Bakire ve Çocuk' tablolarıyla ünlüdür?",
+            "options": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Titian"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_20",
+            "question": "Hangi enstrüman vurmalı bir alettir?",
+            "options": ["Keman", "Davul", "Flüt", "Piyano"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_21",
+            "question": "Hangi sanatçı 'Kendi Portresi' ile tanınır?",
+            "options": ["Frida Kahlo", "Pablo Picasso", "Salvador Dalí", "Andy Warhol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_22",
+            "question": "Hangi heykel Antik Roma’dan kalmadır?",
+            "options": ["Disk Atıcı", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_23",
+            "question": "Hangi müzik türü pop olarak bilinir?",
+            "options": ["Rock", "Jazz", "Klasik", "Pop"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_24",
+            "question": "Hangi ressam 'Naberler' tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Vincent van Gogh"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_easy_25",
+            "question": "Hangi sanatçı 'Campbell’s Çorba Kutuları' ile ünlüdür?",
+            "options": ["Andy Warhol", "Roy Lichtenstein", "Jackson Pollock", "Mark Rothko"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "art_medium_1",
+            "question": "Hangi ressam Rönesans’ın ‘Yaradılış’ freskini yapmıştır?",
+            "options": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Donatello"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_2",
+            "question": "Hangi müzik türü 20. yüzyılda New Orleans’ta doğmuştur?",
+            "options": ["Rock", "Jazz", "Blues", "Country"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_3",
+            "question": "Hangi sanatçı ‘Les Demoiselles d’Avignon’ tablosunu çizmiştir?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Salvador Dalí", "Marc Chagall"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_4",
+            "question": "Hangi heykel Bernini’nin Barok tarzındaki eseridir?",
+            "options": ["Apollo ve Daphne", "David", "Düşünen Adam", "Venüs de Milo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_5",
+            "question": "Hangi ressam Empresyonizm’in öncüsüdür?",
+            "options": ["Vincent van Gogh", "Claude Monet", "Pierre-Auguste Renoir", "Mary Cassatt"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_6",
+            "question": "Hangi sanatçı ‘Pieta’ heykelini yapmıştır?",
+            "options": ["Donatello", "Michelangelo", "Bernini", "Rodin"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_7",
+            "question": "Hangi müzik türü 18. yüzyıl Avrupa’sında gelişti?",
+            "options": ["Jazz", "Klasik", "Rock", "Pop"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_8",
+            "question": "Hangi ressam ‘Bal au moulin de la Galette’ tablosunu yapmıştır?",
+            "options": ["Claude Monet", "Pierre-Auguste Renoir", "Vincent van Gogh", "Edgar Degas"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_9",
+            "question": "Hangi sanatçı ‘Kadınlar Bahçesi’ tablosunu çizmiştir?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_10",
+            "question": "Hangi heykel Antik Yunan’da Diskobolos olarak bilinir?",
+            "options": ["Disk Atıcı", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_11",
+            "question": "Hangi müzik türü Afrika kökenli ritimlere dayanır?",
+            "options": ["Klasik", "Jazz", "Rock", "Pop"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_12",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_13",
+            "question": "Hangi sanatçı ‘Kapıdaki Öpücük’ heykelini yapmıştır?",
+            "options": ["Auguste Rodin", "Michelangelo", "Bernini", "Donatello"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_14",
+            "question": "Hangi ressam ‘Naberler’ tablosunu yapmıştır?",
+            "options": ["Paul Gauguin", "Vincent van Gogh", "Claude Monet", "Henri Matisse"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_15",
+            "question": "Hangi müzik türü 20. yüzyılın ortalarında doğmuştur?",
+            "options": ["Klasik", "Rock", "Jazz", "Pop"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_16",
+            "question": "Hangi sanatçı ‘Marilyn Monroe’ portresiyle tanınır?",
+            "options": ["Roy Lichtenstein", "Andy Warhol", "Jackson Pollock", "Mark Rothko"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_17",
+            "question": "Hangi heykel Rönesans’tan kalma bir başyapıttır?",
+            "options": ["Düşünen Adam", "David", "Disk Atıcı", "Venüs de Milo"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_18",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_19",
+            "question": "Hangi sanatçı ‘Sonsuzluk Aynası’ eserini yapmıştır?",
+            "options": ["Salvador Dalí", "Yayoi Kusama", "Joan Miró", "Max Ernst"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_20",
+            "question": "Hangi müzik türü 19. yüzyıl Amerika’sında gelişti?",
+            "options": ["Blues", "Rock", "Pop", "Klasik"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_21",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_22",
+            "question": "Hangi heykel Barok döneminden kalmadır?",
+            "options": ["Apollo ve Daphne", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_23",
+            "question": "Hangi sanatçı ‘Naberler’ tablosunu yapmıştır?",
+            "options": ["Paul Gauguin", "Vincent van Gogh", "Claude Monet", "Henri Matisse"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_24",
+            "question": "Hangi müzik türü 20. yüzyılın sonlarında popülerleşti?",
+            "options": ["Rock", "Jazz", "Pop", "Klasik"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_medium_25",
+            "question": "Hangi sanatçı ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "art_hard_1",
+            "question": "Hangi ressam ‘Sistina Madonna’ tablosunu yapmıştır?",
+            "options": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Titian"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_2",
+            "question": "Hangi müzik türü Bach ve Beethoven ile ilişkilidir?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_3",
+            "question": "Hangi sanatçı ‘Las Meninas’ tablosunu çizmiştir?",
+            "options": ["Diego Velázquez", "Francisco Goya", "El Greco", "Murillo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_4",
+            "question": "Hangi heykel Canova’nın Neoklasik eseridir?",
+            "options": ["Psyche ve Cupid", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_5",
+            "question": "Hangi ressam ‘Satürn Oğlunu Yiyor’ tablosunu yapmıştır?",
+            "options": ["Francisco Goya", "Diego Velázquez", "El Greco", "Murillo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_6",
+            "question": "Hangi sanatçı ‘Ecstasy of Saint Teresa’ heykelini yapmıştır?",
+            "options": ["Bernini", "Michelangelo", "Donatello", "Rodin"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_7",
+            "question": "Hangi müzik türü Wagner ile ilişkilidir?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_8",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_9",
+            "question": "Hangi sanatçı ‘Naberler’ tablosunu yapmıştır?",
+            "options": ["Paul Gauguin", "Vincent van Gogh", "Claude Monet", "Henri Matisse"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_10",
+            "question": "Hangi heykel Rodin’in ‘Cehennemin Kapıları’ eserinin parçasıdır?",
+            "options": ["Düşünen Adam", "David", "Disk Atıcı", "Venüs de Milo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_11",
+            "question": "Hangi müzik türü Stravinsky ile ilişkilidir?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_12",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_13",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_14",
+            "question": "Hangi heykel Antik Yunan’da ‘Winged Victory’ olarak bilinir?",
+            "options": ["Samothrace Kanatlı Zaferi", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_15",
+            "question": "Hangi müzik türü 20. yüzyılın başında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_16",
+            "question": "Hangi sanatçı ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_17",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_18",
+            "question": "Hangi heykel Donatello’nun Rönesans eseridir?",
+            "options": ["Gattamelata", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_19",
+            "question": "Hangi müzik türü 19. yüzyılın sonlarında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_20",
+            "question": "Hangi sanatçı ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_21",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_22",
+            "question": "Hangi heykel Antik Yunan’da ‘Laocoön ve Oğulları’ olarak bilinir?",
+            "options": ["Laocoön ve Oğulları", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_23",
+            "question": "Hangi müzik türü 20. yüzyılın ortalarında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_24",
+            "question": "Hangi sanatçı ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_hard_25",
+            "question": "Hangi ressam ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "art_expert_1",
+            "question": "Hangi ressam ‘Bahçedeki Kadınlar’ tablosunu yapmıştır?",
+            "options": ["Claude Monet", "Pierre-Auguste Renoir", "Mary Cassatt", "Edgar Degas"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_2",
+            "question": "Hangi müzik türü 17. yüzyıl İtalya’sında doğmuştur?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_3",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_4",
+            "question": "Hangi heykel Phidias’ın Parthenon için yaptığı eserdir?",
+            "options": ["Athena Parthenos", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_5",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_6",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_7",
+            "question": "Hangi müzik türü 19. yüzyılın başlarında doğmuştur?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_8",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_9",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_10",
+            "question": "Hangi heykel Myron’un Antik Yunan eseridir?",
+            "options": ["Disk Atıcı", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_11",
+            "question": "Hangi müzik türü 20. yüzyılın başlarında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_12",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_13",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_14",
+            "question": "Hangi heykel Praxiteles’in Antik Yunan eseridir?",
+            "options": ["Aphrodite of Knidos", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_15",
+            "question": "Hangi müzik türü 18. yüzyılın sonlarında doğmuştur?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_16",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_17",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_18",
+            "question": "Hangi heykel Michelangelo’nun son eserlerinden biridir?",
+            "options": ["Pieta Rondanini", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_19",
+            "question": "Hangi müzik türü 20. yüzyılın sonlarında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_20",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_21",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_22",
+            "question": "Hangi heykel Antik Yunan’da ‘Hermes ve Bebek Dionysos’ olarak bilinir?",
+            "options": ["Hermes ve Bebek Dionysos", "Düşünen Adam", "David", "Venüs de Milo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_23",
+            "question": "Hangi müzik türü 19. yüzyılın ortalarında doğmuştur?",
+            "options": ["Blues", "Rock", "Jazz", "Pop"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_24",
+            "question": "Hangi ressam ‘Kadınlar ve Çocuklar’ tablosunu yapmıştır?",
+            "options": ["Pablo Picasso", "Henri Matisse", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "art_expert_25",
+            "question": "Hangi sanatçı ‘Kadınlar ve Kedi’ tablosunu yapmıştır?",
+            "options": ["Henri Matisse", "Pablo Picasso", "Paul Gauguin", "Marc Chagall"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

@@ -1,0 +1,806 @@
+{
+    "category": "Tuhaf Hayvan Davranışları",
+    "description": "Hayvanların inanılmaz tuhaflıklarını öğren",
+    "questions": [
+        {
+            "id": "animal_facts_easy_1",
+            "question": "Hangi hayvan suda yaşar ve balondan nefes alır?",
+            "options": ["Balık", "Kurbağa", "Yunus", "Kaplan"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_2",
+            "question": "Hangi hayvan uzun boynuyla ağaçlardan yaprak yer?",
+            "options": ["Zürafa", "Fil", "Aslan", "Penguen"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_3",
+            "question": "Hangi hayvan ağaçlarda sallanır ve muz sever?",
+            "options": ["Maymun", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_4",
+            "question": "Hangi hayvan uçamaz ama buzda kayar?",
+            "options": ["Penguen", "Kartal", "Yarasa", "Kırlangıç"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_5",
+            "question": "Hangi hayvan bal yapar?",
+            "options": ["Arı", "Karınca", "Kelebek", "Çekirge"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_6",
+            "question": "Hangi hayvan kuyruğunu sallayarak iletişim kurar?",
+            "options": ["Köpek", "Kedi", "At", "Kuş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_7",
+            "question": "Hangi hayvan suda yüzer ve ördek gibi gagası vardır?",
+            "options": ["Ornitorenk", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_8",
+            "question": "Hangi hayvan sırtında evini taşır?",
+            "options": ["Kaplumbağa", "Fil", "Aslan", "Zürafa"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_9",
+            "question": "Hangi hayvan ağaçlara tırmanır ve uyur?",
+            "options": ["Koala", "Maymun", "Kedi", "Kuş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_10",
+            "question": "Hangi hayvan uzun diliyle karıncaları yer?",
+            "options": ["Karıncayiyen", "Kurbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_11",
+            "question": "Hangi hayvan kendi kuyruğunu kovalar?",
+            "options": ["Köpek", "Kedi", "At", "Tavşan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_12",
+            "question": "Hangi hayvan suda yüzer ve kuyruğuyla kürek çeker?",
+            "options": ["Kunduz", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_13",
+            "question": "Hangi hayvan yumurtalarını sırtında taşır?",
+            "options": ["Kurbağa", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_14",
+            "question": "Hangi hayvan ipek üretir?",
+            "options": ["İpekböceği", "Arı", "Karınca", "Kelebek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_15",
+            "question": "Hangi hayvan uzun kulaklarıyla zıplar?",
+            "options": ["Tavşan", "Kanguru", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_16",
+            "question": "Hangi hayvan su püskürtür?",
+            "options": ["Balina", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_17",
+            "question": "Hangi hayvan kokuyla av bulur?",
+            "options": ["Köpek", "Kedi", "Kuş", "Balık"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_18",
+            "question": "Hangi hayvan suda dans eder gibi yüzer?",
+            "options": ["Deniz Anası", "Balık", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_19",
+            "question": "Hangi hayvan tüylerini kabartır?",
+            "options": ["Kedi", "Köpek", "At", "Tavşan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_20",
+            "question": "Hangi hayvan ağaçlarda yuva yapar?",
+            "options": ["Kuş", "Maymun", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_21",
+            "question": "Hangi hayvan boynuzlarıyla dövüşür?",
+            "options": ["Geyik", "Fil", "Aslan", "Zürafa"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_22",
+            "question": "Hangi hayvan suda kuyruğunu sallayarak yüzer?",
+            "options": ["Timsah", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_23",
+            "question": "Hangi hayvan koku püskürtür?",
+            "options": ["Kokarca", "Kedi", "Köpek", "Tavşan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_24",
+            "question": "Hangi hayvan yumurtalarını kuma gömer?",
+            "options": ["Kaplumbağa", "Kuş", "Yılan", "Kurbağa"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_easy_25",
+            "question": "Hangi hayvan suda nefes alır?",
+            "options": ["Balık", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "animal_facts_medium_1",
+            "question": "Hangi hayvan stres altındayken kendi kuyruğunu yiyebilir?",
+            "options": ["Yılan", "Kertenkele", "Fare", "Hamster"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_2",
+            "question": "Hangi hayvan boynunu 360 derece çevirebilir?",
+            "options": ["Baykuş", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_3",
+            "question": "Hangi hayvan ağaçlara tırmanırken ters durur?",
+            "options": ["Tembel Hayvan", "Maymun", "Koala", "Rakun"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_4",
+            "question": "Hangi hayvan kendi ağırlığının 100 katını taşıyabilir?",
+            "options": ["Karınca", "Arı", "Kelebek", "Çekirge"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_5",
+            "question": "Hangi hayvan suda uyuyabilir?",
+            "options": ["Yunus", "Balık", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_6",
+            "question": "Hangi hayvan renk değiştirerek avlanır?",
+            "options": ["Bukalemun", "Yılan", "Kertenkele", "Kurbağa"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_7",
+            "question": "Hangi hayvan yumurtalarını ağzında taşır?",
+            "options": ["Kurbağa", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_8",
+            "question": "Hangi hayvan kendi kuyruğunu kopararak kaçar?",
+            "options": ["Kertenkele", "Yılan", "Kurbağa", "Fare"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_9",
+            "question": "Hangi hayvan ağaçlarda uyurken düşmez?",
+            "options": ["Koala", "Maymun", "Rakun", "Sincap"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_10",
+            "question": "Hangi hayvan uzun diliyle termit yuvalarına ulaşır?",
+            "options": ["Karıncayiyen", "Armadillo", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_11",
+            "question": "Hangi hayvan kuyruğunu sallayarak dans eder?",
+            "options": ["Tavus Kuşu", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_12",
+            "question": "Hangi hayvan barajlar inşa eder?",
+            "options": ["Kunduz", "Fok", "Yunus", "Penguen"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_13",
+            "question": "Hangi hayvan yumurtalarını sırtında koruyarak taşır?",
+            "options": ["Surinam Kurbağası", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_14",
+            "question": "Hangi hayvan ipek ağlar örerek avlanır?",
+            "options": ["Örümcek", "Arı", "Karınca", "Kelebek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_15",
+            "question": "Hangi hayvan zıplayarak avlanır?",
+            "options": ["Kanguru", "Tavşan", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_16",
+            "question": "Hangi hayvan su püskürterek iletişim kurar?",
+            "options": ["Balina", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_17",
+            "question": "Hangi hayvan kokuyla yön bulur?",
+            "options": ["Yılan", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_18",
+            "question": "Hangi hayvan suda titreşimle av bulur?",
+            "options": ["Deniz Anası", "Balık", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_19",
+            "question": "Hangi hayvan tüylerini kabartarak tehdit eder?",
+            "options": ["Tavus Kuşu", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_20",
+            "question": "Hangi hayvan ağaçlarda yuva yaparak uyur?",
+            "options": ["Sincap", "Maymun", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_21",
+            "question": "Hangi hayvan boynuzlarını süs olarak kullanır?",
+            "options": ["Geyik", "Fil", "Aslan", "Zürafa"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_22",
+            "question": "Hangi hayvan suda kuyruğunu kamçı gibi kullanır?",
+            "options": ["Timsah", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_23",
+            "question": "Hangi hayvan koku püskürterek savunma yapar?",
+            "options": ["Kokarca", "Kedi", "Köpek", "Tavşan"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_24",
+            "question": "Hangi hayvan yumurtalarını kuma gömerek korur?",
+            "options": ["Deniz Kaplumbağası", "Kuş", "Yılan", "Kurbağa"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_medium_25",
+            "question": "Hangi hayvan suda solungaçlarıyla nefes alır?",
+            "options": ["Balık", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "animal_facts_hard_1",
+            "question": "Hangi hayvan kendi kuyruğunu yiyerek hayatta kalabilir?",
+            "options": ["Hamster", "Yılan", "Kertenkele", "Fare"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_2",
+            "question": "Hangi hayvan başını 270 derece çevirebilir?",
+            "options": ["Baykuş", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_3",
+            "question": "Hangi hayvan ağaçlarda ters asılarak uyur?",
+            "options": ["Tembel Hayvan", "Maymun", "Koala", "Rakun"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_4",
+            "question": "Hangi hayvan kendi ağırlığının 850 katını kaldırabilir?",
+            "options": ["Bok Böceği", "Karınca", "Arı", "Çekirge"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_5",
+            "question": "Hangi hayvan uyurken beyninin yarısını kapatır?",
+            "options": ["Yunus", "Balık", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_6",
+            "question": "Hangi hayvan renk değiştirerek kendini gizler?",
+            "options": ["Bukalemun", "Yılan", "Kertenkele", "Kurbağa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_7",
+            "question": "Hangi hayvan yumurtalarını ağzında kuluçkaya yatırır?",
+            "options": ["Kardinal Balığı", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_8",
+            "question": "Hangi hayvan kuyruğunu kopararak yenisini çıkarır?",
+            "options": ["Kertenkele", "Yılan", "Kurbağa", "Fare"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_9",
+            "question": "Hangi hayvan ağaçlarda 20 saat uyuyabilir?",
+            "options": ["Koala", "Maymun", "Rakun", "Sincap"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_10",
+            "question": "Hangi hayvan diliyle 45 cm uzanabilir?",
+            "options": ["Karıncayiyen", "Armadillo", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_11",
+            "question": "Hangi hayvan kuyruğunu sallayarak eş bulur?",
+            "options": ["Tavus Kuşu", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_12",
+            "question": "Hangi hayvan ağaç keserek baraj yapar?",
+            "options": ["Kunduz", "Fok", "Yunus", "Penguen"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_13",
+            "question": "Hangi hayvan sırtında yumurtalarını taşıyarak büyütür?",
+            "options": ["Surinam Kurbağası", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_14",
+            "question": "Hangi hayvan ipek ağlarla avını sarmalar?",
+            "options": ["Örümcek", "Arı", "Karınca", "Kelebek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_15",
+            "question": "Hangi hayvan zıplayarak avını şaşırtır?",
+            "options": ["Kanguru", "Tavşan", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_16",
+            "question": "Hangi hayvan su püskürterek avını sersemletir?",
+            "options": ["Mürekkep Balığı", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_17",
+            "question": "Hangi hayvan kokuyla avını 10 km öteden bulur?",
+            "options": ["Ayı", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_18",
+            "question": "Hangi hayvan suda titreşimle yön bulur?",
+            "options": ["Elektrik Yılan Balığı", "Balık", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_19",
+            "question": "Hangi hayvan tüylerini kabartarak avcıları korkutur?",
+            "options": ["Kirpi", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_20",
+            "question": "Hangi hayvan ağaçlarda yuva yaparak avlanır?",
+            "options": ["Leopar", "Maymun", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_21",
+            "question": "Hangi hayvan boynuzlarını av için kullanır?",
+            "options": ["Geyik", "Fil", "Aslan", "Zürafa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_22",
+            "question": "Hangi hayvan suda kuyruğunu silah gibi kullanır?",
+            "options": ["Timsah", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_23",
+            "question": "Hangi hayvan koku püskürterek 3 metre uzağa ulaşır?",
+            "options": ["Kokarca", "Kedi", "Köpek", "Tavşan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_24",
+            "question": "Hangi hayvan yumurtalarını kuma gömerek 60 gün bekler?",
+            "options": ["Deniz Kaplumbağası", "Kuş", "Yılan", "Kurbağa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_hard_25",
+            "question": "Hangi hayvan suda elektrik üreterek avlanır?",
+            "options": ["Elektrik Yılan Balığı", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "animal_facts_expert_1",
+            "question": "Hangi hayvan kendi kuyruğunu yiyerek 6 hafta hayatta kalabilir?",
+            "options": ["Hamster", "Yılan", "Kertenkele", "Fare"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_2",
+            "question": "Hangi hayvan başını 360 dereceye yakın döndürebilir?",
+            "options": ["Baykuş", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_3",
+            "question": "Hangi hayvan ağaçlarda ters asılarak 18 saat uyur?",
+            "options": ["Tembel Hayvan", "Maymun", "Koala", "Rakun"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_4",
+            "question": "Hangi hayvan kendi ağırlığının 1000 katını taşıyabilir?",
+            "options": ["Bok Böceği", "Karınca", "Arı", "Çekirge"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_5",
+            "question": "Hangi hayvan uyurken bir beyin yarısını aktif tutar?",
+            "options": ["Yunus", "Balık", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_6",
+            "question": "Hangi hayvan renk değiştirerek avını 1 saniyede yakalar?",
+            "options": ["Bukalemun", "Yılan", "Kertenkele", "Kurbağa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_7",
+            "question": "Hangi hayvan yumurtalarını ağzında 2 ay kuluçkaya yatırır?",
+            "options": ["Kardinal Balığı", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_8",
+            "question": "Hangi hayvan kuyruğunu kopararak 8 hafta içinde yeniler?",
+            "options": ["Kertenkele", "Yılan", "Kurbağa", "Fare"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_9",
+            "question": "Hangi hayvan ağaçlarda 22 saat uyuyarak rekor kırar?",
+            "options": ["Koala", "Maymun", "Rakun", "Sincap"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_10",
+            "question": "Hangi hayvan diliyle 60 cm derinlikteki yuvalara ulaşır?",
+            "options": ["Karıncayiyen", "Armadillo", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_11",
+            "question": "Hangi hayvan kuyruğunu sallayarak 30 saniyelik dans yapar?",
+            "options": ["Tavus Kuşu", "Kedi", "Köpek", "At"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_12",
+            "question": "Hangi hayvan ağaç keserek 10 metre yüksekliğinde baraj yapar?",
+            "options": ["Kunduz", "Fok", "Yunus", "Penguen"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_13",
+            "question": "Hangi hayvan sırtında 60 yumurta taşıyarak büyütür?",
+            "options": ["Surinam Kurbağası", "Kaplumbağa", "Yılan", "Kertenkele"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_14",
+            "question": "Hangi hayvan ipek ağlarla 1 metre genişliğinde tuzak kurar?",
+            "options": ["Örümcek", "Arı", "Karınca", "Kelebek"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_15",
+            "question": "Hangi hayvan zıplayarak 2 metre yükseğe ulaşır?",
+            "options": ["Kanguru", "Tavşan", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_16",
+            "question": "Hangi hayvan su püskürterek 10 metre uzağa ulaşır?",
+            "options": ["Mürekkep Balığı", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_17",
+            "question": "Hangi hayvan kokuyla 20 km ötedeki avını bulur?",
+            "options": ["Ayı", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_18",
+            "question": "Hangi hayvan suda 1000 volt elektrik üreterek avlanır?",
+            "options": ["Elektrik Yılan Balığı", "Balık", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_19",
+            "question": "Hangi hayvan tüylerini kabartarak 2 kat büyük görünür?",
+            "options": ["Kirpi", "Kedi", "Köpek", "Kuş"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_20",
+            "question": "Hangi hayvan ağaçlarda yuva yaparak 5 metre yükseklikte avlanır?",
+            "options": ["Leopar", "Maymun", "Kedi", "Köpek"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_21",
+            "question": "Hangi hayvan boynuzlarını 1 tonluk darbelerle kullanır?",
+            "options": ["Geyik", "Fil", "Aslan", "Zürafa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_22",
+            "question": "Hangi hayvan suda kuyruğunu 20 metre hızla vurur?",
+            "options": ["Timsah", "Penguen", "Yunus", "Fok"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_23",
+            "question": "Hangi hayvan koku püskürterek 5 metre uzağa savunma yapar?",
+            "options": ["Kokarca", "Kedi", "Köpek", "Tavşan"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_24",
+            "question": "Hangi hayvan yumurtalarını kuma gömerek 100 gün bekler?",
+            "options": ["Deniz Kaplumbağası", "Kuş", "Yılan", "Kurbağa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "animal_facts_expert_25",
+            "question": "Hangi hayvan suda elektrik üreterek 8 metre ötedeki avı sersemletir?",
+            "options": ["Elektrik Yılan Balığı", "Yunus", "Fok", "Penguen"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

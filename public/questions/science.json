@@ -1,0 +1,806 @@
+{
+    "category": "Bilim",
+    "description": "Fizik, kimya, biyoloji ve teknoloji soruları",
+    "questions": [
+        {
+            "id": "sci_easy_1",
+            "question": "Hangi gaz havada en çok bulunur?",
+            "options": ["Oksijen", "Azot", "Karbon Dioksit", "Hidrojen"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_2",
+            "question": "Hangi organ nefes alır?",
+            "options": ["Kalp", "Akciğer", "Beyin", "Mide"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_3",
+            "question": "Hangi element suyun bileşenidir?",
+            "options": ["Karbon", "Hidrojen", "Azot", "Kükürt"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_4",
+            "question": "Hangi gezegen mavidir?",
+            "options": ["Mars", "Jüpiter", "Dünya", "Venüs"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_5",
+            "question": "Hangi hayvan uçamaz?",
+            "options": ["Kartal", "Penguen", "Yarasa", "Kırlangıç"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_6",
+            "question": "Hangi alet ısıtır?",
+            "options": ["Fırın", "Buzdolabı", "Fan", "Klima"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_7",
+            "question": "Hangi organ kanı pompalar?",
+            "options": ["Akciğer", "Kalp", "Böbrek", "Karaciğer"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_8",
+            "question": "Hangi enerji güneşten gelir?",
+            "options": ["Rüzgar", "Güneş", "Nükleer", "Jeotermal"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_9",
+            "question": "Hangi hayvan sürüngendir?",
+            "options": ["Kedi", "Yılan", "Kuş", "Balık"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_10",
+            "question": "Hangi gaz nefes alırız?",
+            "options": ["Karbon Dioksit", "Oksijen", "Azot", "Helyum"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_11",
+            "question": "Hangi organ düşünür?",
+            "options": ["Beyin", "Kalp", "Mide", "Böbrek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_12",
+            "question": "Hangi alet ışığı ölçer?",
+            "options": ["Termometre", "Fotometre", "Barometre", "Higrometre"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_13",
+            "question": "Hangi element demirdir?",
+            "options": ["Fe", "Au", "Ag", "Cu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_14",
+            "question": "Hangi hayvan memelidir?",
+            "options": ["Yılan", "Kaplumbağa", "Yunus", "Timsah"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_15",
+            "question": "Hangi gaz balonları uçurur?",
+            "options": ["Oksijen", "Helyum", "Karbon Dioksit", "Azot"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_16",
+            "question": "Hangi organ sindirir?",
+            "options": ["Mide", "Beyin", "Akciğer", "Kalp"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_17",
+            "question": "Hangi enerji elektrik üretir?",
+            "options": ["Güneş", "Ses", "Isı", "Hepsi"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_18",
+            "question": "Hangi hayvan suda yaşar?",
+            "options": ["Kedi", "Balık", "Köpek", "Kuş"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_19",
+            "question": "Hangi element altındır?",
+            "options": ["Fe", "Au", "Ag", "Cu"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_20",
+            "question": "Hangi alet zamanı ölçer?",
+            "options": ["Saat", "Termometre", "Barometre", "Higrometre"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_21",
+            "question": "Hangi gaz bitkiler için önemlidir?",
+            "options": ["Oksijen", "Karbon Dioksit", "Azot", "Helyum"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_22",
+            "question": "Hangi organ kanı temizler?",
+            "options": ["Beyin", "Böbrek", "Kalp", "Akciğer"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_23",
+            "question": "Hangi enerji rüzgardan gelir?",
+            "options": ["Güneş", "Rüzgar", "Nükleer", "Jeotermal"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_24",
+            "question": "Hangi hayvan kuş değildir?",
+            "options": ["Kartal", "Penguen", "Yarasa", "Kırlangıç"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_easy_25",
+            "question": "Hangi element gümüştür?",
+            "options": ["Fe", "Au", "Ag", "Cu"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_medium_1",
+            "question": "Hangi elementin simgesi 'Fe'dir?",
+            "options": ["Flor", "Fosfor", "Demir", "Fermiyum"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_2",
+            "question": "Hangi vitamin eksikliği gece körlüğüne yol açar?",
+            "options": ["A Vitamini", "B Vitamini", "C Vitamini", "D Vitamini"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_3",
+            "question": "Hangi gezegenin halkaları vardır?",
+            "options": ["Mars", "Jüpiter", "Satürn", "Venüs"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_4",
+            "question": "Hangi kan grubu evrensel donördür?",
+            "options": ["A", "B", "AB", "0"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_5",
+            "question": "Hangi hayvan en uzun süre nefesini tutabilir?",
+            "options": ["Balina", "Deniz Kaplumbağası", "Fok", "Yunus"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_6",
+            "question": "Hangi icat elektrik üretir?",
+            "options": ["Jeneratör", "Telefon", "Radyo", "Televizyon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_7",
+            "question": "Hangi element radyoaktiftir?",
+            "options": ["Karbon", "Uranyum", "Oksijen", "Sodyum"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_8",
+            "question": "Hangi mineral kemikleri güçlendirir?",
+            "options": ["Kalsiyum", "Magnezyum", "Potasyum", "Sodyum"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_9",
+            "question": "Hangi hayvanın üç kalbi vardır?",
+            "options": ["Ahtapot", "Yunus", "Köpek Balığı", "Balina"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_10",
+            "question": "Hangi alet basıncı ölçer?",
+            "options": ["Termometre", "Barometre", "Fotometre", "Higrometre"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_11",
+            "question": "Hangi gaz sera etkisine yol açar?",
+            "options": ["Oksijen", "Karbon Dioksit", "Azot", "Helyum"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_12",
+            "question": "Hangi organ hormon salgılar?",
+            "options": ["Pankreas", "Beyin", "Mide", "Akciğer"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_13",
+            "question": "Hangi element doğada sıvıdır?",
+            "options": ["Altın", "Cıva", "Demir", "Bakır"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_14",
+            "question": "Hangi hayvan en hızlı koşar?",
+            "options": ["Aslan", "Çita", "At", "Kanguru"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_15",
+            "question": "Hangi icat ışığı elektriğe çevirir?",
+            "options": ["Ampul", "Fotovoltaik Hücre", "Jeneratör", "Transistör"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_16",
+            "question": "Hangi elementin atom numarası 8’dir?",
+            "options": ["Hidrojen", "Oksijen", "Azot", "Karbon"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_17",
+            "question": "Hangi organ kan şekerini düzenler?",
+            "options": ["Pankreas", "Karaciğer", "Böbrek", "Kalp"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_18",
+            "question": "Hangi hayvanın DNA’sı insana en yakındır?",
+            "options": ["Köpek", "Şempanze", "Fare", "Kedi"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_19",
+            "question": "Hangi element bakırdır?",
+            "options": ["Fe", "Au", "Ag", "Cu"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_20",
+            "question": "Hangi alet sıcaklığı ölçer?",
+            "options": ["Barometre", "Termometre", "Fotometre", "Higrometre"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_21",
+            "question": "Hangi gaz ozon tabakasını oluşturur?",
+            "options": ["Oksijen", "Ozon", "Karbon Dioksit", "Azot"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_22",
+            "question": "Hangi organ görmeyi sağlar?",
+            "options": ["Kulak", "Göz", "Burun", "Dil"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_23",
+            "question": "Hangi enerji türü nükleer santrallerde kullanılır?",
+            "options": ["Güneş", "Rüzgar", "Nükleer", "Jeotermal"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_24",
+            "question": "Hangi hayvan amfibidir?",
+            "options": ["Yılan", "Kurbağa", "Kertenkele", "Kaplan"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_medium_25",
+            "question": "Hangi elementin simgesi 'Hg'dir?",
+            "options": ["Helyum", "Cıva", "Hidrojen", "Altın"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_hard_1",
+            "question": "Hangi elementin atom numarası 1’dir?",
+            "options": ["Helyum", "Hidrojen", "Lityum", "Oksijen"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_2",
+            "question": "Hangi gezegenin günü yılından uzundur?",
+            "options": ["Merkür", "Venüs", "Mars", "Jüpiter"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_3",
+            "question": "Hangi kan hücresi oksijen taşır?",
+            "options": ["Beyaz Kan Hücresi", "Kırmızı Kan Hücresi", "Plazma", "Trombosit"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_4",
+            "question": "Hangi buluş buhar gücünü kullanır?",
+            "options": ["Telefon", "Lokomotif", "Radyo", "Televizyon"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_5",
+            "question": "Hangi mineral diş minesini oluşturur?",
+            "options": ["Kalsiyum", "Fosfor", "Florür", "Magnezyum"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_6",
+            "question": "Hangi organın iki lobu vardır?",
+            "options": ["Beyin", "Akciğer", "Karaciğer", "Kalp"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_7",
+            "question": "Hangi element süpernovada oluşur?",
+            "options": ["Hidrojen", "Helyum", "Altın", "Karbon"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_8",
+            "question": "Hangi hayvanın ömrü 200 yılı aşar?",
+            "options": ["Kaplan", "Kaplumbağa", "Fil", "Balina"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_9",
+            "question": "Hangi icat radyo dalgalarını kullanır?",
+            "options": ["Telefon", "Radyo", "Televizyon", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_10",
+            "question": "Hangi elementin izotopu nükleer bombada kullanılır?",
+            "options": ["Uranyum", "Plütonyum", "Toryum", "Radyum"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_11",
+            "question": "Hangi gaz atmosferin %1’inden azdır?",
+            "options": ["Oksijen", "Azot", "Argon", "Karbon Dioksit"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_12",
+            "question": "Hangi organ insülin üretir?",
+            "options": ["Pankreas", "Karaciğer", "Böbrek", "Tiroid"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_13",
+            "question": "Hangi elementin erime noktası en yüksektir?",
+            "options": ["Tungsten", "Osmiyum", "Renyum", "Tantalum"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_14",
+            "question": "Hangi hayvanın görme alanı 360 derecedir?",
+            "options": ["Bukalemun", "Baykuş", "Kartal", "Yılan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_15",
+            "question": "Hangi icat DNA’yı analiz eder?",
+            "options": ["Mikroskop", "PCR Makinesi", "Teleskop", "Spektrometre"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_16",
+            "question": "Hangi элементin atom numarası 79’dur?",
+            "options": ["Gümüş", "Altın", "Platin", "Cıva"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_17",
+            "question": "Hangi organ sinir sistemini kontrol eder?",
+            "options": ["Beyin", "Omurilik", "Kalp", "Pankreas"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_18",
+            "question": "Hangi hayvanın kanı mavidir?",
+            "options": ["Ahtapot", "Yengeç", "Karides", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_19",
+            "question": "Hangi element platin simgesidir?",
+            "options": ["Pt", "Pd", "Rh", "Ir"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_20",
+            "question": "Hangi alet nemi ölçer?",
+            "options": ["Barometre", "Termometre", "Higrometre", "Fotometre"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_21",
+            "question": "Hangi gaz atmosferde ikinci sıradadır?",
+            "options": ["Oksijen", "Azot", "Karbon Dioksit", "Argon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_22",
+            "question": "Hangi organ tiroid hormonunu üretir?",
+            "options": ["Pankreas", "Tiroid", "Böbrek", "Hipofiz"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_23",
+            "question": "Hangi enerji türü yer altından gelir?",
+            "options": ["Güneş", "Rüzgar", "Jeotermal", "Nükleer"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_24",
+            "question": "Hangi hayvanın dört midesi vardır?",
+            "options": ["İnek", "At", "Köpek", "Kedi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_hard_25",
+            "question": "Hangi elementin simgesi 'Pb'dir?",
+            "options": ["Kurşun", "Kalay", "Çinko", "Bizmut"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_expert_1",
+            "question": "Hangi bilim insanı yerçekimini keşfetti?",
+            "options": ["Einstein", "Newton", "Galileo", "Tesla"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_2",
+            "question": "Hangi gezegenin atmosferi en kalındır?",
+            "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_3",
+            "question": "Hangi kan hücresi bağışıklık sağlar?",
+            "options": ["Kırmızı", "Beyaz", "Plazma", "Trombosit"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_4",
+            "question": "Hangi buluş matbaayı icat etti?",
+            "options": ["Gutenberg", "Edison", "Bell", "Morse"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_5",
+            "question": "Hangi mineral yeryüzünde en çok bulunur?",
+            "options": ["Kuvars", "Feldspat", "Kalsit", "Mika"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_6",
+            "question": "Hangi organın ağırlığı %2 vücut ağırlığıdır?",
+            "options": ["Beyin", "Kalp", "Karaciğer", "Akciğer"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_7",
+            "question": "Hangi elementin yarı ömrü en kısadır?",
+            "options": ["Uranyum-238", "Fransiyum-223", "Plütonyum-239", "Radyum-226"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_8",
+            "question": "Hangi hayvanın ömrü 500 yılı aşar?",
+            "options": ["Deniz Kaplumbağası", "Grönland Balinası", "Fil", "Papağan"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_9",
+            "question": "Hangi icat kuantum mekaniğini doğruladı?",
+            "options": ["Lazer", "Transistör", "Atom Saati", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_10",
+            "question": "Hangi elementin izotopu nükleer reaktörde kullanılır?",
+            "options": ["Uranyum-235", "Plütonyum-239", "Toryum-232", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_11",
+            "question": "Hangi gaz atmosferde en az bulunur?",
+            "options": ["Ksenon", "Argon", "Neon", "Kripton"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_12",
+            "question": "Hangi organ adrenalini salgılar?",
+            "options": ["Pankreas", "Adrenal Bez", "Tiroid", "Hipofiz"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_13",
+            "question": "Hangi elementin kaynama noktası en yüksektir?",
+            "options": ["Tungsten", "Renyum", "Osmiyum", "Tantalum"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_14",
+            "question": "Hangi hayvanın gözleri kafasından büyüktür?",
+            "options": ["Tarsier", "Baykuş", "Bukalemun", "Kurbağa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_15",
+            "question": "Hangi icat uzay araştırmalarını başlattı?",
+            "options": ["Roket", "Teleskop", "Uydu", "Lazer"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_16",
+            "question": "Hangi elementin atom numarası 26’dır?",
+            "options": ["Demir", "Kobalt", "Nikel", "Bakır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_17",
+            "question": "Hangi organ bağışıklık sisteminin merkezidir?",
+            "options": ["Dalak", "Lenf Düğümü", "Timüs", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_18",
+            "question": "Hangi hayvanın kanı bakır bazlıdır?",
+            "options": ["Ahtapot", "Yengeç", "Karides", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_19",
+            "question": "Hangi elementin simgesi 'Rn'dir?",
+            "options": ["Radyum", "Radon", "Renyum", "Rubidyum"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_20",
+            "question": "Hangi alet manyetik alanı ölçer?",
+            "options": ["Magnetometre", "Spektrometre", "Fotometre", "Barometre"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_21",
+            "question": "Hangi gaz yıldızlarda en çok bulunur?",
+            "options": ["Hidrojen", "Helyum", "Oksijen", "Karbon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_22",
+            "question": "Hangi organ melatonin salgılar?",
+            "options": ["Hipofiz", "Pineal Bez", "Tiroid", "Adrenal"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_23",
+            "question": "Hangi enerji türü yıldızlarda füzyonla oluşur?",
+            "options": ["Nükleer", "Güneş", "Jeotermal", "Rüzgar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_24",
+            "question": "Hangi hayvanın kalbi dışarıdadır?",
+            "options": ["Karides", "Deniz Anası", "Solucan", "Yengeç"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_expert_25",
+            "question": "Hangi elementin simgesi 'U'dur?",
+            "options": ["Uranyum", "Uraninit", "Ununoktiyum", "Ununpentiyum"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

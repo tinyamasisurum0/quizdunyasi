@@ -1,0 +1,806 @@
+{
+    "category": "Bilim Kurgu Dünyası",
+    "description": "Bilim kurgu filmleri, kitapları ve teorilerle geleceğe yolculuk",
+    "questions": [
+        {
+            "id": "sci_fi_easy_1",
+            "question": "Hangi film serisi 'Güç seninle olsun' repliğiyle ünlüdür?",
+            "options": ["Star Trek", "Star Wars", "Dune", "Matrix"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_2",
+            "question": "Hangi yazar 'Zaman Makinesi' kitabını yazmıştır?",
+            "options": ["H.G. Wells", "Isaac Asimov", "Philip K. Dick", "Arthur C. Clarke"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_3",
+            "question": "Hangi filmde 'Kırmızı Hap mı, Mavi Hap mı?' seçimi vardır?",
+            "options": ["Star Wars", "Matrix", "Inception", "Blade Runner"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_4",
+            "question": "Hangi uzay gemisi 'Star Trek'te kaptan Kirk tarafından yönetilir?",
+            "options": ["Millennium Falcon", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_5",
+            "question": "Hangi yazar 'Ben, Robot' kitabını yazmıştır?",
+            "options": ["H.G. Wells", "Isaac Asimov", "Philip K. Dick", "Ray Bradbury"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_6",
+            "question": "Hangi filmde Ripley adlı karakter uzaylılarla savaşır?",
+            "options": ["Star Wars", "Alien", "Predator", "Avatar"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_7",
+            "question": "Hangi dizi 'Cesurca gidiyoruz, daha önce kimsenin gitmediği yerlere' sloganıyla başlar?",
+            "options": ["Star Wars", "Star Trek", "Battlestar Galactica", "Firefly"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_8",
+            "question": "Hangi yazar 'Fahrenheit 451' kitabını yazmıştır?",
+            "options": ["George Orwell", "Ray Bradbury", "Aldous Huxley", "Philip K. Dick"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_9",
+            "question": "Hangi filmde 'HAL 9000' adlı bir yapay zeka bulunur?",
+            "options": ["2001: A Space Odyssey", "Matrix", "Blade Runner", "Terminator"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_10",
+            "question": "Hangi uzay gemisi 'Star Wars'ta Han Solo tarafından kullanılır?",
+            "options": ["Enterprise", "Millennium Falcon", "Nostromo", "Serenity"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_11",
+            "question": "Hangi filmde insanlar rüyalar içinde rüya görür?",
+            "options": ["Matrix", "Inception", "Blade Runner", "Avatar"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_12",
+            "question": "Hangi yazar '1984' distopyasını yazmıştır?",
+            "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_13",
+            "question": "Hangi filmde replicantlar insanlarla karışır?",
+            "options": ["Blade Runner", "Matrix", "Terminator", "Alien"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_14",
+            "question": "Hangi uzay gemisi 'Firefly' dizisinde kullanılır?",
+            "options": ["Enterprise", "Millennium Falcon", "Serenity", "Nostromo"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_15",
+            "question": "Hangi yazar 'Cesur Yeni Dünya' kitabını yazmıştır?",
+            "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_16",
+            "question": "Hangi filmde Skynet adlı yapay zeka insanlara savaş açar?",
+            "options": ["Matrix", "Terminator", "Blade Runner", "2001: A Space Odyssey"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_17",
+            "question": "Hangi dizi Cylon’larla insanların savaşını anlatır?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_18",
+            "question": "Hangi yazar 'Otostopçunun Galaksi Rehberi'ni yazmıştır?",
+            "options": ["Douglas Adams", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_19",
+            "question": "Hangi filmde Pandora adlı bir gezegen yer alır?",
+            "options": ["Avatar", "Alien", "Star Wars", "Matrix"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_20",
+            "question": "Hangi uzay gemisi 'Alien' filminde bulunur?",
+            "options": ["Nostromo", "Enterprise", "Millennium Falcon", "Serenity"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_21",
+            "question": "Hangi filmde 'Düşündüğün her şey gerçek olabilir' teması işlenir?",
+            "options": ["Matrix", "Inception", "Blade Runner", "Terminator"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_22",
+            "question": "Hangi yazar 'Mars Yıllıkları'nı yazmıştır?",
+            "options": ["Ray Bradbury", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_23",
+            "question": "Hangi filmde T-800 adlı bir robot yer alır?",
+            "options": ["Matrix", "Terminator", "Blade Runner", "Alien"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_24",
+            "question": "Hangi dizi kahverengi paltolu kaçakçılarla doludur?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_easy_25",
+            "question": "Hangi filmde Jedi’lar Sith’lerle savaşır?",
+            "options": ["Star Trek", "Star Wars", "Dune", "Matrix"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sci_fi_medium_1",
+            "question": "Hangi yazar 'Vakıf' serisini yazmıştır?",
+            "options": ["H.G. Wells", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_2",
+            "question": "Hangi filmde 'Arrakis' adlı bir çöl gezegeni bulunur?",
+            "options": ["Star Wars", "Dune", "Blade Runner", "Avatar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_3",
+            "question": "Hangi uzay gemisi 'Battlestar Galactica'da insanlığın son umududur?",
+            "options": ["Galactica", "Pegasus", "Enterprise", "Nostromo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_4",
+            "question": "Hangi yazar '2001: A Space Odyssey' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick", "Ray Bradbury"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_5",
+            "question": "Hangi filmde 'Naberler' adlı bir şirket replicantlar üretir?",
+            "options": ["Matrix", "Blade Runner", "Terminator", "Alien"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_6",
+            "question": "Hangi dizi 'Vulcan' adlı bir gezegeni içerir?",
+            "options": ["Star Wars", "Star Trek", "Battlestar Galactica", "Firefly"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_7",
+            "question": "Hangi yazar 'Androidler Elektrikli Koyun Düşler mi?' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Philip K. Dick", "Arthur C. Clarke", "Ray Bradbury"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_8",
+            "question": "Hangi filmde 'Na’vi' adlı mavi yaratıklar yaşar?",
+            "options": ["Avatar", "Alien", "Star Wars", "Matrix"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_9",
+            "question": "Hangi uzay gemisi '2001: A Space Odyssey'de HAL 9000’i barındırır?",
+            "options": ["Discovery One", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_10",
+            "question": "Hangi filmde 'Zaman döngüsü' teması işlenir?",
+            "options": ["Matrix", "Inception", "Edge of Tomorrow", "Terminator"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_11",
+            "question": "Hangi yazar 'Dune' serisini yazmıştır?",
+            "options": ["Frank Herbert", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_12",
+            "question": "Hangi dizi 'Reaver' adlı vahşi insanlarla doludur?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_13",
+            "question": "Hangi filmde 'Xenomorph' adlı bir uzaylı türü bulunur?",
+            "options": ["Star Wars", "Alien", "Predator", "Avatar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_14",
+            "question": "Hangi yazar 'Savaş Oyunu' kitabını yazmıştır?",
+            "options": ["Orson Scott Card", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_15",
+            "question": "Hangi uzay gemisi 'Star Wars'ta Ölüm Yıldızı’nı yok eder?",
+            "options": ["X-Wing", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_16",
+            "question": "Hangi filmde 'Yaratık Avcısı' adlı bir tür insanlarla savaşır?",
+            "options": ["Alien", "Predator", "Star Wars", "Matrix"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_17",
+            "question": "Hangi dizi 'Klingon' adlı bir ırkı içerir?",
+            "options": ["Star Wars", "Star Trek", "Battlestar Galactica", "Firefly"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_18",
+            "question": "Hangi yazar 'Solaris' kitabını yazmıştır?",
+            "options": ["Stanisław Lem", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_19",
+            "question": "Hangi filmde 'Teminatör' adlı bir robot geçmişe gönderilir?",
+            "options": ["Matrix", "Terminator", "Blade Runner", "Alien"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_20",
+            "question": "Hangi uzay gemisi 'Dune'da Baharat taşımacılığı yapar?",
+            "options": ["Heighliner", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_21",
+            "question": "Hangi filmde 'Dom Cobb' adlı bir hırsız rüyalara sızar?",
+            "options": ["Matrix", "Inception", "Blade Runner", "Terminator"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_22",
+            "question": "Hangi yazar 'Yabancı' adlı kitabı yazmıştır?",
+            "options": ["Robert A. Heinlein", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_23",
+            "question": "Hangi dizi 'Caprica' adlı bir gezegeni içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_24",
+            "question": "Hangi filmde 'Deckard' adlı bir avcı replicantları avlar?",
+            "options": ["Matrix", "Blade Runner", "Terminator", "Alien"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_medium_25",
+            "question": "Hangi yazar 'Çocukluğun Sonu' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick", "Ray Bradbury"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sci_fi_hard_1",
+            "question": "Hangi filmde 'Fremen' adlı bir halk çölde yaşar?",
+            "options": ["Star Wars", "Dune", "Blade Runner", "Avatar"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_2",
+            "question": "Hangi yazar 'Ubik' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Philip K. Dick", "Arthur C. Clarke", "Ray Bradbury"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_3",
+            "question": "Hangi uzay gemisi 'Star Trek'te Spock tarafından yönetilmiştir?",
+            "options": ["Enterprise", "Defiant", "Voyager", "Discovery"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_4",
+            "question": "Hangi filmde 'Sulaco' adlı bir gemi bulunur?",
+            "options": ["Alien", "Aliens", "Predator", "Avatar"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_5",
+            "question": "Hangi yazar 'Hyperion' serisini yazmıştır?",
+            "options": ["Dan Simmons", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_6",
+            "question": "Hangi dizi 'Kobol' adlı bir gezegeni içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_7",
+            "question": "Hangi filmde 'Yüzük Dünya' adlı bir yapı bulunur?",
+            "options": ["2001: A Space Odyssey", "Ringworld", "Dune", "Avatar"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_8",
+            "question": "Hangi yazar 'Neuromancer' kitabını yazmıştır?",
+            "options": ["William Gibson", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_9",
+            "question": "Hangi uzay gemisi 'Star Wars'ta Darth Vader tarafından kullanılır?",
+            "options": ["Executor", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_10",
+            "question": "Hangi filmde 'Yautja' adlı bir avcı türü bulunur?",
+            "options": ["Alien", "Predator", "Star Wars", "Matrix"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_11",
+            "question": "Hangi yazar 'Rama ile Buluşma' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick", "Ray Bradbury"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_12",
+            "question": "Hangi dizi 'Borg' adlı bir topluluğu içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_13",
+            "question": "Hangi filmde 'Naberler' adlı bir gezegen bulunur?",
+            "options": ["Star Wars", "Dune", "Blade Runner", "Avatar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_14",
+            "question": "Hangi yazar 'Snow Crash' kitabını yazmıştır?",
+            "options": ["Neal Stephenson", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_15",
+            "question": "Hangi uzay gemisi 'Firefly'da Mal Reynolds tarafından yönetilir?",
+            "options": ["Serenity", "Enterprise", "Nostromo", "Galactica"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_16",
+            "question": "Hangi filmde 'Elliot' adlı bir çocuk uzaylıyla dost olur?",
+            "options": ["E.T.", "Alien", "Predator", "Avatar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_17",
+            "question": "Hangi dizi 'Twelve Colonies' adlı bir sistemi içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_18",
+            "question": "Hangi yazar 'Left Hand of Darkness' kitabını yazmıştır?",
+            "options": ["Ursula K. Le Guin", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_19",
+            "question": "Hangi filmde 'Deckard' bir Voight-Kampff testi yapar?",
+            "options": ["Matrix", "Blade Runner", "Terminator", "Alien"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_20",
+            "question": "Hangi uzay gemisi 'Dune'da Atreides ailesine aittir?",
+            "options": ["Heighliner", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_21",
+            "question": "Hangi filmde 'Gizmo' adlı bir yaratık bulunur?",
+            "options": ["Gremlins", "Alien", "Predator", "Avatar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_22",
+            "question": "Hangi yazar 'Roadside Picnic' kitabını yazmıştır?",
+            "options": ["Arkady ve Boris Strugatsky", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_23",
+            "question": "Hangi dizi 'Andromeda' adlı bir gemiyi içerir?",
+            "options": ["Star Trek", "Andromeda", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_24",
+            "question": "Hangi filmde 'Sarah Connor' bir robot tarafından avlanır?",
+            "options": ["Matrix", "Terminator", "Blade Runner", "Alien"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_hard_25",
+            "question": "Hangi yazar 'Flowers for Algernon' kitabını yazmıştır?",
+            "options": ["Daniel Keyes", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sci_fi_expert_1",
+            "question": "Hangi yazar 'The Dispossessed' kitabını yazmıştır?",
+            "options": ["Ursula K. Le Guin", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_2",
+            "question": "Hangi filmde 'Kwisatz Haderach' adlı bir kehanet bulunur?",
+            "options": ["Star Wars", "Dune", "Blade Runner", "Avatar"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_3",
+            "question": "Hangi uzay gemisi 'Star Trek: Voyager'da Delta Çeyreği’nde kaybolur?",
+            "options": ["Voyager", "Enterprise", "Defiant", "Discovery"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_4",
+            "question": "Hangi yazar 'The Forever War' kitabını yazmıştır?",
+            "options": ["Joe Haldeman", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_5",
+            "question": "Hangi filmde 'Prometheus' adlı bir gemi bilinmeyene gider?",
+            "options": ["Alien", "Prometheus", "Predator", "Avatar"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_6",
+            "question": "Hangi dizi 'Number Six' adlı bir Cylon’u içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_7",
+            "question": "Hangi yazar 'Blindsight' kitabını yazmıştır?",
+            "options": ["Peter Watts", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_8",
+            "question": "Hangi filmde 'Roy Batty' adlı bir replicant liderdir?",
+            "options": ["Matrix", "Blade Runner", "Terminator", "Alien"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_9",
+            "question": "Hangi uzay gemisi 'Star Wars'ta Naboo kraliyet gemisidir?",
+            "options": ["Naboo Starfighter", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_10",
+            "question": "Hangi yazar 'The Three-Body Problem' kitabını yazmıştır?",
+            "options": ["Liu Cixin", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_11",
+            "question": "Hangi filmde 'Yautja' avcıları bir nükleer patlamaya neden olur?",
+            "options": ["Alien", "Predator", "Aliens vs. Predator", "Avatar"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_12",
+            "question": "Hangi dizi 'Q' adlı bir omnipotent varlığı içerir?",
+            "options": ["Star Trek", "Battlestar Galactica", "Firefly", "Star Wars"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_13",
+            "question": "Hangi yazar 'A Scanner Darkly' kitabını yazmıştır?",
+            "options": ["Isaac Asimov", "Philip K. Dick", "Arthur C. Clarke", "Ray Bradbury"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_14",
+            "question": "Hangi filmde 'Unobtainium' adlı bir madde aranır?",
+            "options": ["Avatar", "Alien", "Star Wars", "Matrix"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_15",
+            "question": "Hangi uzay gemisi 'Firefly'da Alliance’a karşı gelir?",
+            "options": ["Serenity", "Enterprise", "Nostromo", "Galactica"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_16",
+            "question": "Hangi yazar 'The Culture' serisini yazmıştır?",
+            "options": ["Iain M. Banks", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_17",
+            "question": "Hangi filmde 'John Connor' Skynet’e karşı savaşır?",
+            "options": ["Matrix", "Terminator", "Blade Runner", "Alien"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_18",
+            "question": "Hangi dizi 'Centauri' adlı bir ırkı içerir?",
+            "options": ["Star Trek", "Babylon 5", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_19",
+            "question": "Hangi yazar 'The Moon is a Harsh Mistress' kitabını yazmıştır?",
+            "options": ["Robert A. Heinlein", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_20",
+            "question": "Hangi filmde 'Elysium' adlı bir uzay istasyonu bulunur?",
+            "options": ["Elysium", "Alien", "Star Wars", "Matrix"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_21",
+            "question": "Hangi uzay gemisi 'Star Trek: Deep Space Nine'da bulunur?",
+            "options": ["Defiant", "Enterprise", "Nostromo", "Serenity"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_22",
+            "question": "Hangi yazar 'The Expanse' serisini yazmıştır?",
+            "options": ["James S.A. Corey", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_23",
+            "question": "Hangi filmde 'Rick Deckard' bir rüya mı gerçek mi sorgusuyla biter?",
+            "options": ["Matrix", "Blade Runner", "Terminator", "Alien"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_24",
+            "question": "Hangi dizi 'Minbari' adlı bir ırkı içerir?",
+            "options": ["Star Trek", "Babylon 5", "Firefly", "Star Wars"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sci_fi_expert_25",
+            "question": "Hangi yazar 'The Demolished Man' kitabını yazmıştır?",
+            "options": ["Alfred Bester", "Isaac Asimov", "Arthur C. Clarke", "Philip K. Dick"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

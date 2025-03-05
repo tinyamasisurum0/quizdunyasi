@@ -1,0 +1,806 @@
+{
+    "category": "Matematik",
+    "description": "Temel matematik, bulmacalar ve tarihsel problemlerle aklınızı test edin",
+    "questions": [
+        {
+            "id": "math_easy_1",
+            "question": "2 + 2 kaç eder?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_2",
+            "question": "Bir düzinede kaç tane vardır?",
+            "options": ["10", "12", "15", "20"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_3",
+            "question": "3 x 3 kaç eder?",
+            "options": ["6", "9", "12", "15"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_4",
+            "question": "Bir üçgenin kaç kenarı vardır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_5",
+            "question": "10’un yarısı kaçtır?",
+            "options": ["2", "5", "10", "15"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_6",
+            "question": "Bir karenin kaç köşesi vardır?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_7",
+            "question": "5 + 7 kaç eder?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_8",
+            "question": "Bir haftada kaç gün vardır?",
+            "options": ["5", "6", "7", "8"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_9",
+            "question": "4 x 2 kaç eder?",
+            "options": ["6", "8", "10", "12"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_10",
+            "question": "Bir dairenin kaç kenarı vardır?",
+            "options": ["0", "1", "2", "3"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_11",
+            "question": "15 - 5 kaç eder?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_12",
+            "question": "Bir yılda kaç ay vardır?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_13",
+            "question": "6 + 4 kaç eder?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_14",
+            "question": "Bir asırda kaç yıl vardır?",
+            "options": ["50", "75", "100", "150"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_15",
+            "question": "8 - 3 kaç eder?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_16",
+            "question": "Bir dikdörtgenin kaç kenarı vardır?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_17",
+            "question": "9 + 1 kaç eder?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_18",
+            "question": "Bir günde kaç saat vardır?",
+            "options": ["12", "24", "36", "48"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_19",
+            "question": "7 x 2 kaç eder?",
+            "options": ["12", "14", "16", "18"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_20",
+            "question": "Bir beşgenin kaç kenarı vardır?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_21",
+            "question": "12 - 4 kaç eder?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_22",
+            "question": "Bir ayda kaç hafta vardır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_23",
+            "question": "3 + 8 kaç eder?",
+            "options": ["9", "10", "11", "12"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_24",
+            "question": "Bir saatte kaç dakika vardır?",
+            "options": ["30", "45", "60", "90"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_easy_25",
+            "question": "6 x 3 kaç eder?",
+            "options": ["15", "18", "21", "24"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "math_medium_1",
+            "question": "10’un karekökü kaçtır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_2",
+            "question": "Bir çemberin çevresi hangi formülle bulunur?",
+            "options": ["2πr", "πr²", "r²", "2r"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_3",
+            "question": "15’in %20’si kaçtır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_4",
+            "question": "Bir küpün kaç yüzü vardır?",
+            "options": ["4", "6", "8", "12"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_5",
+            "question": "25’in karesi kaçtır?",
+            "options": ["500", "625", "750", "1000"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_6",
+            "question": "Bir dairenin alanı hangi formülle hesaplanır?",
+            "options": ["2πr", "πr²", "r²", "2r"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_7",
+            "question": "9’un küpü kaçtır?",
+            "options": ["27", "81", "243", "729"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_8",
+            "question": "Bir silindirin kaç yüzeyi vardır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_9",
+            "question": "12’nin %50’si kaçtır?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_10",
+            "question": "Bir prizmanın hacmi hangi formülle bulunur?",
+            "options": ["Taban Alanı x Yükseklik", "2πr", "πr²", "r²"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_11",
+            "question": "16’nın karekökü kaçtır?",
+            "options": ["2", "3", "4", "5"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_12",
+            "question": "Bir kürenin yüzey alanı hangi formülle hesaplanır?",
+            "options": ["4πr²", "πr²", "2πr", "r²"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_13",
+            "question": "20’nin %25’i kaçtır?",
+            "options": ["4", "5", "6", "7"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_14",
+            "question": "Bir koninin hacmi hangi formülle bulunur?",
+            "options": ["(1/3)πr²h", "πr²h", "2πr", "r²"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_15",
+            "question": "81’in karekökü kaçtır?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_16",
+            "question": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+            "options": ["90", "180", "270", "360"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_17",
+            "question": "36’nın %50’si kaçtır?",
+            "options": ["16", "18", "20", "22"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_18",
+            "question": "Bir küpün köşegen uzunluğu hangi formülle bulunur?",
+            "options": ["a√3", "a√2", "2a", "a²"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_19",
+            "question": "49’un karekökü kaçtır?",
+            "options": ["6", "7", "8", "9"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_20",
+            "question": "Bir dörtgenin iç açıları toplamı kaç derecedir?",
+            "options": ["180", "270", "360", "450"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_21",
+            "question": "64’ün küp kökü kaçtır?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_22",
+            "question": "Bir dairenin çapı yarıçapının kaç katıdır?",
+            "options": ["1", "2", "3", "4"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_23",
+            "question": "100’ün %10’u kaçtır?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_24",
+            "question": "Bir kürenin hacmi hangi formülle bulunur?",
+            "options": ["(4/3)πr³", "πr²h", "2πr", "r²"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_medium_25",
+            "question": "121’in karekökü kaçtır?",
+            "options": ["9", "10", "11", "12"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "math_hard_1",
+            "question": "Pisagor teoremi hangi formülle ifade edilir?",
+            "options": ["a² + b² = c²", "a + b = c", "a² - b² = c²", "a/b = c"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_2",
+            "question": "144’ün karekökü kaçtır?",
+            "options": ["10", "11", "12", "13"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_3",
+            "question": "Bir açının sinüsü hangi formülle bulunur?",
+            "options": ["Karşı / Hipotenüs", "Komşu / Hipotenüs", "Karşı / Komşu", "Hipotenüs / Karşı"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_4",
+            "question": "Fibonacci dizisinin ilk iki terimi nedir?",
+            "options": ["0 ve 1", "1 ve 1", "1 ve 2", "2 ve 3"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_5",
+            "question": "169’un karekökü kaçtır?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_6",
+            "question": "Bir açının kosinüsü hangi formülle bulunur?",
+            "options": ["Karşı / Hipotenüs", "Komşu / Hipotenüs", "Karşı / Komşu", "Hipotenüs / Karşı"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_7",
+            "question": "27’nin küp kökü kaçtır?",
+            "options": ["3", "4", "5", "6"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_8",
+            "question": "Bir beşgenin iç açıları toplamı kaç derecedir?",
+            "options": ["360", "540", "720", "900"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_9",
+            "question": "225’in karekökü kaçtır?",
+            "options": ["13", "14", "15", "16"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_10",
+            "question": "Bir açının tanjantı hangi formülle bulunur?",
+            "options": ["Karşı / Hipotenüs", "Komşu / Hipotenüs", "Karşı / Komşu", "Hipotenüs / Karşı"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_11",
+            "question": "256’nın karekökü kaçtır?",
+            "options": ["14", "15", "16", "17"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_12",
+            "question": "Bir altıgenin iç açıları toplamı kaç derecedir?",
+            "options": ["540", "720", "900", "1080"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_13",
+            "question": "625’in karekökü kaçtır?",
+            "options": ["23", "24", "25", "26"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_14",
+            "question": "Fibonacci dizisinin üçüncü terimi nedir?",
+            "options": ["1", "2", "3", "5"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_15",
+            "question": "729’un küp kökü kaçtır?",
+            "options": ["7", "8", "9", "10"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_16",
+            "question": "Bir yedigenin iç açıları toplamı kaç derecedir?",
+            "options": ["720", "900", "1080", "1260"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_17",
+            "question": "841’in karekökü kaçtır?",
+            "options": ["27", "28", "29", "30"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_18",
+            "question": "Bir açının kotanjantı hangi formülle bulunur?",
+            "options": ["Karşı / Hipotenüs", "Komşu / Hipotenüs", "Komşu / Karşı", "Hipotenüs / Karşı"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_19",
+            "question": "961’in karekökü kaçtır?",
+            "options": ["29", "30", "31", "32"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_20",
+            "question": "Bir sekizgenin iç açıları toplamı kaç derecedir?",
+            "options": ["900", "1080", "1260", "1440"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_21",
+            "question": "1000’in küp kökü yaklaşık olarak kaçtır?",
+            "options": ["8", "9", "10", "11"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_22",
+            "question": "Bir dokuzgenin iç açıları toplamı kaç derecedir?",
+            "options": ["1080", "1260", "1440", "1620"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_23",
+            "question": "1225’in karekökü kaçtır?",
+            "options": ["33", "34", "35", "36"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_24",
+            "question": "Fibonacci dizisinin beşinci terimi nedir?",
+            "options": ["3", "5", "8", "13"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_hard_25",
+            "question": "1369’un karekökü kaçtır?",
+            "options": ["35", "36", "37", "38"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "math_expert_1",
+            "question": "Euclid’in hangi teoremi düzlem geometrisinin temelidir?",
+            "options": ["Pisagor Teoremi", "Öklid Teoremi", "Thales Teoremi", "Fermat Teoremi"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_2",
+            "question": "1681’in karekökü kaçtır?",
+            "options": ["39", "40", "41", "42"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_3",
+            "question": "Bir açının sekantı hangi formülle bulunur?",
+            "options": ["Hipotenüs / Karşı", "Hipotenüs / Komşu", "Karşı / Komşu", "Komşu / Karşı"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_4",
+            "question": "Altın oran yaklaşık olarak kaçtır?",
+            "options": ["1.414", "1.618", "1.732", "2.718"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_5",
+            "question": "1849’un karekökü kaçtır?",
+            "options": ["41", "42", "43", "44"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_6",
+            "question": "Bir açının kosekantı hangi formülle bulunur?",
+            "options": ["Hipotenüs / Karşı", "Hipotenüs / Komşu", "Karşı / Komşu", "Komşu / Karşı"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_7",
+            "question": "1331’in küp kökü kaçtır?",
+            "options": ["9", "10", "11", "12"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_8",
+            "question": "Bir ongenin iç açıları toplamı kaç derecedir?",
+            "options": ["1260", "1440", "1620", "1800"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_9",
+            "question": "2025’in karekökü kaçtır?",
+            "options": ["43", "44", "45", "46"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_10",
+            "question": "Pi sayısının yaklaşık değeri nedir?",
+            "options": ["2.718", "3.142", "1.618", "1.414"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_11",
+            "question": "2197’nin küp kökü kaçtır?",
+            "options": ["11", "12", "13", "14"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_12",
+            "question": "Bir onbirgenin iç açıları toplamı kaç derecedir?",
+            "options": ["1440", "1620", "1800", "1980"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_13",
+            "question": "2401’in karekökü kaçtir?",
+            "options": ["47", "48", "49", "50"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_14",
+            "question": "Euler sabiti yaklaşık olarak kaçtır?",
+            "options": ["1.618", "2.718", "3.142", "1.414"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_15",
+            "question": "2744’ün küp kökü kaçtır?",
+            "options": ["12", "13", "14", "15"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_16",
+            "question": "Bir onikigenin iç açıları toplamı kaç derecedir?",
+            "options": ["1620", "1800", "1980", "2160"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_17",
+            "question": "3025’in karekökü kaçtır?",
+            "options": ["53", "54", "55", "56"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_18",
+            "question": "Fibonacci dizisinin sekizinci terimi nedir?",
+            "options": ["13", "21", "34", "55"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_19",
+            "question": "3375’in küp kökü kaçtır?",
+            "options": ["13", "14", "15", "16"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_20",
+            "question": "Bir onüçgenin iç açıları toplamı kaç derecedir?",
+            "options": ["1800", "1980", "2160", "2340"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_21",
+            "question": "4096’nın karekökü kaçtır?",
+            "options": ["62", "63", "64", "65"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_22",
+            "question": "Bir ondörtgenin iç açıları toplamı kaç derecedir?",
+            "options": ["1980", "2160", "2340", "2520"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_23",
+            "question": "4913’ün küp kökü kaçtır?",
+            "options": ["15", "16", "17", "18"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_24",
+            "question": "5625’in karekökü kaçtır?",
+            "options": ["73", "74", "75", "76"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "math_expert_25",
+            "question": "Bir onbeşgenin iç açıları toplamı kaç derecedir?",
+            "options": ["2160", "2340", "2520", "2700"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

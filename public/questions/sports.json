@@ -1,0 +1,806 @@
+{
+    "category": "Spor",
+    "description": "Futboldan olimpiyatlara, spor dünyasını keşfedin",
+    "questions": [
+        {
+            "id": "sports_easy_1",
+            "question": "Hangi spor top ile oynanır?",
+            "options": ["Yüzme", "Futbol", "Atletizm", "Buz Hokeyi"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_2",
+            "question": "Hangi ülke Olimpiyatları düzenler?",
+            "options": ["Amerika", " Japonya", "Türkiye", "Hepsi"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_3",
+            "question": "Hangi spor su içinde oynanır?",
+            "options": ["Basketbol", "Yüzme", "Tenis", "Voleybol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_4",
+            "question": "Hangi spor ayakkabıyla koşulur?",
+            "options": ["Yüzme", "Atletizm", "Boks", "Jimnastik"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_5",
+            "question": "Hangi spor raketle oynanır?",
+            "options": ["Futbol", "Tenis", "Basketbol", "Hentbol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_6",
+            "question": "Hangi spor buzda oynanır?",
+            "options": ["Buz Hokeyi", "Voleybol", "Futbol", "Golf"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_7",
+            "question": "Hangi spor eldivenle oynanır?",
+            "options": ["Boks", "Tenis", "Yüzme", "Atletizm"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_8",
+            "question": "Hangi spor bisikletle yapılır?",
+            "options": ["Basketbol", "Bisiklet Yarışı", "Futbol", "Hentbol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_9",
+            "question": "Hangi spor file ile oynanır?",
+            "options": ["Voleybol", "Yüzme", "Boks", "Atletizm"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_10",
+            "question": "Hangi spor golf sopasıyla oynanır?",
+            "options": ["Tenis", "Golf", "Futbol", "Basketbol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_11",
+            "question": "Hangi spor kayakla yapılır?",
+            "options": ["Kayak", "Yüzme", "Tenis", "Futbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_12",
+            "question": "Hangi spor okla oynanır?",
+            "options": ["Okçuluk", "Boks", "Atletizm", "Basketbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_13",
+            "question": "Hangi spor masa üzerinde oynanır?",
+            "options": ["Masa Tenisi", "Futbol", "Voleybol", "Hentbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_14",
+            "question": "Hangi spor jimnastik aletleriyle yapılır?",
+            "options": ["Jimnastik", "Yüzme", "Boks", "Tenis"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_15",
+            "question": "Hangi spor atlarla yapılır?",
+            "options": ["Atletizm", "Binicilik", "Futbol", "Voleybol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_16",
+            "question": "Hangi spor arabalarla yarışılır?",
+            "options": ["Formula 1", "Basketbol", "Tenis", "Hentbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_17",
+            "question": "Hangi spor güreş minderinde yapılır?",
+            "options": ["Güreş", "Yüzme", "Futbol", "Golf"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_18",
+            "question": "Hangi spor dalgalarla yapılır?",
+            "options": ["Sörf", "Boks", "Atletizm", "Basketbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_19",
+            "question": "Hangi spor halatla oynanır?",
+            "options": ["Halat Çekme", "Tenis", "Futbol", "Voleybol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_20",
+            "question": "Hangi spor çekiçle oynanır?",
+            "options": ["Atletizm", "Yüzme", "Boks", "Tenis"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_21",
+            "question": "Hangi spor sopayla vurulur?",
+            "options": ["Beyzbol", "Basketbol", "Futbol", "Hentbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_22",
+            "question": "Hangi spor karatedir?",
+            "options": ["Karate", "Yüzme", "Tenis", "Voleybol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_23",
+            "question": "Hangi spor basketle oynanır?",
+            "options": ["Basketbol", "Futbol", "Voleybol", "Tenis"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_24",
+            "question": "Hangi spor kılıçla yapılır?",
+            "options": ["Eskrim", "Boks", "Atletizm", "Yüzme"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_easy_25",
+            "question": "Hangi spor dans içerir?",
+            "options": ["Buz Pateni", "Futbol", "Tenis", "Basketbol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "sports_medium_1",
+            "question": "Hangi spor 11 oyuncuyla oynanır?",
+            "options": ["Basketbol", "Futbol", "Voleybol", "Hentbol"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_2",
+            "question": "Hangi ülke ilk Olimpiyatları düzenledi?",
+            "options": ["Yunanistan", "Fransa", "Amerika", " Japonya"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_3",
+            "question": "Hangi spor 5 oyuncuyla oynanır?",
+            "options": ["Basketbol", "Futbol", "Voleybol", "Hentbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_4",
+            "question": "Hangi sporun sahası 100 metredir?",
+            "options": ["Futbol", "Atletizm", "Rugby", "Kriket"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_5",
+            "question": "Hangi sporun topu en küçüktür?",
+            "options": ["Tenis", "Golf", "Masa Tenisi", "Squash"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_6",
+            "question": "Hangi sporun süresi 60 dakikadır?",
+            "options": ["Futbol", "Basketbol", "Hokey", "Rugby"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_7",
+            "question": "Hangi sporun yumruğu meşhurdur?",
+            "options": ["Boks", "Karate", "Judo", "Taekwondo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_8",
+            "question": "Hangi sporun mesafesi 42 kilometredir?",
+            "options": ["Maraton", "Bisiklet Yarışı", "Triatlon", "Yürüyüş"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_9",
+            "question": "Hangi sporun takımı 6 kişidir?",
+            "options": ["Voleybol", "Basketbol", "Hentbol", "Futbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_10",
+            "question": "Hangi sporun sahası çimdir?",
+            "options": ["Golf", "Basketbol", "Tenis", "Hentbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_11",
+            "question": "Hangi sporun kayak türü alp disiplinidir?",
+            "options": ["Kayak", "Snowboard", "Buz Pateni", "Buz Hokeyi"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_12",
+            "question": "Hangi sporun hedefi 10 metredir?",
+            "options": ["Okçuluk", "Atıcılık", "Golf", "Tenis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_13",
+            "question": "Hangi sporun topu en büyüktür?",
+            "options": ["Basketbol", "Futbol", "Voleybol", "Hentbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_14",
+            "question": "Hangi sporun hareketi ‘salto’dur?",
+            "options": ["Jimnastik", "Yüzme", "Boks", "Tenis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_15",
+            "question": "Hangi sporun atı yarışır?",
+            "options": ["Binicilik", "Atletizm", "Polo", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_16",
+            "question": "Hangi sporun aracı Formula’dır?",
+            "options": ["Formula 1", "Ralli", "MotoGP", "Karting"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_17",
+            "question": "Hangi sporun minderi kare şeklindedir?",
+            "options": ["Güreş", "Judo", "Karate", "Taekwondo"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_18",
+            "question": "Hangi sporun tahtası dalga için kullanılır?",
+            "options": ["Sörf", "Snowboard", "Kaykay", "Wakeboard"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_19",
+            "question": "Hangi sporun halatı iki takımla çekilir?",
+            "options": ["Halat Çekme", "Yüzme", "Boks", "Tenis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_20",
+            "question": "Hangi sporun atışı çekiçle yapılır?",
+            "options": ["Atletizm", "Golf", "Tenis", "Basketbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_21",
+            "question": "Hangi sporun sopası en uzundur?",
+            "options": ["Beyzbol", "Hokey", "Golf", "Kriket"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_22",
+            "question": "Hangi sporun kemerleri renkli olur?",
+            "options": ["Karate", "Boks", "Güreş", "Atletizm"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_23",
+            "question": "Hangi sporun potası en yüksektir?",
+            "options": ["Basketbol", "Hentbol", "Voleybol", "Futbol"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_24",
+            "question": "Hangi sporun kılıcı esnektir?",
+            "options": ["Eskrim", "Kendo", "Boks", "Karate"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_medium_25",
+            "question": "Hangi sporun artistik türü vardır?",
+            "options": ["Buz Pateni", "Yüzme", "Futbol", "Tenis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "sports_hard_1",
+            "question": "Hangi sporun takımı 15 kişidir?",
+            "options": ["Rugby", "Futbol", "Kriket", "Hentbol"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_2",
+            "question": "Hangi ülke en çok Olimpiyat madalyası kazandı?",
+            "options": ["Amerika", "Rusya", "Çin", "İngiltere"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_3",
+            "question": "Hangi sporun süresi 48 dakikadır?",
+            "options": ["Basketbol", "Futbol", "Hokey", "Rugby"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_4",
+            "question": "Hangi sporun mesafesi 400 metredir?",
+            "options": ["Atletizm", "Yüzme", "Bisiklet", "Triatlon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_5",
+            "question": "Hangi sporun topu en ağırdır?",
+            "options": ["Bowling", "Futbol", "Basketbol", "Voleybol"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_6",
+            "question": "Hangi sporun sahası elips şeklindedir?",
+            "options": ["Kriket", "Futbol", "Rugby", "Atletizm"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_7",
+            "question": "Hangi sporun yumruğu ‘uppercut’tır?",
+            "options": ["Boks", "Karate", "Judo", "Taekwondo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_8",
+            "question": "Hangi sporun mesafesi 100 kilometredir?",
+            "options": ["Bisiklet Yarışı", "Maraton", "Triatlon", "Yürüyüş"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_9",
+            "question": "Hangi sporun takımı 7 kişidir?",
+            "options": ["Hentbol", "Voleybol", "Basketbol", "Su Topu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_10",
+            "question": "Hangi sporun sahası 18 deliktir?",
+            "options": ["Golf", "Kriket", "Tenis", "Bowling"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_11",
+            "question": "Hangi sporun kayak türü slalomdur?",
+            "options": ["Kayak", "Snowboard", "Buz Pateni", "Buz Hokeyi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_12",
+            "question": "Hangi sporun hedefi 70 metredir?",
+            "options": ["Okçuluk", "Atıcılık", "Golf", "Tenis"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_13",
+            "question": "Hangi sporun topu en hafiftir?",
+            "options": ["Masa Tenisi", "Tenis", "Golf", "Squash"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_14",
+            "question": "Hangi sporun hareketi ‘triple salto’dur?",
+            "options": ["Jimnastik", "Dalış", "Buz Pateni", "Atletizm"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_15",
+            "question": "Hangi sporun atı engel aşar?",
+            "options": ["Binicilik", "Polo", "At Yarışı", "Hepsi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_16",
+            "question": "Hangi sporun aracı motosiklettir?",
+            "options": ["MotoGP", "Formula 1", "Ralli", "Karting"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_17",
+            "question": "Hangi sporun minderi daireseldir?",
+            "options": ["Judo", "Güreş", "Karate", "Taekwondo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_18",
+            "question": "Hangi sporun tahtası en uzundur?",
+            "options": ["Sörf", "Snowboard", "Kaykay", "Wakeboard"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_19",
+            "question": "Hangi sporun halatı en kalındır?",
+            "options": ["Halat Çekme", "Yüzme", "Boks", "Kaya Tırmanışı"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_20",
+            "question": "Hangi sporun atışı diskle yapılır?",
+            "options": ["Atletizm", "Golf", "Tenis", "Basketbol"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_21",
+            "question": "Hangi sporun sopası ‘bat’tir?",
+            "options": ["Beyzbol", "Hokey", "Kriket", "Golf"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_22",
+            "question": "Hangi sporun kemerleri siyahla biter?",
+            "options": ["Karate", "Judo", "Taekwondo", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_23",
+            "question": "Hangi sporun potası hareketlidir?",
+            "options": ["Hentbol", "Basketbol", "Voleybol", "Su Topu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_24",
+            "question": "Hangi sporun kılıcı ‘foil’dir?",
+            "options": ["Eskrim", "Kendo", "Boks", "Karate"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_hard_25",
+            "question": "Hangi sporun dansı çiftler içindir?",
+            "options": ["Buz Pateni", "Dalış", "Jimnastik", "Atletizm"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "sports_expert_1",
+            "question": "Hangi sporun takımı 13 kişidir?",
+            "options": ["Rugby League", "Rugby Union", "Kriket", "Hentbol"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_2",
+            "question": "Hangi ülke ilk modern Olimpiyatları düzenledi?",
+            "options": ["Fransa", "Yunanistan", "Amerika", "İngiltere"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_3",
+            "question": "Hangi sporun süresi 40 dakikadır?",
+            "options": ["Hentbol", "Basketbol", "Futbol", "Rugby"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_4",
+            "question": "Hangi sporun mesafesi 1500 metredir?",
+            "options": ["Atletizm", "Yüzme", "Bisiklet", "Triatlon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_5",
+            "question": "Hangi sporun topu en küçüktür?",
+            "options": ["Squash", "Masa Tenisi", "Golf", "Tenis"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_6",
+            "question": "Hangi sporun sahası en uzundur?",
+            "options": ["Kriket", "Futbol", "Rugby", "Atletizm"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_7",
+            "question": "Hangi sporun yumruğu ‘jab’tır?",
+            "options": ["Boks", "Karate", "Judo", "Taekwondo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_8",
+            "question": "Hangi sporun mesafesi 200 kilometredir?",
+            "options": ["Bisiklet Yarışı", "Maraton", "Triatlon", "Ultramaraton"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_9",
+            "question": "Hangi sporun takımı 9 kişidir?",
+            "options": ["Beyzbol", "Voleybol", "Hentbol", "Su Topu"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_10",
+            "question": "Hangi sporun sahası en küçüktür?",
+            "options": ["Masa Tenisi", "Squash", "Badminton", "Tenis"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_11",
+            "question": "Hangi sporun kayak türü ‘freestyle’dır?",
+            "options": ["Kayak", "Snowboard", "Buz Pateni", "Buz Hokeyi"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_12",
+            "question": "Hangi sporun hedefi 50 metredir?",
+            "options": ["Atıcılık", "Okçuluk", "Golf", "Tenis"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_13",
+            "question": "Hangi sporun topu en serttir?",
+            "options": ["Hokey", "Beyzbol", "Kriket", "Golf"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_14",
+            "question": "Hangi sporun hareketi ‘quadruple axel’dır?",
+            "options": ["Buz Pateni", "Jimnastik", "Dalış", "Atletizm"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_15",
+            "question": "Hangi sporun atı üç gün yarışır?",
+            "options": ["Eventing", "Polo", "At Yarışı", "Binicilik"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_16",
+            "question": "Hangi sporun aracı en hızlıdır?",
+            "options": ["Formula 1", "MotoGP", "Ralli", "Drag Yarışı"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_17",
+            "question": "Hangi sporun minderi en küçüktür?",
+            "options": ["Taekwondo", "Judo", "Güreş", "Karate"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_18",
+            "question": "Hangi sporun tahtası en hafiftir?",
+            "options": ["Kaykay", "Sörf", "Snowboard", "Wakeboard"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_19",
+            "question": "Hangi sporun halatı en incedir?",
+            "options": ["Kaya Tırmanışı", "Halat Çekme", "Yelken", "Boks"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_20",
+            "question": "Hangi sporun atışı ciritledir?",
+            "options": ["Atletizm", "Golf", "Tenis", "Basketbol"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_21",
+            "question": "Hangi sporun sopası ‘stick’tir?",
+            "options": ["Hokey", "Beyzbol", "Golf", "Kriket"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_22",
+            "question": "Hangi sporun kemerleri 10 dan’a kadar gider?",
+            "options": ["Judo", "Karate", "Taekwondo", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_23",
+            "question": "Hangi sporun potası en alçaktır?",
+            "options": ["Su Topu", "Hentbol", "Voleybol", "Basketbol"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_24",
+            "question": "Hangi sporun kılıcı ‘sabre’dir?",
+            "options": ["Eskrim", "Kendo", "Boks", "Karate"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "sports_expert_25",
+            "question": "Hangi sporun dansı en karmaşıktır?",
+            "options": ["Buz Pateni", "Artistik Jimnastik", "Dalış", "Senkronize Yüzme"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

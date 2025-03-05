@@ -1,0 +1,806 @@
+{
+    "category": "Edebiyat",
+    "description": "Kitaplar, yazarlar ve edebi akımlar hakkında bilginizi test edin",
+    "questions": [
+        {
+            "id": "lit_easy_1",
+            "question": "Hangi yazar 'Romeo ve Juliet' eserini yazmıştır?",
+            "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_2",
+            "question": "Hangi kitap 'Bir Yaz Gecesi Rüyası' olarak bilinir?",
+            "options": ["Hamlet", "Bir Yaz Gecesi Rüyası", "Othello", "Macbeth"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_3",
+            "question": "Hangi hayvan 'Hayvan Çiftliği' kitabında liderlik yapar?",
+            "options": ["Köpek", "Domuz", "At", "Koyun"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_4",
+            "question": "Hangi yazar 'Sefiller' romanını yazmıştır?",
+            "options": ["Victor Hugo", "Leo Tolstoy", "Fyodor Dostoyevski", "Gustave Flaubert"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_5",
+            "question": "Hangi kitap 'Harry Potter' serisinin ilk kitabıdır?",
+            "options": ["Felsefe Taşı", "Sırlar Odası", "Azkaban Tutsağı", "Ateş Kadehi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_6",
+            "question": "Hangi yazar 'Alice Harikalar Diyarında' kitabını yazmıştır?",
+            "options": ["J.K. Rowling", "Lewis Carroll", "C.S. Lewis", "Roald Dahl"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_7",
+            "question": "Hangi kitap bir balina avını anlatır?",
+            "options": ["Moby Dick", "Denizler Altında Yirmi Bin Fersah", "Huckleberry Finn", "Define Adası"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_8",
+            "question": "Hangi yazar 'Bülbülü Öldürmek' kitabını yazmıştır?",
+            "options": ["Harper Lee", "Ernest Hemingway", "F. Scott Fitzgerald", "John Steinbeck"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_9",
+            "question": "Hangi kitap 'Yüzüklerin Efendisi' serisinin ilk kitabıdır?",
+            "options": ["Yüzük Kardeşliği", "İki Kule", "Kralın Dönüşü", "Hobbit"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_10",
+            "question": "Hangi yazar '1984' adlı distopyayı yazmıştır?",
+            "options": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Philip K. Dick"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_11",
+            "question": "Hangi kitap bir fare ve bir adamın dostluğunu anlatır?",
+            "options": ["Fareler ve İnsanlar", "Gazap Üzümleri", "Bilinmeyen Bir Kadının Mektubu", "Suç ve Ceza"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_12",
+            "question": "Hangi yazar 'Don Kişot' eserini kaleme almıştır?",
+            "options": ["Miguel de Cervantes", "Gabriel Garcia Marquez", "Jorge Luis Borges", "Pablo Neruda"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_13",
+            "question": "Hangi kitap 'Aslan, Cadı ve Dolap' olarak bilinir?",
+            "options": ["Narnia Günlükleri", "Harry Potter", "Yüzüklerin Efendisi", "Altın Pusula"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_14",
+            "question": "Hangi yazar 'Gurur ve Önyargı' romanını yazmıştır?",
+            "options": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "Mary Shelley"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_15",
+            "question": "Hangi kitap bir adada geçen bir hayatta kalma hikayesi anlatır?",
+            "options": ["Robinson Crusoe", "Define Adası", "Moby Dick", "Huckleberry Finn"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_16",
+            "question": "Hangi yazar 'Suç ve Ceza' eserini yazmıştır?",
+            "options": ["Leo Tolstoy", "Fyodor Dostoyevski", "Anton Çehov", "Ivan Turgenyev"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_17",
+            "question": "Hangi kitap 'Küçük Prens' olarak bilinir?",
+            "options": ["Küçük Prens", "Heidi", "Pinokyo", "Peter Pan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_18",
+            "question": "Hangi yazar 'Frankenstein' romanını yazmıştır?",
+            "options": ["Bram Stoker", "Mary Shelley", "Edgar Allan Poe", "H.P. Lovecraft"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_19",
+            "question": "Hangi kitap bir çikolata fabrikasını anlatır?",
+            "options": ["Charlie ve Çikolata Fabrikası", "Matilda", "James ve Dev Şeftali", "BFG"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_20",
+            "question": "Hangi yazar 'Savaş ve Barış' eserini yazmıştır?",
+            "options": ["Fyodor Dostoyevski", "Leo Tolstoy", "Anton Çehov", "Nikolay Gogol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_21",
+            "question": "Hangi kitap bir yeraltı dünyasını anlatır?",
+            "options": ["Yeraltından Notlar", "Suç ve Ceza", "Karamazov Kardeşler", "Budala"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_22",
+            "question": "Hangi yazar 'Cesur Yeni Dünya' eserini yazmıştır?",
+            "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Philip K. Dick"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_23",
+            "question": "Hangi kitap bir cadı okulunu anlatır?",
+            "options": ["Harry Potter", "Narnia Günlükleri", "Altın Pusula", "Percy Jackson"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_24",
+            "question": "Hangi yazar 'Drakula' romanını yazmıştır?",
+            "options": ["Mary Shelley", "Bram Stoker", "Edgar Allan Poe", "H.P. Lovecraft"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_easy_25",
+            "question": "Hangi kitap bir uçan çocuk hikayesi anlatır?",
+            "options": ["Peter Pan", "Pinokyo", "Küçük Prens", "Heidi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lit_medium_1",
+            "question": "Hangi yazar 'İlyada' ve 'Odysseia' destanlarını yazmıştır?",
+            "options": ["Homeros", "Virgilius", "Sofokles", "Euripides"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_2",
+            "question": "Hangi roman Dickens’ın Londra’daki yoksulluğu anlattığı eseridir?",
+            "options": ["Oliver Twist", "David Copperfield", "Büyük Umutlar", "İki Şehrin Hikayesi"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_3",
+            "question": "Hangi yazar 'Jane Eyre' romanını yazmıştır?",
+            "options": ["Charlotte Bronte", "Emily Bronte", "Jane Austen", "Mary Shelley"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_4",
+            "question": "Hangi kitap Orwell’in totaliter rejim eleştirisidir?",
+            "options": ["1984", "Hayvan Çiftliği", "Cesur Yeni Dünya", "Fahrenheit 451"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_5",
+            "question": "Hangi yazar 'Uğultulu Tepeler' eserini yazmıştır?",
+            "options": ["Emily Bronte", "Charlotte Bronte", "Jane Austen", "Mary Shelley"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_6",
+            "question": "Hangi eser Kafka’nın dönüşüm temalı hikayesidir?",
+            "options": ["Dava", "Dönüşüm", "Şato", "Amerika"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_7",
+            "question": "Hangi yazar 'Bilinmeyen Bir Kadının Mektubu' eserini yazmıştır?",
+            "options": ["Stefan Zweig", "Franz Kafka", "Hermann Hesse", "Thomas Mann"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_8",
+            "question": "Hangi kitap Tolkien’in Orta Dünya’sında geçen bir ön hikayedir?",
+            "options": ["Silmarillion", "Hobbit", "Yüzük Kardeşliği", "İki Kule"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_9",
+            "question": "Hangi yazar 'Madam Bovary' romanını yazmıştır?",
+            "options": ["Gustave Flaubert", "Victor Hugo", "Emile Zola", "Honore de Balzac"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_10",
+            "question": "Hangi eser Hemingway’in savaş temalı romanıdır?",
+            "options": ["Çanlar Kimin İçin Çalıyor", "Yaşlı Adam ve Deniz", "Güneş de Doğar", "Silahlara Veda"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_11",
+            "question": "Hangi yazar 'Karamazov Kardeşler' eserini yazmıştır?",
+            "options": ["Leo Tolstoy", "Fyodor Dostoyevski", "Anton Çehov", "Ivan Turgenyev"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_12",
+            "question": "Hangi kitap Marquez’in büyülü gerçekçilik örneğidir?",
+            "options": ["Yüzyıllık Yalnızlık", "Aşk ve Öbür Cinler", "Kolera Günlerinde Aşk", "Kırmızı Pazartesi"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_13",
+            "question": "Hangi yazar 'Fahrenheit 451' distopyasını yazmıştır?",
+            "options": ["George Orwell", "Ray Bradbury", "Aldous Huxley", "Philip K. Dick"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_14",
+            "question": "Hangi eser Austen’in evlilik temalı romanıdır?",
+            "options": ["Aşk ve Gurur", "Emma", "Mansfield Parkı", "Akıl ve Tutku"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_15",
+            "question": "Hangi yazar 'Bilinmeyen Adanın Öyküsü' eserini yazmıştır?",
+            "options": ["Jose Saramago", "Gabriel Garcia Marquez", "Mario Vargas Llosa", "Isabel Allende"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_16",
+            "question": "Hangi kitap Steinbeck’in Büyük Bunalım’ı anlattığı eseridir?",
+            "options": ["Gazap Üzümleri", "Fareler ve İnsanlar", "İnci", "Cennetin Doğusu"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_17",
+            "question": "Hangi yazar 'Kayıp Zamanın İzinde' eserini yazmıştır?",
+            "options": ["Marcel Proust", "Gustave Flaubert", "Emile Zola", "Andre Gide"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_18",
+            "question": "Hangi eser Hugo’nun Paris’teki katedrali anlattığı romanıdır?",
+            "options": ["Notre-Dame’ın Kamburu", "Sefiller", "Son Gün", "Doksan Üç"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_19",
+            "question": "Hangi yazar 'Siddhartha' eserini yazmıştır?",
+            "options": ["Hermann Hesse", "Franz Kafka", "Thomas Mann", "Stefan Zweig"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_20",
+            "question": "Hangi kitap Poe’nun gotik korku hikayelerinden biridir?",
+            "options": ["Kuzgun", "Kuyu ve Sarkaç", "Usher Evi’nin Çöküşü", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_21",
+            "question": "Hangi yazar 'Anna Karenina' eserini yazmıştır?",
+            "options": ["Fyodor Dostoyevski", "Leo Tolstoy", "Anton Çehov", "Ivan Turgenyev"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_22",
+            "question": "Hangi eser Fitzgerald’ın Amerikan Rüyası eleştirisidir?",
+            "options": ["Muhteşem Gatsby", "Çöldeki Sonbahar", "Güzel ve Lanetli", "Caz Çağı Hikayeleri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_23",
+            "question": "Hangi yazar 'Kırmızı ve Siyah' eserini yazmıştır?",
+            "options": ["Stendhal", "Victor Hugo", "Emile Zola", "Gustave Flaubert"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_24",
+            "question": "Hangi kitap Rowling’in büyücü dünyasının bir yan hikayesidir?",
+            "options": ["Fantastik Canavarlar", "Felsefe Taşı", "Sırlar Odası", "Azkaban Tutsağı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_medium_25",
+            "question": "Hangi yazar 'Ulysses' eserini yazmıştır?",
+            "options": ["James Joyce", "Virginia Woolf", "T.S. Eliot", "William Faulkner"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lit_hard_1",
+            "question": "Hangi yazar Dante’nin 'İlahi Komedya' eserini yazmıştır?",
+            "options": ["Dante Alighieri", "Giovanni Boccaccio", "Petrarch", "Chaucer"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_2",
+            "question": "Hangi eser Shakespeare’in en uzun oyunudur?",
+            "options": ["Hamlet", "Macbeth", "Othello", "Kral Lear"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_3",
+            "question": "Hangi yazar 'Decameron' eserini yazmıştır?",
+            "options": ["Giovanni Boccaccio", "Dante Alighieri", "Petrarch", "Chaucer"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_4",
+            "question": "Hangi eser Woolf’un bilinç akışı tekniğiyle yazılmış romanıdır?",
+            "options": ["Mrs. Dalloway", "Dalga", "Deniz Feneri", "Hepsi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_5",
+            "question": "Hangi yazar 'Canterbury Hikayeleri' eserini yazmıştır?",
+            "options": ["Geoffrey Chaucer", "William Langland", "John Gower", "Pearl Poet"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_6",
+            "question": "Hangi eser Tolstoy’un Napolyon savaşlarını anlattığı romanıdır?",
+            "options": ["Savaş ve Barış", "Anna Karenina", "Diriliş", "Hacı Murat"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_7",
+            "question": "Hangi yazar 'Budala' eserini yazmıştır?",
+            "options": ["Fyodor Dostoyevski", "Leo Tolstoy", "Anton Çehov", "Ivan Turgenyev"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_8",
+            "question": "Hangi eser Camus’nün varoluşçuluk temalı romanıdır?",
+            "options": ["Yabancı", "Veba", "Düşüş", "Hepsi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_9",
+            "question": "Hangi yazar 'Sineklerin Tanrısı' eserini yazmıştır?",
+            "options": ["William Golding", "George Orwell", "Aldous Huxley", "Joseph Conrad"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_10",
+            "question": "Hangi eser Sartre’ın varoluşçuluk temalı oyunudur?",
+            "options": ["Çıkış Yok", "Bulanti", "Duvar", "Varlık ve Hiçlik"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_11",
+            "question": "Hangi yazar 'Körlük' eserini yazmıştır?",
+            "options": ["Jose Saramago", "Gabriel Garcia Marquez", "Mario Vargas Llosa", "Isabel Allende"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_12",
+            "question": "Hangi eser Melville’in balina avcılığı temalı romanıdır?",
+            "options": ["Moby Dick", "Billy Budd", "Typee", "Omoo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_13",
+            "question": "Hangi yazar 'Bilinçaltı’na Yolculuk' eserini yazmıştır?",
+            "options": ["Hermann Hesse", "Franz Kafka", "Thomas Mann", "Stefan Zweig"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_14",
+            "question": "Hangi eser Bronte’nin aşk ve intikam temalı romanıdır?",
+            "options": ["Uğultulu Tepeler", "Jane Eyre", "Agnes Grey", "Villette"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_15",
+            "question": "Hangi yazar 'Aeneis' destanını yazmıştır?",
+            "options": ["Virgilius", "Homeros", "Ovidius", "Horatius"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_16",
+            "question": "Hangi eser Dickens’ın Fransız Devrimi’ni anlattığı romanıdır?",
+            "options": ["İki Şehrin Hikayesi", "Oliver Twist", "David Copperfield", "Büyük Umutlar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_17",
+            "question": "Hangi yazar 'Kum Kitabı' eserini yazmıştır?",
+            "options": ["Jorge Luis Borges", "Gabriel Garcia Marquez", "Julio Cortazar", "Pablo Neruda"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_18",
+            "question": "Hangi eser Conrad’ın sömürgecilik eleştirisidir?",
+            "options": ["Karanlığın Yüreği", "Lord Jim", "Nostromo", "Typhon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_19",
+            "question": "Hangi yazar 'Bilinmeyen Adanın Öyküsü' eserini yazmıştır?",
+            "options": ["Jose Saramago", "Gabriel Garcia Marquez", "Mario Vargas Llosa", "Isabel Allende"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_20",
+            "question": "Hangi eser Steinbeck’in inci avcılığı temalı novellasıdır?",
+            "options": ["İnci", "Gazap Üzümleri", "Fareler ve İnsanlar", "Cennetin Doğusu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_21",
+            "question": "Hangi yazar 'Zaman Makinesi' eserini yazmıştır?",
+            "options": ["H.G. Wells", "Jules Verne", "Isaac Asimov", "Arthur C. Clarke"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_22",
+            "question": "Hangi eser Kafka’nın bürokrasi eleştirisidir?",
+            "options": ["Dava", "Dönüşüm", "Şato", "Amerika"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_23",
+            "question": "Hangi yazar 'Bilinmeyen Bir Kadının Mektubu' eserini yazmıştır?",
+            "options": ["Stefan Zweig", "Franz Kafka", "Hermann Hesse", "Thomas Mann"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_24",
+            "question": "Hangi eser Tolstoy’un kısa hikayelerinden biridir?",
+            "options": ["Hacı Murat", "Savaş ve Barış", "Anna Karenina", "Diriliş"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_hard_25",
+            "question": "Hangi yazar 'Tristram Shandy' eserini yazmıştır?",
+            "options": ["Laurence Sterne", "Jonathan Swift", "Daniel Defoe", "Henry Fielding"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lit_expert_1",
+            "question": "Hangi yazar 'Beowulf' destanını yazmıştır?",
+            "options": ["Bilinmiyor", "Geoffrey Chaucer", "William Langland", "Pearl Poet"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_2",
+            "question": "Hangi eser Shakespeare’in son oyunlarından biridir?",
+            "options": ["Fırtına", "Hamlet", "Othello", "Kral Lear"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_3",
+            "question": "Hangi yazar 'Metamorphoses' eserini yazmıştır?",
+            "options": ["Ovidius", "Virgilius", "Horatius", "Catullus"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_4",
+            "question": "Hangi eser Woolf’un en deneysel romanıdır?",
+            "options": ["Dalgalar", "Mrs. Dalloway", "Deniz Feneri", "Orlando"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_5",
+            "question": "Hangi yazar 'Gulliver’in Gezileri' eserini yazmıştır?",
+            "options": ["Jonathan Swift", "Daniel Defoe", "Laurence Sterne", "Henry Fielding"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_6",
+            "question": "Hangi eser Tolstoy’un son büyük romanıdır?",
+            "options": ["Diriliş", "Savaş ve Barış", "Anna Karenina", "Hacı Murat"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_7",
+            "question": "Hangi yazar 'Beyaz Diş' eserini yazmıştır?",
+            "options": ["Jack London", "Ernest Hemingway", "John Steinbeck", "Mark Twain"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_8",
+            "question": "Hangi eser Camus’nün absürt felsefesini yansıtır?",
+            "options": ["Sisifos Söyleni", "Yabancı", "Veba", "Düşüş"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_9",
+            "question": "Hangi yazar 'Doktor Faustus' eserini yazmıştır?",
+            "options": ["Thomas Mann", "Hermann Hesse", "Franz Kafka", "Stefan Zweig"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_10",
+            "question": "Hangi eser Sartre’ın tiyatro eserlerinden biridir?",
+            "options": ["Çıkış Yok", "Bulanti", "Duvar", "Varlık ve Hiçlik"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_11",
+            "question": "Hangi yazar 'Görmek' eserini yazmıştır?",
+            "options": ["Jose Saramago", "Gabriel Garcia Marquez", "Mario Vargas Llosa", "Isabel Allende"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_12",
+            "question": "Hangi eser Melville’in son romanıdır?",
+            "options": ["Billy Budd", "Moby Dick", "Typee", "Omoo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_13",
+            "question": "Hangi yazar 'Cam Fanus' eserini yazmıştır?",
+            "options": ["Sylvia Plath", "Virginia Woolf", "Anne Sexton", "Elizabeth Bishop"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_14",
+            "question": "Hangi eser Hugo’nun son romanıdır?",
+            "options": ["Doksan Üç", "Sefiller", "Notre-Dame’ın Kamburu", "Son Gün"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_15",
+            "question": "Hangi yazar 'Bilinmeyen Adanın Öyküsü' eserini yazmıştır?",
+            "options": ["Jose Saramago", "Gabriel Garcia Marquez", "Mario Vargas Llosa", "Isabel Allende"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_16",
+            "question": "Hangi eser Steinbeck’in Pulitzer ödüllü romanıdır?",
+            "options": ["Gazap Üzümleri", "Fareler ve İnsanlar", "İnci", "Cennetin Doğusu"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_17",
+            "question": "Hangi yazar 'Mrs. Dalloway' eserini yazmıştır?",
+            "options": ["Virginia Woolf", "Sylvia Plath", "Anne Sexton", "Elizabeth Bishop"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_18",
+            "question": "Hangi eser Conrad’ın denizcilik temalı romanıdır?",
+            "options": ["Lord Jim", "Karanlığın Yüreği", "Nostromo", "Typhon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_19",
+            "question": "Hangi yazar 'Bilinmeyen Bir Kadının Mektubu' eserini yazmıştır?",
+            "options": ["Stefan Zweig", "Franz Kafka", "Hermann Hesse", "Thomas Mann"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_20",
+            "question": "Hangi eser Tolstoy’un kısa hikayelerinden biridir?",
+            "options": ["Hacı Murat", "Savaş ve Barış", "Anna Karenina", "Diriliş"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_21",
+            "question": "Hangi yazar 'Doktor Jekyll ve Bay Hyde' eserini yazmıştır?",
+            "options": ["Robert Louis Stevenson", "Bram Stoker", "Edgar Allan Poe", "H.P. Lovecraft"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_22",
+            "question": "Hangi eser Kafka’nın tamamlanmamış romanıdır?",
+            "options": ["Şato", "Dava", "Dönüşüm", "Amerika"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_23",
+            "question": "Hangi yazar 'Bilinmeyen Bir Kadının Mektubu' eserini yazmıştır?",
+            "options": ["Stefan Zweig", "Franz Kafka", "Hermann Hesse", "Thomas Mann"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_24",
+            "question": "Hangi eser Tolstoy’un son kısa hikayelerinden biridir?",
+            "options": ["Hacı Murat", "Savaş ve Barış", "Anna Karenina", "Diriliş"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lit_expert_25",
+            "question": "Hangi yazar 'Bilinmeyen Bir Kadının Mektubu' eserini yazmıştır?",
+            "options": ["Stefan Zweig", "Franz Kafka", "Hermann Hesse", "Thomas Mann"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

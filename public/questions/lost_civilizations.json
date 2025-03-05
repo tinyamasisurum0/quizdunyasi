@@ -1,0 +1,806 @@
+{
+    "category": "Kayıp Medeniyetler",
+    "description": "Atlantis, Maya, İnka gibi gizemli uygarlıkların sırlarını keşfedin",
+    "questions": [
+        {
+            "id": "lost_civ_easy_1",
+            "question": "Hangi kayıp medeniyet efsanelerde batmış bir ada olarak bilinir?",
+            "options": ["Maya", "Atlantis", "İnka", "Aztek"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_2",
+            "question": "Hangi medeniyet piramitleriyle ünlüdür?",
+            "options": ["Maya", "İnka", "Aztek", "Hepsi"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_3",
+            "question": "Hangi kayıp şehir And Dağları’nda bulunur?",
+            "options": ["Chichen Itza", "Machu Picchu", "Teotihuacan", "Tikal"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_4",
+            "question": "Hangi medeniyet takvimleriyle tanınır?",
+            "options": ["Maya", "İnka", "Aztek", "Sümer"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_5",
+            "question": "Hangi kayıp medeniyet altın şehir efsanesine ilham verdi?",
+            "options": ["Atlantis", "El Dorado", "Troya", "Pompeii"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_6",
+            "question": "Hangi medeniyet Meksika’da büyük şehirler inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_7",
+            "question": "Hangi kayıp şehir volkanik patlamayla yok oldu?",
+            "options": ["Pompeii", "Troya", "Atlantis", "Machu Picchu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_8",
+            "question": "Hangi medeniyet Paskalya Adası heykellerini yaptı?",
+            "options": ["Rapa Nui", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_9",
+            "question": "Hangi kayıp medeniyet Güney Amerika’da yollar inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_10",
+            "question": "Hangi medeniyet gizemli Nazca Çizgileri’ni yarattı?",
+            "options": ["Maya", "İnka", "Nazca", "Aztek"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_11",
+            "question": "Hangi kayıp şehir Homeros’un destanlarında geçer?",
+            "options": ["Atlantis", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_12",
+            "question": "Hangi medeniyet Chichen Itza’yı inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_13",
+            "question": "Hangi kayıp medeniyet Bronz Çağı’nda çöktü?",
+            "options": ["Mikenler", "Atlantis", "Maya", "İnka"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_14",
+            "question": "Hangi medeniyet Teotihuacan’ı kurdu?",
+            "options": ["Maya", "İnka", "Aztek", "Bilinmeyen"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_15",
+            "question": "Hangi kayıp şehir Ürdün’de kayalara oyulmuştur?",
+            "options": ["Petra", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_16",
+            "question": "Hangi medeniyet Göbekli Tepe’yi inşa etti?",
+            "options": ["Sümer", "Bilinmeyen", "Hitit", "Mısır"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_17",
+            "question": "Hangi kayıp medeniyet İndus Vadisi’nde gelişti?",
+            "options": ["Harappa", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_18",
+            "question": "Hangi medeniyet Tikal’i inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_19",
+            "question": "Hangi kayıp şehir Mezopotamya’da bulunur?",
+            "options": ["Ur", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_20",
+            "question": "Hangi medeniyet Büyük Zimbabwe’yi kurdu?",
+            "options": ["Shona", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_21",
+            "question": "Hangi kayıp medeniyet Anadolu’da Hititlerle birlikte çöktü?",
+            "options": ["Mikenler", "Atlantis", "Maya", "İnka"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_22",
+            "question": "Hangi medeniyet Palenque’yi inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_23",
+            "question": "Hangi kayıp şehir Girit’te bulunur?",
+            "options": ["Knossos", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_24",
+            "question": "Hangi medeniyet Mohenjo-Daro’yu kurdu?",
+            "options": ["Harappa", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_easy_25",
+            "question": "Hangi kayıp medeniyet Mezopotamya’da ilk yazıyı kullandı?",
+            "options": ["Sümer", "Atlantis", "Maya", "İnka"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "lost_civ_medium_1",
+            "question": "Hangi medeniyet Olmec’lerle ilişkilidir?",
+            "options": ["Maya", "İnka", "Aztek", "Mezoamerika"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_2",
+            "question": "Hangi kayıp şehir 13. yüzyılda Moğollar tarafından yok edildi?",
+            "options": ["Bağdat", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_3",
+            "question": "Hangi medeniyet Angkor Wat’ı inşa etti?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_4",
+            "question": "Hangi kayıp medeniyet 12. yüzyılda Ani’yi terk etti?",
+            "options": ["Ermeniler", "Bizans", "Selçuklular", "Gürcüler"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_5",
+            "question": "Hangi medeniyet Çatalhöyük’ü kurdu?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_6",
+            "question": "Hangi kayıp şehir 15. yüzyılda terk edildi?",
+            "options": ["Machu Picchu", "Troya", "Pompeii", "Petra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_7",
+            "question": "Hangi medeniyet Tiwanaku’yu inşa etti?",
+            "options": ["İnka", "Aymara", "Aztek", "Maya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_8",
+            "question": "Hangi kayıp medeniyet 7. yüzyılda Petra’yı terk etti?",
+            "options": ["Nabatiler", "Roma", "Bizans", "Araplar"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_9",
+            "question": "Hangi medeniyet Cahokia’yı kurdu?",
+            "options": ["Mississippiler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_10",
+            "question": "Hangi kayıp şehir 14. yüzyılda terk edildi?",
+            "options": ["Tiwanaku", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_11",
+            "question": "Hangi medeniyet Knossos’u inşa etti?",
+            "options": ["Minoanlar", "Mikenler", "Hititler", "Sümerler"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_12",
+            "question": "Hangi kayıp medeniyet 13. yüzyılda çöktü?",
+            "options": ["Anasazi", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_13",
+            "question": "Hangi medeniyet Mohenjo-Daro’da kanalizasyon sistemi kurdu?",
+            "options": ["Harappa", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_14",
+            "question": "Hangi kayıp şehir 12. yüzyılda Bizans tarafından terk edildi?",
+            "options": ["Efes", "Troya", "Pompeii", "Petra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_15",
+            "question": "Hangi medeniyet Büyük Zimbabwe’de taş yapılar inşa etti?",
+            "options": ["Shona", "Zulu", "Xhosa", "Swahili"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_16",
+            "question": "Hangi kayıp medeniyet 9. yüzyılda çöktü?",
+            "options": ["Klasik Maya", "İnka", "Aztek", "Olmec"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_17",
+            "question": "Hangi medeniyet Çatalhöyük’te ilk tarımı yaptı?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_18",
+            "question": "Hangi kayıp şehir 8. yüzyılda terk edildi?",
+            "options": ["Tikal", "Troya", "Pompeii", "Petra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_19",
+            "question": "Hangi medeniyet Angkor’da su sistemleri kurdu?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_20",
+            "question": "Hangi kayıp medeniyet 11. yüzyılda çöktü?",
+            "options": ["Chaco Kültürü", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_21",
+            "question": "Hangi medeniyet Knossos’ta freskler yaptı?",
+            "options": ["Minoanlar", "Mikenler", "Hititler", "Sümerler"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_22",
+            "question": "Hangi kayıp şehir 10. yüzyılda terk edildi?",
+            "options": ["Palenque", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_23",
+            "question": "Hangi medeniyet Harappa’da tuğla evler inşa etti?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_24",
+            "question": "Hangi kayıp medeniyet 14. yüzyılda çöktü?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_medium_25",
+            "question": "Hangi medeniyet Büyük Zimbabwe’de altın ticareti yaptı?",
+            "options": ["Shona", "Zulu", "Xhosa", "Swahili"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "lost_civ_hard_1",
+            "question": "Hangi kayıp medeniyet 16. yüzyılda İspanyollar tarafından fethedildi?",
+            "options": ["İnka", "Maya", "Aztek", "Hepsi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_2",
+            "question": "Hangi medeniyet Göbekli Tepe’de tapınaklar inşa etti?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_3",
+            "question": "Hangi kayıp şehir 6. yüzyılda Bizans tarafından terk edildi?",
+            "options": ["Hierapolis", "Troya", "Pompeii", "Petra"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_4",
+            "question": "Hangi medeniyet Çatalhöyük’te obsidiyen ticareti yaptı?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_5",
+            "question": "Hangi kayıp medeniyet 5. yüzyılda çöktü?",
+            "options": ["Batı Roma", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_6",
+            "question": "Hangi medeniyet Knossos’ta labirent efsanesine ilham verdi?",
+            "options": ["Minoanlar", "Mikenler", "Hititler", "Sümerler"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_7",
+            "question": "Hangi kayıp şehir 4. yüzyılda terk edildi?",
+            "options": ["Palmyra", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_8",
+            "question": "Hangi medeniyet Harappa’da mühürler kullandı?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_9",
+            "question": "Hangi kayıp medeniyet 3. yüzyılda çöktü?",
+            "options": ["Parthlar", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_10",
+            "question": "Hangi medeniyet Angkor’da dev tapınaklar yaptı?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_11",
+            "question": "Hangi kayıp şehir 2. yüzyılda terk edildi?",
+            "options": ["Dura Europos", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_12",
+            "question": "Hangi medeniyet Cahokia’da höyükler inşa etti?",
+            "options": ["Mississippiler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_13",
+            "question": "Hangi kayıp medeniyet 1. yüzyılda çöktü?",
+            "options": ["Kuşanlar", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_14",
+            "question": "Hangi medeniyet Tiwanaku’da taş heykeller yaptı?",
+            "options": ["Aymara", "İnka", "Aztek", "Maya"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_15",
+            "question": "Hangi kayıp şehir M.Ö. 12. yüzyılda yok oldu?",
+            "options": ["Troya", "Pompeii", "Machu Picchu", "Petra"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_16",
+            "question": "Hangi medeniyet Knossos’ta çok katlı yapılar inşa etti?",
+            "options": ["Minoanlar", "Mikenler", "Hititler", "Sümerler"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_17",
+            "question": "Hangi kayıp medeniyet M.Ö. 14. yüzyılda çöktü?",
+            "options": ["Hititler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_18",
+            "question": "Hangi medeniyet Harappa’da planlı şehirler kurdu?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_19",
+            "question": "Hangi kayıp şehir M.Ö. 16. yüzyılda volkanla yok oldu?",
+            "options": ["Akrotiri", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_20",
+            "question": "Hangi medeniyet Büyük Zimbabwe’de surlar inşa etti?",
+            "options": ["Shona", "Zulu", "Xhosa", "Swahili"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_21",
+            "question": "Hangi kayıp medeniyet M.Ö. 18. yüzyılda çöktü?",
+            "options": ["Akkadlar", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_22",
+            "question": "Hangi medeniyet Angkor’da pirinç tarımı yaptı?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_23",
+            "question": "Hangi kayıp şehir M.Ö. 20. yüzyılda terk edildi?",
+            "options": ["Uruk", "Troya", "Pompeii", "Machu Picchu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_24",
+            "question": "Hangi medeniyet Cahokia’da güneş takvimi kullandı?",
+            "options": ["Mississippiler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_hard_25",
+            "question": "Hangi kayıp medeniyet M.Ö. 22. yüzyılda çöktü?",
+            "options": ["Eski Mısır", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "lost_civ_expert_1",
+            "question": "Hangi medeniyet M.Ö. 24. yüzyılda Uruk’ta ilk şehir devletini kurdu?",
+            "options": ["Sümerler", "Akkadlar", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_2",
+            "question": "Hangi kayıp şehir M.Ö. 26. yüzyılda Giza Piramitleri’ni inşa etti?",
+            "options": ["Eski Mısır", "Sümer", "Harappa", "Minoanlar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_3",
+            "question": "Hangi medeniyet M.Ö. 28. yüzyılda Harappa’da tuğla kullandı?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_4",
+            "question": "Hangi kayıp medeniyet M.Ö. 30. yüzyılda Göbekli Tepe’yi yaptı?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_5",
+            "question": "Hangi medeniyet M.Ö. 32. yüzyılda Çatalhöyük’te yerleşti?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_6",
+            "question": "Hangi kayıp şehir M.Ö. 34. yüzyılda Uruk’ta çivi yazısı kullandı?",
+            "options": ["Sümerler", "Akkadlar", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_7",
+            "question": "Hangi medeniyet M.Ö. 36. yüzyılda Knossos’ta freskler yaptı?",
+            "options": ["Minoanlar", "Mikenler", "Hititler", "Sümerler"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_8",
+            "question": "Hangi kayıp medeniyet M.Ö. 38. yüzyılda Göbekli Tepe’de taşlar oydu?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_9",
+            "question": "Hangi medeniyet M.Ö. 40. yüzyılda Çatalhöyük’te tarım yaptı?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_10",
+            "question": "Hangi kayıp şehir M.Ö. 42. yüzyılda Harappa’da kanalizasyon kurdu?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_11",
+            "question": "Hangi medeniyet M.Ö. 44. yüzyılda Göbekli Tepe’de tapınak yaptı?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_12",
+            "question": "Hangi kayıp medeniyet M.Ö. 46. yüzyılda Çatalhöyük’te yerleşti?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_13",
+            "question": "Hangi medeniyet M.Ö. 48. yüzyılda Harappa’da mühürler yaptı?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_14",
+            "question": "Hangi kayıp şehir M.Ö. 50. yüzyılda Göbekli Tepe’de bulundu?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_15",
+            "question": "Hangi medeniyet M.Ö. 52. yüzyılda Çatalhöyük’te tarım yaptı?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_16",
+            "question": "Hangi kayıp medeniyet M.Ö. 54. yüzyılda Harappa’da şehirler kurdu?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_17",
+            "question": "Hangi medeniyet M.Ö. 56. yüzyılda Göbekli Tepe’de taşlar oydu?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_18",
+            "question": "Hangi kayıp medeniyet M.Ö. 58. yüzyılda Çatalhöyük’te yerleşti?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_19",
+            "question": "Hangi medeniyet M.Ö. 60. yüzyılda Harappa’da tuğla kullandı?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_20",
+            "question": "Hangi kayıp medeniyet M.Ö. 62. yüzyılda Göbekli Tepe’de tapınak yaptı?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_21",
+            "question": "Hangi medeniyet M.Ö. 64. yüzyılda Çatalhöyük’te tarım yaptı?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_22",
+            "question": "Hangi kayıp medeniyet M.Ö. 66. yüzyılda Harappa’da şehirler kurdu?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_23",
+            "question": "Hangi medeniyet M.Ö. 68. yüzyılda Göbekli Tepe’de taşlar oydu?",
+            "options": ["Avcı-Toplayıcılar", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_24",
+            "question": "Hangi kayıp medeniyet M.Ö. 70. yüzyılda Çatalhöyük’te yerleşti?",
+            "options": ["Neolitik Toplum", "Sümer", "Hitit", "Mısır"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "lost_civ_expert_25",
+            "question": "Hangi medeniyet M.Ö. 72. yüzyılda Harappa’da tuğla kullandı?",
+            "options": ["İndus Vadisi", "Sümer", "Mısır", "Hitit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

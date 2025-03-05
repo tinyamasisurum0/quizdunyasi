@@ -1,0 +1,806 @@
+{
+    "category": "Coğrafya",
+    "description": "Dünya coğrafyası ve kültürler hakkında bilginizi test edin",
+    "questions": [
+        {
+            "id": "geo_easy_1",
+            "question": "Hangi kıta en büyüktür?",
+            "options": ["Afrika", "Asya", "Avrupa", "Avustralya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_2",
+            "question": "Hangi ülke Türkiye’nin komşusudur?",
+            "options": ["Almanya", "Yunanistan", "İtalya", " Japonya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_3",
+            "question": "Hangi okyanus en büyüktür?",
+            "options": ["Atlantik", "Pasifik", "Hint", "Arktik"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_4",
+            "question": "Hangi şehir Türkiye’nin başkentidir?",
+            "options": ["İstanbul", "Ankara", "İzmir", "Antalya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_5",
+            "question": "Hangi nehir Nil’dir?",
+            "options": ["Amazon", "Mississippi", "Nil", "Yangtze"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_6",
+            "question": "Hangi ülke Asya’dadır?",
+            "options": ["Brezilya", " Japonya", "Kanada", "İtalya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_7",
+            "question": "Hangi dağ Everest’tir?",
+            "options": ["Alpler", "Himalayalar", "Andlar", "Rockies"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_8",
+            "question": "Hangi ülke Avrupa’dadır?",
+            "options": ["Almanya", "Avustralya", "Hindistan", "Çin"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_9",
+            "question": "Hangi deniz Marmara’dır?",
+            "options": ["Ege", "Marmara", "Akdeniz", "Kızıldeniz"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_10",
+            "question": "Hangi ülke Güney Amerika’dadır?",
+            "options": ["Meksika", "Brezilya", "Kanada", "Rusya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_11",
+            "question": "Hangi şehir Japonya’dadır?",
+            "options": ["Pekin", "Tokyo", "Seul", "Bangkok"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_12",
+            "question": "Hangi ülke Afrika’dadır?",
+            "options": ["Mısır", " Japonya", "Avustralya", "İngiltere"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_13",
+            "question": "Hangi nehir Amazon’dur?",
+            "options": ["Nil", "Amazon", "Mississippi", "Tuna"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_14",
+            "question": "Hangi ülke Kuzey Amerika’dadır?",
+            "options": ["Kanada", "Hindistan", "Çin", "Fransa"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_15",
+            "question": "Hangi şehir Fransa’dadır?",
+            "options": ["Londra", "Paris", "Berlin", "Madrid"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_16",
+            "question": "Hangi okyanus Asya’yı çevreler?",
+            "options": ["Atlantik", "Pasifik", "Arktik", "Hint"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_17",
+            "question": "Hangi ülke Rusya’dır?",
+            "options": ["Çin", "Rusya", "Brezilya", "Avustralya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_18",
+            "question": "Hangi şehir İngiltere’dedir?",
+            "options": ["Londra", "Paris", "Roma", "Atina"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_19",
+            "question": "Hangi kıta Antarktika’dır?",
+            "options": ["Asya", "Afrika", "Antarktika", "Avrupa"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_20",
+            "question": "Hangi ülke İtalya’dır?",
+            "options": ["İspanya", "İtalya", "Fransa", "Almanya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_21",
+            "question": "Hangi nehir Avrupa’dadır?",
+            "options": ["Amazon", "Tuna", "Nil", "Mississippi"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_22",
+            "question": "Hangi ülke Hindistan’dır?",
+            "options": [" Japonya", "Hindistan", "Çin", "Tayland"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_23",
+            "question": "Hangi şehir Almanya’dadır?",
+            "options": ["Berlin", "Paris", "Londra", "Madrid"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_24",
+            "question": "Hangi okyanus Amerika’yı çevreler?",
+            "options": ["Hint", "Atlantik", "Arktik", "Pasifik"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_easy_25",
+            "question": "Hangi ülke İspanya’dır?",
+            "options": ["Portekiz", "İspanya", "Fransa", "İtalya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "geo_medium_1",
+            "question": "Hangi ülke en çok ada sayısına sahiptir?",
+            "options": ["Endonezya", " Japonya", "Filipinler", "İngiltere"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_2",
+            "question": "Hangi nehir Avrupa’nın en uzundur?",
+            "options": ["Volga", "Tuna", "Ren", "Dinyester"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_3",
+            "question": "Hangi ülke en uzun sahil şeridine sahiptir?",
+            "options": ["Avustralya", "Kanada", "Brezilya", "Rusya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_4",
+            "question": "Hangi şehir Japonya’nın başkentidir?",
+            "options": ["Osaka", "Tokyo", "Kyoto", "Hiroshima"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_5",
+            "question": "Hangi dağ Güney Amerika’dadır?",
+            "options": ["Everest", "Aconcagua", "Kilimanjaro", "Mont Blanc"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_6",
+            "question": "Hangi ülke hem Asya hem Avrupa’dadır?",
+            "options": ["Rusya", "Türkiye", "Kazakistan", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_7",
+            "question": "Hangi okyanus Afrika’yı çevreler?",
+            "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_8",
+            "question": "Hangi şehir Brezilya’nın başkentidir?",
+            "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_9",
+            "question": "Hangi nehir Asya’nın en uzundur?",
+            "options": ["Ganj", "Yangtze", "Mekong", "İndus"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_10",
+            "question": "Hangi ülke en çok nüfusa sahiptir?",
+            "options": ["Hindistan", "Çin", "ABD", "Rusya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_11",
+            "question": "Hangi şehir Rusya’nın başkentidir?",
+            "options": ["St. Petersburg", "Moskova", "Kazan", "Novosibirsk"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_12",
+            "question": "Hangi ülke Afrika’nın en büyüğüdür?",
+            "options": ["Cezayir", "Nijerya", "Kenya", "Güney Afrika"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_13",
+            "question": "Hangi nehir Kuzey Amerika’dadır?",
+            "options": ["Mississippi", "Amazon", "Nil", "Tuna"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_14",
+            "question": "Hangi ülke Avustralya kıtasındadır?",
+            "options": ["Yeni Zelanda", "Avustralya", "Endonezya", "Fiji"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_15",
+            "question": "Hangi şehir İtalya’nın başkentidir?",
+            "options": ["Milano", "Roma", "Venedik", "Floransa"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_16",
+            "question": "Hangi okyanus Antarktika’yı çevreler?",
+            "options": ["Pasifik", "Atlantik", "Güney", "Hint"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_17",
+            "question": "Hangi ülke en çok volkanik adaya sahiptir?",
+            "options": [" Japonya", "Endonezya", "Filipinler", "İzlanda"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_18",
+            "question": "Hangi şehir Kanada’nın başkentidir?",
+            "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_19",
+            "question": "Hangi nehir Güney Amerika’dadır?",
+            "options": ["Amazon", "Tuna", "Nil", "Mississippi"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_20",
+            "question": "Hangi ülke en küçük yüzölçümüne sahiptir?",
+            "options": ["Monako", "Vatikan", "Nauru", "San Marino"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_21",
+            "question": "Hangi şehir İspanya’nın başkentidir?",
+            "options": ["Barselona", "Madrid", "Sevilla", "Valensiya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_22",
+            "question": "Hangi ülke en çok çöldeki alana sahiptir?",
+            "options": ["Avustralya", "Cezayir", "Mısır", "Sudan"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_23",
+            "question": "Hangi nehir Afrika’nın en uzundur?",
+            "options": ["Kongo", "Nil", "Naber", "Zambezi"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_24",
+            "question": "Hangi ülke Güney Afrika’dadır?",
+            "options": ["Nijerya", "Güney Afrika", "Kenya", "Cezayir"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_medium_25",
+            "question": "Hangi şehir Hindistan’ın başkentidir?",
+            "options": ["Mumbai", "Delhi", "Kolkata", "Bangalore"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "geo_hard_1",
+            "question": "Hangi ülke en çok volkan sayısına sahiptir?",
+            "options": [" Japonya", "Endonezya", "Amerika", "İzlanda"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_2",
+            "question": "Hangi nehir dünyanın en derinidir?",
+            "options": ["Amazon", "Kongo", "Yangtze", "Mississippi"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_3",
+            "question": "Hangi ülke en çok sınır komşusuna sahiptir?",
+            "options": ["Rusya", "Çin", "Almanya", "Brezilya"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_4",
+            "question": "Hangi şehir Meksika’nın başkentidir?",
+            "options": ["Guadalajara", "Monterrey", "Mexico City", "Tijuana"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_5",
+            "question": "Hangi dağ Afrika’nın en yükseğidir?",
+            "options": ["Kilimanjaro", "Atlas", "Rwenzori", "Drakensberg"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_6",
+            "question": "Hangi ülke en çok göle sahiptir?",
+            "options": ["Kanada", "Finlandiya", "Rusya", "Amerika"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_7",
+            "question": "Hangi okyanus en soğuktur?",
+            "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_8",
+            "question": "Hangi şehir Arjantin’in başkentidir?",
+            "options": ["Buenos Aires", "Cordoba", "Mendoza", "Rosario"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_9",
+            "question": "Hangi nehir Avrupa’da en çok ülkeyi geçer?",
+            "options": ["Ren", "Tuna", "Volga", "Dinyester"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_10",
+            "question": "Hangi ülke en çok petrol rezervine sahiptir?",
+            "options": ["Suudi Arabistan", "Rusya", "Amerika", "Venezuela"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_11",
+            "question": "Hangi şehir Çin’in başkentidir?",
+            "options": ["Shanghai", "Pekin", "Guangzhou", "Shenzhen"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_12",
+            "question": "Hangi ülke en çok çöldeki alana sahiptir?",
+            "options": ["Avustralya", "Antarktika", "Cezayir", "Mısır"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_13",
+            "question": "Hangi nehir Avustralya’nın en uzundur?",
+            "options": ["Murray", "Darling", "Murrumbidgee", "Lachlan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_14",
+            "question": "Hangi ülke en çok ada ülkesine komşudur?",
+            "options": [" Japonya", "Endonezya", "Filipinler", "Avustralya"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_15",
+            "question": "Hangi şehir Avustralya’nın başkentidir?",
+            "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_16",
+            "question": "Hangi okyanus en derin çukura sahiptir?",
+            "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_17",
+            "question": "Hangi ülke en çok nehir sayısına sahiptir?",
+            "options": ["Rusya", "Brezilya", "Çin", "Hindistan"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_18",
+            "question": "Hangi şehir Güney Afrika’nın başkentidir?",
+            "options": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_19",
+            "question": "Hangi nehir Hindistan’ın kutsal nehridir?",
+            "options": ["Ganj", "Indus", "Brahmaputra", "Yamuna"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_20",
+            "question": "Hangi ülke en çok orman alanına sahiptir?",
+            "options": ["Rusya", "Brezilya", "Kanada", "Amerika"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_21",
+            "question": "Hangi şehir Polonya’nın başkentidir?",
+            "options": ["Krakow", "Varşova", "Gdansk", "Wroclaw"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_22",
+            "question": "Hangi ülke en çok mercan resifine sahiptir?",
+            "options": ["Avustralya", "Endonezya", "Filipinler", "Maldivler"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_23",
+            "question": "Hangi nehir Avrupa’da en çok suyu taşır?",
+            "options": ["Volga", "Tuna", "Ren", "Dinyester"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_24",
+            "question": "Hangi ülke en çok platoya sahiptir?",
+            "options": ["Hindistan", "Çin", "Brezilya", "Tibet"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_hard_25",
+            "question": "Hangi şehir Portekiz’in başkentidir?",
+            "options": ["Porto", "Lizbon", "Faro", "Coimbra"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "geo_expert_1",
+            "question": "Hangi ülke en çok sınır komşusuna sahiptir?",
+            "options": ["Rusya", "Çin", "Almanya", "Hindistan"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_2",
+            "question": "Hangi nehir dünyanın en çok suyunu taşır?",
+            "options": ["Amazon", "Kongo", "Nil", "Yangtze"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_3",
+            "question": "Hangi ülke en çok ada ülkesine komşudur?",
+            "options": [" Japonya", "Endonezya", "Filipinler", "Avustralya"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_4",
+            "question": "Hangi şehir Kolombiya’nın başkentidir?",
+            "options": ["Medellín", "Bogotá", "Cali", "Cartagena"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_5",
+            "question": "Hangi dağ Asya’nın en yükseğidir?",
+            "options": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_6",
+            "question": "Hangi ülke en çok tatlı su kaynağına sahiptir?",
+            "options": ["Rusya", "Brezilya", "Kanada", "Çin"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_7",
+            "question": "Hangi okyanus Mariana Çukuru’na sahiptir?",
+            "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_8",
+            "question": "Hangi şehir Endonezya’nın başkentidir?",
+            "options": ["Surabaya", "Jakarta", "Bandung", "Bali"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_9",
+            "question": "Hangi nehir Güney Amerika’da en çok ülkeyi geçer?",
+            "options": ["Amazon", "Paraná", "Orinoco", "Uruguay"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_10",
+            "question": "Hangi ülke en çok doğal gaz rezervine sahiptir?",
+            "options": ["Rusya", "İran", "Katar", "Amerika"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_11",
+            "question": "Hangi şehir Ukrayna’nın başkentidir?",
+            "options": ["Lviv", "Kiev", "Odessa", "Kharkiv"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_12",
+            "question": "Hangi ülke en çok tuz gölüne sahiptir?",
+            "options": ["Avustralya", "Amerika", "Çin", "Rusya"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_13",
+            "question": "Hangi nehir Antarktika’da bulunmaz?",
+            "options": ["Amazon", "Nil", "Tuna", "Hepsi bulunmaz"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_14",
+            "question": "Hangi ülke en çok ada yüzölçümüne sahiptir?",
+            "options": [" Japonya", "Endonezya", "Filipinler", "Grönland"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_15",
+            "question": "Hangi şehir Norveç’in başkentidir?",
+            "options": ["Bergen", "Oslo", "Trondheim", "Stavanger"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_16",
+            "question": "Hangi okyanus en çok ada içerir?",
+            "options": ["Pasifik", "Atlantik", "Hint", "Arktik"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_17",
+            "question": "Hangi ülke en çok şelaleye sahiptir?",
+            "options": ["Brezilya", "Amerika", "Kanada", "Norveç"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_18",
+            "question": "Hangi şehir Nijerya’nın başkentidir?",
+            "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_19",
+            "question": "Hangi nehir Asya’da en çok suyu taşır?",
+            "options": ["Yangtze", "Ganj", "Mekong", "İndus"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_20",
+            "question": "Hangi ülke en çok karasal sınıra sahiptir?",
+            "options": ["Rusya", "Çin", "Hindistan", "Brezilya"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_21",
+            "question": "Hangi şehir İsveç’in başkentidir?",
+            "options": ["Göteborg", "Stockholm", "Malmö", "Uppsala"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_22",
+            "question": "Hangi ülke en çok tundra alanına sahiptir?",
+            "options": ["Rusya", "Kanada", "Alaska", "Grönland"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_23",
+            "question": "Hangi nehir Afrika’da en çok ülkeyi geçer?",
+            "options": ["Kongo", "Nil", "Naber", "Zambezi"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_24",
+            "question": "Hangi ülke en çok aktif volkan içerir?",
+            "options": [" Japonya", "Endonezya", "Amerika", "İzlanda"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "geo_expert_25",
+            "question": "Hangi şehir Danimarka’nın başkentidir?",
+            "options": ["Aarhus", "Kopenhag", "Odense", "Aalborg"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

@@ -1,0 +1,806 @@
+{
+    "category": "Film & Dizi Replikleri",
+    "description": "Unutulmaz film ve dizi repliklerini ne kadar iyi biliyorsun?",
+    "questions": [
+        {
+            "id": "movie_quotes_easy_1",
+            "question": "Hangi filmde 'Hakuna Matata' repliği bulunur?",
+            "options": ["Aslan Kral", "Madagaskar", "Buz Devri", "Oyuncak Hikayesi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_2",
+            "question": "'May the Force be with you' hangi film serisinden?",
+            "options": ["Harry Potter", "Yüzüklerin Efendisi", "Star Wars", "Matrix"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_3",
+            "question": "'I’ll be back' repliği hangi filmden?",
+            "options": ["Terminatör", "Rambo", "Die Hard", "Rocky"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_4",
+            "question": "'To infinity and beyond!' hangi filmden?",
+            "options": ["Shrek", "Oyuncak Hikayesi", "Kung Fu Panda", "Arabalar"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_5",
+            "question": "'There’s no place like home' hangi filmden?",
+            "options": ["Oz Büyücüsü", "Alice Harikalar Diyarında", "Narnia", "Peter Pan"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_6",
+            "question": "'I am Groot' hangi filmden?",
+            "options": ["Galaksinin Koruyucuları", "Yenilmezler", "Thor", "Kaptan Amerika"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_7",
+            "question": "'Just keep swimming' hangi filmden?",
+            "options": ["Kayıp Balık Nemo", "Köpekbalığı Hikayesi", "Moana", "Denizkızı Ariel"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_8",
+            "question": "'You’re a wizard, Harry' hangi filmden?",
+            "options": ["Yüzüklerin Efendisi", "Harry Potter", "Narnia", "Percy Jackson"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_9",
+            "question": "'Life is like a box of chocolates' hangi filmden?",
+            "options": ["Forrest Gump", "Titanic", "Esaretin Bedeli", "Yeşil Yol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_10",
+            "question": "'I see dead people' hangi filmden?",
+            "options": ["Altıncı His", "Paranoid", "Korku Seansı", "Sessiz Bir Yer"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_11",
+            "question": "'I’m king of the world!' hangi filmden?",
+            "options": ["Titanic", "Karayip Korsanları", "Poseidon Macerası", "Denizler Altında"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_12",
+            "question": "'Why so serious?' hangi filmden?",
+            "options": ["Kara Şövalye", "Joker", "Batman Başlıyor", "Adalet Birliği"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_13",
+            "question": "'Shaken, not stirred' hangi seriden?",
+            "options": ["James Bond", "Görevimiz Tehlike", "Bourne", "Die Hard"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_14",
+            "question": "'E.T. phone home' hangi filmden?",
+            "options": ["E.T.", "Yıldız Savaşları", "Uzay Yolu", "Yaratık"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_15",
+            "question": "'Hasta la vista, baby' hangi filmden?",
+            "options": ["Terminatör 2", "Rambo", "Rocky", "Predator"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_16",
+            "question": "'My precious!' hangi filmden?",
+            "options": ["Yüzüklerin Efendisi", "Harry Potter", "Narnia", "Shrek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_17",
+            "question": "'I’m gonna make him an offer he can’t refuse' hangi filmden?",
+            "options": ["Baba", "Scarface", "Goodfellas", "Casino"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_18",
+            "question": "'Carpe diem!' hangi filmden?",
+            "options": ["Ölü Ozanlar Derneği", "Forrest Gump", "Esaretin Bedeli", "Yeşil Yol"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_19",
+            "question": "'This is Sparta!' hangi filmden?",
+            "options": ["300", "Truva", "Gladyatör", "Alexander"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_20",
+            "question": "'Wax on, wax off' hangi filmden?",
+            "options": ["Karate Kid", "Rocky", "Kung Fu Panda", "Ip Man"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_21",
+            "question": "'Houston, we have a problem' hangi filmden?",
+            "options": ["Apollo 13", "Yerçekimi", "Marslı", "Uzay Yolu"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_22",
+            "question": "'Here’s Johnny!' hangi filmden?",
+            "options": ["Cinnet", "Korku Seansı", "Elm Sokağı", "Paranoid"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_23",
+            "question": "'You can’t handle the truth!' hangi filmden?",
+            "options": ["Birkaç İyi Adam", "Esaretin Bedeli", "Baba", "Forrest Gump"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_24",
+            "question": "'Say hello to my little friend!' hangi filmden?",
+            "options": ["Scarface", "Baba", "Goodfellas", "Casino"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_easy_25",
+            "question": "'Ohana means family' hangi filmden?",
+            "options": ["Lilo & Stitch", "Moana", "Kayıp Balık Nemo", "Aslan Kral"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "movie_quotes_medium_1",
+            "question": "'The name’s Bond, James Bond' hangi film serisinden?",
+            "options": ["James Bond", "Görevimiz Tehlike", "Bourne", "Die Hard"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_2",
+            "question": "'I’ll have what she’s having' hangi filmden?",
+            "options": ["Harry ile Sally Tanışınca", "Aşk Gibi Bir Şey", "Notting Hill", "Aşk Her Yerde"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_3",
+            "question": "'Keep your friends close, but your enemies closer' hangi filmden?",
+            "options": ["Baba II", "Scarface", "Goodfellas", "Casino"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_4",
+            "question": "'Nobody puts Baby in a corner' hangi filmden?",
+            "options": ["Dirty Dancing", "Footloose", "Flashdance", "Grease"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_5",
+            "question": "'They may take our lives, but they’ll never take our freedom!' hangi filmden?",
+            "options": ["Cesur Yürek", "Gladyatör", "300", "Truva"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_6",
+            "question": "'I’m not a smart man, but I know what love is' hangi filmden?",
+            "options": ["Forrest Gump", "Esaretin Bedeli", "Yeşil Yol", "Titanic"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_7",
+            "question": "'You had me at hello' hangi filmden?",
+            "options": ["Jerry Maguire", "Notting Hill", "Aşk Her Yerde", "Harry ile Sally Tanışınca"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_8",
+            "question": "'Get busy living, or get busy dying' hangi filmden?",
+            "options": ["Esaretin Bedeli", "Yeşil Yol", "Forrest Gump", "Baba"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_9",
+            "question": "'Inconceivable!' hangi filmden?",
+            "options": ["Prenses Gelin", "Shrek", "Narnia", "Yüzüklerin Efendisi"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_10",
+            "question": "'I’m just a girl, standing in front of a boy' hangi filmden?",
+            "options": ["Notting Hill", "Aşk Her Yerde", "Harry ile Sally Tanışınca", "Jerry Maguire"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_11",
+            "question": "'It’s alive! It’s alive!' hangi filmden?",
+            "options": ["Frankenstein", "Dracula", "Mumya", "Kurt Adam"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_12",
+            "question": "'We’ll always have Paris' hangi filmden?",
+            "options": ["Kazablanka", "Titanic", "Roma Tatili", "Paris’te Gece Yarısı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_13",
+            "question": "'I drink your milkshake!' hangi filmden?",
+            "options": ["Kan Dökülecek", "Petrol", "Baba", "Scarface"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_14",
+            "question": "'Here’s looking at you, kid' hangi filmden?",
+            "options": ["Kazablanka", "Vatandaş Kane", "Rüzgar Gibi Geçti", "Titanic"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_15",
+            "question": "'Go ahead, make my day' hangi filmden?",
+            "options": ["Kirli Harry", "Die Hard", "Rambo", "Terminatör"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_16",
+            "question": "'One does not simply walk into Mordor' hangi filmden?",
+            "options": ["Yüzüklerin Efendisi", "Harry Potter", "Narnia", "Hobbit"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_17",
+            "question": "'Love means never having to say you’re sorry' hangi filmden?",
+            "options": ["Aşk Hikayesi", "Titanic", "Notting Hill", "Jerry Maguire"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_18",
+            "question": "'I am serious, and don’t call me Shirley' hangi filmden?",
+            "options": ["Uçak!", "Çıplak Silah", "Süper Kahraman", "Korkunç Bir Film"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_19",
+            "question": "'The greatest trick the devil ever pulled was convincing the world he didn’t exist' hangi filmden?",
+            "options": ["Olağan Şüpheliler", "Yedi", "Cinnet", "Şeytan"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_20",
+            "question": "'I feel the need—the need for speed!' hangi filmden?",
+            "options": ["Top Gun", "Hızlı ve Öfkeli", "Yarışçı", "Need for Speed"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_21",
+            "question": "'After all, tomorrow is another day!' hangi filmden?",
+            "options": ["Rüzgar Gibi Geçti", "Kazablanka", "Titanic", "Vatandaş Kane"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_22",
+            "question": "'Yippie-ki-yay, motherfucker!' hangi filmden?",
+            "options": ["Die Hard", "Rambo", "Terminatör", "Kirli Harry"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_23",
+            "question": "'There’s a snake in my boot!' hangi filmden?",
+            "options": ["Oyuncak Hikayesi", "Shrek", "Madagaskar", "Buz Devri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_24",
+            "question": "'Are you not entertained?' hangi filmden?",
+            "options": ["Gladyatör", "300", "Truva", "Cesur Yürek"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_medium_25",
+            "question": "'Roads? Where we’re going, we don’t need roads' hangi filmden?",
+            "options": ["Geleceğe Dönüş", "Star Wars", "Matrix", "Terminatör"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "movie_quotes_hard_1",
+            "question": "'All we have to decide is what to do with the time that is given to us' hangi filmden?",
+            "options": ["Yüzüklerin Efendisi", "Hobbit", "Harry Potter", "Narnia"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_2",
+            "question": "'I’m as mad as hell, and I’m not going to take this anymore!' hangi filmden?",
+            "options": ["Network", "12 Öfkeli Adam", "Baba", "Esaretin Bedeli"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_3",
+            "question": "'The stuff that dreams are made of' hangi filmden?",
+            "options": ["Malta Şahini", "Kazablanka", "Vatandaş Kane", "Rüzgar Gibi Geçti"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_4",
+            "question": "'I’m walking here! I’m walking here!' hangi filmden?",
+            "options": ["Geceyarısı Kovboyu", "Taksi Şoförü", "Baba", "Goodfellas"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_5",
+            "question": "'Every man dies, but not every man really lives' hangi filmden?",
+            "options": ["Cesur Yürek", "Gladyatör", "300", "Truva"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_6",
+            "question": "'Gentlemen, you can’t fight in here! This is the War Room!' hangi filmden?",
+            "options": ["Dr. Strangelove", "Apocalypse Now", "Full Metal Jacket", "Platoon"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_7",
+            "question": "'What we’ve got here is failure to communicate' hangi filmden?",
+            "options": ["Cool Hand Luke", "Esaretin Bedeli", "Yeşil Yol", "Baba"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_8",
+            "question": "'I love the smell of napalm in the morning' hangi filmden?",
+            "options": ["Apocalypse Now", "Platoon", "Full Metal Jacket", "Saving Private Ryan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_9",
+            "question": "'You talkin’ to me?' hangi filmden?",
+            "options": ["Taksi Şoförü", "Goodfellas", "Scarface", "Baba"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_10",
+            "question": "'Rosebud' hangi filmden?",
+            "options": ["Vatandaş Kane", "Kazablanka", "Rüzgar Gibi Geçti", "Titanic"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_11",
+            "question": "'I’m the Dude, man' hangi filmden?",
+            "options": ["Büyük Lebowski", "Fargo", "No Country for Old Men", "True Grit"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_12",
+            "question": "'This isn’t flying, it’s falling with style!' hangi filmden?",
+            "options": ["Oyuncak Hikayesi", "Up", "Wall-E", "Arabalar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_13",
+            "question": "'I’m having an old friend for dinner' hangi filmden?",
+            "options": ["Kuzuların Sessizliği", "Yedi", "Şeytan", "Paranoid"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_14",
+            "question": "'Round up the usual suspects' hangi filmden?",
+            "options": ["Kazablanka", "Malta Şahini", "Vatandaş Kane", "Baba"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_15",
+            "question": "'If you build it, he will come' hangi filmden?",
+            "options": ["Düşler Tarlası", "Forrest Gump", "Esaretin Bedeli", "Yeşil Yol"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_16",
+            "question": "'There is no spoon' hangi filmden?",
+            "options": ["Matrix", "Inception", "Avatar", "Interstellar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_17",
+            "question": "'We rob banks' hangi filmden?",
+            "options": ["Bonnie ve Clyde", "Baba", "Goodfellas", "Scarface"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_18",
+            "question": "'I’m not bad, I’m just drawn that way' hangi filmden?",
+            "options": ["Kim Korkar Hain Kurttan", "Roger Rabbit", "Space Jam", "Looney Tunes"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_19",
+            "question": "'That’ll do, pig. That’ll do' hangi filmden?",
+            "options": ["Babe", "Charlotte’s Web", "Shrek", "Kayıp Balık Nemo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_20",
+            "question": "'The first rule of Fight Club is: you do not talk about Fight Club' hangi filmden?",
+            "options": ["Dövüş Kulübü", "Gladyatör", "300", "Rocky"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_21",
+            "question": "'Louis, I think this is the beginning of a beautiful friendship' hangi filmden?",
+            "options": ["Kazablanka", "Vatandaş Kane", "Rüzgar Gibi Geçti", "Titanic"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_22",
+            "question": "'I’m too old for this shit' hangi filmden?",
+            "options": ["Cehennem Silahı", "Die Hard", "Rambo", "Terminatör"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_23",
+            "question": "'There’s no crying in baseball!' hangi filmden?",
+            "options": ["Kendi Liginde", "Düşler Tarlası", "Forrest Gump", "Bull Durham"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_24",
+            "question": "'Mama always said life was like a box of chocolates' hangi filmden?",
+            "options": ["Forrest Gump", "Esaretin Bedeli", "Yeşil Yol", "Baba"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_hard_25",
+            "question": "'Show me the money!' hangi filmden?",
+            "options": ["Jerry Maguire", "Wall Street", "The Wolf of Wall Street", "Big Short"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "movie_quotes_expert_1",
+            "question": "'I wish I knew how to quit you' hangi filmden?",
+            "options": ["Brokeback Dağı", "Aşk ve Gurur", "Notting Hill", "Aşk Hikayesi"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_2",
+            "question": "'A million dollars isn’t cool. You know what’s cool? A billion dollars' hangi filmden?",
+            "options": ["Sosyal Ağ", "Wall Street", "The Wolf of Wall Street", "Big Short"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_3",
+            "question": "'I coulda been a contender' hangi filmden?",
+            "options": ["Rıhtımlar Üzerinde", "Rocky", "Baba", "Goodfellas"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_4",
+            "question": "'You’re gonna need a bigger boat' hangi filmden?",
+            "options": ["Jaws", "Karayip Korsanları", "Poseidon Macerası", "Titanic"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_5",
+            "question": "'I’m not locked in here with you, you’re locked in here with me!' hangi filmden?",
+            "options": ["Watchmen", "Kara Şövalye", "V for Vendetta", "300"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_6",
+            "question": "'This is not ‘Nam. This is bowling. There are rules' hangi filmden?",
+            "options": ["Büyük Lebowski", "Fargo", "No Country for Old Men", "True Grit"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_7",
+            "question": "'Some men just want to watch the world burn' hangi filmden?",
+            "options": ["Kara Şövalye", "Joker", "Batman Başlıyor", "Adalet Birliği"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_8",
+            "question": "'I’m gonna need you to go ahead and come in on Saturday' hangi filmden?",
+            "options": ["Office Space", "The Big Short", "Sosyal Ağ", "Wall Street"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_9",
+            "question": "'Choose life' hangi filmden?",
+            "options": ["Trainspotting", "Requiem for a Dream", "Fight Club", "Pulp Fiction"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_10",
+            "question": "'I’m finished!' hangi filmden?",
+            "options": ["There Will Be Blood", "No Country for Old Men", "Fargo", "The Big Lebowski"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_11",
+            "question": "'You don’t get to 500 million friends without making a few enemies' hangi filmden?",
+            "options": ["Sosyal Ağ", "Wall Street", "The Big Short", "Wolf of Wall Street"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_12",
+            "question": "'I’m not a psychopath, Anderson, I’m a high-functioning sociopath' hangi diziden?",
+            "options": ["Sherlock", "Breaking Bad", "True Detective", "Dexter"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_13",
+            "question": "'The horror… the horror…' hangi filmden?",
+            "options": ["Apocalypse Now", "Platoon", "Full Metal Jacket", "Saving Private Ryan"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_14",
+            "question": "'I’m a man of my word' hangi filmden?",
+            "options": ["Kara Şövalye", "Joker", "Batman Başlıyor", "Adalet Birliği"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_15",
+            "question": "'We’re not in Kansas anymore' hangi filmden?",
+            "options": ["Oz Büyücüsü", "Alice Harikalar Diyarında", "Narnia", "Peter Pan"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_16",
+            "question": "'Hasta la vista, baby' hangi filmden?",
+            "options": ["Terminatör 2", "Terminatör", "Terminatör 3", "Terminatör: Genisys"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_17",
+            "question": "'I’m not here to tell you how to live your life, I’m here to tell you how it ends' hangi filmden?",
+            "options": ["Fight Club", "Matrix", "Inception", "Shutter Island"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_18",
+            "question": "'I’m the one who knocks' hangi diziden?",
+            "options": ["Breaking Bad", "Better Call Saul", "The Wire", "Narcos"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_19",
+            "question": "'This is the way the world ends, not with a bang but a whimper' hangi filmden esinlenilmiştir?",
+            "options": ["Mad Max", "The Road", "Children of Men", "Terminatör"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_20",
+            "question": "'You either die a hero, or you live long enough to see yourself become the villain' hangi filmden?",
+            "options": ["Kara Şövalye", "Batman Başlıyor", "Joker", "Adalet Birliği"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_21",
+            "question": "'Play it, Sam. Play As Time Goes By' hangi filmden?",
+            "options": ["Kazablanka", "Vatandaş Kane", "Rüzgar Gibi Geçti", "Titanic"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_22",
+            "question": "'I’m in a glass case of emotion!' hangi filmden?",
+            "options": ["Anchorman", "Zoolander", "Dodgeball", "Talladega Nights"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_23",
+            "question": "'The things you own end up owning you' hangi filmden?",
+            "options": ["Dövüş Kulübü", "Matrix", "Inception", "Shutter Island"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_24",
+            "question": "'I’m gonna steal the Declaration of Independence' hangi filmden?",
+            "options": ["Kayıp Hazine", "Indiana Jones", "The Da Vinci Code", "Mumya"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "movie_quotes_expert_25",
+            "question": "'What is dead may never die' hangi diziden?",
+            "options": ["Taht Oyunları", "Vikingler", "The Witcher", "Yüzüklerin Efendisi"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

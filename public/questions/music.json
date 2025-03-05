@@ -1,0 +1,806 @@
+{
+    "category": "Müzik",
+    "description": "Müzik türleri, sanatçılar ve aletlerle ses dünyasına dalın",
+    "questions": [
+        {
+            "id": "music_easy_1",
+            "question": "Hangi enstrüman piyano olarak bilinir?",
+            "options": ["Keman", "Gitar", "Piyano", "Flüt"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_2",
+            "question": "Hangi müzik türü rock olarak tanınır?",
+            "options": ["Jazz", "Klasik", "Rock", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_3",
+            "question": "Hangi sanatçı 'Beatles' grubunun üyesidir?",
+            "options": ["Elvis Presley", "Paul McCartney", "Michael Jackson", "Bob Dylan"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_4",
+            "question": "Hangi enstrüman üflemeli bir alettir?",
+            "options": ["Davul", "Flüt", "Gitar", "Piyano"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_5",
+            "question": "Hangi müzik türü klasik müzik olarak bilinir?",
+            "options": ["Rock", "Pop", "Klasik", "Jazz"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_6",
+            "question": "Hangi sanatçı 'Thriller' albümüyle ünlüdür?",
+            "options": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_7",
+            "question": "Hangi enstrüman telli bir alettir?",
+            "options": ["Flüt", "Davul", "Gitar", "Trompet"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_8",
+            "question": "Hangi müzik türü caz olarak bilinir?",
+            "options": ["Rock", "Jazz", "Klasik", "Pop"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_9",
+            "question": "Hangi sanatçı 'Imagine' şarkısını yazmıştır?",
+            "options": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_10",
+            "question": "Hangi enstrüman vurmalı bir alettir?",
+            "options": ["Keman", "Davul", "Flüt", "Piyano"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_11",
+            "question": "Hangi müzik türü pop olarak bilinir?",
+            "options": ["Rock", "Jazz", "Klasik", "Pop"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_12",
+            "question": "Hangi sanatçı 'Like a Rolling Stone' şarkısıyla tanınır?",
+            "options": ["Bob Dylan", "Elvis Presley", "Chuck Berry", "Buddy Holly"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_13",
+            "question": "Hangi enstrüman Beethoven ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Gitar", "Flüt"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_14",
+            "question": "Hangi müzik türü blues olarak bilinir?",
+            "options": ["Rock", "Jazz", "Blues", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_15",
+            "question": "Hangi sanatçı 'Hound Dog' şarkısıyla ünlüdür?",
+            "options": ["Elvis Presley", "Chuck Berry", "Little Richard", "Jerry Lee Lewis"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_16",
+            "question": "Hangi enstrüman Mozart ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Gitar", "Flüt"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_17",
+            "question": "Hangi müzik türü hip-hop olarak bilinir?",
+            "options": ["Rock", "Jazz", "Hip-Hop", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_18",
+            "question": "Hangi sanatçı 'Billie Jean' şarkısını seslendirmiştir?",
+            "options": ["Prince", "Michael Jackson", "James Brown", "Stevie Wonder"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_19",
+            "question": "Hangi enstrüman yaylı bir alettir?",
+            "options": ["Davul", "Keman", "Trompet", "Piyano"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_20",
+            "question": "Hangi müzik türü country olarak bilinir?",
+            "options": ["Rock", "Jazz", "Country", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_21",
+            "question": "Hangi sanatçı 'Hey Jude' şarkısını yazmıştır?",
+            "options": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_22",
+            "question": "Hangi enstrüman nefesli bir alettir?",
+            "options": ["Gitar", "Trompet", "Davul", "Piyano"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_23",
+            "question": "Hangi müzik türü reggae olarak bilinir?",
+            "options": ["Rock", "Jazz", "Reggae", "Pop"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_24",
+            "question": "Hangi sanatçı 'I Will Always Love You' şarkısıyla tanınır?",
+            "options": ["Whitney Houston", "Aretha Franklin", "Diana Ross", "Tina Turner"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_easy_25",
+            "question": "Hangi enstrüman Bach ile ilişkilidir?",
+            "options": ["Org", "Keman", "Gitar", "Flüt"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "music_medium_1",
+            "question": "Hangi sanatçı 18. yüzyılın klasik müzik bestecisidir?",
+            "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Franz Schubert"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_2",
+            "question": "Hangi müzik türü 20. yüzyılda New Orleans’ta doğmuştur?",
+            "options": ["Rock", "Jazz", "Blues", "Country"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_3",
+            "question": "Hangi enstrüman Vivaldi’nin 'Dört Mevsim' eserinde öne çıkar?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_4",
+            "question": "Hangi sanatçı 'Purple Rain' albümüyle ünlüdür?",
+            "options": ["Michael Jackson", "Prince", "James Brown", "Stevie Wonder"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_5",
+            "question": "Hangi müzik türü 19. yüzyıl Amerika’sında gelişti?",
+            "options": ["Jazz", "Blues", "Rock", "Pop"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_6",
+            "question": "Hangi enstrüman Chopin ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_7",
+            "question": "Hangi sanatçı 'Bohemian Rhapsody' şarkısını yazmıştır?",
+            "options": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_8",
+            "question": "Hangi müzik türü 20. yüzyılın ortalarında doğdu?",
+            "options": ["Rock", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_9",
+            "question": "Hangi enstrüman Wagner ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Trompet", "Tuba"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_10",
+            "question": "Hangi sanatçı 'Like a Virgin' şarkısıyla tanınır?",
+            "options": ["Madonna", "Whitney Houston", "Cyndi Lauper", "Tina Turner"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_11",
+            "question": "Hangi müzik türü 18. yüzyıl Avrupa’sında gelişti?",
+            "options": ["Jazz", "Klasik", "Rock", "Pop"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_12",
+            "question": "Hangi enstrüman Tchaikovsky ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_13",
+            "question": "Hangi sanatçı 'Respect' şarkısıyla ünlüdür?",
+            "options": ["Aretha Franklin", "Etta James", "Nina Simone", "Billie Holiday"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_14",
+            "question": "Hangi müzik türü 20. yüzyılın sonlarında popülerleşti?",
+            "options": ["Hip-Hop", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_15",
+            "question": "Hangi enstrüman Handel ile ilişkilidir?",
+            "options": ["Org", "Keman", "Gitar", "Flüt"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_16",
+            "question": "Hangi sanatçı 'Hotel California' şarkısını seslendirmiştir?",
+            "options": ["The Eagles", "The Rolling Stones", "Led Zeppelin", "The Doors"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_17",
+            "question": "Hangi müzik türü 19. yüzyılın sonlarında doğdu?",
+            "options": ["Ragtime", "Rock", "Blues", "Pop"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_18",
+            "question": "Hangi enstrüman Paganini ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_19",
+            "question": "Hangi sanatçı 'Smells Like Teen Spirit' şarkısını seslendirmiştir?",
+            "options": ["Nirvana", "Pearl Jam", "Soundgarden", "Alice in Chains"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_20",
+            "question": "Hangi müzik türü 20. yüzyılın başlarında doğdu?",
+            "options": ["Swing", "Rock", "Blues", "Pop"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_21",
+            "question": "Hangi enstrüman Liszt ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_22",
+            "question": "Hangi sanatçı 'Sweet Child o’ Mine' şarkısını seslendirmiştir?",
+            "options": ["Guns N’ Roses", "Aerosmith", "Bon Jovi", "Metallica"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_23",
+            "question": "Hangi müzik türü 17. yüzyıl Avrupa’sında gelişti?",
+            "options": ["Barok", "Klasik", "Rock", "Pop"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_24",
+            "question": "Hangi enstrüman Debussy ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_medium_25",
+            "question": "Hangi sanatçı 'I Shot the Sheriff' şarkısını yazmıştır?",
+            "options": ["Bob Marley", "Peter Tosh", "Jimmy Cliff", "Bunny Wailer"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "music_hard_1",
+            "question": "Hangi sanatçı 17. yüzyılın Barok bestecisidir?",
+            "options": ["Johann Sebastian Bach", "Antonio Vivaldi", "George Frideric Handel", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_2",
+            "question": "Hangi müzik türü 19. yüzyılın başında doğdu?",
+            "options": ["Romantik", "Klasik", "Barok", "Modern"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_3",
+            "question": "Hangi enstrüman Stravinsky ile ilişkilidir?",
+            "options": ["Piyano", "Keman", "Fagot", "Trompet"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_4",
+            "question": "Hangi sanatçı 'Boléro' bestesini yapmıştır?",
+            "options": ["Maurice Ravel", "Claude Debussy", "Erik Satie", "Gabriel Fauré"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_5",
+            "question": "Hangi müzik türü 20. yüzyılın ortalarında gelişti?",
+            "options": ["Rock’n Roll", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_6",
+            "question": "Hangi enstrüman Schoenberg ile ilişkilidir?",
+            "options": ["Piyano", "Keman", "Klarnet", "Gitar"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_7",
+            "question": "Hangi sanatçı 'Moonlight Sonata' bestesini yapmıştır?",
+            "options": ["Ludwig van Beethoven", "Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Franz Schubert"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_8",
+            "question": "Hangi müzik türü 18. yüzyılın sonlarında gelişti?",
+            "options": ["Klasik", "Barok", "Romantik", "Modern"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_9",
+            "question": "Hangi enstrüman Berlioz ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Obua", "Trompet"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_10",
+            "question": "Hangi sanatçı 'Symphonie Fantastique' bestesini yapmıştır?",
+            "options": ["Hector Berlioz", "Franz Liszt", "Richard Wagner", "Johannes Brahms"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_11",
+            "question": "Hangi müzik türü 20. yüzyılın sonunda doğdu?",
+            "options": ["Electronica", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_12",
+            "question": "Hangi enstrüman Brahms ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Korno", "Flüt"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_13",
+            "question": "Hangi sanatçı 'Ring des Nibelungen' bestesini yapmıştır?",
+            "options": ["Richard Wagner", "Hector Berlioz", "Franz Liszt", "Johannes Brahms"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_14",
+            "question": "Hangi müzik türü 19. yüzyılın ortalarında gelişti?",
+            "options": ["Opera", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_15",
+            "question": "Hangi enstrüman Shostakovich ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Viyola", "Trompet"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_16",
+            "question": "Hangi sanatçı 'The Rite of Spring' bestesini yapmıştır?",
+            "options": ["Igor Stravinsky", "Arnold Schoenberg", "Dmitri Shostakovich", "Sergei Prokofiev"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_17",
+            "question": "Hangi müzik türü 20. yüzyılın başlarında gelişti?",
+            "options": ["Modern Klasik", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_18",
+            "question": "Hangi enstrüman Prokofiev ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Obua", "Trompet"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_19",
+            "question": "Hangi sanatçı 'Pictures at an Exhibition' bestesini yapmıştır?",
+            "options": ["Modest Mussorgsky", "Nikolai Rimsky-Korsakov", "Pyotr Ilyich Tchaikovsky", "Sergei Rachmaninoff"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_20",
+            "question": "Hangi müzik türü 18. yüzyılın ortalarında gelişti?",
+            "options": ["Rokoko", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_21",
+            "question": "Hangi enstrüman Rachmaninoff ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Gitar"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_22",
+            "question": "Hangi sanatçı 'The Nutcracker' bestesini yapmıştır?",
+            "options": ["Pyotr Ilyich Tchaikovsky", "Nikolai Rimsky-Korsakov", "Modest Mussorgsky", "Sergei Rachmaninoff"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_23",
+            "question": "Hangi müzik türü 17. yüzyılın sonlarında gelişti?",
+            "options": ["Barok", "Klasik", "Romantik", "Modern"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_24",
+            "question": "Hangi enstrüman Verdi ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Opera Orkestrası", "Flüt"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_hard_25",
+            "question": "Hangi sanatçı 'Aida' operasını bestelemiştir?",
+            "options": ["Giuseppe Verdi", "Richard Wagner", "Giacomo Puccini", "Gioachino Rossini"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "music_expert_1",
+            "question": "Hangi sanatçı 16. yüzyılın Rönesans bestecisidir?",
+            "options": ["Giovanni Palestrina", "Johann Sebastian Bach", "Antonio Vivaldi", "George Frideric Handel"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_2",
+            "question": "Hangi müzik türü 20. yüzyılın sonlarında elektronik müzikle birleşti?",
+            "options": ["Techno", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_3",
+            "question": "Hangi enstrüman Monteverdi ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Klavesen", "Flüt"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_4",
+            "question": "Hangi sanatçı 'Messiah' oratoryosunu bestelemiştir?",
+            "options": ["George Frideric Handel", "Johann Sebastian Bach", "Antonio Vivaldi", "Henry Purcell"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_5",
+            "question": "Hangi müzik türü 19. yüzyılın sonlarında opera ile birleşti?",
+            "options": ["Verismo", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_6",
+            "question": "Hangi enstrüman Purcell ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Org", "Flüt"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_7",
+            "question": "Hangi sanatçı 'St. Matthew Passion' bestesini yapmıştır?",
+            "options": ["Johann Sebastian Bach", "George Frideric Handel", "Antonio Vivaldi", "Claudio Monteverdi"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_8",
+            "question": "Hangi müzik türü 18. yüzyılın başında doğdu?",
+            "options": ["Rokoko", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_9",
+            "question": "Hangi enstrüman Couperin ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Klavesen", "Flüt"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_10",
+            "question": "Hangi sanatçı 'L’Orfeo' operasını bestelemiştir?",
+            "options": ["Claudio Monteverdi", "George Frideric Handel", "Antonio Vivaldi", "Henry Purcell"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_11",
+            "question": "Hangi müzik türü 20. yüzyılın ortalarında elektronik müzikle birleşti?",
+            "options": ["Avant-Garde", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_12",
+            "question": "Hangi enstrüman Rameau ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Klavesen", "Flüt"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_13",
+            "question": "Hangi sanatçı 'Dido and Aeneas' operasını bestelemiştir?",
+            "options": ["Henry Purcell", "George Frideric Handel", "Antonio Vivaldi", "Claudio Monteverdi"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_14",
+            "question": "Hangi müzik türü 17. yüzyılın ortalarında doğdu?",
+            "options": ["Opera", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_15",
+            "question": "Hangi enstrüman Scarlatti ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Klavesen", "Flüt"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_16",
+            "question": "Hangi sanatçı 'Le Sacre du Printemps' bestesini yapmıştır?",
+            "options": ["Igor Stravinsky", "Arnold Schoenberg", "Dmitri Shostakovich", "Sergei Prokofiev"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_17",
+            "question": "Hangi müzik türü 19. yüzyılın başında gelişti?",
+            "options": ["Romantik", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_18",
+            "question": "Hangi enstrüman Telemann ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Flüt", "Obua"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_19",
+            "question": "Hangi sanatçı 'Porgy and Bess' operasını bestelemiştir?",
+            "options": ["George Gershwin", "Aaron Copland", "Leonard Bernstein", "Samuel Barber"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_20",
+            "question": "Hangi müzik türü 20. yüzyılın başında doğdu?",
+            "options": ["Atonal Müzik", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_21",
+            "question": "Hangi enstrüman Copland ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Klarnet", "Trompet"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_22",
+            "question": "Hangi sanatçı 'West Side Story' müzikalini bestelemiştir?",
+            "options": ["Leonard Bernstein", "George Gershwin", "Aaron Copland", "Samuel Barber"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_23",
+            "question": "Hangi müzik türü 18. yüzyılın sonlarında doğdu?",
+            "options": ["Klasik", "Jazz", "Blues", "Country"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_24",
+            "question": "Hangi enstrüman Barber ile ilişkilidir?",
+            "options": ["Keman", "Piyano", "Viyola", "Trompet"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "music_expert_25",
+            "question": "Hangi sanatçı 'Turandot' operasını bestelemiştir?",
+            "options": ["Giacomo Puccini", "Giuseppe Verdi", "Richard Wagner", "Gioachino Rossini"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

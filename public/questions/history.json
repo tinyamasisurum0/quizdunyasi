@@ -1,0 +1,806 @@
+{
+    "category": "Tarih",
+    "description": "Antik çağlardan modern zamanlara tarih yolculuğu",
+    "questions": [
+        {
+            "id": "history_easy_1",
+            "question": "Hangi ülke Osmanlı İmparatorluğu’nu kurdu?",
+            "options": ["İngiltere", "Türkiye", "Fransa", "Almanya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_2",
+            "question": "Hangi savaş 1914’te başladı?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Napolyon Savaşları", "Soğuk Savaş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_3",
+            "question": "Hangi şehir İstanbul’un eski adıdır?",
+            "options": ["Ankara", "İzmir", "Konstantinopolis", "Bursa"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_4",
+            "question": "Hangi ülke Amerika’yı keşfetti?",
+            "options": ["İspanya", "İngiltere", "Fransa", "Portekiz"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_5",
+            "question": "Hangi yüzyıl 2000’lerde başladı?",
+            "options": ["19.", "20.", "21.", "22."],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_6",
+            "question": "Hangi imparatorluk Roma’yı yönetti?",
+            "options": ["Osmanlı", "Roma", "Bizans", "Moğol"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_7",
+            "question": "Hangi ülke 1789’da devrim yaptı?",
+            "options": ["Amerika", "Fransa", "Rusya", "Çin"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_8",
+            "question": "Hangi savaşta atom bombası kullanıldı?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Kore Savaşı", "Vietnam Savaşı"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_9",
+            "question": "Hangi lider Mısır’ı yönetti?",
+            "options": ["Kleopatra", "Napolyon", "Hitler", "Stalin"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_10",
+            "question": "Hangi ülke İngiltere’den ayrıldı?",
+            "options": ["Kanada", "Avustralya", "Amerika", "Hindistan"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_11",
+            "question": "Hangi yüzyılda Rönesans başladı?",
+            "options": ["14.", "15.", "16.", "17."],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_12",
+            "question": "Hangi ülke Moğolları yönetti?",
+            "options": ["Çin", "Moğolistan", "Rusya", "Hindistan"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_13",
+            "question": "Hangi savaşta Napolyon yenildi?",
+            "options": ["Waterloo", "Trafalgar", "Austerlitz", "Borodino"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_14",
+            "question": "Hangi ülke piramitleriyle ünlüdür?",
+            "options": ["Meksika", "Mısır", "Hindistan", "Çin"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_15",
+            "question": "Hangi lider Rusya’yı yönetti?",
+            "options": ["Lenin", "Hitler", "Mussolini", "Churchill"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_16",
+            "question": "Hangi ülke Magna Carta’yı yazdı?",
+            "options": ["Fransa", "İngiltere", "Almanya", "İspanya"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_17",
+            "question": "Hangi savaş 1939’da başladı?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Kore Savaşı", "Vietnam Savaşı"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_18",
+            "question": "Hangi ülke Japonya’yı işgal etti?",
+            "options": ["Amerika", "Çin", "Rusya", "İngiltere"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_19",
+            "question": "Hangi lider İtalya’yı birleştirdi?",
+            "options": ["Garibaldi", "Mussolini", "Napolyon", "Hitler"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_20",
+            "question": "Hangi ülke Berlin Duvarı’nı inşa etti?",
+            "options": ["Almanya", "Rusya", "Fransa", "İngiltere"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_21",
+            "question": "Hangi savaş Orta Çağ’da oldu?",
+            "options": ["Yüz Yıl Savaşı", "I. Dünya Savaşı", "II. Dünya Savaşı", "Soğuk Savaş"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_22",
+            "question": "Hangi ülke Çin Seddi’ni yaptı?",
+            "options": [" Japonya", "Çin", "Moğolistan", "Kore"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_23",
+            "question": "Hangi lider Fransa’yı işgal etti?",
+            "options": ["Hitler", "Napolyon", "Stalin", "Mussolini"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_24",
+            "question": "Hangi ülke Hindistan’ı sömürgeleştirdi?",
+            "options": ["Fransa", "İngiltere", "İspanya", "Portekiz"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_easy_25",
+            "question": "Hangi olay 1929’da ekonomik krize yol açtı?",
+            "options": ["Borsa Çöküşü", "II. Dünya Savaşı", "Soğuk Savaş", "Petrol Krizi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "history_medium_1",
+            "question": "Hangi uygarlık piramitleri inşa etti?",
+            "options": ["Roma", "Mısır", "Yunan", "Çin"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_2",
+            "question": "Hangi savaş Amerikan İç Savaşı’dır?",
+            "options": ["1861-1865", "1914-1918", "1939-1945", "1950-1953"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_3",
+            "question": "Hangi lider Büyük İskender’dir?",
+            "options": ["Makedonyalı", "Romalı", "Persli", "Mısırlı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_4",
+            "question": "Hangi ülke Rönesans’ın merkeziydi?",
+            "options": ["Fransa", "İtalya", "İspanya", "Almanya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_5",
+            "question": "Hangi imparatorluk 1453’te İstanbul’u aldı?",
+            "options": ["Bizans", "Osmanlı", "Roma", "Moğol"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_6",
+            "question": "Hangi savaşta Versay Antlaşması imzalandı?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Napolyon Savaşları", "Yüz Yıl Savaşı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_7",
+            "question": "Hangi lider Bolşevik Devrimi’ni başlattı?",
+            "options": ["Stalin", "Lenin", "Troçki", "Marx"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_8",
+            "question": "Hangi ülke Haçlı Seferleri’ni düzenledi?",
+            "options": ["İngiltere", "Fransa", "İspanya", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_9",
+            "question": "Hangi lider Japonya’yı modernize etti?",
+            "options": ["Meiji", "Hirohito", "Tokugawa", "Yamamoto"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_10",
+            "question": "Hangi ülke İlk Çağ’da demokrasiyi geliştirdi?",
+            "options": ["Roma", "Yunanistan", "Mısır", "Çin"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_11",
+            "question": "Hangi savaşta Çanakkale geçilemedi?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Balkan Savaşları", "Kırım Savaşı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_12",
+            "question": "Hangi lider İspanya’yı birleştirdi?",
+            "options": ["Franco", "İzabella", "Napolyon", "Philip"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_13",
+            "question": "Hangi ülke Sanayi Devrimi’ni başlattı?",
+            "options": ["Amerika", "İngiltere", "Fransa", "Almanya"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_14",
+            "question": "Hangi lider Roma’yı yaktı?",
+            "options": ["Nero", "Augustus", "Julius Caesar", "Constantine"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_15",
+            "question": "Hangi savaşta Pearl Harbor bombalandı?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Kore Savaşı", "Vietnam Savaşı"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_16",
+            "question": "Hangi ülke Kanuni’yi yönetti?",
+            "options": ["Osmanlı", "Safevi", "Moğol", "Bizans"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_17",
+            "question": "Hangi lider Almanya’yı birleştirdi?",
+            "options": ["Bismarck", "Hitler", "Wilhelm", "Frederick"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_18",
+            "question": "Hangi ülke Vikingler’in ana vatanıdır?",
+            "options": ["İsveç", "Norveç", "Danimarka", "Hepsi"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_19",
+            "question": "Hangi lider Çin’i komünistleştirdi?",
+            "options": ["Mao", "Sun Yat-sen", "Chiang Kai-shek", "Deng Xiaoping"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_20",
+            "question": "Hangi ülke İnka İmparatorluğu’nu yıktı?",
+            "options": ["Portekiz", "İspanya", "Fransa", "İngiltere"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_21",
+            "question": "Hangi savaşta Truva Atı kullanıldı?",
+            "options": ["Truva Savaşı", "Peloponez Savaşı", "Pön Savaşları", "Gül Savaşları"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_22",
+            "question": "Hangi lider Hindistan’ı bağımsız kıldı?",
+            "options": ["Gandhi", "Nehru", "Jinnah", "Bose"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_23",
+            "question": "Hangi ülke ilk kağıt parayı kullandı?",
+            "options": ["Çin", "Mısır", "Roma", "Yunanistan"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_24",
+            "question": "Hangi lider Meksika’yı bağımsız kıldı?",
+            "options": ["Hidalgo", "Santa Anna", "Juarez", "Zapata"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_medium_25",
+            "question": "Hangi ülke ilk yazılı yasaları oluşturdu?",
+            "options": ["Mısır", "Sümer", "Roma", "Yunanistan"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "history_hard_1",
+            "question": "Hangi uygarlık yazıyı ilk geliştirdi?",
+            "options": ["Mısır", "Sümer", "Çin", "Hint"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_2",
+            "question": "Hangi savaşta Spartaküs liderlik etti?",
+            "options": ["Pön Savaşları", "Köle İsyanı", "Galyalar Savaşı", "Peloponez Savaşı"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_3",
+            "question": "Hangi lider Pers İmparatorluğu’nu genişletti?",
+            "options": ["Darius", "Xerxes", "Cyrus", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_4",
+            "question": "Hangi ülke Barut Çağı’nı başlattı?",
+            "options": ["Çin", "Osmanlı", "İngiltere", "Fransa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_5",
+            "question": "Hangi savaşta Osmanlı Viyana’yı alamadı?",
+            "options": ["1529", "1683", "1566", "1453"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_6",
+            "question": "Hangi lider Naber Termopylae’de savaştı?",
+            "options": ["Leonidas", "Xerxes", "Perikles", "Themistokles"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_7",
+            "question": "Hangi ülke ilk matbaayı kullandı?",
+            "options": ["Almanya", "Çin", "İtalya", "Fransa"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_8",
+            "question": "Hangi lider Mongol istilasını başlattı?",
+            "options": ["Cengiz Han", "Kubilay Han", "Timur", "Hülagu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_9",
+            "question": "Hangi ülke Aztekleri yıktı?",
+            "options": ["İspanya", "Portekiz", "Fransa", "İngiltere"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_10",
+            "question": "Hangi lider Atina’da demokrasiyi kurdu?",
+            "options": ["Solon", "Perikles", "Kleisthenes", "Drakon"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_11",
+            "question": "Hangi savaşta Osmanlı Mohaç’ta kazandı?",
+            "options": ["1526", "1541", "1566", "1683"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_12",
+            "question": "Hangi lider Portekiz’i küresel güç yaptı?",
+            "options": ["Vasco da Gama", "Henry the Navigator", "Manuel I", "Afonso V"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_13",
+            "question": "Hangi ülke ilk telgrafı geliştirdi?",
+            "options": ["Amerika", "İngiltere", "Fransa", "Almanya"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_14",
+            "question": "Hangi lider Roma’yı Hristiyan yaptı?",
+            "options": ["Augustus", "Constantine", "Nero", "Trajan"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_15",
+            "question": "Hangi savaşta Normandiya Çıkarması oldu?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Kore Savaşı", "Vietnam Savaşı"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_16",
+            "question": "Hangi lider Safevileri kurdu?",
+            "options": ["Şah İsmail", "Şah Abbas", "Nader Şah", "Tahmasp"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_17",
+            "question": "Hangi ülke ilk anayasayı yazdı?",
+            "options": ["Amerika", "Fransa", "İngiltere", " Japonya"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_18",
+            "question": "Hangi lider Hunları yönetti?",
+            "options": ["Attila", "Bleda", "Ruga", "Oktar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_19",
+            "question": "Hangi ülke Mayaları sömürgeleştirdi?",
+            "options": ["İspanya", "Portekiz", "Fransa", "İngiltere"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_20",
+            "question": "Hangi lider Japonya’yı izole etti?",
+            "options": ["Tokugawa", "Meiji", "Hirohito", "Toyotomi"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_21",
+            "question": "Hangi savaşta Salamis zaferi kazanıldı?",
+            "options": ["Pers Savaşları", "Peloponez Savaşı", "Pön Savaşları", "Truva Savaşı"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_22",
+            "question": "Hangi lider Türkiye’yi kurdu?",
+            "options": ["Atatürk", "İnönü", "Enver Paşa", "Talat Paşa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_23",
+            "question": "Hangi ülke ilk demiryolunu yaptı?",
+            "options": ["İngiltere", "Amerika", "Fransa", "Almanya"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_24",
+            "question": "Hangi lider Brezilya’yı bağımsız kıldı?",
+            "options": ["Pedro I", "Tiradentes", "Dom João", "Getúlio Vargas"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_hard_25",
+            "question": "Hangi ülke ilk alfabeyi geliştirdi?",
+            "options": ["Fenike", "Mısır", "Sümer", "Yunanistan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "history_expert_1",
+            "question": "Hangi uygarlık Bronz Çağı çöküşüne katkıda bulundu?",
+            "options": ["Deniz Halkları", "Hititler", "Mikenler", "Hepsi"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_2",
+            "question": "Hangi savaşta Hannibal Alpleri geçti?",
+            "options": ["Birinci Pön Savaşı", "İkinci Pön Savaşı", "Üçüncü Pön Savaşı", "Galyalar Savaşı"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_3",
+            "question": "Hangi lider Akamenid İmparatorluğu’nu kurdu?",
+            "options": ["Cyrus", "Darius", "Xerxes", "Artaxerxes"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_4",
+            "question": "Hangi ülke ilk barutu savaşta kullandı?",
+            "options": ["Çin", "Osmanlı", "Moğol", "Araplar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_5",
+            "question": "Hangi savaşta Osmanlı Preveze’de kazandı?",
+            "options": ["1538", "1571", "1521", "1453"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_6",
+            "question": "Hangi lider Plataea’da Persleri yendi?",
+            "options": ["Pausanias", "Leonidas", "Themistokles", "Miltiades"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_7",
+            "question": "Hangi ülke ilk basılı kitabı üretti?",
+            "options": ["Çin", "Almanya", "Kore", "İtalya"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_8",
+            "question": "Hangi lider Altın Orda’yı kurdu?",
+            "options": ["Batu Han", "Cengiz Han", "Kubilay Han", "Timur"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_9",
+            "question": "Hangi ülke Tenoçtitlan’ı ele geçirdi?",
+            "options": ["İspanya", "Portekiz", "Fransa", "Hollanda"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_10",
+            "question": "Hangi lider Atina’da ostracism’i başlattı?",
+            "options": ["Kleisthenes", "Solon", "Perikles", "Drakon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_11",
+            "question": "Hangi savaşta Osmanlı Niğbolu’da kazandı?",
+            "options": ["1396", "1444", "1526", "1683"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_12",
+            "question": "Hangi lider Hindistan’ı Moğollara açtı?",
+            "options": ["Babür", "Akbar", "Aurangzeb", "Şah Cihan"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_13",
+            "question": "Hangi ülke ilk telgraf hattını kurdu?",
+            "options": ["İngiltere", "Amerika", "Fransa", "Almanya"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_14",
+            "question": "Hangi lider Roma’yı ikiye böldü?",
+            "options": ["Diocletian", "Constantine", "Augustus", "Nero"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_15",
+            "question": "Hangi savaşta Stalingrad savunuldu?",
+            "options": ["I. Dünya Savaşı", "II. Dünya Savaşı", "Kırım Savaşı", "Soğuk Savaş"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_16",
+            "question": "Hangi lider Memlükleri yendi?",
+            "options": ["Selim I", "Süleyman", "Bayezid II", "Mehmed II"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_17",
+            "question": "Hangi ülke ilk kadın oy hakkını tanıdı?",
+            "options": ["Yeni Zelanda", "Amerika", "İngiltere", "Fransa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_18",
+            "question": "Hangi lider Avarları durdurdu?",
+            "options": ["Charlemagne", "Otto I", "Clovis", "Pepin"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_19",
+            "question": "Hangi ülke Çaka Bey’i yendi?",
+            "options": ["Bizans", "Osmanlı", "Selçuklu", "Araplar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_20",
+            "question": "Hangi lider Japonya’yı yeniden birleştirdi?",
+            "options": ["Oda Nobunaga", "Toyotomi Hideyoshi", "Tokugawa Ieyasu", "Takeda Shingen"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_21",
+            "question": "Hangi savaşta Maraton koşusu doğdu?",
+            "options": ["Pers Savaşları", "Peloponez Savaşı", "Pön Savaşları", "Truva Savaşı"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_22",
+            "question": "Hangi lider Küba’yı komünistleştirdi?",
+            "options": ["Castro", "Che Guevara", "Batista", "Machado"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_23",
+            "question": "Hangi ülke ilk buharlı gemiyi yaptı?",
+            "options": ["Amerika", "İngiltere", "Fransa", "Hollanda"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_24",
+            "question": "Hangi lider Arjantin’i bağımsız kıldı?",
+            "options": ["San Martín", "Bolívar", "Rosas", "Perón"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "history_expert_25",
+            "question": "Hangi ülke ilk hiyeroglifleri kullandı?",
+            "options": ["Mısır", "Sümer", "Çin", "Hint"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

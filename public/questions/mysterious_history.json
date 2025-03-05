@@ -1,0 +1,806 @@
+{
+    "category": "Gizemli Tarih Olayları",
+    "description": "Çözülmemiş tarihsel sırlarla geçmişe yolculuk yapın",
+    "questions": [
+        {
+            "id": "myst_hist_easy_1",
+            "question": "Hangi ünlü kraliçenin mezarı hala bulunamamıştır?",
+            "options": ["Kleopatra", "Nefertiti", "Hatshepsut", "Marie Antoinette"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_2",
+            "question": "Hangi gemi 1912’de batıp gizemli hikayelere konu oldu?",
+            "options": ["Lusitania", "Titanic", "Queen Mary", "Bismarck"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_3",
+            "question": "Hangi kayıp şehir efsanelerde 'Altın Şehir' olarak geçer?",
+            "options": ["Atlantis", "El Dorado", "Troya", "Pompeii"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_4",
+            "question": "Hangi İngiliz kraliyet gemisi 1545’te batıp gizem yarattı?",
+            "options": ["Mary Rose", "Golden Hind", "Victory", "Endeavour"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_5",
+            "question": "Hangi uçak 1947’de Bermuda Şeytan Üçgeni’nde kayboldu?",
+            "options": ["Flight 19", "Amelia Earhart", "Flight 77", "Flight 93"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_6",
+            "question": "Hangi ünlü kaşif 1925’te Amazon’da kayboldu?",
+            "options": ["Christopher Columbus", "Percy Fawcett", "Marco Polo", "Ferdinand Magellan"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_7",
+            "question": "Hangi antik yapı İngiltere’de bir gizem olarak duruyor?",
+            "options": ["Stonehenge", "Hadrian Duvarı", "Big Ben", "Londra Kulesi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_8",
+            "question": "Hangi Rus çar ailesi 1918’de kaybolup gizem yarattı?",
+            "options": ["Romanovlar", "Rurik Hanedanı", "Godunovlar", "Boyarlar"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_9",
+            "question": "Hangi kadın pilot 1937’de Pasifik’te kayboldu?",
+            "options": ["Amelia Earhart", "Bessie Coleman", "Harriet Quimby", "Jacqueline Cochran"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_10",
+            "question": "Hangi ada efsanelerde batmış bir medeniyet olarak geçer?",
+            "options": ["Atlantis", "Paskalya Adası", "Malta", "Kıbrıs"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_11",
+            "question": "Hangi seri katilin kimliği hala bilinmiyor?",
+            "options": ["Jack the Ripper", "Zodiac Killer", "Ted Bundy", "John Wayne Gacy"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_12",
+            "question": "Hangi gemi 1872’de terk edilmiş halde bulundu?",
+            "options": ["Mary Celeste", "Flying Dutchman", "Titanic", "Lusitania"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_13",
+            "question": "Hangi antik uygarlık gizemli çizgileriyle tanınır?",
+            "options": ["Maya", "İnka", "Nazca", "Aztek"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_14",
+            "question": "Hangi kralın mezarı 1922’de keşfedildi ama lanet söylentileriyle anılır?",
+            "options": ["Tutankhamun", "Ramses II", "Akhenaton", "Seti I"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_15",
+            "question": "Hangi kayıp koloni Amerika’da gizem olarak kaldı?",
+            "options": ["Jamestown", "Roanoke", "Plymouth", "Salem"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_16",
+            "question": "Hangi gemi efsanelerde hayalet gemi olarak bilinir?",
+            "options": ["Mary Celeste", "Flying Dutchman", "Titanic", "Lusitania"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_17",
+            "question": "Hangi antik yapı piramitleriyle ünlüdür?",
+            "options": ["Stonehenge", "Giza", "Chichen Itza", "Machu Picchu"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_18",
+            "question": "Hangi savaş gemisi 1941’de gizemli bir şekilde kayboldu?",
+            "options": ["HMS Hood", "USS Cyclops", "Bismarck", "Yamato"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_19",
+            "question": "Hangi bölge Bermuda Şeytan Üçgeni olarak bilinir?",
+            "options": ["Pasifik Okyanusu", "Atlantik Okyanusu", "Hint Okyanusu", "Kuzey Buz Denizi"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_20",
+            "question": "Hangi antik uygarlık Paskalya Adası heykelleriyle tanınır?",
+            "options": ["Rapa Nui", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_21",
+            "question": "Hangi kralın hazinesi hala aranmaktadır?",
+            "options": ["Kral Arthur", "Kral Süleyman", "Kral Tutankhamun", "Kral Richard"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_22",
+            "question": "Hangi tren 1890’da kaybolup gizem yarattı?",
+            "options": ["Orient Express", "Zanetti Treni", "Trans-Sibirya", "Union Pacific"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_23",
+            "question": "Hangi antik şehir volkanik patlamayla yok oldu?",
+            "options": ["Pompeii", "Troya", "Atlantis", "El Dorado"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_24",
+            "question": "Hangi kaşifin gemisi Kuzeybatı Geçidi’nde kayboldu?",
+            "options": ["John Franklin", "Christopher Columbus", "Ferdinand Magellan", "Marco Polo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_easy_25",
+            "question": "Hangi ünlü hazine korsanlarla ilişkilendirilir?",
+            "options": ["Oak Adası Hazinesi", "El Dorado", "Troya Hazinesi", "Kleopatra’nın Mezarı"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myst_hist_medium_1",
+            "question": "Hangi antik metin hala çözülememiştir?",
+            "options": ["Rosetta Taşı", "Voynich El Yazması", "Dead Sea Scrolls", "Behistun Yazıtı"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_2",
+            "question": "Hangi Prens’in ölümüyle ilgili komplo teorileri var?",
+            "options": ["Prens Arthur", "Prens Anastasya", "Prens Edward", "Prens Louis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_3",
+            "question": "Hangi İngiliz kralı 1483’te kayboldu?",
+            "options": ["Edward V", "Richard III", "Henry VIII", "James I"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_4",
+            "question": "Hangi antik uygarlık gizemli bir şekilde çöktü?",
+            "options": ["Mısır", "Maya", "Roma", "Yunan"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_5",
+            "question": "Hangi gemi 1918’de kaybolup Bermuda Üçgeni’nde gizem yarattı?",
+            "options": ["USS Cyclops", "Mary Celeste", "Titanic", "Lusitania"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_6",
+            "question": "Hangi antik savaşın yeri hala bulunamadı?",
+            "options": ["Troya Savaşı", "Maraton Savaşı", "Termopil Savaşı", "Salamis Savaşı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_7",
+            "question": "Hangi hazine 18. yüzyılda korsanlar tarafından saklandı?",
+            "options": ["Kaptan Kidd’in Hazinesi", "El Dorado", "Troya Hazinesi", "Kleopatra’nın Mezarı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_8",
+            "question": "Hangi antik yapı Easter Adası’nda bulunur?",
+            "options": ["Moai Heykelleri", "Nazca Çizgileri", "Stonehenge", "Giza Piramitleri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_9",
+            "question": "Hangi Rus prensesin ölümü gizemle çevrili?",
+            "options": ["Anastasia Romanov", "Catherine Büyük", "Maria Feodorovna", "Alexandra Romanov"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_10",
+            "question": "Hangi kayıp şehir İspanyollar tarafından arandı?",
+            "options": ["Atlantis", "El Dorado", "Troya", "Pompeii"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_11",
+            "question": "Hangi seri katil 1960’larda şifreli mesajlar gönderdi?",
+            "options": ["Jack the Ripper", "Zodiac Killer", "Ted Bundy", "John Wayne Gacy"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_12",
+            "question": "Hangi antik uygarlık Machu Picchu’yu inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Nazca"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_13",
+            "question": "Hangi gemi 1591’de kaybolup Roanoke gizemine bağlandı?",
+            "options": ["Virginia Dare", "Mary Rose", "Golden Hind", "Endeavour"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_14",
+            "question": "Hangi antik yapı gizemli taşlarıyla ünlüdür?",
+            "options": ["Stonehenge", "Giza Piramitleri", "Moai Heykelleri", "Nazca Çizgileri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_15",
+            "question": "Hangi kaşifin gemisi 1845’te Arktik’te kayboldu?",
+            "options": ["John Franklin", "Roald Amundsen", "Robert Peary", "Ernest Shackleton"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_16",
+            "question": "Hangi antik uygarlık gizemli takvimleriyle tanınır?",
+            "options": ["Maya", "İnka", "Aztek", "Nazca"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_17",
+            "question": "Hangi hazine Templar Şövalyeleri ile ilişkilendirilir?",
+            "options": ["Kutsal Kase", "El Dorado", "Troya Hazinesi", "Kleopatra’nın Mezarı"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_18",
+            "question": "Hangi gemi 1943’te Philadelphia Deneyi ile gizem yarattı?",
+            "options": ["USS Eldridge", "USS Cyclops", "Mary Celeste", "Titanic"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_19",
+            "question": "Hangi antik şehir Helenistik dönemde kayboldu?",
+            "options": ["Pergamon", "Troya", "Atlantis", "Pompeii"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_20",
+            "question": "Hangi kaşifin hazinesi Güney Amerika’da aranır?",
+            "options": ["Francisco Pizarro", "Hernán Cortés", "Sir Walter Raleigh", "Christopher Columbus"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_21",
+            "question": "Hangi antik uygarlık Chichen Itza’yı inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Nazca"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_22",
+            "question": "Hangi gemi 1865’te kaybolup Amerikan İç Savaşı gizemi yarattı?",
+            "options": ["CSS Alabama", "USS Monitor", "Mary Celeste", "Titanic"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_23",
+            "question": "Hangi antik yapı gizemli hizalamalarıyla bilinir?",
+            "options": ["Stonehenge", "Giza Piramitleri", "Moai Heykelleri", "Nazca Çizgileri"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_24",
+            "question": "Hangi kralın ölümü 1170’te gizemle çevrili?",
+            "options": ["Thomas Becket", "Richard I", "Henry VIII", "Edward III"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_medium_25",
+            "question": "Hangi antik uygarlık Teotihuacan’ı inşa etti?",
+            "options": ["Maya", "İnka", "Aztek", "Bilinmeyen"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_hist_hard_1",
+            "question": "Hangi antik uygarlık Bronz Çağı çöküşüyle kayboldu?",
+            "options": ["Mikenler", "Hititler", "Mısırlılar", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_2",
+            "question": "Hangi gemi 1779’da Kuzey Kutbu’nda kayboldu?",
+            "options": ["HMS Terror", "HMS Erebus", "Mary Celeste", "Endeavour"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_3",
+            "question": "Hangi antik metin Phaistos Diski olarak bilinir?",
+            "options": ["Girit Yazısı", "Rosetta Taşı", "Voynich El Yazması", "Dead Sea Scrolls"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_4",
+            "question": "Hangi kralın mezarı 14. yüzyılda kayboldu?",
+            "options": ["Kral Arthur", "Kral Süleyman", "Kral Tutankhamun", "Kral Richard III"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_5",
+            "question": "Hangi antik uygarlık Göbekli Tepe’yi inşa etti?",
+            "options": ["Sümerler", "Bilinmeyen", "Hititler", "Mısırlılar"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_6",
+            "question": "Hangi gemi 1941’de Pearl Harbor sonrası kayboldu?",
+            "options": ["USS Arizona", "USS Cyclops", "USS Oklahoma", "USS Nevada"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_7",
+            "question": "Hangi antik hazine 12. yüzyılda kayboldu?",
+            "options": ["Kutsal Kase", "Ark of the Covenant", "Troya Hazinesi", "El Dorado"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_8",
+            "question": "Hangi antik şehir 79’da Vezüv Yanardağı ile yok oldu?",
+            "options": ["Pompeii", "Herculaneum", "Stabiae", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_9",
+            "question": "Hangi kaşifin gemisi 1492 sonrası kayboldu?",
+            "options": ["Christopher Columbus", "John Cabot", "Vasco da Gama", "Ferdinand Magellan"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_10",
+            "question": "Hangi antik uygarlık Harappa ile ilişkilidir?",
+            "options": ["İndus Vadisi", "Sümerler", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_11",
+            "question": "Hangi gemi 1800’de Avustralya’da kayboldu?",
+            "options": ["HMS Bounty", "HMS Endeavour", "Flinders’ın Gemisi", "Mary Celeste"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_12",
+            "question": "Hangi antik metin Linear A olarak bilinir?",
+            "options": ["Girit Yazısı", "Rosetta Taşı", "Voynich El Yazması", "Dead Sea Scrolls"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_13",
+            "question": "Hangi kralın hazinesi 13. yüzyılda kayboldu?",
+            "options": ["Kral John", "Kral Arthur", "Kral Süleyman", "Kral Richard III"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_14",
+            "question": "Hangi antik uygarlık Olmekler ile ilişkilidir?",
+            "options": ["Mezoamerika", "Sümerler", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_15",
+            "question": "Hangi gemi 1914’te Güney Atlantik’te kayboldu?",
+            "options": ["RMS Lusitania", "SS Waratah", "Titanic", "Mary Celeste"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_16",
+            "question": "Hangi antik hazine Süleyman Tapınağı ile ilişkilidir?",
+            "options": ["Ark of the Covenant", "Kutsal Kase", "Troya Hazinesi", "El Dorado"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_17",
+            "question": "Hangi antik şehir 1200’lerde çöktü?",
+            "options": ["Knossos", "Troya", "Atlantis", "Pompeii"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_18",
+            "question": "Hangi kaşifin gemisi 1522’de kayboldu?",
+            "options": ["Ferdinand Magellan", "John Cabot", "Vasco da Gama", "Christopher Columbus"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_19",
+            "question": "Hangi antik uygarlık Mohenjo-Daro ile ilişkilidir?",
+            "options": ["İndus Vadisi", "Sümerler", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_20",
+            "question": "Hangi gemi 1939’da Pasifik’te kayboldu?",
+            "options": ["SS Morro Castle", "SS Cyclops", "SS Waratah", "SS Andrea Doria"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_21",
+            "question": "Hangi antik hazine Büyük İskender ile ilişkilidir?",
+            "options": ["İskender’in Mezarı", "Kutsal Kase", "Troya Hazinesi", "El Dorado"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_22",
+            "question": "Hangi antik şehir 15. yüzyılda terk edildi?",
+            "options": ["Machu Picchu", "Troya", "Atlantis", "Pompeii"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_23",
+            "question": "Hangi kaşifin gemisi 1578’de kayboldu?",
+            "options": ["Sir Francis Drake", "John Cabot", "Vasco da Gama", "Christopher Columbus"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_24",
+            "question": "Hangi antik uygarlık Tikal ile ilişkilidir?",
+            "options": ["Maya", "İnka", "Aztek", "Nazca"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_hard_25",
+            "question": "Hangi gemi 1880’de Kuzey Atlantik’te kayboldu?",
+            "options": ["SS Arctic", "SS Cyclops", "SS Waratah", "Mary Celeste"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myst_hist_expert_1",
+            "question": "Hangi antik uygarlık 12. yüzyılda Ani’yi terk etti?",
+            "options": ["Ermeniler", "Bizans", "Selçuklular", "Gürcüler"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_2",
+            "question": "Hangi gemi 1813’te Bengal Körfezi’nde kayboldu?",
+            "options": ["HMS Orpheus", "HMS Cyclops", "HMS Serapis", "HMS Bounty"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_3",
+            "question": "Hangi antik metin Etrüsk diliyle yazılmıştır?",
+            "options": ["Liber Linteus", "Rosetta Taşı", "Voynich El Yazması", "Dead Sea Scrolls"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_4",
+            "question": "Hangi kralın mezarı 9. yüzyılda kayboldu?",
+            "options": ["Alfred Büyük", "Kral Arthur", "Kral Süleyman", "Kral Ragnar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_5",
+            "question": "Hangi antik uygarlık Cahokia’yı inşa etti?",
+            "options": ["Mississippiler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_6",
+            "question": "Hangi gemi 1854’te Karadeniz’de kayboldu?",
+            "options": ["HMS Tiger", "HMS Cyclops", "HMS Serapis", "HMS Bounty"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_7",
+            "question": "Hangi antik hazine 6. yüzyılda kayboldu?",
+            "options": ["Bizans Hazinesi", "Kutsal Kase", "Troya Hazinesi", "El Dorado"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_8",
+            "question": "Hangi antik şehir 13. yüzyılda Moğollar tarafından yok edildi?",
+            "options": ["Bağdat", "Troya", "Atlantis", "Pompeii"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_9",
+            "question": "Hangi kaşifin gemisi 1418’de kayboldu?",
+            "options": ["Zheng He", "John Cabot", "Vasco da Gama", "Christopher Columbus"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_10",
+            "question": "Hangi antik uygarlık Büyük Zimbabwe’yi inşa etti?",
+            "options": ["Shona", "Sümerler", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_11",
+            "question": "Hangi gemi 1761’de Hindistan’da kayboldu?",
+            "options": ["HMS Aurora", "HMS Cyclops", "HMS Serapis", "HMS Bounty"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_12",
+            "question": "Hangi antik metin Rongorongo olarak bilinir?",
+            "options": ["Paskalya Adası Yazısı", "Rosetta Taşı", "Voynich El Yazması", "Dead Sea Scrolls"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_13",
+            "question": "Hangi kralın hazinesi 5. yüzyılda kayboldu?",
+            "options": ["Attila", "Kral Arthur", "Kral Süleyman", "Kral Ragnar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_14",
+            "question": "Hangi antik uygarlık Angkor Wat’ı inşa etti?",
+            "options": ["Kmerler", "Maya", "İnka", "Aztek"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_15",
+            "question": "Hangi gemi 1898’te Pasifik’te kayboldu?",
+            "options": ["USS Maine", "HMS Cyclops", "SS Waratah", "SS Yongala"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_16",
+            "question": "Hangi antik hazine 11. yüzyılda kayboldu?",
+            "options": ["Normandiya Hazinesi", "Kutsal Kase", "Troya Hazinesi", "El Dorado"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_17",
+            "question": "Hangi antik şehir 7. yüzyılda terk edildi?",
+            "options": ["Petra", "Troya", "Atlantis", "Pompeii"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_18",
+            "question": "Hangi kaşifin gemisi 1502’de kayboldu?",
+            "options": ["Christopher Columbus", "John Cabot", "Vasco da Gama", "Amerigo Vespucci"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_19",
+            "question": "Hangi antik uygarlık Çatalhöyük ile ilişkilidir?",
+            "options": ["Neolitik Toplum", "Sümerler", "Hititler", "Mısırlılar"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_20",
+            "question": "Hangi gemi 1921’de Atlantik’te kayboldu?",
+            "options": ["SS Carroll A. Deering", "HMS Cyclops", "SS Waratah", "SS Yongala"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_21",
+            "question": "Hangi antik hazine 8. yüzyılda kayboldu?",
+            "options": ["Visigothic Hazinesi", "Kutsal Kase", "Troya Hazinesi", "El Dorado"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_22",
+            "question": "Hangi antik şehir 14. yüzyılda terk edildi?",
+            "options": ["Tiwanaku", "Troya", "Atlantis", "Pompeii"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_23",
+            "question": "Hangi kaşifin gemisi 1291’de kayboldu?",
+            "options": ["Vandino ve Ugolino Vivaldi", "John Cabot", "Vasco da Gama", "Christopher Columbus"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_24",
+            "question": "Hangi antik uygarlık Palenque ile ilişkilidir?",
+            "options": ["Maya", "İnka", "Aztek", "Nazca"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myst_hist_expert_25",
+            "question": "Hangi gemi 1909’da Hint Okyanusu’nda kayboldu?",
+            "options": ["SS Waratah", "HMS Cyclops", "SS Yongala", "SS Carroll A. Deering"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

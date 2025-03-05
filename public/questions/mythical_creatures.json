@@ -1,0 +1,806 @@
+{
+    "category": "Efsanevi Yaratıklar",
+    "description": "Mitolojiden ve folklorlardan gizemli yaratıklarla tanışın",
+    "questions": [
+        {
+            "id": "myth_creat_easy_1",
+            "question": "Hangi efsanevi yaratık yarı insan yarı attır?",
+            "options": ["Minotor", "Sentor", "Siren", "Grifon"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_2",
+            "question": "Hangi yaratık Yunan mitolojisinde labirentte yaşar?",
+            "options": ["Medusa", "Minotor", "Hidra", "Khimaira"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_3",
+            "question": "Hangi efsanevi kuş küllerinden doğar?",
+            "options": ["Anka Kuşu", "Grifon", "Harpi", "Roc"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_4",
+            "question": "Hangi yaratık bakışlarıyla insanları taşa çevirir?",
+            "options": ["Medusa", "Minotor", "Siren", "Khimaira"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_5",
+            "question": "Hangi efsanevi yaratık tek boynuzludur?",
+            "options": ["Pegasus", "Unicorn", "Dragon", "Grifon"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_6",
+            "question": "Hangi yaratık şarkısıyla denizcileri büyüler?",
+            "options": ["Medusa", "Siren", "Hidra", "Khimaira"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_7",
+            "question": "Hangi efsanevi yaratık ateş püskürtür?",
+            "options": ["Dragon", "Grifon", "Pegasus", "Unicorn"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_8",
+            "question": "Hangi yaratık aslan kafası ve kartal kanatlarıyla tanınır?",
+            "options": ["Minotor", "Grifon", "Hidra", "Khimaira"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_9",
+            "question": "Hangi efsanevi at kanatlıdır?",
+            "options": ["Pegasus", "Unicorn", "Dragon", "Grifon"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_10",
+            "question": "Hangi yaratık çok başlı bir yılan olarak bilinir?",
+            "options": ["Medusa", "Minotor", "Hidra", "Siren"],
+            "correct": 2,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_11",
+            "question": "Hangi efsanevi yaratık kurt adam olarak tanınır?",
+            "options": ["Vampir", "Lycan", "Zombi", "Gulyabani"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_12",
+            "question": "Hangi yaratık kan içerek yaşar?",
+            "options": ["Vampir", "Lycan", "Zombi", "Gulyabani"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_13",
+            "question": "Hangi efsanevi yaratık İskandinav mitolojisinde dev bir kuştur?",
+            "options": ["Roc", "Anka Kuşu", "Grifon", "Harpi"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_14",
+            "question": "Hangi yaratık yarı keçi yarı insan olarak bilinir?",
+            "options": ["Sentor", "Satir", "Minotor", "Grifon"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_15",
+            "question": "Hangi efsanevi yaratık İskoçya’da bir gölde yaşar?",
+            "options": ["Nessie", "Kraken", "Leviathan", "Chupacabra"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_16",
+            "question": "Hangi yaratık denizin derinliklerinde dev bir ahtapot olarak bilinir?",
+            "options": ["Nessie", "Kraken", "Leviathan", "Chupacabra"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_17",
+            "question": "Hangi efsanevi yaratık Meksika’da keçi kanı emici olarak tanınır?",
+            "options": ["Nessie", "Kraken", "Leviathan", "Chupacabra"],
+            "correct": 3,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_18",
+            "question": "Hangi yaratık üç başlı köpek olarak bilinir?",
+            "options": ["Kerberos", "Hidra", "Khimaira", "Grifon"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_19",
+            "question": "Hangi efsanevi yaratık Japonya’da dokuz kuyruklu tilki olarak geçer?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_20",
+            "question": "Hangi yaratık İrlanda’da altın saklayıcısı olarak bilinir?",
+            "options": ["Leprechaun", "Banshee", "Kelpie", "Selkie"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_21",
+            "question": "Hangi efsanevi yaratık çöldeki yolcuları kandırır?",
+            "options": ["Sfinks", "Grifon", "Hidra", "Khimaira"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_22",
+            "question": "Hangi yaratık ölümsüz bir su yılanı olarak bilinir?",
+            "options": ["Nessie", "Leviathan", "Kraken", "Hidra"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_23",
+            "question": "Hangi efsanevi yaratık Tibet’te kar adamı olarak tanınır?",
+            "options": ["Yeti", "Bigfoot", "Sasquatch", "Wendigo"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_24",
+            "question": "Hangi yaratık kanatlı yılan olarak bilinir?",
+            "options": ["Dragon", "Grifon", "Khimaira", "Pegasus"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_easy_25",
+            "question": "Hangi efsanevi yaratık Kuzey Amerika’da orman devi olarak geçer?",
+            "options": ["Yeti", "Bigfoot", "Wendigo", "Chupacabra"],
+            "correct": 1,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "myth_creat_medium_1",
+            "question": "Hangi yaratık Yunan mitolojisinde aslan, keçi ve yılan karışımıdır?",
+            "options": ["Minotor", "Khimaira", "Hidra", "Grifon"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_2",
+            "question": "Hangi efsanevi yaratık İskandinav mitolojisinde dev bir kurttur?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_3",
+            "question": "Hangi yaratık Kelt mitolojisinde ölüm habercisi olarak bilinir?",
+            "options": ["Leprechaun", "Banshee", "Kelpie", "Selkie"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_4",
+            "question": "Hangi efsanevi yaratık Çin mitolojisinde iyi şans sembolüdür?",
+            "options": ["Dragon", "Fenghuang", "Qilin", "Kappa"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_5",
+            "question": "Hangi yaratık Mısır mitolojisinde mezarları korur?",
+            "options": ["Sfinks", "Anubis", "Ammit", "Serapis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_6",
+            "question": "Hangi efsanevi yaratık İskandinav mitolojisinde dünya yılanıdır?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_7",
+            "question": "Hangi yaratık Kelt mitolojisinde su atı olarak bilinir?",
+            "options": ["Leprechaun", "Banshee", "Kelpie", "Selkie"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_8",
+            "question": "Hangi efsanevi yaratık Japonya’da nehir ruhu olarak geçer?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_9",
+            "question": "Hangi yaratık Hint mitolojisinde fil başlı tanrı olarak bilinir?",
+            "options": ["Garuda", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_medium_10",
+            "question": "Hangi efsanevi yaratık Slav mitolojisinde evi korur?",
+            "options": ["Domovoi", "Leshy", "Vodyanoy", "Baba Yaga"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_11",
+            "question": "Hangi yaratık Orta Çağ’da simya ile ilişkilendirilmiştir?",
+            "options": ["Dragon", "Unicorn", "Grifon", "Felsefe Taşı"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_12",
+            "question": "Hangi efsanevi yaratık Afrika mitolojisinde dev bir örümcek olarak bilinir?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_13",
+            "question": "Hangi yaratık İskandinav mitolojisinde sekiz bacaklı attır?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_14",
+            "question": "Hangi efsanevi yaratık Güney Amerika’da bataklık canavarı olarak geçer?",
+            "options": ["Chupacabra", "Mapinguari", "Yacumama", "El Cuero"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_15",
+            "question": "Hangi yaratık Kelt mitolojisinde fok kılığına girer?",
+            "options": ["Leprechaun", "Banshee", "Kelpie", "Selkie"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_16",
+            "question": "Hangi efsanevi yaratık Çin’de gökyüzünün kraliçesi olarak bilinir?",
+            "options": ["Dragon", "Fenghuang", "Qilin", "Kappa"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_17",
+            "question": "Hangi yaratık Avustralya Aborjin mitolojisinde gökkuşağı yılanıdır?",
+            "options": ["Bunyip", "Rainbow Serpent", "Yowie", "Mimih"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_18",
+            "question": "Hangi efsanevi yaratık Japonya’da şeytan olarak bilinir?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_19",
+            "question": "Hangi yaratık Hint mitolojisinde kuş-insan karışımıdır?",
+            "options": ["Garuda", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_20",
+            "question": "Hangi efsanevi yaratık Slav mitolojisinde orman ruhudur?",
+            "options": ["Domovoi", "Leshy", "Vodyanoy", "Baba Yaga"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_21",
+            "question": "Hangi yaratık Orta Çağ’da büyücülerle ilişkilendirilmiştir?",
+            "options": ["Familiars", "Dragon", "Unicorn", "Grifon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_22",
+            "question": "Hangi efsanevi yaratık Afrika’da yeraltı devi olarak bilinir?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_23",
+            "question": "Hangi yaratık İskandinav mitolojisinde ağaç yiyen ejderhadır?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 3,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_24",
+            "question": "Hangi efsanevi yaratık Güney Amerika’da dev yılan olarak bilinir?",
+            "options": ["Chupacabra", "Mapinguari", "Yacumama", "El Cuero"],
+            "correct": 2,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myst_creat_medium_25",
+            "question": "Hangi yaratık Kelt mitolojisinde ağlayan kadın olarak geçer?",
+            "options": ["Leprechaun", "Banshee", "Kelpie", "Selkie"],
+            "correct": 1,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "myth_creat_hard_1",
+            "question": "Hangi efsanevi yaratık Pers mitolojisinde rüzgar tanrısıdır?",
+            "options": ["Simurgh", "Roc", "Grifon", "Anka Kuşu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_2",
+            "question": "Hangi yaratık Mezopotamya mitolojisinde insan-yılan karışımıdır?",
+            "options": ["Tiamat", "Lamia", "Echidna", "Naga"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_3",
+            "question": "Hangi efsanevi yaratık İrlanda’da yeraltı kralı olarak bilinir?",
+            "options": ["Balor", "Fomorian", "Tuatha Dé Danann", "Dagda"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_4",
+            "question": "Hangi yaratık Yunan mitolojisinde Typhoeus’un eşidir?",
+            "options": ["Echidna", "Medusa", "Hidra", "Khimaira"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_5",
+            "question": "Hangi efsanevi yaratık Çin’de dört kutsal hayvandan biridir?",
+            "options": ["Qilin", "Dragon", "Fenghuang", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_6",
+            "question": "Hangi yaratık İskandinav mitolojisinde Loki’nin oğludur?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Hepsi"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_7",
+            "question": "Hangi efsanevi yaratık Japonya’da şekil değiştiren rakundur?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_8",
+            "question": "Hangi yaratık Hint mitolojisinde yılan-insan karışımıdır?",
+            "options": ["Garuda", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_9",
+            "question": "Hangi efsanevi yaratık Slav mitolojisinde su ruhudur?",
+            "options": ["Domovoi", "Leshy", "Vodyanoy", "Baba Yaga"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_10",
+            "question": "Hangi yaratık Afrika mitolojisinde yarı insan yarı timsah olarak bilinir?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_11",
+            "question": "Hangi efsanevi yaratık Pers mitolojisinde dev bir kuştur?",
+            "options": ["Simurgh", "Roc", "Grifon", "Anka Kuşu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_12",
+            "question": "Hangi yaratık Mezopotamya mitolojisinde kaos tanrıçasıdır?",
+            "options": ["Tiamat", "Lamia", "Echidna", "Naga"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_13",
+            "question": "Hangi efsanevi yaratık İrlanda’da tek gözlü dev olarak bilinir?",
+            "options": ["Balor", "Fomorian", "Tuatha Dé Danann", "Dagda"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_14",
+            "question": "Hangi yaratık Yunan mitolojisinde kanatlı kadın-yılan karışımıdır?",
+            "options": ["Echidna", "Medusa", "Hidra", "Erinyeler"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_15",
+            "question": "Hangi efsanevi yaratık Çin’de tek boynuzlu at olarak bilinir?",
+            "options": ["Qilin", "Dragon", "Fenghuang", "Kappa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_16",
+            "question": "Hangi yaratık İskandinav mitolojisinde Odin’in atıdır?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_17",
+            "question": "Hangi efsanevi yaratık Japonya’da su kaplumbağası olarak geçer?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_18",
+            "question": "Hangi yaratık Hint mitolojisinde şeytan olarak bilinir?",
+            "options": ["Garuda", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_19",
+            "question": "Hangi efsanevi yaratık Slav mitolojisinde cadı olarak bilinir?",
+            "options": ["Domovoi", "Leshy", "Vodyanoy", "Baba Yaga"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_20",
+            "question": "Hangi yaratık Afrika mitolojisinde küçük şeytan olarak geçer?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 2,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_21",
+            "question": "Hangi efsanevi yaratık Pers mitolojisinde iyilik sembolüdür?",
+            "options": ["Simurgh", "Roc", "Grifon", "Anka Kuşu"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_22",
+            "question": "Hangi yaratık Mezopotamya mitolojisinde koruyucu ruh olarak bilinir?",
+            "options": ["Lamassu", "Tiamat", "Lamia", "Echidna"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_23",
+            "question": "Hangi efsanevi yaratık İrlanda’da devler kralı olarak bilinir?",
+            "options": ["Balor", "Fomorian", "Tuatha Dé Danann", "Dagda"],
+            "correct": 1,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_24",
+            "question": "Hangi yaratık Yunan mitolojisinde intikam tanrıçasıdır?",
+            "options": ["Echidna", "Medusa", "Hidra", "Erinyeler"],
+            "correct": 3,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_hard_25",
+            "question": "Hangi efsanevi yaratık Çin’de bilgelik sembolüdür?",
+            "options": ["Qilin", "Dragon", "Fenghuang", "Kappa"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "myth_creat_expert_1",
+            "question": "Hangi efsanevi yaratık Sümer mitolojisinde gökyüzü kuşudur?",
+            "options": ["Anzu", "Simurgh", "Roc", "Grifon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_2",
+            "question": "Hangi yaratık Aztek mitolojisinde tüylü yılan tanrısıdır?",
+            "options": ["Quetzalcoatl", "Tezcatlipoca", "Huitzilopochtli", "Xipe Totec"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_3",
+            "question": "Hangi efsanevi yaratık Polinezya mitolojisinde yarı tanrı olarak bilinir?",
+            "options": ["Maui", "Taniwha", "Menehune", "Kupe"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_4",
+            "question": "Hangi yaratık İskandinav mitolojisinde Yggdrasil’i kemirir?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_5",
+            "question": "Hangi efsanevi yaratık Mısır’da yeraltı yargıcıdır?",
+            "options": ["Ammit", "Anubis", "Sfinks", "Serapis"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_6",
+            "question": "Hangi yaratık Japonya’da köprü bekçisi olarak bilinir?",
+            "options": ["Kitsune", "Tanuki", "Kappa", "Oni"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_7",
+            "question": "Hangi efsanevi yaratık Hint mitolojisinde Vishnu’nun bineğidir?",
+            "options": ["Garuda", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_8",
+            "question": "Hangi yaratık Slav mitolojisinde bataklık ruhudur?",
+            "options": ["Domovoi", "Leshy", "Vodyanoy", "Baba Yaga"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_9",
+            "question": "Hangi efsanevi yaratık Afrika’da yılan-elefant karışımıdır?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_10",
+            "question": "Hangi yaratık Pers mitolojisinde yarı insan yarı kuştur?",
+            "options": ["Simurgh", "Roc", "Grifon", "Anka Kuşu"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_11",
+            "question": "Hangi efsanevi yaratık Mezopotamya’da kapı bekçisidir?",
+            "options": ["Lamassu", "Tiamat", "Lamia", "Echidna"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_12",
+            "question": "Hangi yaratık İrlanda mitolojisinde devlerin soyundan gelir?",
+            "options": ["Balor", "Fomorian", "Tuatha Dé Danann", "Dagda"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_13",
+            "question": "Hangi efsanevi yaratık Yunan’da üç kardeş tanrıçadır?",
+            "options": ["Echidna", "Medusa", "Hidra", "Erinyeler"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_14",
+            "question": "Hangi yaratık Çin mitolojisinde kaplumbağa-yılan karışımıdır?",
+            "options": ["Xuanwu", "Dragon", "Fenghuang", "Qilin"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_15",
+            "question": "Hangi efsanevi yaratık İskandinav’da Thor’un düşmanıdır?",
+            "options": ["Fenrir", "Jörmungandr", "Sleipnir", "Níðhöggr"],
+            "correct": 1,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_16",
+            "question": "Hangi yaratık Japonya mitolojisinde hayalet olarak bilinir?",
+            "options": ["Yurei", "Tanuki", "Kappa", "Oni"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_17",
+            "question": "Hangi efsanevi yaratık Hint’te Shiva’nın bineğidir?",
+            "options": ["Nandi", "Naga", "Ganeşa", "Rakshasa"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_18",
+            "question": "Hangi yaratık Slav mitolojisinde göl ruhudur?",
+            "options": ["Domovoi", "Leshy", "Rusalka", "Baba Yaga"],
+            "correct": 2,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_19",
+            "question": "Hangi efsanevi yaratık Afrika’da yeraltı yılanıdır?",
+            "options": ["Anansi", "Mokele-Mbembe", "Tikoloshe", "Grootslang"],
+            "correct": 3,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_20",
+            "question": "Hangi yaratık Pers mitolojisinde kötülük tanrısıdır?",
+            "options": ["Ahriman", "Simurgh", "Roc", "Grifon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_21",
+            "question": "Hangi efsanevi yaratık Mezopotamya’da yarı insan yarı balıktır?",
+            "options": ["Oannes", "Tiamat", "Lamia", "Echidna"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_22",
+            "question": "Hangi yaratık İrlanda mitolojisinde savaş tanrıçasıdır?",
+            "options": ["Morrigan", "Fomorian", "Tuatha Dé Danann", "Dagda"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_23",
+            "question": "Hangi efsanevi yaratık Yunan’da Poseidon’un oğludur?",
+            "options": ["Triton", "Medusa", "Hidra", "Khimaira"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_24",
+            "question": "Hangi yaratık Çin mitolojisinde dört elementten biridir?",
+            "options": ["Beyaz Kaplan", "Dragon", "Fenghuang", "Qilin"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "myth_creat_expert_25",
+            "question": "Hangi efsanevi yaratık İskandinav’da Hel’in köpeğidir?",
+            "options": ["Garm", "Fenrir", "Jörmungandr", "Sleipnir"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}

@@ -1,0 +1,806 @@
+{
+    "category": "Retro Video Oyunları",
+    "description": "Eski oyunların nostaljik dünyasına dal",
+    "questions": [
+        {
+            "id": "retro_games_easy_1",
+            "question": "Hangi oyun Nintendo’nun ünlü tesisatçısını içerir?",
+            "options": ["Super Mario Bros.", "Sonic the Hedgehog", "Pac-Man", "Tetris"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_2",
+            "question": "Hangi oyun hızlı bir kirpiyi başrol yapar?",
+            "options": ["Sonic the Hedgehog", "Super Mario Bros.", "Donkey Kong", "Street Fighter"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_3",
+            "question": "Hangi oyun hayaletlerden kaçan sarı bir karakter içerir?",
+            "options": ["Pac-Man", "Tetris", "Space Invaders", "Galaga"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_4",
+            "question": "Hangi oyun düşen bloklarla oynanır?",
+            "options": ["Tetris", "Super Mario Bros.", "Pong", "Asteroids"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_5",
+            "question": "Hangi oyun uzay gemileriyle savaşmayı içerir?",
+            "options": ["Space Invaders", "Donkey Kong", "Pac-Man", "Frogger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_6",
+            "question": "Hangi oyun bir gorilin kaçırdığı prensesi kurtarmayı içerir?",
+            "options": ["Donkey Kong", "Super Mario Bros.", "Sonic the Hedgehog", "Tetris"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_7",
+            "question": "Hangi oyun iki raket ve bir topla oynanır?",
+            "options": ["Pong", "Pac-Man", "Space Invaders", "Galaga"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_8",
+            "question": "Hangi oyun sokak dövüşçülerini içerir?",
+            "options": ["Street Fighter", "Super Mario Bros.", "Tetris", "Asteroids"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_9",
+            "question": "Hangi oyun bir kurbağanın yolu geçmesini içerir?",
+            "options": ["Frogger", "Pac-Man", "Donkey Kong", "Space Invaders"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_10",
+            "question": "Hangi oyun uzayda asteroidlerden kaçmayı içerir?",
+            "options": ["Asteroids", "Tetris", "Pong", "Super Mario Bros."],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_11",
+            "question": "Hangi oyun prenses Zelda’yı kurtarmayı içerir?",
+            "options": ["The Legend of Zelda", "Super Mario Bros.", "Sonic the Hedgehog", "Metroid"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_12",
+            "question": "Hangi oyun bir uzay avcısını başrol yapar?",
+            "options": ["Metroid", "Pac-Man", "Donkey Kong", "Street Fighter"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_13",
+            "question": "Hangi oyun bir yarış arabasıyla oynanır?",
+            "options": ["Out Run", "Tetris", "Space Invaders", "Frogger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_14",
+            "question": "Hangi oyun bir ejderhayı yenmeyi içerir?",
+            "options": ["Double Dragon", "Super Mario Bros.", "Pac-Man", "Pong"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_15",
+            "question": "Hangi oyun bir pilotun uzay savaşını içerir?",
+            "options": ["Galaga", "Tetris", "Donkey Kong", "Frogger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_16",
+            "question": "Hangi oyun bir balonla uçmayı içerir?",
+            "options": ["Balloon Fight", "Super Mario Bros.", "Sonic the Hedgehog", "Pac-Man"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_17",
+            "question": "Hangi oyun bir kazıyı içerir?",
+            "options": ["Dig Dug", "Tetris", "Space Invaders", "Street Fighter"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_18",
+            "question": "Hangi oyun bir ördeği avlamayı içerir?",
+            "options": ["Duck Hunt", "Pac-Man", "Donkey Kong", "Pong"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_19",
+            "question": "Hangi oyun bir yarış motosikletini içerir?",
+            "options": ["Excitebike", "Super Mario Bros.", "Tetris", "Frogger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_20",
+            "question": "Hangi oyun bir savaş uçağını içerir?",
+            "options": ["1942", "Pac-Man", "Space Invaders", "Street Fighter"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_21",
+            "question": "Hangi oyun bir boksörün hikayesini anlatır?",
+            "options": ["Punch-Out!!", "Super Mario Bros.", "Sonic the Hedgehog", "Tetris"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_22",
+            "question": "Hangi oyun bir tankla oynanır?",
+            "options": ["Battle City", "Pac-Man", "Donkey Kong", "Pong"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_23",
+            "question": "Hangi oyun bir ninjayı içerir?",
+            "options": ["Ninja Gaiden", "Super Mario Bros.", "Tetris", "Frogger"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_24",
+            "question": "Hangi oyun bir robotla oynanır?",
+            "options": ["Mega Man", "Pac-Man", "Space Invaders", "Street Fighter"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_easy_25",
+            "question": "Hangi oyun bir macera avcısını içerir?",
+            "options": ["Pitfall!", "Super Mario Bros.", "Sonic the Hedgehog", "Tetris"],
+            "correct": 0,
+            "points": 10,
+            "difficulty": "easy"
+        },
+        {
+            "id": "retro_games_medium_1",
+            "question": "Hangi oyunda Mario ilk kez Donkey Kong’ı kurtarır?",
+            "options": ["Donkey Kong", "Super Mario Bros.", "Mario Kart", "Super Mario World"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_2",
+            "question": "Hangi oyunda Sonic, Dr. Robotnik ile savaşır?",
+            "options": ["Sonic the Hedgehog", "Super Mario Bros.", "Tetris", "Street Fighter"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_3",
+            "question": "Hangi oyunda Pac-Man dört hayaletle karşılaşır?",
+            "options": ["Pac-Man", "Ms. Pac-Man", "Space Invaders", "Galaga"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_4",
+            "question": "Hangi oyunda Tetris blokları L, T ve I şeklindedir?",
+            "options": ["Tetris", "Dr. Mario", "Pong", "Asteroids"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_5",
+            "question": "Hangi oyunda uzaylı dalgalarıyla savaşılır?",
+            "options": ["Space Invaders", "Galaga", "Asteroids", "Defender"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_6",
+            "question": "Hangi oyunda Mario, Donkey Kong tarafından kaçırılan Pauline’i kurtarır?",
+            "options": ["Donkey Kong", "Super Mario Bros.", "Mario Bros.", "Donkey Kong Jr."],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_7",
+            "question": "Hangi oyunda iki oyuncu basit bir tenis maçı yapar?",
+            "options": ["Pong", "Tennis", "Wii Sports", "Virtua Tennis"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_8",
+            "question": "Hangi oyunda Ryu ve Ken dövüşür?",
+            "options": ["Street Fighter", "Mortal Kombat", "Tekken", "Double Dragon"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_9",
+            "question": "Hangi oyunda Frogger bir nehirden geçer?",
+            "options": ["Frogger", "Pac-Man", "Donkey Kong", "Space Invaders"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_10",
+            "question": "Hangi oyunda uzay geminiz asteroidlerden kaçarken ateş eder?",
+            "options": ["Asteroids", "Space Invaders", "Galaga", "Defender"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_11",
+            "question": "Hangi oyunda Link, Ganon’a karşı savaşır?",
+            "options": ["The Legend of Zelda", "Final Fantasy", "Dragon Quest", "Chrono Trigger"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_12",
+            "question": "Hangi oyunda Samus, Metroidlerle mücadele eder?",
+            "options": ["Metroid", "Contra", "Mega Man", "Castlevania"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_13",
+            "question": "Hangi oyunda Ferrari ile yarışılır?",
+            "options": ["Out Run", "Rad Racer", "Pole Position", "Frogger"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_14",
+            "question": "Hangi oyunda iki kardeş bir ejderhayı yenmek için dövüşür?",
+            "options": ["Double Dragon", "Super Mario Bros.", "Ninja Gaiden", "Contra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_15",
+            "question": "Hangi oyunda uzay gemileri dalga dalga saldırır?",
+            "options": ["Galaga", "Space Invaders", "Asteroids", "Defender"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_16",
+            "question": "Hangi oyunda balonla düşmanlar yenilir?",
+            "options": ["Balloon Fight", "Joust", "Mario Bros.", "Duck Hunt"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_17",
+            "question": "Hangi oyunda yer altına kazı yapılır?",
+            "options": ["Dig Dug", "Mr. Driller", "Pac-Man", "Frogger"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_18",
+            "question": "Hangi oyunda ördekler bir köpekle avlanır?",
+            "options": ["Duck Hunt", "Cabela’s Hunting", "Big Game Hunter", "Deer Hunter"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_19",
+            "question": "Hangi oyunda motosikletle engeller aşılır?",
+            "options": ["Excitebike", "Road Rash", "Out Run", "Hang-On"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_20",
+            "question": "Hangi oyunda II. Dünya Savaşı’nda uçaklar kullanılır?",
+            "options": ["1942", "Space Invaders", "Galaga", "Defender"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_21",
+            "question": "Hangi oyunda Mike Tyson ile boks yapılır?",
+            "options": ["Punch-Out!!", "Fight Night", "Super Mario Bros.", "Street Fighter"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_22",
+            "question": "Hangi oyunda tanklar surları yıkar?",
+            "options": ["Battle City", "Contra", "Metal Slug", "Commando"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_23",
+            "question": "Hangi oyunda ninja Ryu Hayabusa dövüşür?",
+            "options": ["Ninja Gaiden", "Shinobi", "Double Dragon", "Contra"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_24",
+            "question": "Hangi oyunda robot Dr. Wily ile savaşır?",
+            "options": ["Mega Man", "Metroid", "Contra", "Castlevania"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_medium_25",
+            "question": "Hangi oyunda maymunlar ve tuzaklarla dolu bir macera yaşanır?",
+            "options": ["Pitfall!", "Super Mario Bros.", "Donkey Kong", "Alex Kidd"],
+            "correct": 0,
+            "points": 20,
+            "difficulty": "medium"
+        },
+        {
+            "id": "retro_games_hard_1",
+            "question": "Hangi oyunda Mario ilk olarak Jumpman adıyla ortaya çıktı?",
+            "options": ["Donkey Kong", "Super Mario Bros.", "Mario Bros.", "Super Mario Land"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_2",
+            "question": "Hangi oyunda Sonic’in ilk düşmanı Dr. Eggman’dir?",
+            "options": ["Sonic the Hedgehog", "Sonic 2", "Sonic 3", "Sonic & Knuckles"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_3",
+            "question": "Hangi oyunda Pac-Man’in hayaletleri Blinky, Pinky, Inky ve Clyde’dir?",
+            "options": ["Pac-Man", "Ms. Pac-Man", "Pac-Land", "Pac-Mania"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_4",
+            "question": "Hangi oyunda Tetris’in yaratıcısı Alexey Pajitnov’dur?",
+            "options": ["Tetris", "Dr. Mario", "Columns", "Puyo Puyo"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_5",
+            "question": "Hangi oyunda uzaylılar ekranın altından iner?",
+            "options": ["Space Invaders", "Galaga", "Asteroids", "Defender"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_6",
+            "question": "Hangi oyunda Donkey Kong, Mario’yu varillerle durdurmaya çalışır?",
+            "options": ["Donkey Kong", "Donkey Kong Jr.", "Mario Bros.", "Super Mario Bros."],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_7",
+            "question": "Hangi oyunda Atari’nin ilk hit oyunu Pong bulunur?",
+            "options": ["Pong", "Breakout", "Asteroids", "Centipede"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_8",
+            "question": "Hangi oyunda Hadoken hareketi Ryu tarafından kullanılır?",
+            "options": ["Street Fighter", "Mortal Kombat", "Tekken", "King of Fighters"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_9",
+            "question": "Hangi oyunda Frogger kamyonlardan kaçarken nehri geçer?",
+            "options": ["Frogger", "Crossy Road", "Pac-Man", "Q*bert"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_10",
+            "question": "Hangi oyunda uzay geminiz üçgen şeklindedir?",
+            "options": ["Asteroids", "Space Invaders", "Galaga", "Defender"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_11",
+            "question": "Hangi oyunda Link’in ilk macerası Hyrule’da başlar?",
+            "options": ["The Legend of Zelda", "Zelda II", "A Link to the Past", "Link’s Awakening"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_12",
+            "question": "Hangi oyunda Samus’un ilk düşmanı Mother Brain’dir?",
+            "options": ["Metroid", "Super Metroid", "Metroid II", "Metroid Fusion"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_13",
+            "question": "Hangi oyunda Sega’nın arcade yarış klasiği yer alır?",
+            "options": ["Out Run", "Daytona USA", "Rad Racer", "Pole Position"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_14",
+            "question": "Hangi oyunda Billy ve Jimmy Lee sokaklarda dövüşür?",
+            "options": ["Double Dragon", "Final Fight", "Streets of Rage", "River City Ransom"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_15",
+            "question": "Hangi oyunda iki uzay gemisi aynı anda kontrol edilir?",
+            "options": ["Galaga", "Space Invaders", "Asteroids", "Gyruss"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_16",
+            "question": "Hangi oyunda balonla uçan karakterler birbiriyle çarpışır?",
+            "options": ["Balloon Fight", "Joust", "Mario Bros.", "Bubble Bobble"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_17",
+            "question": "Hangi oyunda Taizo Hori yer altında düşmanları patlatır?",
+            "options": ["Dig Dug", "Mr. Driller", "Boulder Dash", "Spelunker"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_18",
+            "question": "Hangi oyunda NES Zapper ile ördekler vurulur?",
+            "options": ["Duck Hunt", "Hogan’s Alley", "Wild Gunman", "Operation Wolf"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_19",
+            "question": "Hangi oyunda motosikletçi engellerden zıplar?",
+            "options": ["Excitebike", "Road Rash", "Hang-On", "Super Hang-On"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_20",
+            "question": "Hangi oyunda Capcom’un ilk hava savaşı oyunu yer alır?",
+            "options": ["1942", "1943", "Wings of Fury", "Sky Shark"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_21",
+            "question": "Hangi oyunda Little Mac şampiyonluk için dövüşür?",
+            "options": ["Punch-Out!!", "Super Punch-Out!!", "Fight Night", "Knockout"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_22",
+            "question": "Hangi oyunda tanklar 26 seviyede savaşır?",
+            "options": ["Battle City", "Tank Battalion", "Armor Ambush", "Combat"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_23",
+            "question": "Hangi oyunda ninja Ryu, The Hawk ile savaşır?",
+            "options": ["Ninja Gaiden", "Shinobi", "Shadow Dancer", "The Last Ninja"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_24",
+            "question": "Hangi oyunda Mega Man’in ilk düşmanı Yellow Devil’dir?",
+            "options": ["Mega Man", "Mega Man 2", "Mega Man 3", "Mega Man 4"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_hard_25",
+            "question": "Hangi oyunda Harry tuzaklardan kaçarak hazine arar?",
+            "options": ["Pitfall!", "Rick Dangerous", "Montezuma’s Revenge", "Spelunker"],
+            "correct": 0,
+            "points": 30,
+            "difficulty": "hard"
+        },
+        {
+            "id": "retro_games_expert_1",
+            "question": "Hangi oyunda Mario’nun 1981’deki ilk adı Jumpman’dir?",
+            "options": ["Donkey Kong", "Mario Bros.", "Super Mario Bros.", "Donkey Kong Jr."],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_2",
+            "question": "Hangi oyunda Sonic’in 1991’deki ilk oyunu Sega Genesis’te çıktı?",
+            "options": ["Sonic the Hedgehog", "Sonic 2", "Sonic CD", "Sonic 3"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_3",
+            "question": "Hangi oyunda Pac-Man’in 1980’deki ilk arcade versiyonu Namco’dan çıktı?",
+            "options": ["Pac-Man", "Ms. Pac-Man", "Pac-Land", "Super Pac-Man"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_4",
+            "question": "Hangi oyunda Tetris’in 1984’te Sovyetler Birliği’nde yaratıldığı bilinir?",
+            "options": ["Tetris", "Dr. Mario", "Columns", "Puyo Puyo"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_5",
+            "question": "Hangi oyunda Taito’nun 1978’deki uzaylı istilası oyunu yer alır?",
+            "options": ["Space Invaders", "Galaxian", "Galaga", "Gorf"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_6",
+            "question": "Hangi oyunda Donkey Kong’un 1981’de Nintendo’dan ilk çıkışı oldu?",
+            "options": ["Donkey Kong", "Donkey Kong Jr.", "Donkey Kong 3", "Mario Bros."],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_7",
+            "question": "Hangi oyunda Pong’un 1972’de Atari’nin ilk oyunu olduğu bilinir?",
+            "options": ["Pong", "Breakout", "Asteroids", "Centipede"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_8",
+            "question": "Hangi oyunda Street Fighter’ın 1987’de Capcom’dan ilk çıkışı oldu?",
+            "options": ["Street Fighter", "Street Fighter II", "Final Fight", "Double Dragon"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_9",
+            "question": "Hangi oyunda Frogger’in 1981’de Konami’den çıktığı bilinir?",
+            "options": ["Frogger", "Q*bert", "Centipede", "Defender"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_10",
+            "question": "Hangi oyunda Asteroids’in 1979’da Atari’den çıktığı bilinir?",
+            "options": ["Asteroids", "Space Invaders", "Galaga", "Defender"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_11",
+            "question": "Hangi oyunda Link’in 1986’da NES’te ilk macerası başladı?",
+            "options": ["The Legend of Zelda", "Zelda II", "A Link to the Past", "Link’s Awakening"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_12",
+            "question": "Hangi oyunda Samus’un 1986’da Nintendo’dan ilk çıkışı oldu?",
+            "options": ["Metroid", "Super Metroid", "Metroid II", "Metroid Fusion"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_13",
+            "question": "Hangi oyunda Out Run’un 1986’da Sega’dan çıktığı bilinir?",
+            "options": ["Out Run", "Rad Racer", "Pole Position", "Hang-On"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_14",
+            "question": "Hangi oyunda Double Dragon’un 1987’de Technos Japan’dan çıktığı bilinir?",
+            "options": ["Double Dragon", "Final Fight", "Streets of Rage", "River City Ransom"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_15",
+            "question": "Hangi oyunda Galaga’nın 1981’de Namco’dan çıktığı bilinir?",
+            "options": ["Galaga", "Galaxian", "Space Invaders", "Gyruss"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_16",
+            "question": "Hangi oyunda Balloon Fight’ın 1984’te Nintendo’dan çıktığı bilinir?",
+            "options": ["Balloon Fight", "Joust", "Mario Bros.", "Bubble Bobble"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_17",
+            "question": "Hangi oyunda Dig Dug’un 1982’de Namco’dan çıktığı bilinir?",
+            "options": ["Dig Dug", "Mr. Driller", "Boulder Dash", "Spelunker"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_18",
+            "question": "Hangi oyunda Duck Hunt’ın 1984’te Nintendo’dan çıktığı bilinir?",
+            "options": ["Duck Hunt", "Hogan’s Alley", "Wild Gunman", "Operation Wolf"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_19",
+            "question": "Hangi oyunda Excitebike’ın 1984’te Nintendo’dan çıktığı bilinir?",
+            "options": ["Excitebike", "Road Rash", "Hang-On", "Super Hang-On"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_20",
+            "question": "Hangi oyunda 1942’nin 1984’te Capcom’dan çıktığı bilinir?",
+            "options": ["1942", "1943", "Wings of Fury", "Sky Shark"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_21",
+            "question": "Hangi oyunda Punch-Out!!’ın 1987’de Nintendo’dan çıktığı bilinir?",
+            "options": ["Punch-Out!!", "Super Punch-Out!!", "Fight Night", "Knockout"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_22",
+            "question": "Hangi oyunda Battle City’nin 1985’te Namco’dan çıktığı bilinir?",
+            "options": ["Battle City", "Tank Battalion", "Armor Ambush", "Combat"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_23",
+            "question": "Hangi oyunda Ninja Gaiden’in 1988’de Tecmo’dan çıktığı bilinir?",
+            "options": ["Ninja Gaiden", "Shinobi", "Shadow Dancer", "The Last Ninja"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_24",
+            "question": "Hangi oyunda Mega Man’in 1987’de Capcom’dan çıktığı bilinir?",
+            "options": ["Mega Man", "Mega Man 2", "Mega Man 3", "Mega Man 4"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        },
+        {
+            "id": "retro_games_expert_25",
+            "question": "Hangi oyunda Pitfall!’ın 1982’de Activision’dan çıktığı bilinir?",
+            "options": ["Pitfall!", "Rick Dangerous", "Montezuma’s Revenge", "Spelunker"],
+            "correct": 0,
+            "points": 40,
+            "difficulty": "expert"
+        }
+    ]
+}
