@@ -5,6 +5,23 @@ import { Score, Question } from '@/types';
 let db: ReturnType<typeof createPool>;
 
 try {
+  // Check if required environment variables are set
+  const requiredEnvVars = [
+    'POSTGRES_URL',
+    'POSTGRES_USER',
+    'POSTGRES_PASSWORD',
+    'POSTGRES_HOST',
+    'POSTGRES_DATABASE'
+  ];
+  
+  const missingEnvVars = requiredEnvVars.filter(varName => !process.env[varName]);
+  
+  if (missingEnvVars.length > 0) {
+    console.error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
+    throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
+  }
+  
+  // Create the connection pool
   db = createPool();
   console.log('Successfully created Postgres connection pool');
 } catch (error) {

@@ -8,6 +8,7 @@ export default function AdminPage() {
   const [importStatus, setImportStatus] = useState<string>('');
   const [importResults, setImportResults] = useState<any[]>([]);
   const [dbCheckResults, setDbCheckResults] = useState<any>(null);
+  const [envCheckResults, setEnvCheckResults] = useState<any>(null);
   const [sqlQuery, setSqlQuery] = useState<string>('SELECT * FROM information_schema.tables WHERE table_schema = \'public\'');
   const [sqlResults, setSqlResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -84,6 +85,26 @@ export default function AdminPage() {
     }
   };
 
+  const handleCheckEnv = async () => {
+    setIsLoading(true);
+    setEnvCheckResults(null);
+    
+    try {
+      const response = await fetch('/api/env-check');
+      const data = await response.json();
+      
+      if (response.ok) {
+        setEnvCheckResults(data);
+      } else {
+        setEnvCheckResults({ error: data.error || 'Unknown error' });
+      }
+    } catch (error) {
+      setEnvCheckResults({ error: (error as Error).message });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleExecuteSql = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
@@ -145,6 +166,14 @@ export default function AdminPage() {
             >
               Check Database
             </button>
+            
+            <button
+              onClick={handleCheckEnv}
+              disabled={isLoading}
+              className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
+            >
+              Check Environment
+            </button>
           </div>
           
           {initDbStatus && (
@@ -158,41 +187,60 @@ export default function AdminPage() {
               <h3 className="font-semibold mb-2">Database Check Results:</h3>
               
               {dbCheckResults.error ? (
-                <div className="text-red-700">{dbCheckResults.error}</div>
+                <div className="text-red-700">
+                  <p><strong>Error:</strong> {dbCheckResults.error}</p>
+                  {dbCheckResults.details && <p><strong>Details:</strong> {dbCheckResults.details}</p>}
+                </div>
               ) : (
                 <div className="space-y-4">
+                  <div className="text-green-600">
+                    <strong>Status:</strong> {dbCheckResults.message}
+                  </div>
+                  
                   <div>
-                    <h4 className="font-medium">Connection Info:</h4>
+                    <h4 className="font-medium">Connection Test:</h4>
                     <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                      {JSON.stringify(dbCheckResults.connection, null, 2)}
+                      {JSON.stringify(dbCheckResults.connectionTest, null, 2)}
+                    </pre>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+          
+          {envCheckResults && (
+            <div className="mt-4 p-3 rounded bg-gray-100">
+              <h3 className="font-semibold mb-2">Environment Check Results:</h3>
+              
+              {envCheckResults.error ? (
+                <div className="text-red-700">{envCheckResults.error}</div>
+              ) : (
+                <div className="space-y-4">
+                  <div className={envCheckResults.success ? "text-green-600" : "text-red-600"}>
+                    <strong>Status:</strong> {envCheckResults.message}
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-medium">Environment Variables:</h4>
+                    <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                      {JSON.stringify(envCheckResults.envStatus, null, 2)}
                     </pre>
                   </div>
                   
-                  <div>
-                    <h4 className="font-medium">Available Schemas:</h4>
-                    <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                      {JSON.stringify(dbCheckResults.schemas, null, 2)}
-                    </pre>
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-medium">Tables in Public Schema:</h4>
-                    {dbCheckResults.tables.length > 0 ? (
+                  {envCheckResults.urlStructure && (
+                    <div>
+                      <h4 className="font-medium">Database URL Structure:</h4>
                       <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                        {JSON.stringify(dbCheckResults.tables, null, 2)}
-                      </pre>
-                    ) : (
-                      <p className="text-red-500">No tables found in public schema</p>
-                    )}
-                  </div>
-                  
-                  <div>
-                    <h4 className="font-medium">Permissions:</h4>
-                    <div className="max-h-40 overflow-y-auto">
-                      <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
-                        {JSON.stringify(dbCheckResults.permissions, null, 2)}
+                        {JSON.stringify(envCheckResults.urlStructure, null, 2)}
                       </pre>
                     </div>
+                  )}
+                  
+                  <div>
+                    <h4 className="font-medium">Node Environment:</h4>
+                    <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                      {envCheckResults.nodeEnv || 'Not set'}
+                    </pre>
                   </div>
                 </div>
               )}
