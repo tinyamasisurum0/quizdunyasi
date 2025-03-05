@@ -1,6 +1,27 @@
 import { createPool } from '@vercel/postgres';
 import { Score, Question } from '@/types';
 
+// Helper function to get database URL from various environment variables
+function getDatabaseUrl(): string {
+  // Check for different possible environment variable names
+  const possibleEnvVars = [
+    'DATABASE_URL',
+    'POSTGRES_URL',
+    'POSTGRES_PRISMA_URL',
+    'POSTGRES_URL_NON_POOLING'
+  ];
+  
+  for (const envVar of possibleEnvVars) {
+    const url = process.env[envVar];
+    if (url) {
+      console.log(`Using database connection from ${envVar}`);
+      return url;
+    }
+  }
+  
+  throw new Error('No database connection URL found in environment variables. Please set DATABASE_URL or POSTGRES_URL.');
+}
+
 // Create a connection pool
 let db: ReturnType<typeof createPool>;
 
@@ -135,17 +156,72 @@ export async function getTopScoresByCategory(category: string, limit: number = 1
 // Function to save a score
 export async function saveScore(username: string, score: number, category: string): Promise<Score | null> {
   try {
+    console.log(`Saving score: username=${username}, score=${score}, category=${category}`);
+    
+    // First check if the scores table exists
+    const tableCheck = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'scores'
+      )
+    `;
+    
+    const tableExists = tableCheck.rows[0].exists;
+    
+    if (!tableExists) {
+      console.log('Scores table does not exist, creating it...');
+      await db.sql`
+        CREATE TABLE IF NOT EXISTS scores (
+          id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+          username VARCHAR(255) NOT NULL,
+          score INTEGER NOT NULL,
+          category VARCHAR(255) NOT NULL,
+          created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+        )
+      `;
+      console.log('Scores table created successfully');
+    }
+    
     const result = await db.sql<Score>`
       INSERT INTO scores (username, score, category)
       VALUES (${username}, ${score}, ${category})
       RETURNING id, username, score, category, created_at as "createdAt"
     `;
     
+    console.log('Score saved successfully:', result.rows[0]);
     return result.rows[0];
   } catch (error) {
     console.error('Error saving score:', error);
-    // Return null if database is not available
-    return null;
+    // Try with direct connection using pg if @vercel/postgres fails
+    try {
+      console.log('Attempting to save score using direct pg connection...');
+      const { Pool } = require('pg');
+      const connectionString = getDatabaseUrl();
+      
+      const pool = new Pool({ 
+        connectionString,
+        ssl: {
+          rejectUnauthorized: false
+        }
+      });
+      
+      const client = await pool.connect();
+      
+      const pgResult = await client.query(`
+        INSERT INTO scores (username, score, category)
+        VALUES ($1, $2, $3)
+        RETURNING id, username, score, category, created_at as "createdAt"
+      `, [username, score, category]);
+      
+      client.release();
+      
+      console.log('Score saved successfully using direct pg connection:', pgResult.rows[0]);
+      return pgResult.rows[0];
+    } catch (pgError) {
+      console.error('Error saving score with direct pg connection:', pgError);
+      return null;
+    }
   }
 }
 

@@ -6,12 +6,12 @@ interface ScoreFormProps {
   onSubmit: (username: string) => void;
 }
 
-const ScoreForm: React.FC<ScoreFormProps> = ({ score, onSubmit }) => {
+const ScoreForm: React.FC<ScoreFormProps> = ({ score, category, onSubmit }) => {
   const [username, setUsername] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!username.trim()) {
@@ -23,19 +23,23 @@ const ScoreForm: React.FC<ScoreFormProps> = ({ score, onSubmit }) => {
     setError(null);
     
     try {
-      onSubmit(username);
+      await onSubmit(username);
     } catch (error) {
       setError('Puan kaydedilirken bir hata oluştu. Lütfen tekrar deneyin.');
-      setIsSubmitting(false);
       console.error('Error submitting score:', error);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   return (
     <div className="w-full max-w-md mx-auto bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-4">Quiz Tamamlandı!</h2>
-      <p className="text-xl mb-6">
+      <p className="text-xl mb-2">
         Toplam Puanınız: <span className="font-bold">{score}</span>
+      </p>
+      <p className="text-md mb-6">
+        Kategori: <span className="font-semibold">{category}</span>
       </p>
       
       <form onSubmit={handleSubmit} className="space-y-4">
