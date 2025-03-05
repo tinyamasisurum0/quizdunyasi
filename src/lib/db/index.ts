@@ -51,6 +51,21 @@ try {
   throw error;
 }
 
+// Helper function to modify connection string for different SSL modes
+function getConnectionWithSslMode(baseUrl: string, sslMode: string): string {
+  // Remove any existing sslmode parameter
+  let url = baseUrl.replace(/(\?|&)sslmode=[^&]*(&|$)/, '$1');
+  
+  // Add the new sslmode parameter
+  if (url.includes('?')) {
+    url = url + '&sslmode=' + sslMode;
+  } else {
+    url = url + '?sslmode=' + sslMode;
+  }
+  
+  return url;
+}
+
 // Function to initialize the database schema
 export async function initializeDatabase() {
   try {
@@ -209,12 +224,19 @@ export async function saveScore(username: string, score: number, category: strin
       const { Pool } = require('pg');
       const connectionString = getDatabaseUrl();
       
+      if (!connectionString) {
+        throw new Error('No database connection URL found in environment variables');
+      }
+      
       console.log('Using connection string (masked):', connectionString.replace(/:[^:@]*@/, ':***@'));
       
       // Try different SSL configurations
       const sslConfigs = [
-        { name: 'SSL with rejectUnauthorized=false', config: { rejectUnauthorized: false } },
-        { name: 'SSL disabled', config: false }
+        { name: 'sslmode=disable', connectionString: getConnectionWithSslMode(connectionString, 'disable'), ssl: undefined },
+        { name: 'SSL with rejectUnauthorized=false', connectionString: connectionString, ssl: { rejectUnauthorized: false } },
+        { name: 'sslmode=prefer', connectionString: getConnectionWithSslMode(connectionString, 'prefer'), ssl: undefined },
+        { name: 'Default connection string', connectionString: connectionString, ssl: undefined },
+        { name: 'SSL disabled', connectionString: connectionString, ssl: false }
       ];
       
       let client = null;
@@ -226,8 +248,8 @@ export async function saveScore(username: string, score: number, category: strin
         try {
           console.log(`Trying connection with ${sslTest.name}...`);
           pool = new Pool({ 
-            connectionString,
-            ssl: sslTest.config
+            connectionString: sslTest.connectionString,
+            ssl: sslTest.ssl
           });
           
           client = await pool.connect();

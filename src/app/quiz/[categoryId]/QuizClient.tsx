@@ -174,6 +174,13 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
           return;
         }
         
+        // If both methods fail but we're in development, proceed anyway
+        if (process.env.NODE_ENV === 'development') {
+          console.warn('Both score submission methods failed, but we are in development mode. Proceeding anyway.');
+          router.push('/');
+          return;
+        }
+        
         // If both methods fail, throw an error with details
         const errorMessage = data.error || data.details || 'Failed to submit score';
         console.error('Both score submission methods failed:', errorMessage);
@@ -187,6 +194,14 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
       router.push('/');
     } catch (error) {
       console.error('Error submitting score:', error);
+      
+      // In development mode, proceed anyway even if there's an error
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('Score submission failed, but we are in development mode. Proceeding anyway.');
+        router.push('/');
+        return;
+      }
+      
       throw error;
     }
   }, [quizState.score, categoryName, router]);
