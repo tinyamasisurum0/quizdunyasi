@@ -14,6 +14,7 @@ export default function AdminPage() {
   const [sqlResults, setSqlResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [useDirect, setUseDirect] = useState<boolean>(false);
+  const [questionsCheckResults, setQuestionsCheckResults] = useState<any>(null);
 
   // Predefined SQL queries for common operations
   const predefinedQueries = {
@@ -122,6 +123,25 @@ export default function AdminPage() {
       setSupabaseTestResults({
         success: false,
         error: 'Failed to test Supabase connection',
+        details: (error as Error).message
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleCheckQuestions = async () => {
+    setIsLoading(true);
+    setQuestionsCheckResults(null);
+    
+    try {
+      const response = await fetch('/api/check-questions');
+      const data = await response.json();
+      setQuestionsCheckResults(data);
+    } catch (error) {
+      setQuestionsCheckResults({
+        success: false,
+        error: 'Failed to check questions',
         details: (error as Error).message
       });
     } finally {
@@ -327,6 +347,14 @@ export default function AdminPage() {
             Import Questions from JSON
           </button>
           
+          <button
+            onClick={handleCheckQuestions}
+            disabled={isLoading}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 ml-2 disabled:opacity-50"
+          >
+            Check Database Questions
+          </button>
+          
           {importStatus && (
             <div className={`mt-4 p-3 rounded ${importStatus.includes('Error') ? 'bg-red-100 text-red-700' : 'bg-green-100 text-green-700'}`}>
               {importStatus}
@@ -337,22 +365,18 @@ export default function AdminPage() {
             <div className="mt-4">
               <h3 className="font-semibold mb-2">Import Results:</h3>
               <div className="max-h-60 overflow-y-auto">
-                <table className="min-w-full">
+                <table className="min-w-full bg-white border border-gray-300">
                   <thead>
-                    <tr className="bg-gray-100">
-                      <th className="py-2 px-3 text-left">Category</th>
-                      <th className="py-2 px-3 text-left">Status</th>
-                      <th className="py-2 px-3 text-left">Count</th>
+                    <tr>
+                      <th className="py-2 px-3 border-b text-left">Category</th>
+                      <th className="py-2 px-3 border-b text-left">Status</th>
                     </tr>
                   </thead>
                   <tbody>
                     {importResults.map((result, index) => (
-                      <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : ''}>
-                        <td className="py-2 px-3">{result.category}</td>
+                      <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                         <td className="py-2 px-3">
-                          <span className={result.status === 'success' ? 'text-green-600' : 'text-red-600'}>
-                            {result.status}
-                          </span>
+                          {result.category}
                         </td>
                         <td className="py-2 px-3">
                           {result.status === 'success' ? result.imported : result.error}
@@ -362,6 +386,66 @@ export default function AdminPage() {
                   </tbody>
                 </table>
               </div>
+            </div>
+          )}
+          
+          {questionsCheckResults && (
+            <div className="mt-4 p-3 rounded bg-gray-100">
+              <h3 className="font-semibold mb-2">Questions Check Results:</h3>
+              
+              {questionsCheckResults.error ? (
+                <div className="text-red-700">
+                  <p><strong>Error:</strong> {questionsCheckResults.error}</p>
+                  {questionsCheckResults.details && <p><strong>Details:</strong> {questionsCheckResults.details}</p>}
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  <div className="text-green-600">
+                    <strong>Success!</strong> Found {questionsCheckResults.questionCount} questions in the database.
+                  </div>
+                  
+                  {questionsCheckResults.connectionConfig && (
+                    <div>
+                      <strong>Connection Configuration:</strong> {questionsCheckResults.connectionConfig}
+                    </div>
+                  )}
+                  
+                  {questionsCheckResults.categoryCounts && questionsCheckResults.categoryCounts.length > 0 && (
+                    <div>
+                      <h4 className="font-medium">Questions by Category:</h4>
+                      <div className="max-h-40 overflow-y-auto">
+                        <table className="min-w-full bg-white border border-gray-300">
+                          <thead>
+                            <tr>
+                              <th className="py-2 px-3 border-b text-left">Category</th>
+                              <th className="py-2 px-3 border-b text-left">Count</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {questionsCheckResults.categoryCounts.map((category: any, index: number) => (
+                              <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                                <td className="py-2 px-3">{category.category_id}</td>
+                                <td className="py-2 px-3">{category.count}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  )}
+                  
+                  {questionsCheckResults.sampleQuestions && questionsCheckResults.sampleQuestions.length > 0 && (
+                    <div>
+                      <h4 className="font-medium">Sample Questions:</h4>
+                      <div className="max-h-60 overflow-y-auto">
+                        <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                          {JSON.stringify(questionsCheckResults.sampleQuestions, null, 2)}
+                        </pre>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           )}
         </div>
