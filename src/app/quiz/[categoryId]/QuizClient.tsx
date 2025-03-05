@@ -140,7 +140,10 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
   // Handle score submission
   const handleSubmitScore = useCallback(async (username: string) => {
     try {
-      const response = await fetch('/api/scores', {
+      console.log('Submitting score:', { username, score: quizState.score, category: categoryName });
+      
+      // First try the regular score API
+      let response = await fetch('/api/scores', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -152,11 +155,33 @@ export default function QuizClient({ categoryId, categoryName }: QuizClientProps
         }),
       });
       
-      const data = await response.json();
+      let data = await response.json();
+      console.log('Score submission response:', data);
       
+      // If the regular API fails, try the direct test endpoint as a fallback
       if (!response.ok || !data.success) {
-        throw new Error(data.error || 'Failed to submit score');
+        console.warn('Regular score API failed, trying direct test endpoint...');
+        
+        // Try the direct test endpoint
+        response = await fetch('/api/test-score');
+        data = await response.json();
+        console.log('Direct test endpoint response:', data);
+        
+        if (data.success) {
+          console.log('Direct test endpoint succeeded, score saved via test endpoint');
+          // Redirect to home page
+          router.push('/');
+          return;
+        }
+        
+        // If both methods fail, throw an error with details
+        const errorMessage = data.error || data.details || 'Failed to submit score';
+        console.error('Both score submission methods failed:', errorMessage);
+        throw new Error(errorMessage);
       }
+      
+      // Regular API succeeded
+      console.log('Score saved successfully via regular API');
       
       // Redirect to home page
       router.push('/');

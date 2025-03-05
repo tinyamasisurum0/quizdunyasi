@@ -195,6 +195,9 @@ export default function AdminPage() {
           <Link href="/admin/db-manage" className="text-blue-500 hover:text-blue-700">
             Database Management
           </Link>
+          <Link href="/admin/test-score" className="text-blue-500 hover:text-blue-700">
+            Test Score Submission
+          </Link>
         </div>
       </div>
       
@@ -237,6 +240,20 @@ export default function AdminPage() {
             <p className="text-sm text-gray-600 mt-1">
               Tests connection using the pg library with SSL certificate validation disabled.
             </p>
+          </div>
+          
+          <div className="mt-4 p-4 bg-yellow-50 rounded border border-yellow-200">
+            <h3 className="font-semibold mb-2">Database Connection Troubleshooting</h3>
+            <p className="text-sm mb-2">
+              If you're experiencing database connection issues, try the following:
+            </p>
+            <ul className="list-disc list-inside text-sm space-y-1">
+              <li>Check that your database URL is correctly set in environment variables</li>
+              <li>Ensure your database allows connections from your server's IP address</li>
+              <li>Try using the <Link href="/admin/test-score" className="text-blue-500 hover:underline">Test Score Submission</Link> page to diagnose connection issues</li>
+              <li>If you see SSL certificate errors, make sure your database connection string includes <code>?sslmode=require</code></li>
+              <li>For local development, you may need to disable SSL verification</li>
+            </ul>
           </div>
           
           {initDbStatus && (

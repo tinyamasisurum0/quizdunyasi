@@ -25,7 +25,8 @@ const ScoreForm: React.FC<ScoreFormProps> = ({ score, category, onSubmit }) => {
     try {
       await onSubmit(username);
     } catch (error) {
-      setError('Puan kaydedilirken bir hata oluştu. Lütfen tekrar deneyin.');
+      const errorMessage = error instanceof Error ? error.message : 'Bilinmeyen hata';
+      setError(`Puan kaydedilirken bir hata oluştu: ${errorMessage}`);
       console.error('Error submitting score:', error);
     } finally {
       setIsSubmitting(false);

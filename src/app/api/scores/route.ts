@@ -38,28 +38,47 @@ export async function POST(request: NextRequest) {
       console.error('Missing required fields:', { username, score, category });
       return NextResponse.json(
         { error: 'Username, score, and category are required' },
-        { status: 400 }
+        { status: 400, headers: { 'Cache-Control': 'no-store, max-age=0' } }
       );
     }
 
     console.log('Attempting to save score to database...');
-    const newScore = await saveScore(username, score, category);
-    
-    if (!newScore) {
-      console.error('Failed to save score to database');
+    try {
+      const newScore = await saveScore(username, score, category);
+      
+      if (!newScore) {
+        console.error('Failed to save score to database - saveScore returned null');
+        return NextResponse.json(
+          { error: 'Failed to save score', success: false, details: 'Database operation failed' },
+          { status: 500, headers: { 'Cache-Control': 'no-store, max-age=0' } }
+        );
+      }
+
+      console.log('Score saved successfully:', newScore);
       return NextResponse.json(
-        { error: 'Failed to save score', success: false },
-        { status: 500 }
+        { score: newScore, success: true },
+        { headers: { 'Cache-Control': 'no-store, max-age=0' } }
+      );
+    } catch (saveError) {
+      console.error('Error in saveScore function:', saveError);
+      return NextResponse.json(
+        { 
+          error: 'Failed to save score', 
+          success: false, 
+          details: saveError instanceof Error ? saveError.message : 'Unknown error in saveScore function'
+        },
+        { status: 500, headers: { 'Cache-Control': 'no-store, max-age=0' } }
       );
     }
-
-    console.log('Score saved successfully:', newScore);
-    return NextResponse.json({ score: newScore, success: true });
   } catch (error) {
-    console.error('Error saving score:', error);
+    console.error('Error in scores POST handler:', error);
     return NextResponse.json(
-      { error: 'Failed to save score', success: false, details: (error as Error).message },
-      { status: 500 }
+      { 
+        error: 'Failed to save score', 
+        success: false, 
+        details: error instanceof Error ? error.message : 'Unknown error in request processing'
+      },
+      { status: 500, headers: { 'Cache-Control': 'no-store, max-age=0' } }
     );
   }
 } 

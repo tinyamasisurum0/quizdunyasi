@@ -159,54 +159,114 @@ export async function saveScore(username: string, score: number, category: strin
     console.log(`Saving score: username=${username}, score=${score}, category=${category}`);
     
     // First check if the scores table exists
-    const tableCheck = await db.sql`
-      SELECT EXISTS (
-        SELECT 1 FROM information_schema.tables 
-        WHERE table_schema = 'public' 
-        AND table_name = 'scores'
-      )
-    `;
-    
-    const tableExists = tableCheck.rows[0].exists;
-    
-    if (!tableExists) {
-      console.log('Scores table does not exist, creating it...');
-      await db.sql`
-        CREATE TABLE IF NOT EXISTS scores (
-          id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-          username VARCHAR(255) NOT NULL,
-          score INTEGER NOT NULL,
-          category VARCHAR(255) NOT NULL,
-          created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+    try {
+      const tableCheck = await db.sql`
+        SELECT EXISTS (
+          SELECT 1 FROM information_schema.tables 
+          WHERE table_schema = 'public' 
+          AND table_name = 'scores'
         )
       `;
-      console.log('Scores table created successfully');
+      
+      const tableExists = tableCheck.rows[0].exists;
+      
+      if (!tableExists) {
+        console.log('Scores table does not exist, creating it...');
+        await db.sql`
+          CREATE TABLE IF NOT EXISTS scores (
+            id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+            username VARCHAR(255) NOT NULL,
+            score INTEGER NOT NULL,
+            category VARCHAR(255) NOT NULL,
+            created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+          )
+        `;
+        console.log('Scores table created successfully');
+      }
+    } catch (tableCheckError) {
+      console.error('Error checking/creating scores table:', tableCheckError);
+      // Continue to try the insert anyway
     }
     
-    const result = await db.sql<Score>`
-      INSERT INTO scores (username, score, category)
-      VALUES (${username}, ${score}, ${category})
-      RETURNING id, username, score, category, created_at as "createdAt"
-    `;
-    
-    console.log('Score saved successfully:', result.rows[0]);
-    return result.rows[0];
+    try {
+      const result = await db.sql<Score>`
+        INSERT INTO scores (username, score, category)
+        VALUES (${username}, ${score}, ${category})
+        RETURNING id, username, score, category, created_at as "createdAt"
+      `;
+      
+      console.log('Score saved successfully:', result.rows[0]);
+      return result.rows[0];
+    } catch (insertError) {
+      console.error('Error inserting score with @vercel/postgres:', insertError);
+      throw insertError; // Let the pg fallback handle it
+    }
   } catch (error) {
-    console.error('Error saving score:', error);
+    console.error('Error saving score with @vercel/postgres:', error);
     // Try with direct connection using pg if @vercel/postgres fails
     try {
       console.log('Attempting to save score using direct pg connection...');
       const { Pool } = require('pg');
       const connectionString = getDatabaseUrl();
       
-      const pool = new Pool({ 
-        connectionString,
-        ssl: {
-          rejectUnauthorized: false
-        }
-      });
+      console.log('Using connection string (masked):', connectionString.replace(/:[^:@]*@/, ':***@'));
       
-      const client = await pool.connect();
+      // Try different SSL configurations
+      const sslConfigs = [
+        { name: 'SSL with rejectUnauthorized=false', config: { rejectUnauthorized: false } },
+        { name: 'SSL disabled', config: false }
+      ];
+      
+      let client = null;
+      let pool = null;
+      let connError: Error | null = null;
+      
+      // Try each SSL configuration until one works
+      for (const sslTest of sslConfigs) {
+        try {
+          console.log(`Trying connection with ${sslTest.name}...`);
+          pool = new Pool({ 
+            connectionString,
+            ssl: sslTest.config
+          });
+          
+          client = await pool.connect();
+          console.log(`Connected to database with pg client using ${sslTest.name}`);
+          break; // Exit the loop if connection is successful
+        } catch (err) {
+          console.error(`Connection failed with ${sslTest.name}:`, err);
+          connError = err instanceof Error ? err : new Error(String(err));
+        }
+      }
+      
+      if (!client) {
+        throw new Error(`Failed to connect to database: ${connError?.message || 'Unknown error'}`);
+      }
+      
+      // Check if scores table exists
+      const tableCheckResult = await client.query(`
+        SELECT EXISTS (
+          SELECT 1 FROM information_schema.tables 
+          WHERE table_schema = 'public' 
+          AND table_name = 'scores'
+        )
+      `);
+      
+      const tableExists = tableCheckResult.rows[0].exists;
+      
+      if (!tableExists) {
+        console.log('Scores table does not exist, creating it with pg client...');
+        await client.query(`
+          CREATE TABLE IF NOT EXISTS scores (
+            id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+            username VARCHAR(255) NOT NULL,
+            score INTEGER NOT NULL,
+            category VARCHAR(255) NOT NULL,
+            created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+          )
+        `);
+        console.log('Scores table created successfully with pg client');
+      }
       
       const pgResult = await client.query(`
         INSERT INTO scores (username, score, category)
