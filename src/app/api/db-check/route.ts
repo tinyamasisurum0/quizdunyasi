@@ -8,47 +8,64 @@ export async function GET() {
     // Create a new connection pool
     const db = createPool();
     
-    // Check connection
-    const connectionInfo = await db.sql`
-      SELECT 
-        current_database() as database,
-        current_schema() as schema,
-        current_user as user
+    // Check connection - using simpler queries
+    const databaseInfo = await db.sql`SELECT current_database()`;
+    const schemaInfo = await db.sql`SELECT current_schema()`;
+    const userInfo = await db.sql`SELECT current_user`;
+    
+    // Check if public schema exists
+    const publicSchemaExists = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.schemata WHERE schema_name = 'public'
+      )
     `;
     
-    // Check available schemas
-    const schemas = await db.sql`
-      SELECT schema_name
-      FROM information_schema.schemata
-      ORDER BY schema_name
+    // Check tables in public schema if it exists
+    let tables = [];
+    if (publicSchemaExists.rows[0].exists) {
+      const tablesResult = await db.sql`
+        SELECT table_name 
+        FROM information_schema.tables 
+        WHERE table_schema = 'public'
+        AND table_type = 'BASE TABLE'
+      `;
+      tables = tablesResult.rows.map(row => row.table_name);
+    }
+    
+    // Check if scores table exists
+    const scoresTableExists = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'scores'
+      )
     `;
     
-    // Check tables in public schema
-    const tables = await db.sql`
-      SELECT table_name
-      FROM information_schema.tables
-      WHERE table_schema = 'public'
-      AND table_type = 'BASE TABLE'
-      ORDER BY table_name
+    // Check if questions table exists
+    const questionsTableExists = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'questions'
+      )
     `;
     
-    // Check permissions
-    const permissions = await db.sql`
-      SELECT 
-        grantee, 
-        table_schema, 
-        table_name, 
-        privilege_type
-      FROM information_schema.table_privileges
-      WHERE table_schema = 'public'
-      ORDER BY table_name, privilege_type
+    // Check create table permission
+    const createTablePermission = await db.sql`
+      SELECT has_schema_privilege(current_user, 'public', 'CREATE')
     `;
     
     return NextResponse.json({
-      connection: connectionInfo.rows[0],
-      schemas: schemas.rows.map(row => row.schema_name),
-      tables: tables.rows.map(row => row.table_name),
-      permissions: permissions.rows
+      connection: {
+        database: databaseInfo.rows[0].current_database,
+        schema: schemaInfo.rows[0].current_schema,
+        user: userInfo.rows[0].current_user
+      },
+      publicSchemaExists: publicSchemaExists.rows[0].exists,
+      tables,
+      scoresTableExists: scoresTableExists.rows[0].exists,
+      questionsTableExists: questionsTableExists.rows[0].exists,
+      createTablePermission: createTablePermission.rows[0].has_schema_privilege
     });
   } catch (error) {
     console.error('Error checking database:', error);

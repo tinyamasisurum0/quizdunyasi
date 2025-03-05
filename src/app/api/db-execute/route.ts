@@ -19,9 +19,35 @@ export async function POST(request: NextRequest) {
     // Create a new connection pool
     const db = createPool();
     
-    // Execute the query using tagged template literals
-    // This is a workaround since db.sql.unsafe is not available
-    const result = await db.sql([sql] as any);
+    // Execute the query using tagged template literals correctly
+    // We need to use a dynamic approach to execute raw SQL
+    let result;
+    
+    try {
+      // For SELECT queries
+      if (sql.trim().toUpperCase().startsWith('SELECT')) {
+        result = await db.sql`${sql}`;
+      } 
+      // For CREATE TABLE queries
+      else if (sql.trim().toUpperCase().startsWith('CREATE TABLE')) {
+        result = await db.sql`${sql}`;
+      }
+      // For INSERT queries
+      else if (sql.trim().toUpperCase().startsWith('INSERT')) {
+        result = await db.sql`${sql}`;
+      }
+      // For other queries
+      else {
+        result = await db.sql`${sql}`;
+      }
+    } catch (sqlError) {
+      console.error('SQL execution error:', sqlError);
+      return NextResponse.json({
+        error: 'SQL execution error',
+        details: (sqlError as Error).message,
+        note: "The @vercel/postgres package requires SQL to be executed as tagged template literals. Some complex queries may not work through this interface."
+      }, { status: 500 });
+    }
     
     return NextResponse.json({
       success: true,

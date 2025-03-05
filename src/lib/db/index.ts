@@ -19,13 +19,13 @@ export async function initializeDatabase() {
     console.log('Starting database initialization...');
     
     // Check connection
-    const connectionTest = await db.sql`SELECT current_database(), current_schema()`;
+    const connectionTest = await db.sql`SELECT current_database()`;
     console.log('Connected to database:', connectionTest.rows[0]);
     
-    // Create scores table if it doesn't exist
+    // Create scores table if it doesn't exist - using a simpler approach
     console.log('Creating scores table...');
     await db.sql`
-      CREATE TABLE IF NOT EXISTS public.scores (
+      CREATE TABLE IF NOT EXISTS scores (
         id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
         username VARCHAR(255) NOT NULL,
         score INTEGER NOT NULL,
@@ -34,10 +34,10 @@ export async function initializeDatabase() {
       )
     `;
     
-    // Create questions table if it doesn't exist
+    // Create questions table if it doesn't exist - using a simpler approach
     console.log('Creating questions table...');
     await db.sql`
-      CREATE TABLE IF NOT EXISTS public.questions (
+      CREATE TABLE IF NOT EXISTS questions (
         id VARCHAR(255) PRIMARY KEY,
         question TEXT NOT NULL,
         options JSONB NOT NULL,
@@ -49,14 +49,27 @@ export async function initializeDatabase() {
     `;
     
     // Verify tables were created
-    const tables = await db.sql`
-      SELECT table_name 
-      FROM information_schema.tables 
-      WHERE table_schema = 'public'
-      AND table_type = 'BASE TABLE'
+    const scoresExists = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'scores'
+      )
     `;
     
-    console.log('Tables in public schema:', tables.rows.map(row => row.table_name));
+    const questionsExists = await db.sql`
+      SELECT EXISTS (
+        SELECT 1 FROM information_schema.tables 
+        WHERE table_schema = 'public' 
+        AND table_name = 'questions'
+      )
+    `;
+    
+    console.log('Tables created:', {
+      scores: scoresExists.rows[0].exists,
+      questions: questionsExists.rows[0].exists
+    });
+    
     console.log('Database initialized successfully');
     return true;
   } catch (error) {
@@ -70,7 +83,7 @@ export async function getTopScores(limit: number = 10): Promise<Score[]> {
   try {
     const result = await db.sql<Score>`
       SELECT id, username, score, category, created_at as "createdAt"
-      FROM public.scores
+      FROM scores
       ORDER BY score DESC
       LIMIT ${limit}
     `;
@@ -88,7 +101,7 @@ export async function getTopScoresByCategory(category: string, limit: number = 1
   try {
     const result = await db.sql<Score>`
       SELECT id, username, score, category, created_at as "createdAt"
-      FROM public.scores
+      FROM scores
       WHERE category = ${category}
       ORDER BY score DESC
       LIMIT ${limit}
@@ -106,7 +119,7 @@ export async function getTopScoresByCategory(category: string, limit: number = 1
 export async function saveScore(username: string, score: number, category: string): Promise<Score | null> {
   try {
     const result = await db.sql<Score>`
-      INSERT INTO public.scores (username, score, category)
+      INSERT INTO scores (username, score, category)
       VALUES (${username}, ${score}, ${category})
       RETURNING id, username, score, category, created_at as "createdAt"
     `;
@@ -131,7 +144,7 @@ export async function saveQuestion(
 ): Promise<Question | null> {
   try {
     const result = await db.sql<Question>`
-      INSERT INTO public.questions (id, question, options, correct, points, difficulty, category_id)
+      INSERT INTO questions (id, question, options, correct, points, difficulty, category_id)
       VALUES (${id}, ${question}, ${JSON.stringify(options)}, ${correct}, ${points}, ${difficulty}, ${categoryId})
       ON CONFLICT (id) DO UPDATE SET
         question = EXCLUDED.question,
@@ -155,7 +168,7 @@ export async function getQuestionsByCategory(categoryId: string, limit: number =
   try {
     const result = await db.sql<Question>`
       SELECT id, question, options, correct, points, difficulty
-      FROM public.questions
+      FROM questions
       WHERE category_id = ${categoryId}
       ORDER BY 
         CASE 

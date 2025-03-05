@@ -12,6 +12,16 @@ export default function AdminPage() {
   const [sqlResults, setSqlResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
+  // Predefined SQL queries for common operations
+  const predefinedQueries = {
+    checkTables: "SELECT * FROM information_schema.tables WHERE table_schema = 'public'",
+    createScoresTable: "CREATE TABLE IF NOT EXISTS public.scores (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), username VARCHAR(255) NOT NULL, score INTEGER NOT NULL, category VARCHAR(255) NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP)",
+    createQuestionsTable: "CREATE TABLE IF NOT EXISTS public.questions (id VARCHAR(255) PRIMARY KEY, question TEXT NOT NULL, options JSONB NOT NULL, correct INTEGER NOT NULL, points INTEGER NOT NULL, difficulty VARCHAR(50) NOT NULL, category_id VARCHAR(255) NOT NULL)",
+    checkPermissions: "SELECT has_schema_privilege(current_user, 'public', 'CREATE')",
+    countScores: "SELECT COUNT(*) FROM public.scores",
+    countQuestions: "SELECT COUNT(*) FROM public.questions"
+  };
+
   const handleInitDb = async () => {
     setIsLoading(true);
     setInitDbStatus('Initializing database...');
@@ -244,6 +254,21 @@ export default function AdminPage() {
       <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
         <h2 className="text-xl font-semibold mb-4">SQL Execution</h2>
         
+        <div className="mb-4">
+          <h3 className="text-md font-medium mb-2">Predefined Queries:</h3>
+          <div className="flex flex-wrap gap-2">
+            {Object.entries(predefinedQueries).map(([key, query]) => (
+              <button
+                key={key}
+                onClick={() => setSqlQuery(query)}
+                className="bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm py-1 px-2 rounded"
+              >
+                {key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase())}
+              </button>
+            ))}
+          </div>
+        </div>
+        
         <form onSubmit={handleExecuteSql}>
           <div className="mb-4">
             <label htmlFor="sqlQuery" className="block text-sm font-medium text-gray-700 mb-1">
@@ -257,6 +282,10 @@ export default function AdminPage() {
               placeholder="Enter SQL query..."
               required
             />
+            <p className="mt-1 text-sm text-gray-500">
+              Note: Due to limitations with @vercel/postgres, complex queries may not work. 
+              Simple SELECT, CREATE TABLE, and INSERT statements work best.
+            </p>
           </div>
           
           <button
@@ -276,6 +305,7 @@ export default function AdminPage() {
               <div className="text-red-700">
                 <p><strong>Error:</strong> {sqlResults.error}</p>
                 {sqlResults.details && <p><strong>Details:</strong> {sqlResults.details}</p>}
+                {sqlResults.note && <p className="mt-2 text-amber-600"><strong>Note:</strong> {sqlResults.note}</p>}
               </div>
             ) : (
               <div>
