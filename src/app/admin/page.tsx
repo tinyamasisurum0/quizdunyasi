@@ -9,18 +9,23 @@ export default function AdminPage() {
   const [importResults, setImportResults] = useState<any[]>([]);
   const [dbCheckResults, setDbCheckResults] = useState<any>(null);
   const [envCheckResults, setEnvCheckResults] = useState<any>(null);
+  const [supabaseTestResults, setSupabaseTestResults] = useState<any>(null);
   const [sqlQuery, setSqlQuery] = useState<string>('SELECT * FROM information_schema.tables WHERE table_schema = \'public\'');
   const [sqlResults, setSqlResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [useDirect, setUseDirect] = useState<boolean>(false);
 
   // Predefined SQL queries for common operations
   const predefinedQueries = {
     checkTables: "SELECT * FROM information_schema.tables WHERE table_schema = 'public'",
-    createScoresTable: "CREATE TABLE IF NOT EXISTS public.scores (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), username VARCHAR(255) NOT NULL, score INTEGER NOT NULL, category VARCHAR(255) NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP)",
-    createQuestionsTable: "CREATE TABLE IF NOT EXISTS public.questions (id VARCHAR(255) PRIMARY KEY, question TEXT NOT NULL, options JSONB NOT NULL, correct INTEGER NOT NULL, points INTEGER NOT NULL, difficulty VARCHAR(50) NOT NULL, category_id VARCHAR(255) NOT NULL)",
+    createScoresTable: "CREATE TABLE IF NOT EXISTS scores (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), username VARCHAR(255) NOT NULL, score INTEGER NOT NULL, category VARCHAR(255) NOT NULL, created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP)",
+    createQuestionsTable: "CREATE TABLE IF NOT EXISTS questions (id VARCHAR(255) PRIMARY KEY, question TEXT NOT NULL, options JSONB NOT NULL, correct INTEGER NOT NULL, points INTEGER NOT NULL, difficulty VARCHAR(50) NOT NULL, category_id VARCHAR(255) NOT NULL)",
     checkPermissions: "SELECT has_schema_privilege(current_user, 'public', 'CREATE')",
-    countScores: "SELECT COUNT(*) FROM public.scores",
-    countQuestions: "SELECT COUNT(*) FROM public.questions"
+    countScores: "SELECT COUNT(*) FROM scores",
+    countQuestions: "SELECT COUNT(*) FROM questions",
+    listSchemas: "SELECT schema_name FROM information_schema.schemata ORDER BY schema_name",
+    createPublicSchema: "CREATE SCHEMA IF NOT EXISTS public",
+    grantPermissions: "GRANT ALL ON SCHEMA public TO postgres; GRANT ALL ON SCHEMA public TO public;"
   };
 
   const handleInitDb = async () => {
@@ -105,13 +110,34 @@ export default function AdminPage() {
     }
   };
 
+  const handleSupabaseTest = async () => {
+    setIsLoading(true);
+    setSupabaseTestResults(null);
+    
+    try {
+      const response = await fetch('/api/supabase-test');
+      const data = await response.json();
+      
+      if (response.ok) {
+        setSupabaseTestResults(data);
+      } else {
+        setSupabaseTestResults({ error: data.error || 'Unknown error', details: data.details });
+      }
+    } catch (error) {
+      setSupabaseTestResults({ error: (error as Error).message });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleExecuteSql = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
     setSqlResults(null);
     
     try {
-      const response = await fetch('/api/db-execute', {
+      const endpoint = useDirect ? '/api/direct-sql' : '/api/db-execute';
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -173,6 +199,14 @@ export default function AdminPage() {
               className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
             >
               Check Environment
+            </button>
+            
+            <button
+              onClick={handleSupabaseTest}
+              disabled={isLoading}
+              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
+            >
+              Direct Supabase Test
             </button>
           </div>
           
@@ -240,6 +274,32 @@ export default function AdminPage() {
                     <h4 className="font-medium">Node Environment:</h4>
                     <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
                       {envCheckResults.nodeEnv || 'Not set'}
+                    </pre>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+          
+          {supabaseTestResults && (
+            <div className="mt-4 p-3 rounded bg-gray-100">
+              <h3 className="font-semibold mb-2">Direct Supabase Test Results:</h3>
+              
+              {supabaseTestResults.error ? (
+                <div className="text-red-700">
+                  <p><strong>Error:</strong> {supabaseTestResults.error}</p>
+                  {supabaseTestResults.details && <p><strong>Details:</strong> {supabaseTestResults.details}</p>}
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  <div className="text-green-600">
+                    <strong>Status:</strong> {supabaseTestResults.message}
+                  </div>
+                  
+                  <div>
+                    <h4 className="font-medium">Connection Test:</h4>
+                    <pre className="bg-gray-800 text-green-400 p-2 rounded text-sm overflow-x-auto">
+                      {JSON.stringify(supabaseTestResults.result, null, 2)}
                     </pre>
                   </div>
                 </div>
@@ -334,6 +394,19 @@ export default function AdminPage() {
               Note: Due to limitations with @vercel/postgres, complex queries may not work. 
               Simple SELECT, CREATE TABLE, and INSERT statements work best.
             </p>
+          </div>
+          
+          <div className="mb-4 flex items-center">
+            <input
+              type="checkbox"
+              id="useDirect"
+              checked={useDirect}
+              onChange={(e) => setUseDirect(e.target.checked)}
+              className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            />
+            <label htmlFor="useDirect" className="ml-2 block text-sm text-gray-900">
+              Use direct SQL execution (pg library)
+            </label>
           </div>
           
           <button
