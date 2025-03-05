@@ -42,6 +42,14 @@ try {
     throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
   }
   
+  // Modify the connection URL to disable SSL in development
+  if (process.env.NODE_ENV === 'development') {
+    const url = process.env.POSTGRES_URL;
+    if (url) {
+      process.env.POSTGRES_URL = getConnectionWithSslMode(url, 'disable');
+    }
+  }
+  
   // Create the connection pool
   db = createPool();
   console.log('Successfully created Postgres connection pool');
