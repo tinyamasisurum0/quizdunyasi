@@ -1,12 +1,49 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function DbManagePage() {
   const [sqlQuery, setSqlQuery] = useState<string>('');
   const [results, setResults] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [connectionStatus, setConnectionStatus] = useState<{success: boolean; message: string} | null>(null);
+  
+  // Check database connection on page load
+  useEffect(() => {
+    const checkConnection = async () => {
+      try {
+        const response = await fetch('/api/direct-sql', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ sql: 'SELECT 1 as connection_test' }),
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          setConnectionStatus({
+            success: true,
+            message: 'Database connection successful'
+          });
+        } else {
+          setConnectionStatus({
+            success: false,
+            message: `Database connection failed: ${data.error || 'Unknown error'}`
+          });
+        }
+      } catch (error) {
+        setConnectionStatus({
+          success: false,
+          message: `Database connection failed: ${(error as Error).message}`
+        });
+      }
+    };
+    
+    checkConnection();
+  }, []);
   
   // Predefined SQL queries for common operations
   const predefinedQueries = {
@@ -85,6 +122,18 @@ CREATE TABLE IF NOT EXISTS scores (
           </div>
         </div>
         
+        {connectionStatus && (
+          <div className={`mb-4 p-3 rounded ${connectionStatus.success ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+            <p className="font-medium">{connectionStatus.message}</p>
+            {!connectionStatus.success && (
+              <p className="mt-2 text-sm">
+                Make sure your database connection environment variables are properly set in your Vercel project settings.
+                Required variables: DATABASE_URL or POSTGRES_URL.
+              </p>
+            )}
+          </div>
+        )}
+        
         <div className="mb-6">
           <p className="text-red-600 font-bold mb-2">⚠️ Warning: Be careful with direct SQL execution!</p>
           <p className="text-gray-600 mb-4">
@@ -125,7 +174,7 @@ CREATE TABLE IF NOT EXISTS scores (
           
           <button
             type="submit"
-            disabled={isLoading || !sqlQuery.trim()}
+            disabled={isLoading || !sqlQuery.trim() || (connectionStatus ? !connectionStatus.success : false)}
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded disabled:opacity-50"
           >
             {isLoading ? 'Executing...' : 'Execute SQL'}
@@ -208,6 +257,35 @@ CREATE TABLE IF NOT EXISTS scores (
               </p>
               <pre className="bg-gray-100 p-2 rounded text-sm">SELECT * FROM questions WHERE question ILIKE '%SEARCH_TERM%' LIMIT 10;</pre>
             </div>
+          </div>
+        </div>
+        
+        <div className="mt-8 p-4 bg-blue-50 rounded">
+          <h2 className="text-xl font-semibold mb-2">Vercel Deployment Help</h2>
+          
+          <div className="space-y-4">
+            <p>If you're experiencing database connection issues on Vercel, make sure to:</p>
+            
+            <ol className="list-decimal list-inside space-y-2">
+              <li>
+                Add your database connection URL to your Vercel project environment variables.
+                <div className="mt-1 ml-6 text-sm">
+                  <strong>Variable name:</strong> DATABASE_URL or POSTGRES_URL
+                </div>
+              </li>
+              <li>
+                Make sure your database allows connections from Vercel's IP addresses.
+                <div className="mt-1 ml-6 text-sm">
+                  <strong>For Supabase:</strong> Enable "Trusted IPs only" and add Vercel's IP ranges.
+                </div>
+              </li>
+              <li>
+                Check that your database connection string is properly formatted.
+                <div className="mt-1 ml-6 text-sm">
+                  <strong>Format:</strong> postgresql://username:password@hostname:port/database
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
       </div>

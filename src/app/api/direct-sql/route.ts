@@ -1,10 +1,30 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Pool } from 'pg';
-import { getEnvVariable } from '@/lib/env';
+
+// Helper function to get database URL from various environment variables
+function getDatabaseUrl(): string {
+  // Check for different possible environment variable names
+  const possibleEnvVars = [
+    'DATABASE_URL',
+    'POSTGRES_URL',
+    'POSTGRES_PRISMA_URL',
+    'POSTGRES_URL_NON_POOLING'
+  ];
+  
+  for (const envVar of possibleEnvVars) {
+    const url = process.env[envVar];
+    if (url) {
+      console.log(`Using database connection from ${envVar}`);
+      return url;
+    }
+  }
+  
+  throw new Error('No database connection URL found in environment variables. Please set DATABASE_URL or POSTGRES_URL.');
+}
 
 // Create a new pool for direct SQL execution
 const pool = new Pool({
-  connectionString: getEnvVariable('DATABASE_URL'),
+  connectionString: getDatabaseUrl(),
   ssl: process.env.NODE_ENV === 'production' ? {
     rejectUnauthorized: false
   } : false
@@ -59,7 +79,11 @@ export async function POST(request: NextRequest) {
     console.error('Error in direct-sql API route:', error);
     
     return NextResponse.json(
-      { success: false, error: 'Internal server error' },
+      { 
+        success: false, 
+        error: 'Internal server error', 
+        details: (error as Error).message 
+      },
       { status: 500 }
     );
   }
