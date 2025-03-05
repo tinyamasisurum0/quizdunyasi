@@ -1,115 +1,65 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { Pool, PoolClient } from 'pg';
+import { Pool } from 'pg';
+import { getEnvVariable } from '@/lib/env';
+
+// Create a new pool for direct SQL execution
+const pool = new Pool({
+  connectionString: getEnvVariable('DATABASE_URL'),
+  ssl: process.env.NODE_ENV === 'production' ? {
+    rejectUnauthorized: false
+  } : false
+});
 
 export async function POST(request: NextRequest) {
-  let client: PoolClient | null = null;
-  
   try {
+    // Check if the request is coming from an admin
+    // In a production app, you would implement proper authentication here
+    // This is a simplified version for demonstration purposes
+    
     // Parse the request body
     const body = await request.json();
     const { sql } = body;
     
     if (!sql) {
       return NextResponse.json(
-        { error: 'SQL query is required' },
+        { success: false, error: 'SQL query is required' },
         { status: 400 }
       );
     }
     
-    console.log('Executing SQL query directly:', sql);
+    // Log the SQL query for debugging
+    console.log('Executing SQL query:', sql);
     
-    // Get connection details from environment variables
-    const connectionString = process.env.POSTGRES_URL;
-    
-    if (!connectionString) {
-      return NextResponse.json({
-        success: false,
-        error: 'POSTGRES_URL environment variable is not set'
-      }, { status: 500 });
-    }
-    
-    // Try with different SSL configurations
-    // First attempt: SSL with rejectUnauthorized: false
+    // Execute the SQL query
+    const client = await pool.connect();
     try {
-      const pool = new Pool({ 
-        connectionString,
-        ssl: {
-          rejectUnauthorized: false
-        }
-      });
-      
-      client = await pool.connect();
       const result = await client.query(sql);
-      client.release();
-      client = null; // Set to null after release to avoid double-release
       
       return NextResponse.json({
         success: true,
         rowCount: result.rowCount,
         rows: result.rows,
-        connectionConfig: 'SSL with rejectUnauthorized: false'
+        command: result.command
       });
-    } catch (sslError: any) {
-      console.error('SSL connection failed:', sslError);
+    } catch (error) {
+      console.error('SQL execution error:', error);
       
-      // Make sure to release the client if it was acquired
-      if (client) {
-        (client as PoolClient).release();
-        client = null; // Set to null after release
-      }
-      
-      // Second attempt: Try without SSL
-      try {
-        // Parse the connection string to remove sslmode if present
-        let modifiedConnectionString = connectionString;
-        if (connectionString.includes('sslmode=')) {
-          modifiedConnectionString = connectionString.replace(/sslmode=[^&]+/, 'sslmode=disable');
-        } else {
-          modifiedConnectionString += connectionString.includes('?') ? '&sslmode=disable' : '?sslmode=disable';
-        }
-        
-        const pool = new Pool({ connectionString: modifiedConnectionString });
-        client = await pool.connect();
-        const result = await client.query(sql);
-        client.release();
-        client = null; // Set to null after release
-        
-        return NextResponse.json({
-          success: true,
-          rowCount: result.rowCount,
-          rows: result.rows,
-          connectionConfig: 'SSL disabled'
-        });
-      } catch (noSslError: any) {
-        console.error('No SSL connection failed:', noSslError);
-        
-        // Make sure to release the client if it was acquired
-        if (client) {
-          (client as PoolClient).release();
-          client = null; // Set to null after release
-        }
-        
-        throw new Error(`SSL connection failed: ${sslError.message}\nNo SSL connection failed: ${noSslError.message}`);
-      }
+      return NextResponse.json(
+        { 
+          success: false, 
+          error: 'SQL execution failed', 
+          details: (error as Error).message 
+        },
+        { status: 500 }
+      );
+    } finally {
+      client.release();
     }
-  } catch (error: any) {
-    console.error('Error executing SQL query:', error);
-    
-    // Make sure to release the client if it was acquired
-    if (client) {
-      try {
-        (client as PoolClient).release();
-      } catch (releaseError) {
-        console.error('Error releasing client:', releaseError);
-      }
-    }
+  } catch (error) {
+    console.error('Error in direct-sql API route:', error);
     
     return NextResponse.json(
-      { 
-        error: 'Failed to execute SQL query', 
-        details: error.message,
-        stack: error.stack
-      },
+      { success: false, error: 'Internal server error' },
       { status: 500 }
     );
   }

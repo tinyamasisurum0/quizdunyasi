@@ -189,6 +189,12 @@ export default function AdminPage() {
           <Link href="/admin/test-db" className="text-blue-500 hover:text-blue-700">
             Test Database Questions
           </Link>
+          <Link href="/admin/db-stats" className="text-blue-500 hover:text-blue-700">
+            Database Statistics
+          </Link>
+          <Link href="/admin/db-manage" className="text-blue-500 hover:text-blue-700">
+            Database Management
+          </Link>
         </div>
       </div>
       

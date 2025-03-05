@@ -9,15 +9,16 @@ export async function GET(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const categoryId = searchParams.get('category');
     const count = searchParams.get('count') ? parseInt(searchParams.get('count')!) : 15;
+    const countOnly = searchParams.get('countOnly') === 'true';
     
-    if (!categoryId) {
+    if (!categoryId && !countOnly) {
       return NextResponse.json(
         { error: 'Category ID is required' },
         { status: 400 }
       );
     }
     
-    console.log(`Fetching questions directly from database for category: ${categoryId}, count: ${count}`);
+    console.log(`Fetching questions directly from database for category: ${categoryId || 'all'}, count: ${count}, countOnly: ${countOnly}`);
     
     // Get connection details from environment variables
     const connectionString = process.env.POSTGRES_URL;
@@ -41,6 +42,33 @@ export async function GET(request: NextRequest) {
     const pool = new Pool({ connectionString: modifiedConnectionString });
     client = await pool.connect();
     
+    // If countOnly is true, just return the count of questions
+    if (countOnly) {
+      // Get total count of questions
+      const totalCountQuery = `SELECT COUNT(*) as total FROM questions`;
+      const totalCountResult = await client.query(totalCountQuery);
+      
+      // Get count by category
+      const categoryCountQuery = `
+        SELECT category_id, COUNT(*) as count 
+        FROM questions 
+        GROUP BY category_id 
+        ORDER BY count DESC
+      `;
+      const categoryCountResult = await client.query(categoryCountQuery);
+      
+      // Release the client
+      client.release();
+      client = null;
+      
+      return NextResponse.json({
+        success: true,
+        totalQuestions: parseInt(totalCountResult.rows[0].total),
+        categoryCounts: categoryCountResult.rows,
+        source: 'database-direct'
+      });
+    }
+    
     // Query to get questions by category
     const query = `
       SELECT id, question, options, correct, points, difficulty
@@ -59,6 +87,11 @@ export async function GET(request: NextRequest) {
     
     const result = await client.query(query, [categoryId, count]);
     
+    // Also get the total count for this category
+    const categoryCountQuery = `SELECT COUNT(*) as count FROM questions WHERE category_id = $1`;
+    const categoryCountResult = await client.query(categoryCountQuery, [categoryId]);
+    const totalInCategory = parseInt(categoryCountResult.rows[0].count);
+    
     // Release the client
     client.release();
     client = null;
@@ -67,7 +100,10 @@ export async function GET(request: NextRequest) {
     
     if (questions.length === 0) {
       return NextResponse.json(
-        { error: 'No questions found for this category' },
+        { 
+          error: 'No questions found for this category',
+          totalInCategory: 0
+        },
         { status: 404 }
       );
     }
@@ -75,7 +111,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ 
       questions,
       source: 'database-direct',
-      count: questions.length
+      count: questions.length,
+      totalInCategory
     });
   } catch (error: any) {
     console.error('Error fetching questions from database:', error);
